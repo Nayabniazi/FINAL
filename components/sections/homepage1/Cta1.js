@@ -3,7 +3,8 @@ import Link from "next/link";
 export default function Cta1() {
     return (
         <>
-            <section className="section pt-70 pb-70 bg-get-quote">
+            <section className="section pt-70 pb-70 bg-"style={{backgroundColor:'black'}}>
+           
                 <div className="container">
                     <div className="box-get-quote">
                         <div className="get-quote-left">

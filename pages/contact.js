@@ -16,9 +16,9 @@ export default function Contact() {
                         <div className="box-cover-contactform"style={{backgroundColor:'orange'}}>
                             <div className="row align-items-center">
                                 <div className="col-xl-8 col-lg-7">
-                                    <div className="box-contactform-left"style={{backgroundColor:'red'}}>
-                                        <h3 className="color-black mb-15 wow animate__animated animate__fadeIn">Still have question?</h3>
-                                        <p className="font-md color-grey-900 mb-50 wow animate__animated animate__fadeIn">Can’t find the answer you are looking for? Please chat to our friendly team.</p>
+                                    <div className="box-contactform-left"style={{backgroundColor:'black'}}>
+                                        <h3 className="color-white mb-15 wow animate__animated animate__fadeIn">Still have question?</h3>
+                                        <p className="font-md color-white mb-50 wow animate__animated animate__fadeIn">Can’t find the answer you are looking for? Please chat to our friendly team.</p>
                                         <form action="#">
                                             <div className="row wow animate__animated animate__fadeIn">
                                                 <div className="col-md-6">
@@ -263,10 +263,10 @@ export default function Contact() {
                     </div>
                 </section>
                 <div className="mt-20" />
-                <div className="section bg-map d-block">
+                <div className="section bg- d-block">
                     <div className="container">
-                        <div className="box-newsletter"style={{backgroundColor:'red'}}>
-                            <h3 className="color-brand-2 mb-20 wow animate__animated animate__fadeIn">Get in Touch</h3>
+                        <div className="box-newsletter"style={{backgroundColor:'black',marginBottom:'70px'}}>
+                            <h3 className="color-white mb-20 wow animate__animated animate__fadeIn">Get in Touch</h3>
                             <div className="row">
                                 <div className="col-lg-5 mb-30">
                                     <div className="form-newsletter wow animate__animated animate__fadeIn">
@@ -313,22 +313,22 @@ export default function Contact() {
                                             <li className="wow animate__animated animate__fadeIn">
                                                 <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/address.svg" alt="transp" /></span></div>
                                                 <div className="cardInfo">
-                                                    <h6 className="font-sm-bold color-grey-900">Address</h6>
-                                                    <p className="font-sm color-grey-900">65 Allerton Street 901 N Pitt Str, USA</p>
+                                                    <h6 className="font-sm-bold color-white">Address</h6>
+                                                    <p className="font-sm color-white">65 Allerton Street 901 N Pitt Str, USA</p>
                                                 </div>
                                             </li>
                                             <li className="wow animate__animated animate__fadeIn">
                                                 <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/email.svg" alt="transp" /></span></div>
                                                 <div className="cardInfo">
-                                                    <h6 className="font-sm-bold color-grey-900">Email</h6>
-                                                    <p className="font-sm color-grey-900">contact@transp.com</p>
+                                                    <h6 className="font-sm-bold color-white">Email</h6>
+                                                    <p className="font-sm color-white">contact@transp.com</p>
                                                 </div>
                                             </li>
                                             <li className="wow animate__animated animate__fadeIn">
                                                 <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/phone.svg" alt="transp" /></span></div>
                                                 <div className="cardInfo">
-                                                    <h6 className="font-sm-bold color-grey-900">Telephone</h6>
-                                                    <p className="font-sm color-grey-900">(+380) 50 318 47 07 - (+182) 50 318 47 07</p>
+                                                    <h6 className="font-sm-bold color-white">Telephone</h6>
+                                                    <p className="font-sm color-white">(+380) 50 318 47 07 - (+182) 50 318 47 07</p>
                                                 </div>
                                             </li>
                                         </ul>

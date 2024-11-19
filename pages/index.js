@@ -13,14 +13,16 @@ import Projects1 from "@/components/sections/homepage1/Projects1"
 import Requestquote1 from "@/components/sections/homepage1/Requestquote1"
 import Services1 from "@/components/sections/homepage1/Services1"
 import Testimonial1 from "@/components/sections/homepage1/Testimonial1"
+import Hero1Slider from "@/components/slider/Hero1Slider"
 export default function Home() {
 
     return (
         <>
             <Layout>
-                <Hero1 />
+            <Hero1 />
                 <Brands1 />
                 <Services1 />
+           
                 <Info1 />
                 <Info2 />
                 <Howitwork1 />

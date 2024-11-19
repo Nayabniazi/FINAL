@@ -66,10 +66,10 @@ export default function ServiceDetail() {
                         </div>
                     </div>
                 </section>
-                <div className="section bg-map d-block">
+                <div className="section bg-orange d-block">
                     <div className="container">
-                        <div className="box-newsletter"style={{backgroundColor:'red'}}>
-                            <h3 className="color- mb-20 wow animate__animated animate__fadeIn"style={{color:'black'}}>Get in Touch</h3>
+                        <div className="box-newsletter"style={{backgroundColor:'black',marginBottom:'70px'}}>
+                            <h3 className="color- mb-20 wow animate__animated animate__fadeIn"style={{color:'white'}}>Get in Touch</h3>
                             <div className="row">
                                 <div className="col-lg-5 mb-30">
                                     <div className="form-newsletter wow animate__animated animate__fadeIn">
@@ -116,22 +116,22 @@ export default function ServiceDetail() {
                                             <li className="wow animate__animated animate__fadeIn">
                                                 <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/address.svg" alt="transp" /></span></div>
                                                 <div className="cardInfo">
-                                                    <h6 className="font-sm-bold color-grey-900">Address</h6>
-                                                    <p className="font-sm color-grey-900">65 Allerton Street 901 N Pitt Str, USA</p>
+                                                    <h6 className="font-sm-bold color-white">Address</h6>
+                                                    <p className="font-sm color-white">65 Allerton Street 901 N Pitt Str, USA</p>
                                                 </div>
                                             </li>
                                             <li className="wow animate__animated animate__fadeIn">
                                                 <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/email.svg" alt="transp" /></span></div>
                                                 <div className="cardInfo">
-                                                    <h6 className="font-sm-bold color-grey-900">Email</h6>
-                                                    <p className="font-sm color-grey-900">contact@transp.com</p>
+                                                    <h6 className="font-sm-bold color-white">Email</h6>
+                                                    <p className="font-sm color-white">contact@transp.com</p>
                                                 </div>
                                             </li>
                                             <li className="wow animate__animated animate__fadeIn">
                                                 <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/phone.svg" alt="transp" /></span></div>
                                                 <div className="cardInfo">
-                                                    <h6 className="font-sm-bold color-grey-900">Telephone</h6>
-                                                    <p className="font-sm color-grey-900">(+380) 50 318 47 07 - (+182) 50 318 47 07</p>
+                                                    <h6 className="font-sm-bold color-white">Telephone</h6>
+                                                    <p className="font-sm color-white">(+380) 50 318 47 07 - (+182) 50 318 47 07</p>
                                                 </div>
                                             </li>
                                         </ul>

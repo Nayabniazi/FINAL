@@ -96,9 +96,9 @@ export default function Faq() {
                         <div className="box-cover-contactform"style={{backgroundColor:'orange'}}>
                             <div className="row align-items-center">
                                 <div className="col-xl-8 col-lg-7">
-                                    <div className="box-contactform-left"style={{backgroundColor:'red'}}>
-                                        <h3 className="color-black mb-15 wow animate__animated animate__fadeIn">Still have question?</h3>
-                                        <p className="font-md color-grey-900 mb-50 wow animate__animated animate__fadeIn">Can’t find the answer you are looking for? Please chat to our friendly team.</p>
+                                    <div className="box-contactform-left"style={{backgroundColor:'black'}}>
+                                        <h3 className="color-white mb-15 wow animate__animated animate__fadeIn">Still have question?</h3>
+                                        <p className="font-md color-white mb-50 wow animate__animated animate__fadeIn">Can’t find the answer you are looking for? Please chat to our friendly team.</p>
                                         <form action="#">
                                             <div className="row wow animate__animated animate__fadeIn">
                                                 <div className="col-md-6">

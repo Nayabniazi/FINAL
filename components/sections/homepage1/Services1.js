@@ -3,9 +3,23 @@ import Link from "next/link";
 export default function Services1() {
     return (
         <>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <section className="section mt-100">
                 <div className="container">
-                    <h2 className="title-favicon mb-20 wow animate__animated animate__fadeIn">What We Offer</h2>
+                    <h2 className="title-favicon mb-20 wow animate__animated animate__fadeIn"style={{color:'black',}} >What We Offer</h2>
                     <div className="row align-items-end">
                         <div className="col-lg-8 col-md-8 mb-30">
                             <p className="font-md color-gray-700 wow animate__animated animate__fadeIn">Welcome to our
@@ -17,17 +31,17 @@ export default function Services1() {
                                 </path>
                             </svg>Online Booking</Link></div>
                     </div>
-                    <div className="mt-20 box-background-offer">
-                        <div className="bg-under" />
+                    <div className="mt-20 box-background-black" >
+                        <div className="bg-under"/>
                         <div className="row">
-                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
+                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn" >
                                 <div className="card-offer hover-up">
                                     <div className="card-image"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp" /></div>
                                     <div className="card-info">
-                                        <h5 className="color-brand-2 mb-15">Sea Forwarding</h5>
+                                        <h5 className="color- mb-15"style={{color:'black'}}>Sea Forwarding</h5>
                                         <p className="font-sm color-grey-900 mb-35">We are professional in ocean freight with
                                             more than 12 years of experience and have shipped more than 100k shipments.</p>
-                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-"style={{color:'black'}}>View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                             </svg></span></a></div>
@@ -39,22 +53,22 @@ export default function Services1() {
                                     <div className="card-image"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" />
                                     </div>
                                     <div className="card-info">
-                                        <h5 className="color-brand-2 mb-15">Air Freight Forwarding</h5>
+                                        <h5 className="color- mb-15"style={{color:'black'}}>Air Freight Forwarding</h5>
                                         <p className="font-sm color-grey-900 mb-35">We are professional in ocean freight with
                                             more than 12 years of experience and have shipped more than 100k shipments.</p>
-                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-"style={{color:'black'}}>View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                             </svg></span></a></div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
+                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn" >
                                 <div className="card-offer hover-up">
-                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" />
+                                    <div className="card-image" ><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" />
                                     </div>
-                                    <div className="card-info">
-                                        <h5 className="color-brand-2 mb-15">Land Transportation</h5>
+                                    <div className="card-info" >
+                                        <h5 className="color- mb-15"style={{color:'black'}}>Land Transportation</h5>
                                         <p className="font-sm color-grey-900 mb-35">We are professional in ocean freight with
                                             more than 12 years of experience and have shipped more than 100k shipments.</p>
                                         <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
@@ -69,7 +83,7 @@ export default function Services1() {
                                     <div className="card-image"><img src="/assets/imgs/page/homepage1/forklift.png" alt="transp" />
                                     </div>
                                     <div className="card-info">
-                                        <h5 className="color-brand-2 mb-15">Warehouse &amp; Distribution</h5>
+                                        <h5 className="color- mb-15"style={{color:'black'}}>Warehouse &amp; Distribution</h5>
                                         <p className="font-sm color-grey-900 mb-35">We are professional in ocean freight with
                                             more than 12 years of experience and have shipped more than 100k shipments.</p>
                                         <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
@@ -84,7 +98,7 @@ export default function Services1() {
                                     <div className="card-image"><img src="/assets/imgs/page/homepage1/train.png" alt="transp" />
                                     </div>
                                     <div className="card-info">
-                                        <h5 className="color-brand-2 mb-15">Railway Logistics</h5>
+                                        <h5 className="color- mb-15"style={{color:'black'}}>Railway Logistics</h5>
                                         <p className="font-sm color-grey-900 mb-35">We are professional in ocean freight with
                                             more than 12 years of experience and have shipped more than 100k shipments.</p>
                                         <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
@@ -98,10 +112,10 @@ export default function Services1() {
                                 <div className="card-offer hover-up">
                                     <div className="card-image"><img src="/assets/imgs/page/homepage1/worldwide.png" alt="transp" /></div>
                                     <div className="card-info">
-                                        <h5 className="color-brand-2 mb-15">Cross Border</h5>
+                                        <h5 className="color- mb-15"style={{color:'black'}}>Cross Border</h5>
                                         <p className="font-sm color-grey-900 mb-35">We are professional in ocean freight with
                                             more than 12 years of experience and have shipped more than 100k shipments.</p>
-                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                        <div className="box-button-offer mb-30" ><a className="btn btn-link font-sm color-brand-2">View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                             </svg></span></a></div>

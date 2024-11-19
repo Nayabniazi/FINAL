@@ -8,7 +8,7 @@ export default function Info1() {
                     <div className="text-center"><img className="mb-15" src="/assets/imgs/template/icons/favicon.svg" alt="transp" />
                         <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Delivering Results for
                             Industry Leaders</p>
-                        <h2 className="color-brand-2 mb-65 mt-15 wow animate__animated animate__fadeIn">We are proud of our
+                        <h2 className="color- mb-65 mt-15 wow animate__animated animate__fadeIn"style={{color:'black'}}>We are proud of our
                             workforce<br className="d-none d-lg-block" />and have worked hard.</h2>
                     </div>
                     <div className="row mt-50 align-items-center">
@@ -21,7 +21,7 @@ export default function Info1() {
                         </div>
                         <div className="col-xl-5 col-lg-6 mb-30">
                             <div className="box-info-pround">
-                                <h3 className="color-brand-2 mb-15 wow animate__animated animate__fadeIn">Fast shipping with the
+                                <h3 className="color- mb-15 wow animate__animated animate__fadeIn"style={{color:'black'}}>Fast shipping with the
                                     most modern technology</h3>
                                 <p className="font-md color-grey-500 wow animate__animated animate__fadeIn">Over the years, we
                                     have worked together to expand our network of partners to deliver reliability and
@@ -61,7 +61,7 @@ export default function Info1() {
                                         </li>
                                     </ul>
                                 </div>
-                                <div className="mt-30 text-start d-flex wow animate__animated animate__fadeIn"><Link className="hover-up mr-10" href="#" ><img src="/assets/imgs/template/appstore-btn.png" alt="transp" /></Link><Link className="hover-up" href="#"><img src="/assets/imgs/template/google-play-btn.png" alt="transp" /></Link></div>
+                                <div className="mt-30 text-start d-flex wow animate__animated animate__fadeIn"><Link className="hover-up mr-10" href="#" ><img src="/assets/imgs/template/playbutton.png"height={50} alt="transp" /></Link><Link className="hover-up" href="#"><img src="/assets/imgs/template/google.png" height={50} alt="transp" /></Link></div>
                             </div>
                         </div>
                     </div>
