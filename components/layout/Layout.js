@@ -42,6 +42,19 @@ export default function Layout({ headerStyle, footerStyle, headTitle, children, 
 
     return (
         <>
+
+
+
+
+
+
+
+
+
+
+
+
+
             <PageHead headTitle={headTitle} />
             <div className="body-overlay-1" onClick={handleMobileMenuClose} />
             {!headerStyle && <Header1 topBarStyle={topBarStyle} scroll={scroll} handleMobileMenuOpen={handleMobileMenuOpen} />}
@@ -62,3 +75,4 @@ export default function Layout({ headerStyle, footerStyle, headTitle, children, 
         </>
     )
 }
+

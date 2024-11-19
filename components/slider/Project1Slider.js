@@ -48,7 +48,7 @@ export default function Project1Slider() {
 
                 <SwiperSlide className="wow animate__animated animate__fadeIn">
                     <div className="cardGrid">
-                        <div className="cardImage"> <img src="/assets/imgs/page/homepage1/img.png" alt="transp" /></div>
+                        <div className="cardImage"> <img src="/assets/imgs/page/blog-single/bagi.png"height={240} alt="transp" /></div>
                         <div className="cardInfo">
                             <h5 className="color-brand-2 mb-10">Air Freight</h5>
                             <p className="font-xs color-grey-500">Aut ducimus inventore aut nihil
@@ -64,7 +64,7 @@ export default function Project1Slider() {
                 </SwiperSlide>
                 <SwiperSlide className="wow animate__animated animate__fadeIn">
                     <div className="cardGrid">
-                        <div className="cardImage"> <img src="/assets/imgs/page/homepage1/img2.png" alt="transp" /></div>
+                        <div className="cardImage"> <img src="/assets/imgs/page/blog-single/bagy.png"height={240} alt="transp" /></div>
                         <div className="cardInfo">
                             <h5 className="color-brand-2 mb-10">Sea Freight</h5>
                             <p className="font-xs color-grey-500">Aut ducimus inventore aut nihil
@@ -80,7 +80,7 @@ export default function Project1Slider() {
                 </SwiperSlide>
                 <SwiperSlide className="wow animate__animated animate__fadeIn">
                     <div className="cardGrid">
-                        <div className="cardImage"> <img src="/assets/imgs/page/homepage1/img3.png" alt="transp" /></div>
+                        <div className="cardImage"> <img src="/assets/imgs/page/blog-single/bag.png"height={230} alt="transp" /></div>
                         <div className="cardInfo">
                             <h5 className="color-brand-2 mb-10">Trucking</h5>
                             <p className="font-xs color-grey-500">Aut ducimus inventore aut nihil

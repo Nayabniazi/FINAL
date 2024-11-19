@@ -6,14 +6,14 @@ export default function Hero4() {
     return (
         <>
             <section className="section d-block">
-                <div className="banner-1 banner-4 wow animate__animated animate__fadeIn" style={{ backgroundImage: 'url(assets/imgs/page/homepage4/banner.png)' }}>
+                <div className="banner-1 banner-4 wow animate__animated animate__fadeIn" style={{ backgroundImage: 'url(assets/imgs/page/homepage1/banner-2.png)',}}>
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-12">
                                 <p className="font-md color-white mb-15 wow animate__animated animate__fadeIn">Logistics &amp;
                                     Transportation</p>
-                                <h1 className="color-white mb-25 wow animate__animated animate__fadeIn">Worldwide shipping
-                                    and<br className="d-none d-lg-block" />professional solutions</h1>
+                                <h1 className="color-white mb-25 wow animate__animated animate__fadeIn">Same Day Junk Remval Service
+                                    <br className="d-none d-lg-block" />professional solutions</h1>
                                 <div className="row">
                                     <div className="col-lg-9">
                                         <p className="font-md color-white mb-20 wow animate__animated animate__fadeIn">Our

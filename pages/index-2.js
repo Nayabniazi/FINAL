@@ -10,22 +10,66 @@ import Requestquote2 from "@/components/sections/homepage2/Requestquote2"
 import Team1 from "@/components/sections/homepage2/Team1"
 import Testimonial2 from "@/components/sections/homepage2/Testimonial2"
 import Whychooseus1 from "@/components/sections/homepage2/Whychooseus1"
+import Faq from "./faqs"
 export default function Home2() {
 
     return (
         <>
             <Layout>
-                <Hero2 />
-                <Whychooseus1 />
-                <Requestquote2 />
-                <Info3 />
-                <Pricing2 />
+             
+
+            <section className="section d-block">
+                    <div className="container position-relative">
+                        <div className="banner-trackyourparcel" style={{ backgroundImage: "url('/assets/imgs/page/blog-single/rental.png')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    height: "100%", opacity:'.6'}}/>
+                        <div className="box-info-trackyourparcel">
+                            <h2 className="color- mb-25 wow animate__animated animate__fadeIn"style={{Color:'black'}}>JK Pricer Estimater<br className="d-none d-lg-block" /></h2>
+                            <p className="color-grey-900 font-md wow animate__animated animate__fadeIn">Track packages from China, US Post, Canada Post, Royal Mail, Deutsche Post,<br className="d-none d-lg-block" />Aliexpress, UPS, Shein, FedEx, Pitney Bowes, eBay, Amazon</p>
+                            <div className="form-trackparcel wow animate__animated animate__fadeIn">
+                                <form action="#">
+                                    <div className="form-group">
+                                        <input className="form-control" type="text" placeholder="Your package tracking number" />
+                                        <input className="btn btn-brand-1 btn-track" type="submit" defaultValue="Track Package" style={{backgroundColor:'orange'}}/>
+                                    </div>
+                                </form>
+                            </div>
+                             </div>
+                    </div>
+                </section>
+
+
+
+
+
+             
+                
+           
+              
                 <div className="line-border"></div>
-                <Team1 />
+                <Testimonial2/>
                 <Brands1 />
-                <Testimonial2 />
-                <Info4 />
-                <News2 />
+                <Pricing2/>
+             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              
+               
+                
                 <Newsletter1 />
             </Layout>
         </>

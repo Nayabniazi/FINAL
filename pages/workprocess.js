@@ -11,7 +11,7 @@ export default function WorkProcess() {
                     <div className="banner-howitwork3">
                         <div className="container">
                             <div className="box-info-trackyourparcel"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/template/icons/favicon.svg" alt="transp" />
-                                <h2 className="color-brand-2 mb-25 wow animate__animated animate__fadeIn">How It Works</h2>
+                                <h2 className="color-mb-25 wow animate__animated animate__fadeIn"style={{color:'black'}}>How It Works</h2>
                                 <p className="color-grey-700 font-md wow animate__animated animate__fadeIn">You choose the cities where you’d like to deliver. All deliveries are within a specific service area and delivery services vary by location. Whatever the mode or requirement, we will find and book the ideal expedited shipping solution to ensure a timely delivery.</p>
                             </div>
                         </div>
@@ -20,7 +20,7 @@ export default function WorkProcess() {
                         <div className="row mt-110">
                             <div className="col-lg-6 mb-30">
                                 <div className="box-image-how"><img className="w-100 wow animate__animated animate__fadeIn" src="/assets/imgs/page/homepage1/how-it-work.png" alt="transp" />
-                                    <div className="box-info-bottom-img">
+                                    <div className="box-info-bottom-img"style={{backgroundColor:'black'}}>
                                         <div className="image-play wow animate__animated animate__fadeIn"><img className="mb-15" src="/assets/imgs/template/icons/play.svg" alt="transp" /></div>
                                         <div className="info-play wow animate__animated animate__fadeIn">
                                             <h4 className="color-white mb-15">We have 25 years experience in this passion</h4>
@@ -34,35 +34,35 @@ export default function WorkProcess() {
                                     <li className="wow animate__animated animate__fadeIn">
                                         <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/order.png" alt="transp" /></span></div>
                                         <div className="info-how">
-                                            <h5 className="color-brand-2">Customer places order</h5>
+                                            <h5 className="color-black">Customer places order</h5>
                                             <p className="font-md color-grey-700">Inspection and quality check of goods</p>
                                         </div>
                                     </li>
                                     <li className="wow animate__animated animate__fadeIn">
                                         <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp" /></span></div>
                                         <div className="info-how">
-                                            <h5 className="color-brand-2">Payment successful</h5>
+                                            <h5 className="color-black">Payment successful</h5>
                                             <p className="font-md color-grey-700">Payoneer, Paypal, or Visa master card</p>
                                         </div>
                                     </li>
                                     <li className="wow animate__animated animate__fadeIn">
                                         <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
                                         <div className="info-how">
-                                            <h5 className="color-brand-2">Warehouse receives order</h5>
+                                            <h5 className="color-black">Warehouse receives order</h5>
                                             <p className="font-md color-grey-700">Check the accuracy of the goods.</p>
                                         </div>
                                     </li>
                                     <li className="wow animate__animated animate__fadeIn">
                                         <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/picked.png" alt="transp" /></span></div>
                                         <div className="info-how">
-                                            <h5 className="color-brand-2">Item picked, packed &amp; shipped</h5>
+                                            <h5 className="color-black">Item picked, packed &amp; shipped</h5>
                                             <p className="font-md color-grey-700">Ship the goods to a local carrier</p>
                                         </div>
                                     </li>
                                     <li className="wow animate__animated animate__fadeIn">
                                         <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></span></div>
                                         <div className="info-how">
-                                            <h5 className="color-brand-2">Delivered &amp; Measure success</h5>
+                                            <h5 className="color-black">Delivered &amp; Measure success</h5>
                                             <p className="font-md color-grey-700">Update order status on the system</p>
                                         </div>
                                     </li>
@@ -74,7 +74,7 @@ export default function WorkProcess() {
                 <section className="section mt-80">
                     <div className="container">
                         <div className="text-center"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/template/icons/favicon.svg" alt="transp" />
-                            <h2 className="color-brand-2 mb-25 wow animate__animated animate__fadeIn">Our Process</h2>
+                            <h2 className="color-black mb-25 wow animate__animated animate__fadeIn">Our Process</h2>
                             <div className="row">
                                 <div className="col-lg-8 m-auto">
                                     <p className="color-grey-700 font-md wow animate__animated animate__fadeIn">We invest time and expertise to fully understand your business before designing plans to improve your supply chain. We take responsibility for the performance of all our suppliers and for ensuring the availability of resources and equipment needed to control the flow of goods under our charge.</p>
@@ -87,9 +87,9 @@ export default function WorkProcess() {
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-6 mb-60"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/page/workprocess/parachute.png" alt="transp" />
-                                <h3 className="color-brand-2 mb-15 wow animate__animated animate__fadeIn">Logistics Defined</h3>
+                                <h3 className="color-black mb-15 wow animate__animated animate__fadeIn">Logistics Defined</h3>
                                 <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Logistics is the planning framework used by the management of an organization to facilitate the distribution of personnel, materiel, service, information and capital flows.</p>
-                                <div className="mt-20"><Link className="btn btn-link font-sm color-brand-2 wow animate__animated animate__fadeIn" href="#">View Details<span>
+                                <div className="mt-20"><Link className="btn btn-link font-sm color-black wow animate__animated animate__fadeIn" href="#">View Details<span>
                                     <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                     </svg></span></Link></div>
@@ -99,9 +99,9 @@ export default function WorkProcess() {
                         <div className="row align-items-center">
                             <div className="col-lg-6 mb-60"><Link className="wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/page/workprocess/img2.png" alt="transp" /></Link></div>
                             <div className="col-lg-6 mb-60"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/page/workprocess/pallet.png" alt="transp" />
-                                <h3 className="color-brand-2 mb-15 wow animate__animated animate__fadeIn">Logistical Processes</h3>
+                                <h3 className="color-black mb-15 wow animate__animated animate__fadeIn">Logistical Processes</h3>
                                 <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Logistics is the planning framework used by the management of an organization to facilitate the distribution of personnel, materiel, service, information and capital flows.</p>
-                                <div className="mt-20 wow animate__animated animate__fadeIn"><Link className="btn btn-link font-sm color-brand-2" href="#">View Details<span>
+                                <div className="mt-20 wow animate__animated animate__fadeIn"><Link className="btn btn-link font-sm color-black" href="#">View Details<span>
                                     <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                     </svg></span></Link></div>
@@ -109,7 +109,7 @@ export default function WorkProcess() {
                         </div>
                         <div className="row align-items-center">
                             <div className="col-lg-6 mb-60"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/page/workprocess/plane.png" alt="transp" />
-                                <h3 className="color-brand-2 mb-15 wow animate__animated animate__fadeIn">Production Management</h3>
+                                <h3 className="color-black mb-15 wow animate__animated animate__fadeIn">Production Management</h3>
                                 <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Logistics is the planning framework used by the management of an organization to facilitate the distribution of personnel, materiel, service, information and capital flows.</p>
                                 <div className="mt-20"><Link className="btn btn-link font-sm color-brand-2 wow animate__animated animate__fadeIn" href="#">View Details<span>
                                     <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -121,7 +121,7 @@ export default function WorkProcess() {
                         <div className="row align-items-center">
                             <div className="col-lg-6 mb-60 wow animate__animated animate__fadeIn"><Link href="#"><img src="/assets/imgs/page/workprocess/img4.png" alt="transp" /></Link></div>
                             <div className="col-lg-6 mb-60"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/page/workprocess/cardboard.png" alt="transp" />
-                                <h3 className="color-brand-2 mb-15 wow animate__animated animate__fadeIn">Assembly Processing</h3>
+                                <h3 className="color-black mb-15 wow animate__animated animate__fadeIn">Assembly Processing</h3>
                                 <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Logistics is the planning framework used by the management of an organization to facilitate the distribution of personnel, materiel, service, information and capital flows.</p>
                                 <div className="mt-20 wow animate__animated animate__fadeIn"><Link className="btn btn-link font-sm color-brand-2" href="#">View Details<span>
                                     <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -133,7 +133,7 @@ export default function WorkProcess() {
                 </section>
                 <div className="line-border mt-50" />
 
-                <Pricing2 />
+               
                 <section className="section bg-what-done pb-95 pt-110">
                     <div className="container">
                         <h2 className="title-favicon mb-20 wow animate__animated animate__fadeIn">What We Have Done</h2>
@@ -165,7 +165,7 @@ export default function WorkProcess() {
                                             <div className="card-offer cardServiceStyle3 hover-up">
                                                 <div className="card-image"><img src="/assets/imgs/page/homepage4/container.png" alt="transp" /></div>
                                                 <div className="card-info">
-                                                    <h5 className="color-brand-2 mb-15">Shipping Options</h5>
+                                                    <h5 className="color-black mb-15">Shipping Options</h5>
                                                     <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo consectetur.</p>
                                                 </div>
                                             </div>
@@ -174,7 +174,7 @@ export default function WorkProcess() {
                                             <div className="card-offer cardServiceStyle3 hover-up">
                                                 <div className="card-image"><img src="/assets/imgs/page/homepage4/24-hours.png" alt="transp" /></div>
                                                 <div className="card-info">
-                                                    <h5 className="color-brand-2 mb-15">Customer Service</h5>
+                                                    <h5 className="color-black mb-15">Customer Service</h5>
                                                     <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo consectetur.</p>
                                                 </div>
                                             </div>
@@ -185,7 +185,7 @@ export default function WorkProcess() {
                                             <div className="card-offer cardServiceStyle3 hover-up">
                                                 <div className="card-image"><img src="/assets/imgs/page/homepage4/stopwatch.png" alt="transp" /></div>
                                                 <div className="card-info">
-                                                    <h5 className="color-brand-2 mb-15">Timely Deliveries</h5>
+                                                    <h5 className="color-black mb-15">Timely Deliveries</h5>
                                                     <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo consectetur.</p>
                                                 </div>
                                             </div>
@@ -194,7 +194,7 @@ export default function WorkProcess() {
                                             <div className="card-offer cardServiceStyle3 hover-up">
                                                 <div className="card-image"><img src="/assets/imgs/page/homepage4/pallet.png" alt="transp" /></div>
                                                 <div className="card-info">
-                                                    <h5 className="color-brand-2 mb-15">Tracking Systems</h5>
+                                                    <h5 className="color-black mb-15">Tracking Systems</h5>
                                                     <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo consectetur.</p>
                                                 </div>
                                             </div>
@@ -204,7 +204,7 @@ export default function WorkProcess() {
                             </div>
                             <div className="col-lg-6">
                                 <div className="box-info-pround box-whychooseus-3"><span className="btn btn-tag color-grey-900 wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>Our Features</span>
-                                    <h2 className="color-brand-2 mb-15 mt-20 wow animate__animated animate__fadeIn">Why choose us</h2>
+                                    <h2 className="color-black mb-15 mt-20 wow animate__animated animate__fadeIn">Why choose us</h2>
                                     <p className="font-md color-grey-900">Sustainability is an increasingly important factor for many customers when choosing a shipping company. Your shipping company can stand out by demonstrating a commitment to sustainable practices, such as using energy-efficient vehicles, reducing waste, and offsetting carbon emissions.</p>
                                     <div className="mt-30">
                                         <ul className="list-ticks">
@@ -250,7 +250,7 @@ export default function WorkProcess() {
                                             </li>
                                         </ul>
                                     </div>
-                                    <div className="mt-30 text-start"><Link className="btn btn-brand-2 mr-20 wow animate__animated animate__fadeIn" href="/contact"style={{backgroundColor:'orange',color:'black'}}>Contact Us</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn More
+                                    <div className="mt-30 text-start"><Link className="btn btn-black mr-20 wow animate__animated animate__fadeIn" href="/contact"style={{color:'black'}}>Contact Us</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn More
                                         <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                         </svg></Link></div>
@@ -261,8 +261,8 @@ export default function WorkProcess() {
                 </section>
                 <div className="section bg-map d-block">
                     <div className="container">
-                        <div className="box-newsletter">
-                            <h3 className="color-brand-2 mb-20 wow animate__animated animate__fadeIn">Get in Touch</h3>
+                        <div className="box-newsletter"style={{backgroundColor:'red'}}>
+                            <h3 className="color-black mb-20 wow animate__animated animate__fadeIn">Get in Touch</h3>
                             <div className="row">
                                 <div className="col-lg-5 mb-30">
                                     <div className="form-newsletter wow animate__animated animate__fadeIn">
@@ -294,7 +294,7 @@ export default function WorkProcess() {
                                                     </div>
                                                 </div>
                                                 <div className="col-md-12">
-                                                    <input className="btn btn-brand-1-big" type="submit" defaultValue="Submit Now"style={{backgroundColor:'orange'}} />
+                                                    <input className="btn btn-brand-1-big" type="submit" defaultValue="Submit Now"style={{backgroundColor:'orange',color:'black'}} />
                                                 </div>
                                             </div>
                                         </form>

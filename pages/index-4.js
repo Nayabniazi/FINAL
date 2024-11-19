@@ -16,19 +16,19 @@ export default function Home4() {
 
     return (
         <>
-            <Layout topBarStyle="top-bar-style-3">
-                <Hero4 />
+            <Layout>
+            <Hero4 />
                 <Info7 />
-                <Testimonial4 />
-                <Howitwork2 />
+              
+                
                 <Projects3 />
                 <Info6 />
                 <div className="line-border mb-30 mt-70"></div>
-                <Requestquote2 />
+             
                 <Whychooseus3 />
                 <Brands1 />
-                <Pricing2 />
-                <News2 />
+              
+                
                 <Newsletter1 />
             </Layout>
         </>

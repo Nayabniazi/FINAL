@@ -28,7 +28,14 @@ export default function Hero3() {
 
     return (
         <>
-            <section className="section d-block">
+
+
+
+
+
+
+
+            <section className="section d-block"style={{backgroundColor:''}}>
                 <div className="box-banner-homepage3">
                     <div className="container position-relative">
                         <div className="banner-under" />

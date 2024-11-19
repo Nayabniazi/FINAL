@@ -20,10 +20,10 @@ export default function OurTeam() {
                             </div>
                             <div className="col-lg-6 mb-30">
                                 <div className="box-img-testimonials-4"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/homepage4/img-testimonial-4.png" alt="transp" />
-                                    <div className="box-info-testimonial-4">
-                                        <h3 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Satisfied</h3>
-                                        <p className="font-sm color-grey-900 wow animate__animated animate__fadeIn">We always strive to serve our customers in the best way.</p>
-                                        <div className="box-button mt-30"><Link className="btn btn-link font-sm color-brand-2 wow animate__animated animate__fadeIn" href="#">View Details<span>
+                                    <div className="box-info-testimonial-4"style={{backgroundColor:'black'}}>
+                                        <h3 className="color-white mb-10 wow animate__animated animate__fadeIn">Satisfied</h3>
+                                        <p className="font-sm color- wow animate__animated animate__fadeIn"style={{color:'white'}}>We always strive to serve our customers in the best way.</p>
+                                        <div className="box-button mt-30"><Link className="btn btn-link font-sm color-white wow animate__animated animate__fadeIn" href="#">View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path srokelinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                             </svg></span></Link></div>
@@ -135,12 +135,12 @@ export default function OurTeam() {
                 </section>
                 <section className="section mt-50 position-relative">
                     <div className="container">
-                        <div className="banner-786">
+                        <div className="banner-786"style={{backgroundColor:'black'}}>
                             <div className="box-banner-ads box-banner-ads-team">
-                                <div className="box-banner-left">
-                                    <h6 className="color-brand-2 wow animate__animated animate__fadeIn">Fast shipping with the<br className="d-none d-lg-block" />most modern technology</h6>
+                                <div className="box-banner-left"style={{backgroundColor:'orange'}}>
+                                    <h6 className="color-black wow animate__animated animate__fadeIn">Fast shipping with the<br className="d-none d-lg-block" />most modern technology</h6>
                                 </div>
-                                <div className="box-banner-right wow animate__animated animate__fadeIn" />
+                                <div className="box-banner-right wow animate__animated animate__fadeIn"/>
                             </div>
                         </div>
                     </div>
@@ -358,7 +358,7 @@ export default function OurTeam() {
                             </div>
                             <div className="col-lg-6 mb-50">
                                 <div className="box-image-why box-image-why-info-8"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/homepage3/img-info-6.png" alt="transp" />
-                                    <div className="box-button-play"><a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeIn" onClick={() => setOpen(true)}><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/template/icons/play.svg" alt="transp" /><span className="color-white wow animate__animated animate__fadeIn">How it work ?<br />Watch video tour</span></a></div>
+                                    <div className="box-button-play"style={{backgroundColor:'black'}}><a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeIn" onClick={() => setOpen(true)}><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/template/icons/play.svg" alt="transp" /><span className="color-white wow animate__animated animate__fadeIn">How it work ?<br />Watch video tour</span></a></div>
                                     <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)} />
                                 </div>
                             </div>
@@ -368,8 +368,8 @@ export default function OurTeam() {
                 <div className="mt-90" />
                 <div className="section bg-map d-block">
                     <div className="container">
-                        <div className="box-newsletter">
-                            <h3 className="color-brand-2 mb-20 wow animate__animated animate__fadeIn">Get in Touch</h3>
+                        <div className="box-newsletter"style={{backgroundColor:'red'}}>
+                            <h3 className="color-black mb-20 wow animate__animated animate__fadeIn">Get in Touch</h3>
                             <div className="row">
                                 <div className="col-lg-5 mb-30">
                                     <div className="form-newsletter wow animate__animated animate__fadeIn">
@@ -401,7 +401,7 @@ export default function OurTeam() {
                                                     </div>
                                                 </div>
                                                 <div className="col-md-12">
-                                                    <input className="btn btn-brand-1-big" type="submit" defaultValue="Submit Now" style={{backgroundColor:'orange'}}/>
+                                                    <input className="btn btn-brand-1-big" type="submit" defaultValue="Submit Now" style={{backgroundColor:'orange',color:'black'}}/>
                                                 </div>
                                             </div>
                                         </form>

@@ -53,7 +53,7 @@ export default function Hero4Slider() {
                     <div className="card-offer hover-up">
                         <div className="card-image"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp" /></div>
                         <div className="card-info">
-                            <h5 className="color-brand-2 mb-15">Sea Forwarding</h5>
+                            <h5 className="color- mb-15"style={{color:'black'}}>Sea Forwarding</h5>
                             <p className="font-sm color-grey-900 mb-35">We are professional in ocean freight
                                 with more than 12 years of experience and have shipped more than 100k
                                 shipments.</p>
@@ -68,7 +68,7 @@ export default function Hero4Slider() {
                     <div className="card-offer hover-up">
                         <div className="card-image"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" /></div>
                         <div className="card-info">
-                            <h5 className="color-brand-2 mb-15">Air Freight Forwarding</h5>
+                            <h5 className="color- mb-15"style={{ color:'black'}}>Air Freight Forwarding</h5>
                             <p className="font-sm color-grey-900 mb-35">We are professional in ocean freight
                                 with more than 12 years of experience and have shipped more than 100k
                                 shipments.</p>
@@ -83,7 +83,7 @@ export default function Hero4Slider() {
                     <div className="card-offer hover-up">
                         <div className="card-image"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></div>
                         <div className="card-info">
-                            <h5 className="color-brand-2 mb-15">Land Transportation</h5>
+                            <h5 className="color- mb-15"style={{color:'black'}}>Land Transportation</h5>
                             <p className="font-sm color-grey-900 mb-35">We are professional in ocean freight
                                 with more than 12 years of experience and have shipped more than 100k
                                 shipments.</p>
@@ -98,7 +98,7 @@ export default function Hero4Slider() {
                     <div className="card-offer hover-up">
                         <div className="card-image"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></div>
                         <div className="card-info">
-                            <h5 className="color-brand-2 mb-15">Railway Logistics</h5>
+                            <h5 className="color- mb-15"style={{color:'black'}}>Railway Logistics</h5>
                             <p className="font-sm color-grey-900 mb-35">We are professional in ocean freight
                                 with more than 12 years of experience and have shipped more than 100k
                                 shipments.</p>
@@ -113,7 +113,7 @@ export default function Hero4Slider() {
                     <div className="card-offer hover-up">
                         <div className="card-image"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></div>
                         <div className="card-info">
-                            <h5 className="color-brand-2 mb-15">Land Transportation</h5>
+                            <h5 className="color- mb-15"style={{color:'black'}}>Land Transportation</h5>
                             <p className="font-sm color-grey-900 mb-35">We are professional in ocean freight
                                 with more than 12 years of experience and have shipped more than 100k
                                 shipments.</p>

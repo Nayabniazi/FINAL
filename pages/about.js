@@ -13,7 +13,7 @@ export default function About() {
                 <section className="section">
                     <div className="container">
                         <div className="box-pageheader-1 text-center"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>Who We Are</span>
-                            <h2 className="color-brand-1 mt-15 mb-10 wow animate__animated animate__fadeIn">About Us</h2>
+                            <h2 className="color-white mt-15 mb-10 wow animate__animated animate__fadeIn">About Us</h2>
                             <p className="font-md color-white wow animate__animated animate__fadeIn">We have been pioneering the industry in Europe for 20 years, and delivering value<br className="d-none d-lg-block" />products within given timeframe, every single time.</p>
                         </div>
                     </div>
@@ -22,7 +22,7 @@ export default function About() {
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-6 mb-30">
-                                <h2 className="color-brand-2 mb-25 wow animate__animated animate__fadeIn">Simplifying complex shipping challenges with innovative solutions</h2>
+                                <h2 className="color-black mb-25 wow animate__animated animate__fadeIn">Simplifying complex shipping challenges with innovative solutions</h2>
                                 <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">Logistics companies are essential to the smooth functioning of global supply chains. They offer a range of services such as transportation, warehousing, inventory management, and distribution to businesses across different industries. The role of logistics companies has become increasingly important in recent years due to the growth of e-commerce and global trade.</p>
                                 <div className="box-button mt-40"><Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeIn" href="#"style={{backgroundColor:'orange'}}>Calculate Package</Link><a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeIn" onClick={() => setOpen(true)}><img src="/assets/imgs/template/icons/play.svg" alt="transp"  style={{ backgroundColor: 'orange', borderRadius: '50%', padding: '2px' }}/></a></div>
                                 <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)}  />
@@ -40,10 +40,10 @@ export default function About() {
                 <section className="section mt-50 mb-50">
                     <div className="container">
                         <div className="row align-items-center item-about-2">
-                            <div className="col-lg-6"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-2-1.png" alt="transp" /></div>
+                            <div className="col-lg-6"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/homepage3/dump.png" alt="transp" /></div>
                             <div className="col-lg-6">
                                 <div className="box-info-aabout-2"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>Mission</span>
-                                    <h2 className="color-brand-2 mt-15 mb-25 wow animate__animated animate__fadeIn">Globally Connected by Large Network</h2>
+                                    <h2 className="color-black mt-15 mb-25 wow animate__animated animate__fadeIn">Globally Connected by Large Network</h2>
                                     <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">At Logistic Transp, our mission is to provide our clients with exceptional transportation services that meet and exceed their expectations. We aim to be the most reliable, efficient, and cost-effective transportation provider in the industry.</p>
                                     <div className="box-button mt-40">
                                         <div className="row">
@@ -63,7 +63,7 @@ export default function About() {
                         <div className="row align-items-center item-about-2 item-about-2-revert">
                             <div className="col-lg-6">
                                 <div className="box-info-aabout-2"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>History</span>
-                                    <h2 className="color-brand-2 mt-15 mb-25 wow animate__animated animate__fadeIn">Globally Connected by Large Network</h2>
+                                    <h2 className="color-black mt-15 mb-25 wow animate__animated animate__fadeIn">Globally Connected by Large Network</h2>
                                     <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">Logistic Transp was founded in 2005 by a group of transportation professionals who saw an opportunity to provide a better level of service to businesses. Since our founding, we have grown to become a leading transportation provider, with a presence in over 30 countries around the world.</p>
                                     <div className="box-button mt-40"><Link className="btn btn-brand-2 mr-20 wow animate__animated animate__fadeIn" href="/contact"style={{backgroundColor:'orange',color:'black',}}>Contact Us</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn More
                                         <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -77,9 +77,9 @@ export default function About() {
                             <div className="col-lg-6"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-2-3.png" alt="transp" /></div>
                             <div className="col-lg-6">
                                 <div className="box-info-aabout-2"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>Our Partners</span>
-                                    <h2 className="color-brand-2 mt-15 mb-25 wow animate__animated animate__fadeIn">We have established strong relationships with our partners</h2>
+                                    <h2 className="color-black mt-15 mb-25 wow animate__animated animate__fadeIn">We have established strong relationships with our partners</h2>
                                     <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">We strive to become pioneers in the field, providing first quality and cost-effective service, and smart solutions to the market. Our 30 years’ experience in the shipping, transport and logistics industry is our strength, which support us to deliver our promises to our customers.</p>
-                                    <div className="box-button d-flex mt-40"><Link className="hover-up mr-10 wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/template/appstore-btn.png" alt="transp" /></Link><Link className="hover-up wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/template/google-play-btn.png" alt="transp" /></Link></div>
+                                    <div className="box-button d-flex mt-40"><Link className="hover-up mr-10 wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/template/playbutton.png"height={60} alt="transp" /></Link><Link className="hover-up wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/template/google.png"height={60} alt="transp" /></Link></div>
                                 </div>
                             </div>
                         </div>
@@ -390,8 +390,8 @@ export default function About() {
                 </section>
                 <div className="section bg-map d-block">
                     <div className="container">
-                        <div className="box-newsletter">
-                            <h3 className="color-brand-2 mb-20 wow animate__animated animate__fadeIn">Get in Touch</h3>
+                        <div className="box-newsletter"style={{backgroundColor:"red"}}>
+                            <h3 className="color-black mb-20 wow animate__animated animate__fadeIn">Get in Touch</h3>
                             <div className="row">
                                 <div className="col-lg-5 mb-30">
                                     <div className="form-newsletter wow animate__animated animate__fadeIn">

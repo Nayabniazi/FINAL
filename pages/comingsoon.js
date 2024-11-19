@@ -16,7 +16,7 @@ export default function ComingSoon() {
                                             <Countdown endDateTime={currentTime.setDate(currentTime.getDate() + 2)}style={{backgroundColor:'orange'}} />
                                         </div>
                                     </div>
-                                    <h3 className="color-brand-2 wow animate__animated animate__fadeIn">Get Notified<br className="d-none d-lg-block" />When We Launch</h3>
+                                    <h3 className="color-black wow animate__animated animate__fadeIn">Get Notified<br className="d-none d-lg-block" />When We Launch</h3>
                                     <div className="form-trackparcel wow animate__animated animate__fadeIn">
                                         <form action="#">
                                             <div className="form-group">

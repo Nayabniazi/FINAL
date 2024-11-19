@@ -4,7 +4,7 @@ export default function Newsletter1() {
         <>
             <div className="section bg-map d-block">
                 <div className="container">
-                    <div className="box-newsletter">
+                    <div className="box-newsletter"style={{backgroundColor:'red'}}>
                         <h3 className="color-brand-2 mb-20 wow animate__animated animate__fadeIn">Get in Touch</h3>
                         <div className="row">
                             <div className="col-lg-5 mb-30">

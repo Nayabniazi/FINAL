@@ -13,7 +13,7 @@ export default function Whychooseus3() {
                                         <div className="card-offer cardServiceStyle3 hover-up">
                                             <div className="card-image"><img src="/assets/imgs/page/homepage4/container.png" alt="transp" /></div>
                                             <div className="card-info">
-                                                <h5 className="color-brand-2 mb-15">Shipping Options</h5>
+                                                <h5 className="color- mb-15"style={{color:'black'}}>Shipping Options</h5>
                                                 <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur
                                                     adipiscing elit. Quisque commodo consectetur.</p>
                                             </div>
@@ -23,7 +23,7 @@ export default function Whychooseus3() {
                                         <div className="card-offer cardServiceStyle3 hover-up">
                                             <div className="card-image"><img src="/assets/imgs/page/homepage4/24-hours.png" alt="transp" /></div>
                                             <div className="card-info">
-                                                <h5 className="color-brand-2 mb-15">Customer Service</h5>
+                                                <h5 className="color- mb-15"style={{color:'black'}}>Customer Service</h5>
                                                 <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur
                                                     adipiscing elit. Quisque commodo consectetur.</p>
                                             </div>
@@ -35,7 +35,7 @@ export default function Whychooseus3() {
                                         <div className="card-offer cardServiceStyle3 hover-up">
                                             <div className="card-image"><img src="/assets/imgs/page/homepage4/stopwatch.png" alt="transp" /></div>
                                             <div className="card-info">
-                                                <h5 className="color-brand-2 mb-15">Timely Deliveries</h5>
+                                                <h5 className="color- mb-15"style={{color:'black'}}>Timely Deliveries</h5>
                                                 <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur
                                                     adipiscing elit. Quisque commodo consectetur.</p>
                                             </div>
@@ -45,7 +45,7 @@ export default function Whychooseus3() {
                                         <div className="card-offer cardServiceStyle3 hover-up">
                                             <div className="card-image"><img src="/assets/imgs/page/homepage4/pallet.png" alt="transp" /></div>
                                             <div className="card-info">
-                                                <h5 className="color-brand-2 mb-15">Tracking Systems</h5>
+                                                <h5 className="color- mb-15"style={{color:'black'}}>Tracking Systems</h5>
                                                 <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur
                                                     adipiscing elit. Quisque commodo consectetur.</p>
                                             </div>
@@ -57,7 +57,7 @@ export default function Whychooseus3() {
                         <div className="col-lg-6">
                             <div className="box-info-pround box-whychooseus-3"><span className="btn btn-tag color-grey-900 wow animate__animated animate__fadeIn">Our
                                 Features</span>
-                                <h2 className="color-brand-2 mb-15 mt-20 wow animate__animated animate__fadeIn">Why choose us
+                                <h2 className="color- mb-15 mt-20 wow animate__animated animate__fadeIn"style={{color:'black'}}>Why choose us
                                 </h2>
                                 <p className="font-md color-grey-900">Sustainability is an increasingly important factor for
                                     many customers when choosing a shipping company. Your shipping company can stand out by

@@ -1,8 +1,19 @@
 import Link from "next/link"
 import { useRouter } from "next/router"
 
+
 export default function Menu() {
     const router = useRouter()
+
+
+
+
+
+    
+
+
+
+
 
     return (
         <>
@@ -12,9 +23,17 @@ export default function Menu() {
                 <li className="has-children"><Link className="active" href="/"style={{ color:'white' }}>What We Do</Link>
                     <ul className="sub-menu">
                        
-                        <li><Link href="/index-2">Item we take</Link></li>
+                        <li><Link href="/service-detail">Item we take</Link></li>
+
+
+   
+
+
+
+
                         <li><Link href="/services">Dumpster Renatls</Link></li>
                         <li><Link href="/index-3">JK Dumpster Bag</Link></li>
+                        <li><Link href="/our-team">Recycle</Link></li>
                         <li><Link href="/trackyourparcel">JK Junk Removal</Link></li>
                         <li><Link href="/index-4">Jk Same Day Junk Removal</Link></li>
                     </ul>
@@ -48,10 +67,11 @@ export default function Menu() {
                 </li>
                 <li className="has-children"><Link href="/blog"style={{ color:'white' }}>Pricing</Link>
                     <ul className="sub-menu">
-                    <li><Link href="/service-detail">Estimate Pricing</Link></li>
-                    <li><Link href="/newsletter">Dumpster Pricing</Link></li>
-                 
+                    <li><Link href="/index-2">Estimate Pricing</Link></li>
                     <li><Link href="/faqs">Jk Removal Pricing</Link></li>
+                    <li><Link href="/index-2">Dumpster Pricing</Link></li>
+                 
+                    
                        
 
                     </ul>
