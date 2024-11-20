@@ -3,7 +3,8 @@ import Head from 'next/head'
 const PageHead = ({ headTitle }) => {
     return (
         <>
-            <Head>
+        
+        <Head>
                 <title>
                     {headTitle ? headTitle : "Bin Bear Website"}
                 </title>

@@ -85,7 +85,7 @@ export default function Footer1({ }) {
                         {/* Buttons Section at the bottom */}
                         <div className="col-lg-6 col-md-12 text-center text-lg-end" style={{ display: 'flex', justifyContent: 'space-between',marginLeft:'300px' ,}}>
                             {/* Online Booking Button */}
-                            <a href="/login" style={{ textDecoration: 'none' }}>
+                            <a href="/404" style={{ textDecoration: 'none' }}>
                             <button
                                 style={{
                                     backgroundColor: 'orange',

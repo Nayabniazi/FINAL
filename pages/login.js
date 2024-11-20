@@ -47,7 +47,7 @@ export default function Login() {
                         <div className="col-lg-6">
                             <div className="box-login-right">
                                 <div className="quote-shape shape-1" />
-                                <div className="box-info-bottom-img box-info-bottom-img-3">
+                                <div className="box-info-bottom-img box-info-bottom-img-3"style={{backgroundColor:'black'}}>
                                     <div className="image-play wow animate__animated animate__fadeIn"><img className="mb-15" src="/assets/imgs/template/icons/play.svg" alt="transp" /></div>
                                     <div className="info-play wow animate__animated animate__fadeIn">
                                         <h4 className="color-white mb-15">We have 25 years experience in this passion</h4>

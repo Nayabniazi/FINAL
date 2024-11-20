@@ -29,8 +29,8 @@ export default function Hero1Slider() {
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-lg-12">
-                                    <p className="font-md color-white mb-15 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Logistics &amp; Transportation</p>
-                                    <h1 className="color-white mb-25 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Digital &amp; Trusted Transport<br className="d-none d-lg-block" />Logistic Company</h1>
+                                    <p className="font-md color-white mb-15 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Junk Removal Solutions</p>
+                                    <h1 className="color-white mb-25 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Say Goodbye to Junk<br className="d-none d-lg-block" />Convenient Dumpster Near You</h1>
                                     <div className="row">
                                         <div className="col-lg-6">
                                             <p className="font-md color-white mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Our experienced team of problem solvers and
@@ -39,7 +39,7 @@ export default function Hero1Slider() {
                                         </div>
                                     </div>
                                     <div className="box-button mt-30">
-                                        <Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeInUp" href="#"style={{backgroundColor:'orange'}}>Calculate Package</Link>
+                                        <Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeInUp" href="#"style={{backgroundColor:'orange',color:'black'}}>Free Estimate</Link>
                                         <a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeInUp" onClick={() => setOpen(true)}>
                                             <img className="wow animate__animated animate__fadeInUp" src="/assets/imgs/template/icons/play.svg" alt=""style={{ backgroundColor: 'orange', borderRadius: '50%', padding: '2px' }} />How it work
                                             ?</a></div>
@@ -55,8 +55,8 @@ export default function Hero1Slider() {
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-lg-12">
-                                    <p className="font-md color-white mb-15 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Logistics &amp; Transportation</p>
-                                    <h1 className="color-white mb-25 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Digital &amp; Trusted Transport<br className="d-none d-lg-block" />Logistic Company</h1>
+                                    <p className="font-md color-white mb-15 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Junk Removal Solutions</p>
+                                    <h1 className="color-white mb-25 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Say Goodbye to Junk<br className="d-none d-lg-block" />Convenient Dumpster Near You</h1>
                                     <div className="row">
                                         <div className="col-lg-6">
                                             <p className="font-md color-white mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Our experienced team of problem solvers and
@@ -64,7 +64,7 @@ export default function Hero1Slider() {
                                                 and objectives is what drives mutual success.</p>
                                         </div>
                                     </div>
-                                    <div className="box-button mt-30"><Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeInUp" href="#"style={{backgroundColor:'orange'}}>Calculate Package</Link><a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeInUp" onClick={() => setOpen(true)}><img className="wow animate__animated animate__fadeInUp" src="/assets/imgs/template/icons/play.svg" alt="" style={{ backgroundColor: 'orange', borderRadius: '50%', padding: '2px' }}
+                                    <div className="box-button mt-30"><Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeInUp" href="#"style={{backgroundColor:'orange',color:'black'}}>Free Estimate</Link><a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeInUp" onClick={() => setOpen(true)}><img className="wow animate__animated animate__fadeInUp" src="/assets/imgs/template/icons/play.svg" alt="" style={{ backgroundColor: 'orange', borderRadius: '50%', padding: '2px' }}
                                        />How it work ?</a></div>
                                 </div>
                                 <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)} />

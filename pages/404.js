@@ -1,100 +1,211 @@
 import Layout from "@/components/layout/Layout"
+import { useState } from "react";
+import Brand1Slider from "@/components/slider/Brand1Slider"
 import Link from "next/link"
-export default function Custom404() {
+export default function Login() {
+    const [zipCode, setZipCode] = useState("");
+    const [errorMessage, setErrorMessage] = useState("");
+
+    const handleZipCodeChange = (e) => {
+        setZipCode(e.target.value);
+        // Clear the error message when the input becomes valid
+        if (e.target.value.length === 5 && !isNaN(e.target.value)) {
+            setErrorMessage(""); // Clear error if input becomes valid
+        }
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        // Validate the zip code
+        if (zipCode.length !== 5 || isNaN(zipCode)) {
+            setErrorMessage("Sorry, please enter a valid 5-digit zip code.");
+        } else {
+            setErrorMessage(""); // Clear the error
+            alert(`Zip code ${zipCode} submitted successfully!`);
+        }
+    };
+
+    const [isHovered, setIsHovered] = useState(false);
+
 
     return (
         <>
             <Layout>
-                <section className="section pt-100 pb-200">
-                    <div className="container box-404">
-                        <div className="row align-items-center">
-                            <div className="col-lg-1" />
-                            <div className="col-lg-5 mb-30 text-center">
-                                <div className="box-404-right"><img src="/assets/imgs/page/404/img.png" alt="transp" /></div>
+                <section className="section box-login">
+                    <div className="row align-items-center m-0">
+                        <div className="col-lg-6">
+                            <div className="box-login-left">
+                                <h2 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Booking Now</h2>
+                                <p className="font-md color-grey-500 wow animate__animated animate__fadeIn">Access to all features. No credit card required.</p>
+                                <div className="box-btn-signin mt-55 wow animate__animated animate__fadeIn"><Link className="btn btn-signin mb-10" href="#"><img src="/assets/imgs/page/login/Google.svg" alt="Transp" />Sign in with Google</Link><Link className="btn btn-signin" href="#"><img src="/assets/imgs/page/login/apple.svg" alt="Transp" />Continue with Apple ID</Link></div>
+                                <div className="box-or-login wow animate__animated animate__fadeIn"><span className="text-or font-xs color-grey-500">Or continue with</span></div>
+                                <div className="box-form-login wow animate__animated animate__fadeIn">
+                                    <form action="#">
+                                        <div className="form-group">
+                                            <input className="form-control" type="text" placeholder="Email Address *" />
+                                        </div>
+                                        <div className="form-group">
+                                            <input className="form-control" type="password" placeholder="Enter Your Password" />
+                                        </div>
+
+
+
+
+
+
+
+                                        <div className="form-group">
+                                            <div className="d-flex justify-content-between">
+                                                <div className="box-remember">
+                                                    <label className="font-xs color-grey-900" htmlFor="rememberme">
+                                                        <input id="rememberme" type="checkbox" />Remember me
+                                                    </label>
+                                                </div>
+                                                <div className="box-forgotpass"><Link className="font-xs color-brand-2" href="#">Forgot your password?</Link></div>
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <div  onSubmit={handleSubmit}
+            style={{
+                maxWidth: "400px",
+                margin: "20px auto",
+                textAlign: "center",
+                position: "relative",
+            }}
+        >
+
+      
+<label
+                htmlFor="zip-code"
+                style={{ display: "block", marginBottom: "10px", fontSize: "16px" }}
+            >
+              
+            </label>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", width:'450px',}}>
+           
+
+                <input 
+                    type="text"
+                    id="zip-code"
+                    value={zipCode}
+                    onChange={handleZipCodeChange}
+                    placeholder="ZIP Code"
+                    style={{
+                   
+                        border: `1px solid ${isHovered ? 'black' : '#ccc'}`,
+                
+                        marginRight:'1000px',
+                        height:'50px',
+                        width: "500px",
+                        padding: "10px",
+                        fontSize: "16px",
+                        border: "1px solid #ccc",
+                        borderRadius: "4px",
+                        marginRight: "10px",
+                        transition: "border-color 0.3s ease"
+                    }}
+                    onMouseEnter={() => setIsHovered(true)} // Set hover state to true when mouse enters
+                    onMouseLeave={() => setIsHovered(false)} // Set hover state to false when mouse leaves
+               
+
+
+                />
+                <button
+                    type="submit"
+                    style={{
+                        height:'45px',
+                        padding: "10px",
+                        backgroundColor: "#FFA500", // Orange color
+                        color: "white",
+                        border: "none",
+                        borderRadius: "4px",
+                        cursor: "pointer",
+                        width: "100px",
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center",
+                    }}
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="white"
+                        viewBox="0 0 16 16"
+                    >
+                        <path
+                            fillRule="evenodd"
+                            d="M1.5 8a.5.5 0 0 1 .5-.5h10.793L9.146 4.354a.5.5 0 1 1 .708-.708l4.5 4.5a.5.5 0 0 1 0 .708l-4.5 4.5a.5.5 0 1 1-.708-.708L12.793 8.5H2a.5.5 0 0 1-.5-.5z"
+                        />
+                    </svg>
+                </button>
+            </div>
+            <p
+                style={{
+                   marginRight:'500px',
+                    color: "red",
+                    marginTop: "10px",
+                    fontSize: "14px",
+                    height: "14px", // Added fixed height to avoid layout shift
+                }}
+            >
+                {errorMessage}
+            </p>      
+               
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        <div className="form-group mt-30">
+                                            <div className="d-flex align-items-center justify-content-between">
+                                                <div className="box-button-form-login">
+                                                    <input className="btn btn-brand-1-big mr-20" type="submit" defaultValue="Sign In" />
+                                                </div>
+                                                <div className="box-text-form-login"><span className="font-xs color-grey-500">Don't Have an Account?</span><Link className="font-xs color-brand-2" href="/register">Sign up</Link></div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
-                            <div className="col-lg-5 mb-30">
-                                <div className="box-404-left">
-                                    <h1 className="color-brand-2 mb-10">404</h1>
-                                    <h3 className="color-brand-2 mb-25">Oops, nothing to see here</h3>
-                                    <p className="font-md color-grey-500">Unfortunately, we couldn't find what you were<br className="d-none d-lg-block" />looking for or the page no longer exists.</p>
-                                    <div className="mt-50"><Link className="btn btn-link-semibold" href="/">
-                                        <svg className="icon-16 mr-5" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                            <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 12h-15m0 0l6.75 6.75M4.5 12l6.75-6.75" />
-                                        </svg>Back to Homepage</Link></div>
+                        </div>
+                        <div className="col-lg-6">
+                            <div className="box-login-right">
+                                <div className="quote-shape shape-1" />
+                                <div className="box-info-bottom-img box-info-bottom-img-3"style={{backgroundColor:'black'}}>
+                                    <div className="image-play wow animate__animated animate__fadeIn"><img className="mb-15" src="/assets/imgs/template/icons/play.svg" alt="transp" /></div>
+                                    <div className="info-play wow animate__animated animate__fadeIn">
+                                        <h4 className="color-white mb-15">We have 25 years experience in this passion</h4>
+                                        <p className="font-sm color-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-                <div className="section bg-map d-block">
+                <div className="section bg-2 pt-65 pb-35">
                     <div className="container">
-                        <div className="box-newsletter">
-                            <h3 className="color-brand-2 mb-20 wow animate__animated animate__fadeIn">Get in Touch</h3>
-                            <div className="row">
-                                <div className="col-lg-5 mb-30">
-                                    <div className="form-newsletter wow animate__animated animate__fadeIn">
-                                        <form action="#">
-                                            <div className="row">
-                                                <div className="col-md-6">
-                                                    <div className="form-group">
-                                                        <input className="form-control" type="text" placeholder="Your name *" />
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6">
-                                                    <div className="form-group">
-                                                        <input className="form-control" type="text" placeholder="Your email *" />
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6">
-                                                    <div className="form-group">
-                                                        <input className="form-control" type="text" placeholder="Weight" />
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6">
-                                                    <div className="form-group">
-                                                        <input className="form-control" type="text" placeholder="Height" />
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-12">
-                                                    <div className="form-group">
-                                                        <textarea className="form-control" placeholder="Message / Note" rows={5} defaultValue={""} />
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-12">
-                                                    <input className="btn btn-brand-1-big" type="submit" defaultValue="Submit Now" />
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div className="col-lg-7 mb-30">
-                                    <div className="d-flex box-newsletter-right">
-                                        <div className="box-map-2 wow animate__animated animate__fadeIn">
-                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3179.960389549842!2d-83.76408938441998!3d37.15364135542302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884352a00e70879f%3A0x1ad06ed33b7003c!2sIangar!5e0!3m2!1svi!2s!4v1678013229780!5m2!1svi!2s" height={242} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
-                                        </div>
-                                        <ul className="list-info-footer">
-                                            <li className="wow animate__animated animate__fadeIn">
-                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/address.svg" alt="transp" /></span></div>
-                                                <div className="cardInfo">
-                                                    <h6 className="font-sm-bold color-grey-900">Address</h6>
-                                                    <p className="font-sm color-grey-900">65 Allerton Street 901 N Pitt Str, USA</p>
-                                                </div>
-                                            </li>
-                                            <li className="wow animate__animated animate__fadeIn">
-                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/email.svg" alt="transp" /></span></div>
-                                                <div className="cardInfo">
-                                                    <h6 className="font-sm-bold color-grey-900">Email</h6>
-                                                    <p className="font-sm color-grey-900">contact@transp.com</p>
-                                                </div>
-                                            </li>
-                                            <li className="wow animate__animated animate__fadeIn">
-                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/phone.svg" alt="transp" /></span></div>
-                                                <div className="cardInfo">
-                                                    <h6 className="font-sm-bold color-grey-900">Telephone</h6>
-                                                    <p className="font-sm color-grey-900">(+380) 50 318 47 07 - (+182) 50 318 47 07</p>
-                                                </div>
-                                            </li>
-                                        </ul>
+                        <div className="row align-items-center">
+                            <div className="col-lg-3 mb-30 text-center text-lg-start wow animate__animated animate__fadeIn">
+                                <p className="font-2xl-bold color-brand-2">We are<span className="color-brand-1"> trusted</span> by major global brands</p>
+                            </div>
+                            <div className="col-lg-9 mb-30">
+                                <div className="box-swiper">
+                                    <div className="swiper-container swiper-group-6 pb-0">
+                                        <Brand1Slider />
                                     </div>
                                 </div>
                             </div>

@@ -101,7 +101,7 @@ export default function ServiceDetail() {
                                                     </div>
                                                 </div>
                                                 <div className="col-md-12">
-                                                    <input className="btn btn-brand-1-big" type="submit" defaultValue="Submit Now"style={{backgroundColor:'orange',color:'black'}} />
+                                                    <input className="btn btn-brand-1-big" type="button" defaultValue="Submit"style={{backgroundColor:'orange',color:'black'}} />
                                                 </div>
                                             </div>
                                         </form>
