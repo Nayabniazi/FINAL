@@ -40,8 +40,8 @@ export default function Requestquote1() {
                                 <div className="cardImage"><span className="img wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/handover.png" alt="transp" /></span></div>
                                 <div className="cardInfo">
                                     <h3 className="color-white wow animate__animated animate__fadeIn"><span>+</span><span className="counterUp">{inViewport && <CountUp end={254} duration={10} />}</span></h3>
-                                    <p className="font-lg color-white wow animate__animated animate__fadeIn">Parcels Shipped
-                                        Safely</p>
+                                    <p className="font-lg color-white wow animate__animated animate__fadeIn">Eco-Friendly Solutions
+                                       </p>
                                 </div>
                             </div>
                         </div>

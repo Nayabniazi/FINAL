@@ -6,8 +6,8 @@ export default function Info1() {
             <section className="section mt-85">
                 <div className="container">
                     <div className="text-center"><img className="mb-15" src="/assets/imgs/template/icons/favicon.svg" alt="transp" />
-                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Delivering Results for
-                            Industry Leaders</p>
+                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Junk Removal Solutions
+                            </p>
                         <h2 className="color- mb-65 mt-15 wow animate__animated animate__fadeIn"style={{color:'black'}}>We are proud of our
                             workforce<br className="d-none d-lg-block" />and have worked hard.</h2>
                     </div>
@@ -21,48 +21,45 @@ export default function Info1() {
                         </div>
                         <div className="col-xl-5 col-lg-6 mb-30">
                             <div className="box-info-pround">
-                                <h3 className="color- mb-15 wow animate__animated animate__fadeIn"style={{color:'black'}}>Fast shipping with the
-                                    most modern technology</h3>
-                                <p className="font-md color-grey-500 wow animate__animated animate__fadeIn">Over the years, we
-                                    have worked together to expand our network of partners to deliver reliability and
-                                    consistency. We’ve also made significant strides to tightly integrate technology with
-                                    our processes, giving our clients greater visibility into every engagement.</p>
+                                <h3 className="color- mb-15 wow animate__animated animate__fadeIn"style={{color:'black'}}>Leave the work to us– Junk Removal & Hauling Made Easy
+                                   </h3>
+                                <p className="font-md color-grey-500 wow animate__animated animate__fadeIn">At BinBear, we make junk removal effortless. Whether it’s a single item or a full property cleanout, our team is here to handle every step. With BinBear
+                                    .</p>
                                 <div className="mt-30">
                                     <ul className="list-ticks">
                                         <li className="wow animate__animated animate__fadeIn">
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                            </svg>Task tracking
+                                            </svg>Free, Upfront Estimates
                                         </li>
                                         <li className="wow animate__animated animate__fadeIn">
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                            </svg>Create task dependencies
+                                            </svg>Low Price Guarantee
                                         </li>
                                         <li className="wow animate__animated animate__fadeIn">
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                            </svg>Task visualization
+                                            </svg>Fast & Friendly Service
                                         </li>
                                         <li className="wow animate__animated animate__fadeIn">
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                            </svg>hare files, discuss
+                                            </svg>Pay Only for the Space You Use
                                         </li>
                                         <li className="wow animate__animated animate__fadeIn">
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                            </svg>Meet deadlines faster
+                                            </svg>Big Trucks, Big Value
                                         </li>
                                         <li className="wow animate__animated animate__fadeIn">
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                            </svg>Track time spent on each project
+                                            </svg>Eco-Friendly Solutions
                                         </li>
                                     </ul>
                                 </div>
-                                <div className="mt-30 text-start d-flex wow animate__animated animate__fadeIn"><Link className="hover-up mr-10" href="#" ><img src="/assets/imgs/template/playbutton.png"height={50} alt="transp" /></Link><Link className="hover-up" href="#"><img src="/assets/imgs/template/google.png" height={50} alt="transp" /></Link></div>
-                            </div>
+                                  </div>
                         </div>
                     </div>
                 </div>

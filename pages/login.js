@@ -8,13 +8,11 @@ export default function Login() {
             <Layout>
                 <section className="section box-login">
                     <div className="row align-items-center m-0">
-                        <div className="col-lg-6">
+                        <div className="col-lg-6"style={{marginBottom:'500px'}}>
                             <div className="box-login-left">
                                 <h2 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Welcome back</h2>
                                 <p className="font-md color-grey-500 wow animate__animated animate__fadeIn">Access to all features. No credit card required.</p>
-                                <div className="box-btn-signin mt-55 wow animate__animated animate__fadeIn"><Link className="btn btn-signin mb-10" href="#"><img src="/assets/imgs/page/login/Google.svg" alt="Transp" />Sign in with Google</Link><Link className="btn btn-signin" href="#"><img src="/assets/imgs/page/login/apple.svg" alt="Transp" />Continue with Apple ID</Link></div>
-                                <div className="box-or-login wow animate__animated animate__fadeIn"><span className="text-or font-xs color-grey-500">Or continue with</span></div>
-                                <div className="box-form-login wow animate__animated animate__fadeIn">
+                                  <div className="box-form-login wow animate__animated animate__fadeIn">
                                     <form action="#">
                                         <div className="form-group">
                                             <input className="form-control" type="text" placeholder="Email Address *" />

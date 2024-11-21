@@ -53,8 +53,8 @@ export default function Hero4Slider() {
                     <div className="card-offer hover-up">
                         <div className="card-image"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp" /></div>
                         <div className="card-info">
-                            <h5 className="color- mb-15"style={{color:'black'}}>Sea Forwarding</h5>
-                            <p className="font-sm color-grey-900 mb-35">We are professional in ocean freight
+                            <h5 className="color- mb-15"style={{color:'black'}}>#1 Junk Removal Company</h5>
+                            <p className="font-sm color-grey-900 mb-35">We are professional in our work
                                 with more than 12 years of experience and have shipped more than 100k
                                 shipments.</p>
                             <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
@@ -68,8 +68,8 @@ export default function Hero4Slider() {
                     <div className="card-offer hover-up">
                         <div className="card-image"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" /></div>
                         <div className="card-info">
-                            <h5 className="color- mb-15"style={{ color:'black'}}>Air Freight Forwarding</h5>
-                            <p className="font-sm color-grey-900 mb-35">We are professional in ocean freight
+                            <h5 className="color- mb-15"style={{ color:'black'}}>Service Request is Easy</h5>
+                            <p className="font-sm color-grey-900 mb-35">We are professional in our Work
                                 with more than 12 years of experience and have shipped more than 100k
                                 shipments.</p>
                             <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
@@ -83,8 +83,8 @@ export default function Hero4Slider() {
                     <div className="card-offer hover-up">
                         <div className="card-image"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></div>
                         <div className="card-info">
-                            <h5 className="color- mb-15"style={{color:'black'}}>Land Transportation</h5>
-                            <p className="font-sm color-grey-900 mb-35">We are professional in ocean freight
+                            <h5 className="color- mb-15"style={{color:'black'}}>Dumpster Rentals</h5>
+                            <p className="font-sm color-grey-900 mb-35">We are professional in our work
                                 with more than 12 years of experience and have shipped more than 100k
                                 shipments.</p>
                             <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
@@ -98,8 +98,8 @@ export default function Hero4Slider() {
                     <div className="card-offer hover-up">
                         <div className="card-image"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></div>
                         <div className="card-info">
-                            <h5 className="color- mb-15"style={{color:'black'}}>Railway Logistics</h5>
-                            <p className="font-sm color-grey-900 mb-35">We are professional in ocean freight
+                            <h5 className="color- mb-15"style={{color:'black'}}>UnBearable Junk removal solutions</h5>
+                            <p className="font-sm color-grey-900 mb-35">We are professional in our work
                                 with more than 12 years of experience and have shipped more than 100k
                                 shipments.</p>
                             <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
@@ -113,8 +113,8 @@ export default function Hero4Slider() {
                     <div className="card-offer hover-up">
                         <div className="card-image"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></div>
                         <div className="card-info">
-                            <h5 className="color- mb-15"style={{color:'black'}}>Land Transportation</h5>
-                            <p className="font-sm color-grey-900 mb-35">We are professional in ocean freight
+                            <h5 className="color- mb-15"style={{color:'black'}}>Eco-Friendly Solutions</h5>
+                            <p className="font-sm color-grey-900 mb-35">We are professional in our Work
                                 with more than 12 years of experience and have shipped more than 100k
                                 shipments.</p>
                             <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>

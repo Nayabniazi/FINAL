@@ -8,12 +8,10 @@ export default function Register() {
             <Layout>
                 <section className="section box-login">
                     <div className="row align-items-center m-0">
-                        <div className="col-lg-6">
+                        <div className="col-lg-6"style={{marginBottom:'500px'}}>
                             <div className="box-login-left">
                                 <h2 className="color-black mb-10 wow animate__animated animate__fadeIn">Create an account</h2>
                                 <p className="font-md color-grey-500 wow animate__animated animate__fadeIn">Describe yourself as clearly so that there are no mistakes</p>
-                                <div className="box-btn-signin mt-55"><Link className="btn btn-signin mb-10 wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/page/login/Google.svg" alt="Transp" />Sign up with Google</Link><Link className="btn btn-signin wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/page/login/apple.svg" alt="Transp" />Sign up with Apple ID</Link></div>
-                                <div className="box-or-login"><span className="text-or font-xs color-grey-500 wow animate__animated animate__fadeIn">Or continue with</span></div>
                                 <div className="box-form-login wow animate__animated animate__fadeIn">
                                     <form action="#">
                                         <div className="row">

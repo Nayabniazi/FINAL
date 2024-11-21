@@ -23,22 +23,18 @@ export default function Accordion() {
             <div className="accordion" id="accordionFAQ">
                 <div className="accordion-item wow animate__animated animate__fadeIn">
                     <h5 className="accordion-header" onClick={() => handleToggle(1)}>
-                        <button className={isActive.key == 1 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}style={{backgroundColor:'orange'}}>How can I return an item
-                            purchased online?</button>
+                        <button className={isActive.key == 1 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}style={{backgroundColor:'orange'}}>How can Our BinBear Company is
+                            preferable?</button>
                     </h5>
                     <div className={isActive.key == 1 ? "accordion-collapse" : "accordion-collapse collapse"}>
-                        <div className="accordion-body">Contrary to popular belief, Lorem Ipsum is not
-                            simply random text. It has roots in a piece of classical Latin literature Id
-                            pro doctus mediocrem erroribus, diam nostro sed cu. Ea pri graeco tritani
-                            partiendo. Omittantur No tale choro fastidii his, pri cu epicuri perpetua.
-                            Enim dictas omittantur et duo, vocent lucilius quaestio mea ex. Ex illum
-                            officiis id.</div>
+                        <div className="accordion-body">At BinBear, we make junk removal effortless. Whether it’s a single item or a full property cleanout, our team is here to handle every step. With BinBear 
+                            .</div>
                     </div>
                 </div>
                 <div className="accordion-item wow animate__animated animate__fadeIn">
                     <h5 className="accordion-header" onClick={() => handleToggle(2)}>
-                        <button className={isActive.key == 2 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}style={{backgroundColor:'black'}}>Can I cancel or change
-                            my order?</button>
+                        <button className={isActive.key == 2 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}style={{backgroundColor:'black'}}>Can Pay Only for the Space You Use
+                            ?</button>
                     </h5>
                     <div className={isActive.key == 2 ? "accordion-collapse" : "accordion-collapse collapse"}>
                         <div className="accordion-body">Aut architecto consequatur sit error nemo sed
@@ -64,8 +60,8 @@ export default function Accordion() {
                 </div>
                 <div className="accordion-item wow animate__animated animate__fadeIn">
                     <h5 className="accordion-header" onClick={() => handleToggle(4)}>
-                        <button className={isActive.key == 4 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}style={{backgroundColor:'black'}}>What are the delivery
-                            types you use?</button>
+                        <button className={isActive.key == 4 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}style={{backgroundColor:'black'}}>What Fast & Friendly Service
+                           ?</button>
                     </h5>
                     <div className={isActive.key == 4 ? "accordion-collapse" : "accordion-collapse collapse"}>
                         <div className="accordion-body">Et beatae quae ex minima porro aut nihil quia sed
@@ -79,8 +75,8 @@ export default function Accordion() {
                 </div>
                 <div className="accordion-item wow animate__animated animate__fadeIn">
                     <h5 className="accordion-header" onClick={() => handleToggle(5)}>
-                        <button className={isActive.key == 5 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}style={{backgroundColor:'black'}}>How can I pay for my
-                            purchases?</button>
+                        <button className={isActive.key == 5 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}style={{backgroundColor:'black'}}>How can Low Price Guarantee
+                            ?</button>
                     </h5>
                     <div className={isActive.key == 5 ? "accordion-collapse" : "accordion-collapse collapse"}>
                         <div className="accordion-body">Qui quas itaque ut molestias culpa vel culpa

@@ -50,11 +50,9 @@ export default function Project1Slider() {
                     <div className="cardGrid">
                         <div className="cardImage"> <img src="/assets/imgs/page/blog-single/bagi.png"height={240} alt="transp" /></div>
                         <div className="cardInfo">
-                            <h5 className="color-brand-2 mb-10">Air Freight</h5>
-                            <p className="font-xs color-grey-500">Aut ducimus inventore aut nihil
-                                exercitationem sed iure repellendus. Qui suscipit eaque aut
-                                necessitatibus quia ut expedita possimus. Sed consequatur consectetur ab
-                                fugit architecto</p>
+                            <h5 className="color-brand-2 mb-10">Free, Upfront Estimates</h5>
+                            <p className="font-xs color-grey-500">
+                            Know the cost before we start, with no hidden fees. </p>
                             <div className="box-button mt-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -66,11 +64,9 @@ export default function Project1Slider() {
                     <div className="cardGrid">
                         <div className="cardImage"> <img src="/assets/imgs/page/blog-single/bagy.png"height={240} alt="transp" /></div>
                         <div className="cardInfo">
-                            <h5 className="color-brand-2 mb-10">Sea Freight</h5>
-                            <p className="font-xs color-grey-500">Aut ducimus inventore aut nihil
-                                exercitationem sed iure repellendus. Qui suscipit eaque aut
-                                necessitatibus quia ut expedita possimus. Sed consequatur consectetur ab
-                                fugit architecto</p>
+                            <h5 className="color-brand-2 mb-10">Eco-Friendly Solutions</h5>
+                            <p className="font-xs color-grey-500">
+                            We recycle up to 60% of what we haul, helping to reduce landfill waste and protect the environment.  </p>
                             <div className="box-button mt-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -82,11 +78,9 @@ export default function Project1Slider() {
                     <div className="cardGrid">
                         <div className="cardImage"> <img src="/assets/imgs/page/blog-single/bag.png"height={230} alt="transp" /></div>
                         <div className="cardInfo">
-                            <h5 className="color-brand-2 mb-10">Trucking</h5>
-                            <p className="font-xs color-grey-500">Aut ducimus inventore aut nihil
-                                exercitationem sed iure repellendus. Qui suscipit eaque aut
-                                necessitatibus quia ut expedita possimus. Sed consequatur consectetur ab
-                                fugit architecto</p>
+                            <h5 className="color-brand-2 mb-10">Junk Removal Bags</h5>
+                            <p className="font-xs color-grey-500">
+                            you’re dealing with outdated office furniture, discarded electronics, or leftover construction materials </p>
                             <div className="box-button mt-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -98,11 +92,10 @@ export default function Project1Slider() {
                     <div className="cardGrid">
                         <div className="cardImage"> <img src="/assets/imgs/page/homepage1/img4.png" alt="transp" /></div>
                         <div className="cardInfo">
-                            <h5 className="color-brand-2 mb-10">Warehouse</h5>
-                            <p className="font-xs color-grey-500">Aut ducimus inventore aut nihil
-                                exercitationem sed iure repellendus. Qui suscipit eaque aut
-                                necessitatibus quia ut expedita possimus. Sed consequatur consectetur ab
-                                fugit architecto</p>
+                            <h5 className="color-brand-2 mb-10">Dumpster Rentals</h5>
+                            <p className="font-xs color-grey-500">With insured operators and fair pricing, BinBear delivers great value and eco-friendly services.
+
+                                </p>
                             <div className="box-button mt-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />

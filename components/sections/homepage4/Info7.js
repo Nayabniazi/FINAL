@@ -35,8 +35,7 @@ export default function Info7() {
                                             design trends meet hand-crafted templates.</p>
                                     </div>
                                 </div>
-                                <div className="d-flex mt-20"><Link className="mr-10 wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/template/playbutton.png"style={{height:'50px',}} alt="transp" /></Link><Link className="wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/template/google.png"style={{height:'50px'}} alt="transp" /></Link></div>
-                            </div>
+                                  </div>
                         </div>
                     </div>
                 </div>

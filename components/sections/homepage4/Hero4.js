@@ -10,8 +10,8 @@ export default function Hero4() {
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-12">
-                                <p className="font-md color-white mb-15 wow animate__animated animate__fadeIn">Logistics &amp;
-                                    Transportation</p>
+                                <p className="font-md color-white mb-15 wow animate__animated animate__fadeIn">junk Removal Solutions
+                                    </p>
                                 <h1 className="color-white mb-25 wow animate__animated animate__fadeIn">Same Day Junk Remval Service
                                     <br className="d-none d-lg-block" />professional solutions</h1>
                                 <div className="row">

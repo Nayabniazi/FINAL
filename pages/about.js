@@ -22,8 +22,8 @@ export default function About() {
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-6 mb-30">
-                                <h2 className="color-black mb-25 wow animate__animated animate__fadeIn">Simplifying complex shipping challenges with innovative solutions</h2>
-                                <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">Logistics companies are essential to the smooth functioning of global supply chains. They offer a range of services such as transportation, warehousing, inventory management, and distribution to businesses across different industries. The role of logistics companies has become increasingly important in recent years due to the growth of e-commerce and global trade.</p>
+                                <h2 className="color-black mb-25 wow animate__animated animate__fadeIn">Simplifying  challenges with innovative solutions</h2>
+                                <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">Junk Removal are essential to the smooth functioning of global supply chains. They offer a range of services such as transportation, warehousing, inventory management, and distribution to businesses across different industries. The role of logistics companies has become increasingly important in recent years due to the growth of e-commerce and global trade.</p>
                                 <div className="box-button mt-40"><Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeIn" href="#"style={{backgroundColor:'orange'}}>Calculate Package</Link><a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeIn" onClick={() => setOpen(true)}><img src="/assets/imgs/template/icons/play.svg" alt="transp"  style={{ backgroundColor: 'orange', borderRadius: '50%', padding: '2px' }}/></a></div>
                                 <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)}  />
                             </div>
@@ -79,8 +79,7 @@ export default function About() {
                                 <div className="box-info-aabout-2"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>Our Partners</span>
                                     <h2 className="color-black mt-15 mb-25 wow animate__animated animate__fadeIn">We have established strong relationships with our partners</h2>
                                     <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">We strive to become pioneers in the field, providing first quality and cost-effective service, and smart solutions to the market. Our 30 years’ experience in the shipping, transport and logistics industry is our strength, which support us to deliver our promises to our customers.</p>
-                                    <div className="box-button d-flex mt-40"><Link className="hover-up mr-10 wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/template/playbutton.png"height={60} alt="transp" /></Link><Link className="hover-up wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/template/google.png"height={60} alt="transp" /></Link></div>
-                                </div>
+                               </div>
                             </div>
                         </div>
                     </div>

@@ -6,10 +6,8 @@ export default function Howitwork1() {
                 <div className="container">
                     <div className="text-center"><img className="mb-15" src="/assets/imgs/template/icons/favicon.svg" alt="transp" />
                         <h2 className="color- mb-20 wow animate__animated animate__fadeIn"style={{color:'black'}}>How It Works</h2>
-                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">You choose the cities where
-                            you’d like to deliver. All deliveries are within a specific service area and delivery services
-                            vary by location. Whatever the mode or requirement, we will find and book the ideal expedited
-                            shipping solution to ensure a timely delivery.</p>
+                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">At BinBear, we make junk removal effortless. Whether it’s a single item or a full property cleanout, our team is here to handle every step. With BinBear
+                           .</p>
                     </div>
                     <div className="row mt-50">
                         <div className="col-lg-6 mb-30">
@@ -31,46 +29,41 @@ export default function Howitwork1() {
                                 <li>
                                     <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/order.png" alt="transp" /></span></div>
                                     <div className="info-how">
-                                        <h5 className="color-wow animate__animated animate__fadeIn"style={{color:'black'}}>Customer places
-                                            order</h5>
-                                        <p className="font-md color-black-700 wow animate__animated animate__fadeIn">Inspection
-                                            and quality check of goods</p>
+                                        <h5 className="color-wow animate__animated animate__fadeIn"style={{color:'black'}}>Free, Upfront Estimates
+                                            </h5>
+                                        <p className="font-md color-black-700 wow animate__animated animate__fadeIn">
+                                        Know the cost before we start, with no hidden fees </p>
                                     </div>
                                 </li>
                                 <li>
                                     <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp" /></span></div>
                                     <div className="info-how">
-                                        <h5 className="color-wow animate__animated animate__fadeIn"style={{color:'black'}}>Payment successful
+                                        <h5 className="color-wow animate__animated animate__fadeIn"style={{color:'black'}}>Pay Only for the Space You Use
                                         </h5>
-                                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Payoneer,
-                                            Paypal, or Visa master card</p>
+                                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">You’re charged based on the volume your items take up in our truck.
+                                            </p>
                                     </div>
                                 </li>
                                 <li>
                                     <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
                                     <div className="info-how">
-                                        <h5 className="color- wow animate__animated animate__fadeIn"style={{color:'black'}}>Warehouse receives
-                                            order</h5>
-                                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Check the
-                                            accuracy of the goods.</p>
+                                        <h5 className="color- wow animate__animated animate__fadeIn"style={{color:'black'}}>
+                                        Eco-Friendly Solutions </h5>
+                                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">We recycle up to 60% of what we haul, helping to reduce landfill waste and protect the environment.
+
+                                           .</p>
                                     </div>
                                 </li>
                                 <li>
-                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/picked.png" alt="transp" /></span></div>
-                                    <div className="info-how">
-                                        <h5 className="color- wow animate__animated animate__fadeIn"style={{color:'black'}}>Item picked, packed
-                                            &amp; shipped</h5>
-                                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Ship the
-                                            goods to a local carrier</p>
-                                    </div>
+                                    
                                 </li>
                                 <li>
                                     <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></span></div>
                                     <div className="info-how">
-                                        <h5 className="color- wow animate__animated animate__fadeIn"style={{color:'black'}}>Delivered &amp; Measure
-                                            success</h5>
-                                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Update order
-                                            status on the system</p>
+                                        <h5 className="color- wow animate__animated animate__fadeIn"style={{color:'black'}}>UnBearable junk Problem Solved at UnBearlievable Value
+                                            </h5>
+                                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">When you choose BinBear, all you have to do is point, and we take care of the rest!
+                                        </p>
                                     </div>
                                 </li>
                             </ul>

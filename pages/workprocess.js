@@ -48,21 +48,17 @@ export default function WorkProcess() {
                                     <li className="wow animate__animated animate__fadeIn">
                                         <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
                                         <div className="info-how">
-                                            <h5 className="color-black">Warehouse receives order</h5>
-                                            <p className="font-md color-grey-700">Check the accuracy of the goods.</p>
+                                            <h5 className="color-black">Recycling Services</h5>
+                                            <p className="font-md color-grey-700">make the accuracy of the goods.</p>
                                         </div>
                                     </li>
                                     <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/picked.png" alt="transp" /></span></div>
-                                        <div className="info-how">
-                                            <h5 className="color-black">Item picked, packed &amp; shipped</h5>
-                                            <p className="font-md color-grey-700">Ship the goods to a local carrier</p>
-                                        </div>
+                                        
                                     </li>
                                     <li className="wow animate__animated animate__fadeIn">
                                         <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></span></div>
                                         <div className="info-how">
-                                            <h5 className="color-black">Delivered &amp; Measure success</h5>
+                                            <h5 className="color-black">Dumpster Rentals</h5>
                                             <p className="font-md color-grey-700">Update order status on the system</p>
                                         </div>
                                     </li>
@@ -87,8 +83,8 @@ export default function WorkProcess() {
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-6 mb-60"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/page/workprocess/parachute.png" alt="transp" />
-                                <h3 className="color-black mb-15 wow animate__animated animate__fadeIn">Logistics Defined</h3>
-                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Logistics is the planning framework used by the management of an organization to facilitate the distribution of personnel, materiel, service, information and capital flows.</p>
+                                <h3 className="color-black mb-15 wow animate__animated animate__fadeIn">Junk Removals Defined</h3>
+                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Junk Removal is the planning framework used by the management of an organization to facilitate the distribution of personnel, materiel, service, information and capital flows.</p>
                                 <div className="mt-20"><Link className="btn btn-link font-sm color-black wow animate__animated animate__fadeIn" href="#">View Details<span>
                                     <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -99,7 +95,7 @@ export default function WorkProcess() {
                         <div className="row align-items-center">
                             <div className="col-lg-6 mb-60"><Link className="wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/page/workprocess/img2.png" alt="transp" /></Link></div>
                             <div className="col-lg-6 mb-60"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/page/workprocess/pallet.png" alt="transp" />
-                                <h3 className="color-black mb-15 wow animate__animated animate__fadeIn">Logistical Processes</h3>
+                                <h3 className="color-black mb-15 wow animate__animated animate__fadeIn">Junk Removal Company Processes</h3>
                                 <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Logistics is the planning framework used by the management of an organization to facilitate the distribution of personnel, materiel, service, information and capital flows.</p>
                                 <div className="mt-20 wow animate__animated animate__fadeIn"><Link className="btn btn-link font-sm color-black" href="#">View Details<span>
                                     <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -109,8 +105,8 @@ export default function WorkProcess() {
                         </div>
                         <div className="row align-items-center">
                             <div className="col-lg-6 mb-60"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/page/workprocess/plane.png" alt="transp" />
-                                <h3 className="color-black mb-15 wow animate__animated animate__fadeIn">Production Management</h3>
-                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Logistics is the planning framework used by the management of an organization to facilitate the distribution of personnel, materiel, service, information and capital flows.</p>
+                                <h3 className="color-black mb-15 wow animate__animated animate__fadeIn">Services Management</h3>
+                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Junk Removal Company is the planning framework used by the management of an organization to facilitate the distribution of personnel, materiel, service, information and capital flows.</p>
                                 <div className="mt-20"><Link className="btn btn-link font-sm color-brand-2 wow animate__animated animate__fadeIn" href="#">View Details<span>
                                     <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -122,7 +118,7 @@ export default function WorkProcess() {
                             <div className="col-lg-6 mb-60 wow animate__animated animate__fadeIn"><Link href="#"><img src="/assets/imgs/page/workprocess/img4.png" alt="transp" /></Link></div>
                             <div className="col-lg-6 mb-60"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/page/workprocess/cardboard.png" alt="transp" />
                                 <h3 className="color-black mb-15 wow animate__animated animate__fadeIn">Assembly Processing</h3>
-                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Logistics is the planning framework used by the management of an organization to facilitate the distribution of personnel, materiel, service, information and capital flows.</p>
+                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Junk Removal Company is the planning framework used by the management of an organization to facilitate the distribution of personnel, materiel, service, information and capital flows.</p>
                                 <div className="mt-20 wow animate__animated animate__fadeIn"><Link className="btn btn-link font-sm color-brand-2" href="#">View Details<span>
                                     <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />

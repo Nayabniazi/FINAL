@@ -18,19 +18,19 @@ export default function Info6() {
                             <div className="box-info-6"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>Who We
                                 Are?</span>
                                 <h2 className="color-grey-900 mb-20 mt-15 wow animate__animated animate__fadeIn">We are the
-                                    world's leading shipping service provider</h2>
+                                    world's leading Junk Removal service provider</h2>
                                 <p className="font-md color-grey-900 mb-35 wow animate__animated animate__fadeIn">Over the
                                     years, we have worked together to expand our network of partners to deliver reliability
                                     and consistency. We’ve also made significant strides to tightly integrate technology
                                     with our processes, giving our clients greater visibility into every engagement.</p>
                                 <div className="row">
                                     <div className="col-lg-6 mb-30 wow animate__animated animate__fadeIn">
-                                        <h6 className="chart-title font-md-bold color-grey-900">Boost your sale</h6>
+                                        <h6 className="chart-title font-md-bold color-grey-900">Eco-Friendly Solutions</h6>
                                         <p className="font-xs color-grey-900">The latest design trends meet hand-crafted
                                             templates.</p>
                                     </div>
                                     <div className="col-lg-6 mb-30 wow animate__animated animate__fadeIn">
-                                        <h6 className="chart-title font-md-bold color-grey-900">Boost your sale</h6>
+                                        <h6 className="chart-title font-md-bold color-grey-900">Eco-Friendly Solutions</h6>
                                         <p className="font-xs color-grey-900">The latest design trends meet hand-crafted
                                             templates.</p>
                                     </div>

@@ -6,13 +6,16 @@ export default function OurTeam() {
     const [isOpen, setOpen] = useState(false)
     return (
         <>
-            <Layout>
-                <section className="section mt-70">
+            <Layout> <section className="section mt-70">
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-lg-6 mb-30"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>Meet Our Team</span>
-                                <h3 className="color-grey-900 mb-25 mt-15 wow animate__animated animate__fadeIn">We're excited to introduce you to the dedicated individuals who make up our logistics services company</h3>
-                                <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic growth strategies whereas prospective "outside the box" thinking.</p>
+                            <div className="col-lg-6 mb-30"><span className="btn btn-tag wow animate__animated animate__fadeIn">Meet Our Team</span>
+                                <h3 className="color-grey-900 mb-25 mt-15 wow animate__animated animate__fadeIn">BinBear’s Junk Recycling Service</h3>
+                             
+                    
+              
+                                <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">Our team is dedicated to recycling as much as possible. Currently, we successfully recycle about 60% of the junk we collect, making a positive impact one load at a time. Explore our recycling service to learn more about how we contribute to a cleaner, greener world.
+                                .</p>
                                 <div className="mt-70 wow animate__animated animate__fadeIn"><Link className="btn btn-brand-2 mr-20" href="/contact"style={{backgroundColor:'orange',color:'black'}}>Free Estimate</Link><Link className="btn btn-link-medium" href="#">Learn More
                                     <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path srokelinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -331,15 +334,15 @@ export default function OurTeam() {
                         <div className="row align-items-center">
                             <div className="col-lg-6 mb-50">
                                 <div className="box-info-6 box-info-8"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>Who We Are?</span>
-                                    <h2 className="color-grey-900 mb-20 mt-15 wow animate__animated animate__fadeIn">We are the world's leading shipping service provider</h2>
+                                    <h2 className="color-grey-900 mb-20 mt-15 wow animate__animated animate__fadeIn">We are the world's leading Junk removal service provider</h2>
                                     <p className="font-md color-grey-900 mb-35 wow animate__animated animate__fadeIn">Over the years, we have worked together to expand our network of partners to deliver reliability and consistency. We’ve also made significant strides to tightly integrate technology with our processes, giving our clients greater visibility into every engagement.</p>
                                     <div className="row">
                                         <div className="col-lg-6 mb-30">
-                                            <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Boost your sale</h6>
+                                            <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Eco-Friendly Solutions</h6>
                                             <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
                                         </div>
                                         <div className="col-lg-6 mb-30">
-                                            <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Boost your sale</h6>
+                                            <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Eco-Friendly Solutions</h6>
                                             <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
                                         </div>
                                         <div className="col-lg-6 mb-30">

@@ -108,8 +108,7 @@ export default function Newsletter() {
                                             </li>
                                         </ul>
                                     </div>
-                                    <div className="mt-30 text-start d-flex"> <Link className="hover-up mr-10" href="#"> <img src="/assets/imgs/template/playbutton.png"height={30} alt="transp" /></Link><Link className="hover-up" href="#"> <img src="/assets/imgs/template/google.png"height={30} alt="transp" /></Link></div>
-                                </div>
+                                    </div>
                             </div>
                         </div>
                     </div>

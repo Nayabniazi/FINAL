@@ -34,21 +34,15 @@ export default function Login() {
             <Layout>
                 <section className="section box-login">
                     <div className="row align-items-center m-0">
-                        <div className="col-lg-6">
+                        <div className="col-lg-6"style={{marginBottom:'500px'}}>
                             <div className="box-login-left">
                                 <h2 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Booking Now</h2>
                                 <p className="font-md color-grey-500 wow animate__animated animate__fadeIn">Access to all features. No credit card required.</p>
-                                <div className="box-btn-signin mt-55 wow animate__animated animate__fadeIn"><Link className="btn btn-signin mb-10" href="#"><img src="/assets/imgs/page/login/Google.svg" alt="Transp" />Sign in with Google</Link><Link className="btn btn-signin" href="#"><img src="/assets/imgs/page/login/apple.svg" alt="Transp" />Continue with Apple ID</Link></div>
-                                <div className="box-or-login wow animate__animated animate__fadeIn"><span className="text-or font-xs color-grey-500">Or continue with</span></div>
-                                <div className="box-form-login wow animate__animated animate__fadeIn">
+                               
+                                 <div className="box-form-login wow animate__animated animate__fadeIn">
                                     <form action="#">
-                                        <div className="form-group">
-                                            <input className="form-control" type="text" placeholder="Email Address *" />
-                                        </div>
-                                        <div className="form-group">
-                                            <input className="form-control" type="password" placeholder="Enter Your Password" />
-                                        </div>
-
+                                       
+                                       
 
 
 
@@ -58,15 +52,10 @@ export default function Login() {
                                         <div className="form-group">
                                             <div className="d-flex justify-content-between">
                                                 <div className="box-remember">
-                                                    <label className="font-xs color-grey-900" htmlFor="rememberme">
-                                                        <input id="rememberme" type="checkbox" />Remember me
-                                                    </label>
+                                                   
                                                 </div>
-                                                <div className="box-forgotpass"><Link className="font-xs color-brand-2" href="#">Forgot your password?</Link></div>
-                                            </div>
+                                                    </div>
                                         </div>
-
-
 
 
                                         <div  onSubmit={handleSubmit}
@@ -77,6 +66,8 @@ export default function Login() {
                 position: "relative",
             }}
         >
+
+
 
       
 <label
@@ -172,11 +163,8 @@ export default function Login() {
 
                                         <div className="form-group mt-30">
                                             <div className="d-flex align-items-center justify-content-between">
-                                                <div className="box-button-form-login">
-                                                    <input className="btn btn-brand-1-big mr-20" type="submit" defaultValue="Sign In" />
-                                                </div>
-                                                <div className="box-text-form-login"><span className="font-xs color-grey-500">Don't Have an Account?</span><Link className="font-xs color-brand-2" href="/register">Sign up</Link></div>
-                                            </div>
+                                               
+                                                   </div>
                                         </div>
                                     </form>
                                 </div>

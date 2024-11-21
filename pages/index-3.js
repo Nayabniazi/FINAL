@@ -66,29 +66,27 @@ export default function Home3() {
                 <Projects2 />
               
               
-
-
                 <section className="section mt-50">
                     <div className="container">
-                        <div className="content-detail"><strong className="font-md-bold color-grey-900 mb-25 d-block wow animate__animated animate__fadeIn">Sea freight forwarding, also known as ocean freight forwarding, is a critical aspect of the global supply chain. It refers to the transportation of goods via cargo ships or vessels from one port to another. This mode of transportation is preferred by many businesses due to its cost-effectiveness, reliability, and ability to transport large quantities of goods. In this article, we will discuss the basics of sea freight forwarding, including its benefits, modes of transportation, and key players.</strong>
-                            <h3 className="color- wow animate__animated animate__fadeIn"style={{color:'black'}}>Modes of Sea Freight Transportation</h3>
-                            <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">There are two primary modes of sea freight transportation: Full Container Load (FCL) and Less than Container Load (LCL). FCL is used when the shipment is large enough to fill="none" an entire container. On the other hand, LCL is used when the shipment does not require a full container. In this case, the goods are combined with other shipments to fill="none" a container. Both modes have their advantages and disadvantages.</p>
+                        <div className="content-detail"><strong className="font-md-bold color-grey-900 mb-25 d-block wow animate__animated animate__fadeIn">Old appliances often contain chemicals like Freon, which can be harmful to the environment. BinBear provides an eco-friendly appliance removal service, handling items  </strong>
+                            <h3 className="color- wow animate__animated animate__fadeIn"style={{color:'black'}}>Terms apply, Not valid below minimum charge or combined with other offers</h3>
+                            <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">Not all junk needs to go to waste. Usable items can be repurposed, sold, or donated. Once you’ve handled what you can, BinBear is here to help with the rest, offering:
+                            Electronic waste (e-waste) includes items like computers, TVs, and phones, which contain valuable and potentially harmful materials. Disposing of these items in landfills releases toxic metals into the environment. BinBear offers safe, eco-friendly e-waste removal, ensuring that your electronics are recycled responsibly.                    </p>
                             <p className="wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/service-detail/img3.png" alt="transp" /></p>
-                            <p className="wow animate__animated animate__fadeIn">There are two primary modes of sea freight transportation: Full Container Load (FCL) and Less than Container Load (LCL). FCL is used when the shipment is large enough to fill="none" an entire container. On the other hand, LCL is used when the shipment does not require a full container. In this case, the goods are combined with other shipments to fill="none" a container. Both modes have their advantages and disadvantages.</p>
-                            <p className="wow animate__animated animate__fadeIn">There are two primary modes of sea freight transportation: Full Container Load (FCL) and Less than Container Load (LCL). FCL is used when the shipment is large enough to fill="none" an entire container. On the other hand, LCL is used when the shipment does not require a full container. In this case, the goods are combined with other shipments to fill="none" a container. Both modes have their advantages and disadvantages.</p>
-                            <h3 className="wow animate__animated animate__fadeIn"style={{color:'black'}}>Benefits of Sea Freight Forwarding</h3>
+                            <p className="wow animate__animated animate__fadeIn">While many recyclables can be disposed of for free, larger items may come with fees. BinBear offers transparent, upfront pricing with free estimates. We show up on time, provide a written estimate, and, if you’re happy, we can often take your items on the spot..</p>
+                            <p className="wow animate__animated animate__fadeIn">While many recyclables can be disposed of for free, larger items may come with fees. BinBear offers transparent, upfront pricing with free estimates. We show up on time, provide a written estimate, and, if you’re happy, we can often take your items on the spot..</p>
+                            <h3 className="wow animate__animated animate__fadeIn"style={{color:'black'}}>Big Trucks, Big Value</h3>
                             <div className="row align-items-center">
                                 <div className="col-lg-7 wow animate__animated animate__fadeIn">
-                                    <p>Sea freight forwarding offers several benefits to businesses that use it to transport their goods. Some of the benefits include:</p>
+                                    <p>Every business, no matter the industry, generates junk. Over time, old office furniture, equipment, and various forms of debris tend to pile up. If your business is ready to clear out the clutter, BinBear is here to help with affordable, tailored commercial junk removal solutions.</p>
                                     <p>Cost-Effectiveness: Sea freight forwarding is one of the most cost-effective modes of transportation, especially for businesses that require the transportation of large quantities of goods. This is because cargo ships can transport large volumes of goods at a lower cost compared to other modes of transportation.</p>
-                                    <p>Sea freight forwarding is a reliable mode of transportation since it is not affected by traffic or weather conditions. Additionally, cargo ships are designed to withstand harsh weather conditions, which reduces the risk of damage or loss of goods.</p>
+                                    <p>Junk Dumpster forwarding is a reliable mode since it is not affected by traffic or weather conditions. Additionally, cargo ships are designed to withstand harsh weather conditions, which reduces the risk of damage or loss of goods.</p>
                                 </div>
                                 <div className="col-lg-5 wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/service-detail/img4.png" alt="transp" /></div>
                             </div>
                         </div>
                     </div>
                 </section>
-
 
 
 

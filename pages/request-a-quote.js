@@ -13,7 +13,7 @@ export default function Quote() {
                     <div className="box-bg-requestaquote-4" style={{height:'400px'}}/>
                     <div className="container">
                         <div className="text-center mt-100">
-                            <h2 className="color-black wow animate__animated animate__fadeIn">Request a quote for<br className="d-none d-lg-block" />shipping services</h2>
+                            <h2 className="color-black wow animate__animated animate__fadeIn">Commercial Junk Removal Services by BinBear<br className="d-none d-lg-block" />Service</h2>
                             <div className="box-button mt-30"><Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeIn" href="#"style={{backgroundColor:'orange',color:'black'}}>Calculate Package</Link><a className="btn btn-play popup-youtube hover-up color-brand-2 wow animate__animated animate__fadeIn" onClick={() => setOpen(true)}><img src="/assets/imgs/template/icons/play.svg" alt=""style={{ backgroundColor: 'orange', borderRadius: '50%', padding: '2px' ,color:'black'}} />How it work ?</a></div>
                             <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)} />
                         </div>
@@ -26,11 +26,12 @@ export default function Quote() {
                     <div className="container">
                         <div className="row mt-50 align-items-center">
                             <div className="col-lg-6 mb-30">
-                                <h6 className="color-black mb-15 wow animate__animated animate__fadeIn">International tracking for</h6>
-                                <h2 className="color-black mb-25 wow animate__animated animate__fadeIn">Any post office tracking</h2>
+                                <h6 className="color-black mb-15 wow animate__animated animate__fadeIn">Commercial Junking process</h6>
+                                <h2 className="color-black mb-25 wow animate__animated animate__fadeIn">Why Choose BinBear for Commercial Junk Removal?</h2>
                                 <div className="row">
                                     <div className="col-lg-9">
-                                        <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">Our tracking system is updated in real-time, so you can rest assured that you are getting the most up-to-date information on your parcel's progress. We also offer notifications via email or SMS, so you can receive updates on your parcel's status right to your phone.</p>
+                                        <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">Every business, no matter the industry, generates junk. Over time, old office furniture, equipment, and various forms of debris tend to pile up. If your business is ready to clear out the clutter, BinBear is here to help with affordable, tailored commercial junk removal solutions.
+                                        .</p>
                                     </div>
                                 </div>
                                 <div className="row mt-50">
@@ -171,21 +172,17 @@ export default function Quote() {
                                     <li>
                                         <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
                                         <div className="info-how">
-                                            <h5 className="color-black wow animate__animated animate__fadeIn">Warehouse receives order</h5>
-                                            <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Check the accuracy of the goods.</p>
+                                            <h5 className="color-black wow animate__animated animate__fadeIn">Recycle Services</h5>
+                                            <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">make the accuracy of the goods.</p>
                                         </div>
                                     </li>
                                     <li>
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/picked.png" alt="transp" /></span></div>
-                                        <div className="info-how">
-                                            <h5 className="color-black wow animate__animated animate__fadeIn">Item picked, packed &amp; shipped</h5>
-                                            <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Ship the goods to a local carrier</p>
-                                        </div>
+                                        
                                     </li>
                                     <li>
                                         <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></span></div>
                                         <div className="info-how">
-                                            <h5 className="color-black wow animate__animated animate__fadeIn">Delivered &amp; Measure success</h5>
+                                            <h5 className="color-black wow animate__animated animate__fadeIn">Dumpster Rentals</h5>
                                             <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Update order status on the system</p>
                                         </div>
                                     </li>

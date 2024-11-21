@@ -27,8 +27,7 @@ export default function TrackParcel() {
                                     </div>
                                 </form>
                             </div>
-                            <div className="mt-40 d-flex justify-content-center"><Link className="hover-up mr-10 wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/template/playbutton.png" style={{height:'50px',}}alt="transp" /></Link><Link className="hover-up wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/template/google.png"style={{height:'50px'}} alt="transp" /></Link></div>
-                        </div>
+                             </div>
                     </div>
                 </section>
                 <section className="section pt-85">
@@ -181,7 +180,7 @@ export default function TrackParcel() {
                         <div className="row align-items-center">
                             <div className="col-lg-6 mb-50">
                                 <div className="box-info-6 box-info-8"><span className="btn btn-tag wow animate__animated animate__fadeIn">Who We Are?</span>
-                                    <h2 className="color-grey-900 mb-20 mt-15 wow animate__animated animate__fadeIn">We are the world's leading shipping service provider</h2>
+                                    <h2 className="color-grey-900 mb-20 mt-15 wow animate__animated animate__fadeIn">We are the world's leading Junk Removing service provider</h2>
                                     <p className="font-md color-grey-900 mb-35 wow animate__animated animate__fadeIn">Over the years, we have worked together to expand our network of partners to deliver reliability and consistency. We’ve also made significant strides to tightly integrate technology with our processes, giving our clients greater visibility into every engagement.</p>
                                     <div className="row">
                                         <div className="col-lg-6 mb-30">

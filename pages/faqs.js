@@ -31,30 +31,27 @@ export default function Faq() {
                         <div className="row mt-50">
                             <div className="col-lg-6">
                                 <div className="item-faqs-2 mb-30"><Link href="#">
-                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">What is logistic cargo?</h6></Link>
-                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Logistic cargo refers to the process of planning, implementing, and controlling the movement of goods and materials from one place to another. This includes everything from transportation, storage, inventory management, and more.</p>
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">What is Junk Removal?</h6></Link>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Junk Removal refers to the process of planning, implementing, and controlling the movement of goods and materials from one place to another. This includes everything from rentals, storage, inventory management, and more.</p>
                                 </div>
                                 <div className="item-faqs-2 mb-30"><Link href="#">
-                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">What are the types of logistic cargo?</h6></Link>
-                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">There are several types of logistic cargo, including air freight, sea freight, road transport, rail transport, and intermodal transport.</p>
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">What are the types of Juck Removal?</h6></Link>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">There are several types of Junk Removal, including air freight, sea freight, road Dumpster, rail rentals, and intermodal rentals.</p>
                                 </div>
                                 <div className="item-faqs-2 mb-30"><Link href="#">
-                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">What is the difference between freight and cargo?</h6></Link>
-                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Freight refers to the goods being transported, while cargo refers to the actual containers or vessels used to transport the freight.</p>
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">What is the Junk Removal Serices?</h6></Link>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">service refers to the goods being approach, while cargo refers to the actual containers or vessels used to transport the freight.</p>
                                 </div>
                             </div>
                             <div className="col-lg-6">
+                              
                                 <div className="item-faqs-2 mb-30"><Link href="#">
-                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">What is the difference between LCL and FCL?</h6></Link>
-                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Some key factors to consider include the mode of transportation, the type of cargo being transported, the distance and route, the required delivery date, and any regulatory or customs requirements.</p>
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">How is Junk Removal priced?</h6></Link>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Junk REMOVAL is typically priced based on the weight and volume of the cargo, as well as the distance and mode of transportation.</p>
                                 </div>
                                 <div className="item-faqs-2 mb-30"><Link href="#">
-                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">How is logistic cargo priced?</h6></Link>
-                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Logistic cargo is typically priced based on the weight and volume of the cargo, as well as the distance and mode of transportation.</p>
-                                </div>
-                                <div className="item-faqs-2 mb-30"><Link href="#">
-                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">What is a logistics provider?</h6></Link>
-                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">A logistics provider is a company that specializes in providing logistics services, including transportation, storage, inventory management, and more.</p>
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">What is Junk Removal provider?</h6></Link>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">A Junk Removal provider is a company that specializes in providing logistics services, including transportation, storage, inventory management, and more.</p>
                                 </div>
                             </div>
                         </div>
