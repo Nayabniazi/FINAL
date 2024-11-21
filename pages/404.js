@@ -34,7 +34,7 @@ export default function Login() {
             <Layout>
                 <section className="section box-login">
                     <div className="row align-items-center m-0">
-                        <div className="col-lg-6"style={{marginBottom:'500px'}}>
+                        <div className="col-lg-6"style={{marginBottom:'300px'}}>
                             <div className="box-login-left">
                                 <h2 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Booking Now</h2>
                                 <p className="font-md color-grey-500 wow animate__animated animate__fadeIn">Access to all features. No credit card required.</p>
