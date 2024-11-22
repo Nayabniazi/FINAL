@@ -11,21 +11,22 @@ export default function Whychooseus3() {
                                 <div className="col-xl-6 col-lg-12 col-md-6">
                                     <div className="item-reason wow animate__animated animate__fadeIn">
                                         <div className="card-offer cardServiceStyle3 hover-up">
-                                            <div className="card-image"><img src="/assets/imgs/page/homepage4/container.png" alt="transp" /></div>
+                                            <div className="card-image"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" /></div>
                                             <div className="card-info">
-                                                <h5 className="color- mb-15"style={{color:'black'}}>Shipping Options</h5>
-                                                <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur
-                                                    adipiscing elit. Quisque commodo consectetur.</p>
+                                                <h5 className="color- mb-15"style={{color:'black'}}>#1 Junk Removal Company</h5>
+                                                <p className="font-sm color-grey-900">Our team arrives on time, ready to work with a smile.
+
+                                                    </p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="item-reason wow animate__animated animate__fadeIn">
                                         <div className="card-offer cardServiceStyle3 hover-up">
-                                            <div className="card-image"><img src="/assets/imgs/page/homepage4/24-hours.png" alt="transp" /></div>
+                                            <div className="card-image"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp" /></div>
                                             <div className="card-info">
-                                                <h5 className="color- mb-15"style={{color:'black'}}>Customer Service</h5>
-                                                <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur
-                                                    adipiscing elit. Quisque commodo consectetur.</p>
+                                                <h5 className="color- mb-15"style={{color:'black'}}>Low Price Guarantee</h5>
+                                                <p className="font-sm color-grey-900">We promise to beat any written estimate from a comparable service.
+                                                  .</p>
                                             </div>
                                         </div>
                                     </div>
@@ -33,11 +34,11 @@ export default function Whychooseus3() {
                                 <div className="col-xl-6 col-lg-12 col-md-6">
                                     <div className="item-reason mt-30 wow animate__animated animate__fadeIn">
                                         <div className="card-offer cardServiceStyle3 hover-up">
-                                            <div className="card-image"><img src="/assets/imgs/page/homepage4/stopwatch.png" alt="transp" /></div>
+                                            <div className="card-image"><img src="/assets/imgs/page/homepage1/forklift.png" alt="transp" /></div>
                                             <div className="card-info">
-                                                <h5 className="color- mb-15"style={{color:'black'}}>Timely Deliveries</h5>
-                                                <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur
-                                                    adipiscing elit. Quisque commodo consectetur.</p>
+                                                <h5 className="color- mb-15"style={{color:'black'}}>Recycling more than 60%</h5>
+                                                <p className="font-sm color-grey-900">We recycle up to 60% of what we haul, helping to reduce landfill waste and protect the environment
+                                                    .</p>
                                             </div>
                                         </div>
                                     </div>
@@ -45,9 +46,8 @@ export default function Whychooseus3() {
                                         <div className="card-offer cardServiceStyle3 hover-up">
                                             <div className="card-image"><img src="/assets/imgs/page/homepage4/pallet.png" alt="transp" /></div>
                                             <div className="card-info">
-                                                <h5 className="color- mb-15"style={{color:'black'}}>Tracking Systems</h5>
-                                                <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur
-                                                    adipiscing elit. Quisque commodo consectetur.</p>
+                                                <h5 className="color- mb-15"style={{color:'black'}}>Eco-Friendly Solutions</h5>
+                                                <p className="font-sm color-grey-900"> what we haul, helping to reduce landfill waste and protect the environment..</p>
                                             </div>
                                         </div>
                                     </div>

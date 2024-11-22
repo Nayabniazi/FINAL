@@ -27,9 +27,9 @@ export default function Howitwork1() {
                         <div className="col-lg-6 mb-30">
                             <ul className="list-how-works">
                                 <li>
-                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/order.png" alt="transp" /></span></div>
+                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" /></span></div>
                                     <div className="info-how">
-                                        <h5 className="color-wow animate__animated animate__fadeIn"style={{color:'black'}}>Free, Upfront Estimates
+                                        <h5 className="color-wow animate__animated animate__fadeIn"style={{color:'black'}}>#1 Junk Removal Company
                                             </h5>
                                         <p className="font-md color-black-700 wow animate__animated animate__fadeIn">
                                         Know the cost before we start, with no hidden fees </p>

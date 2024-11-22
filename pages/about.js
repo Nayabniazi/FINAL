@@ -44,16 +44,16 @@ export default function About() {
                             <div className="col-lg-6">
                                 <div className="box-info-aabout-2"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>Mission</span>
                                     <h2 className="color-black mt-15 mb-25 wow animate__animated animate__fadeIn">Globally Connected by Large Network</h2>
-                                    <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">At Logistic Transp, our mission is to provide our clients with exceptional transportation services that meet and exceed their expectations. We aim to be the most reliable, efficient, and cost-effective transportation provider in the industry.</p>
+                                    <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">At Junk Removals, our mission is to provide our clients with exceptional Junk Remoal services that meet and exceed their expectations. We aim to be the most reliable, efficient, and cost-effective transportation provider in the industry.</p>
                                     <div className="box-button mt-40">
                                         <div className="row">
                                             <div className="col-lg-6 mb-30">
                                                 <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Affordable Cost</h6>
-                                                <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
+                                                <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"> Our team arrives on time, ready to work with a smile..</p>
                                             </div>
                                             <div className="col-lg-6 mb-30">
                                                 <h6 className="feature-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Shot Time Delivery</h6>
-                                                <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
+                                                <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">We promise to beat any written estimate from a comparable service..</p>
                                             </div>
                                         </div>
                                     </div>
@@ -63,8 +63,11 @@ export default function About() {
                         <div className="row align-items-center item-about-2 item-about-2-revert">
                             <div className="col-lg-6">
                                 <div className="box-info-aabout-2"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>History</span>
-                                    <h2 className="color-black mt-15 mb-25 wow animate__animated animate__fadeIn">Globally Connected by Large Network</h2>
-                                    <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">Logistic Transp was founded in 2005 by a group of transportation professionals who saw an opportunity to provide a better level of service to businesses. Since our founding, we have grown to become a leading transportation provider, with a presence in over 30 countries around the world.</p>
+                                    <h2 className="color-black mt-15 mb-25 wow animate__animated animate__fadeIn">The History of Junk Removal</h2>
+                                    <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">
+Junk removal traces its roots to the evolution of waste management, a practice that has been around since the 18th century. Back then, waste piled up in city streets, posing health risks. In London, organized waste management began as a way to collect and repurpose coal ash for brick-making, eventually leading to sanitation reforms that removed waste from populated areas.
+
+In the United States, as waste production grew, so did the need for efficient disposal strategies. By the 1960s, the U.S. established national waste management policies with the **Solid Waste Disposal Act of 1965**, laying the foundation for modern junk removal. BinBear continues this legacy by offering responsible, eco-friendly junk removal solutions.</p>
                                     <div className="box-button mt-40"><Link className="btn btn-brand-2 mr-20 wow animate__animated animate__fadeIn" href="/contact"style={{backgroundColor:'orange',color:'black',}}>Free Estimate</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn More
                                         <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -78,7 +81,7 @@ export default function About() {
                             <div className="col-lg-6">
                                 <div className="box-info-aabout-2"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>Our Partners</span>
                                     <h2 className="color-black mt-15 mb-25 wow animate__animated animate__fadeIn">We have established strong relationships with our partners</h2>
-                                    <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">We strive to become pioneers in the field, providing first quality and cost-effective service, and smart solutions to the market. Our 30 years’ experience in the shipping, transport and logistics industry is our strength, which support us to deliver our promises to our customers.</p>
+                                    <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">We strive to become pioneers in the field, providing first quality and cost-effective service, and smart solutions to the market. Our 30 years’ experience in the junk removal services is our strength, which support us to deliver our promises to our customers.</p>
                                </div>
                             </div>
                         </div>
@@ -92,12 +95,13 @@ export default function About() {
                                 <p className="font-md color-grey-900 mb-40 wow animate__animated animate__fadeIn">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic growth strategies whereas prospective "outside the box" thinking.</p>
                                 <div className="row">
                                     <div className="col-lg-6 mb-30">
-                                        <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Boost your sale</h6>
-                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
+                                        <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Free, Upfront Estimates</h6>
+                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">Know the cost before we start, with no hidden fees.
+                                        .</p>
                                     </div>
                                     <div className="col-lg-6 mb-30">
-                                        <h6 className="feature-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Introducing New Features</h6>
-                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
+                                        <h6 className="feature-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Eco-Friendly Solutions</h6>
+                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">what we haul, helping to reduce landfill waste and protect the environment.</p>
                                     </div>
                                 </div>
                                 <div className="mt-20"><Link className="btn btn-brand-2 mr-20 wow animate__animated animate__fadeIn" href="/contact"style={{backgroundColor:'orange',color:'black'}}>Free Estimate</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn More

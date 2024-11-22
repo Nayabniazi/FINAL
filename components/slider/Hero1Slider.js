@@ -30,12 +30,11 @@ export default function Hero1Slider() {
                             <div className="row align-items-center">
                                 <div className="col-lg-12">
                                     <p className="font-md color-white mb-15 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Junk Removal Solutions</p>
-                                    <h1 className="color-white mb-25 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Say Goodbye to Junk<br className="d-none d-lg-block" />Convenient Dumpster Near You</h1>
+                                   <h1 className="color-white mb-25 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Leave the work to us<br className="d-none d-lg-block" />Junk Removal & Hauling Make Easy</h1>
                                     <div className="row">
                                         <div className="col-lg-6">
-                                            <p className="font-md color-white mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Our experienced team of problem solvers and
-                                                a commitment to always align with our client’s business goals
-                                                and objectives is what drives mutual success.</p>
+                                            <p className="font-md color-white mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
+                                            At BinBear, we make junk removal effortless. Whether it’s a single item or a full property cleanout, our team is here to handle every step. With BinBear, .</p>
                                         </div>
                                     </div>
                                     <div className="box-button mt-30">
@@ -56,12 +55,11 @@ export default function Hero1Slider() {
                             <div className="row align-items-center">
                                 <div className="col-lg-12">
                                     <p className="font-md color-white mb-15 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Junk Removal Solutions</p>
-                                    <h1 className="color-white mb-25 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Say Goodbye to Junk<br className="d-none d-lg-block" />Convenient Dumpster Near You</h1>
+                                    <h1 className="color-white mb-25 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Leave the work to us<br className="d-none d-lg-block" />Junk Removal & Hauling Make Easy</h1>
                                     <div className="row">
                                         <div className="col-lg-6">
-                                            <p className="font-md color-white mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Our experienced team of problem solvers and
-                                                a commitment to always align with our client’s business goals
-                                                and objectives is what drives mutual success.</p>
+                                            <p className="font-md color-white mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
+                                            At BinBear, we make junk removal effortless. Whether it’s a single item or a full property cleanout, our team is here to handle every step. With BinBear, .</p>
                                         </div>
                                     </div>
                                     <div className="box-button mt-30"><Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeInUp" href="#"style={{backgroundColor:'orange',color:'black'}}>Free Estimate</Link><a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeInUp" onClick={() => setOpen(true)}><img className="wow animate__animated animate__fadeInUp" src="/assets/imgs/template/icons/play.svg" alt="" style={{ backgroundColor: 'orange', borderRadius: '50%', padding: '2px' }}

@@ -81,12 +81,12 @@ export default function Service() {
                                 <p className="font-md color-grey-900 mb-40 wow animate__animated animate__fadeIn">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic growth strategies whereas prospective "outside the box" thinking.</p>
                                 <div className="row">
                                     <div className="col-lg-6 mb-30">
-                                        <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Boost your sale</h6>
-                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
+                                        <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Trash Removal</h6>
+                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">for yard waste, construction debris, and more.</p>
                                     </div>
                                     <div className="col-lg-6 mb-30">
-                                        <h6 className="feature-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Introducing New Features</h6>
-                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
+                                        <h6 className="feature-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Property Cleanouts</h6>
+                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">for landlords, real estate agents, and more</p>
                                     </div>
                                 </div>
                                 <div className="mt-20"><Link className="btn btn-brand-2 mr-20 wow animate__animated animate__fadeIn" href="/contact"style={{backgroundColor:'orange',color:'black'}}>Free Estimate</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn More

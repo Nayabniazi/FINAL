@@ -17,7 +17,7 @@ export default function TrackParcel() {
     backgroundRepeat: "no-repeat",
     height: "100%", opacity:'.6'}}/>
                         <div className="box-info-trackyourparcel">
-                            <h2 className="color- mb-25 wow animate__animated animate__fadeIn"style={{Color:'black'}}>JK Junk Removal Services<br className="d-none d-lg-block" />with order number</h2>
+                            <h2 className="color- mb-25 wow animate__animated animate__fadeIn"style={{Color:'black'}}>JK Junk Removal Services<br className="d-none d-lg-block" /></h2>
                             <p className="color-grey-900 font-md wow animate__animated animate__fadeIn">Track packages from China, US Post, Canada Post, Royal Mail, Deutsche Post,<br className="d-none d-lg-block" />Aliexpress, UPS, Shein, FedEx, Pitney Bowes, eBay, Amazon</p>
                             <div className="form-trackparcel wow animate__animated animate__fadeIn">
                                 <form action="#">
@@ -35,20 +35,20 @@ export default function TrackParcel() {
                         <div className="row mt-50 align-items-center">
                             <div className="col-lg-6 mb-30">
                                 <h6 className="color- mb-15 wow animate__animated animate__fadeIn"style={{color:'black'}}>International tracking for</h6>
-                                <h2 className="color- mb-25 wow animate__animated animate__fadeIn"style={{color:'black'}}>Landfill Stress in United state</h2>
+                                <h2 className="color- mb-25 wow animate__animated animate__fadeIn"style={{color:'black'}}>Learn More About Our Junk Removal?</h2>
                                 <div className="row">
                                     <div className="col-lg-9">
-                                        <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">Our tracking system is updated in real-time, so you can rest assured that you are getting the most up-to-date information on your parcel's progress. We also offer notifications via email or SMS, so you can receive updates on your parcel's status right to your phone.</p>
+                                        <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">Terms apply. Not valid below minimum charge or combined with other offers the most up-to-date information on your parcel's progress. We also offer notifications via email or SMS, so you can receive updates on your parcel's status right to your phone.</p>
                                     </div>
                                 </div>
                                 <div className="row mt-50">
                                     <div className="col-lg-6 mb-30">
-                                        <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Boost your sale</h6>
-                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
+                                        <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">What is Junk Removal?</h6>
+                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The helping conserve resources and reduce emissions. Instead of throwing away junk.</p>
                                     </div>
                                     <div className="col-lg-6 mb-30">
-                                        <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Boost your sale</h6>
-                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
+                                        <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">How To Make Junk Useble?</h6>
+                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">Recycling has changed significantly, especially since China’s 2018 ban on most plastic and recyclable imports.</p>
                                     </div>
                                     <div className="col-lg-6 mb-30">
                                         <h6 className="feature2-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Introducing New Features</h6>
@@ -100,10 +100,11 @@ export default function TrackParcel() {
                             <div className="col-xl-3 col-lg-3 col-md-6 wow animate__animated animate__fadeIn">
                                 <div className="item-reason">
                                     <div className="card-offer cardServiceStyle3 hover-up">
-                                        <div className="card-image"><img src="/assets/imgs/page/homepage4/container.png" alt="transp" /></div>
+                                        <div className="card-image"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" /></div>
                                         <div className="card-info">
-                                            <h5 className="color-mb-15"style={{color:'black'}}>Over 1200 couriers</h5>
-                                            <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo consectetur.</p>
+                                            <h5 className="color-mb-15"style={{color:'black'}}>#1 Junk Removal Company</h5>
+                                            <p className="font-sm color-grey-900">Our team arrives on time, ready to work with a smile.
+                                            .</p>
                                         </div>
                                     </div>
                                 </div>
@@ -111,10 +112,10 @@ export default function TrackParcel() {
                             <div className="col-xl-3 col-lg-3 col-md-6 wow animate__animated animate__fadeIn">
                                 <div className="item-reason">
                                     <div className="card-offer cardServiceStyle3 hover-up">
-                                        <div className="card-image"><img src="/assets/imgs/page/homepage4/24-hours.png" alt="transp" /></div>
+                                        <div className="card-image"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp" /></div>
                                         <div className="card-info">
-                                            <h5 className="color- mb-15"style={{color:'black'}}>Automatic courier</h5>
-                                            <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo consectetur.</p>
+                                            <h5 className="color- mb-15"style={{color:'black'}}>Low Price Guarantee</h5>
+                                            <p className="font-sm color-grey-900"> We promise to beat any written estimate from a comparable service..</p>
                                         </div>
                                     </div>
                                 </div>
@@ -122,10 +123,10 @@ export default function TrackParcel() {
                             <div className="col-xl-3 col-lg-3 col-md-6 wow animate__animated animate__fadeIn">
                                 <div className="item-reason">
                                     <div className="card-offer cardServiceStyle3 hover-up">
-                                        <div className="card-image"><img src="/assets/imgs/page/homepage4/stopwatch.png" alt="transp" /></div>
+                                        <div className="card-image"><img src="/assets/imgs/page/homepage1/forklift.png" alt="transp" /></div>
                                         <div className="card-info">
-                                            <h5 className="color-mb-15"style={{color:'black'}}>Real-time alert</h5>
-                                            <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo consectetur.</p>
+                                            <h5 className="color-mb-15"style={{color:'black'}}>Recycling More Than 60%</h5>
+                                            <p className="font-sm color-grey-900">We recycle up to 60% of what we haul,  protect the environment..</p>
                                         </div>
                                     </div>
                                 </div>
@@ -135,8 +136,9 @@ export default function TrackParcel() {
                                     <div className="card-offer cardServiceStyle3 hover-up">
                                         <div className="card-image"><img src="/assets/imgs/page/homepage4/pallet.png" alt="transp" /></div>
                                         <div className="card-info">
-                                            <h5 className="color- mb-15"style={{color:'black'}}>Email alerts</h5>
-                                            <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo consectetur.</p>
+                                            <h5 className="color- mb-15"style={{color:'black'}}>Eco-Friendly Solutions</h5>
+                                            <p className="font-sm color-grey-900">what we haul, helping to reduce landfill waste and protect the environment.
+                                            .</p>
                                         </div>
                                     </div>
                                 </div>
@@ -184,20 +186,20 @@ export default function TrackParcel() {
                                     <p className="font-md color-grey-900 mb-35 wow animate__animated animate__fadeIn">Over the years, we have worked together to expand our network of partners to deliver reliability and consistency. We’ve also made significant strides to tightly integrate technology with our processes, giving our clients greater visibility into every engagement.</p>
                                     <div className="row">
                                         <div className="col-lg-6 mb-30">
-                                            <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Boost your sale</h6>
-                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
+                                            <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Fast & Friendly Service</h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">Our team arrives on time, ready to work with a smile.</p>
                                         </div>
                                         <div className="col-lg-6 mb-30">
-                                            <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Boost your sale</h6>
-                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
+                                            <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Eco-Friendly Solutions</h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"> what we haul, helping to reduce landfill waste and protect the environment..</p>
                                         </div>
                                         <div className="col-lg-6 mb-30">
-                                            <h6 className="feature2-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Introducing New Features</h6>
-                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
+                                            <h6 className="feature2-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Free, Upfront Estimates</h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">Know the cost before we start, with no hidden fees..</p>
                                         </div>
                                         <div className="col-lg-6 mb-30">
-                                            <h6 className="feature3-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Introducing New Features</h6>
-                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
+                                            <h6 className="feature3-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Free, Upfront Estimates</h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">Know the cost before we start, with no hidden fees</p>
                                         </div>
                                     </div>
                                 </div>

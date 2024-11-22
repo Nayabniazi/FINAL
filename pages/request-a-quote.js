@@ -36,12 +36,12 @@ export default function Quote() {
                                 </div>
                                 <div className="row mt-50">
                                     <div className="col-lg-6 mb-30">
-                                        <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Boost your sale</h6>
-                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
+                                        <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Commercial Scrap Pick-Up</h6>
+                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">Disposing of scrap metal like iron, copper, aluminum, or construction metal can be challenging. BinBear will safely pick up and recycle your scrap metal.</p>
                                     </div>
                                     <div className="col-lg-6 mb-30">
-                                        <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Boost your sale</h6>
-                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
+                                        <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Commercial Scrap Pick-Up</h6>
+                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">Disposing of scrap metal like iron, copper, aluminum, or construction metal can be challenging. BinBear will safely pick up and recycle your scrap metal.</p>
                                     </div>
                                     <div className="col-lg-6 mb-30">
                                         <h6 className="feature2-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Introducing New Features</h6>
@@ -59,7 +59,7 @@ export default function Quote() {
                                         <div className="image-play wow animate__animated animate__fadeIn"><img className="mb-15" src="/assets/imgs/template/icons/play.svg" alt="transp" /></div>
                                         <div className="info-play wow animate__animated animate__fadeIn">
                                             <h4 className="color-white mb-15">We have 25 years experience in this passion</h4>
-                                            <p className="font-sm color-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+                                            <p className="font-sm color-white">BinBear offers efficient, eco-friendly office furniture removal to keep your workspace clear and organized. </p>
                                         </div>
                                     </div>
                                 </div>

@@ -22,8 +22,8 @@ export default function Newsletter() {
                                 <div className="card-offer card-offer-newsletter hover-up">
                                     <div className="card-image"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp" /></div>
                                     <div className="card-info">
-                                        <h6 className="font-sm-bold color-black mb-10">Sea Forwarding</h6>
-                                        <p className="font-xxs color-grey-700 mb-20">We are professional in ocean freight with more than 12 years of experience and have shipped more than 100k shipments.</p>
+                                        <h6 className="font-sm-bold color-black mb-10">Low Price Guarantee</h6>
+                                        <p className="font-xxs color-grey-700 mb-20">We are professional in junk Removals with more than 12 years of experience and have shipped more than 100k shipments.</p>
                                         <div className="box-button-offer"><a className="btn btn-link font-xxs color-brand-2">View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -35,8 +35,8 @@ export default function Newsletter() {
                                 <div className="card-offer card-offer-newsletter hover-up">
                                     <div className="card-image"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" /></div>
                                     <div className="card-info">
-                                        <h6 className="font-sm-bold color-black mb-10">Air Freight Forwarding</h6>
-                                        <p className="font-xxs color-grey-700 mb-20">We are professional in ocean freight with more than 12 years of experience and have shipped more than 100k shipments.</p>
+                                        <h6 className="font-sm-bold color-black mb-10">#1 junk Removals company</h6>
+                                        <p className="font-xxs color-grey-700 mb-20">We are professional in junk removals with more than 12 years of experience and have shipped more than 100k shipments.</p>
                                         <div className="box-button-offer"><a className="btn btn-link font-xxs color-brand-2">View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -48,8 +48,8 @@ export default function Newsletter() {
                                 <div className="card-offer card-offer-newsletter hover-up">
                                     <div className="card-image"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></div>
                                     <div className="card-info">
-                                        <h6 className="font-sm-bold color-black mb-10">Land Transportation</h6>
-                                        <p className="font-xxs color-grey-700 mb-20">We are professional in ocean freight with more than 12 years of experience and have shipped more than 100k shipments.</p>
+                                        <h6 className="font-sm-bold color-black mb-10">Eco-Friendly Solutions</h6>
+                                        <p className="font-xxs color-grey-700 mb-20">We are professional in junk removals with more than 12 years of experience and have shipped more than 100k shipments.</p>
                                         <div className="box-button-offer"><a className="btn btn-link font-xxs color-brand-2">View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -156,7 +156,7 @@ export default function Newsletter() {
                                     <div className="card-offer cardServiceStyle3 hover-up">
                                         <div className="card-image"><img src="/assets/imgs/page/homepage4/pallet.png" alt="transp" /></div>
                                         <div className="card-info">
-                                            <h5 className="color-brand-2 mb-15">Email alerts</h5>
+                                            <h5 className="color-brand-2 mb-15">Recycling More than 60%</h5>
                                             <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo consectetur.</p>
                                         </div>
                                     </div>
@@ -173,12 +173,13 @@ export default function Newsletter() {
                                 <p className="font-xxs color-grey-900 mb-20">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic growth strategies whereas prospective "outside the box" thinking.</p>
                                 <div className="row">
                                     <div className="col-lg-6 mb-20">
-                                        <h6 className="chart-title font-xxs-bold color-grey-900">Boost your sale</h6>
-                                        <p className="font-xxs color-grey-900">The latest design trends meet hand-crafted templates.</p>
+                                        <h6 className="chart-title font-xxs-bold color-grey-900">Free, Upfront Estimates</h6>
+                                        <p className="font-xxs color-grey-900">Know the cost before we start, with no hidden fees..</p>
                                     </div>
                                     <div className="col-lg-6 mb-20">
-                                        <h6 className="feature-title font-xxs-bold color-grey-900">Introducing New Features</h6>
-                                        <p className="font-xxs color-grey-900">The latest design trends meet hand-crafted templates.</p>
+                                        <h6 className="feature-title font-xxs-bold color-grey-900">Fast & Friendly Service</h6>
+                                        <p className="font-xxs color-grey-900">Our team arrives on time, ready to work with a smile.
+                                        .</p>
                                     </div>
                                 </div>
                                 <div className="mt-0"> <Link className="btn btn-brand-2 font-xxs mr-20" href="/contact"style={{backgroundColor:'orange',color:'black'}}>Contact Us</Link><Link className="btn btn-link-medium font-xxs" href="#">Learn More
@@ -320,7 +321,7 @@ export default function Newsletter() {
                                 <div className="card-blog-grid hover-up">
                                     <div className="card-image"><Link href="/blog-single"><img src="/assets/imgs/page/homepage2/news1.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15"style={{backgroundColor:'orange'}} href="/blog">Shipping</Link></div>
                                     <div className="card-info"><Link href="/blog-single">
-                                        <h5 className="color-black">How to find reliable logistics company in China and Asia</h5></Link>
+                                        <h5 className="color-black">How to find reliable junk Removal company in China and Asia</h5></Link>
                                         <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
                                         <div className="line-border" />
                                         <div className="mt-5 d-flex align-items-center justify-content-between pt-0"><Link className="btn btn-link font-sm color-brand-2" href="#">View Details<span>
@@ -334,7 +335,7 @@ export default function Newsletter() {
                                 <div className="card-blog-grid hover-up">
                                     <div className="card-image"><Link href="/blog-single"><img src="/assets/imgs/page/homepage2/news2.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15"style={{backgroundColor:'orange'}} href="/blog">Shipping</Link></div>
                                     <div className="card-info"><Link href="/blog-single">
-                                        <h5 className="color-black">How to find reliable logistics company in China and Asia</h5></Link>
+                                        <h5 className="color-black">How to find reliable junk removals company in China and Asia</h5></Link>
                                         <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
                                         <div className="line-border" />
                                         <div className="mt-5 d-flex align-items-center justify-content-between pt-0"><Link className="btn btn-link font-sm color-brand-2" href="#">View Details<span>

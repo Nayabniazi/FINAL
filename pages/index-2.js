@@ -26,8 +26,8 @@ export default function Home2() {
     backgroundRepeat: "no-repeat",
     height: "100%", opacity:'.6'}}/>
                         <div className="box-info-trackyourparcel">
-                            <h2 className="color- mb-25 wow animate__animated animate__fadeIn"style={{Color:'black'}}>JK Pricer Estimater<br className="d-none d-lg-block" /></h2>
-                            <p className="color-grey-900 font-md wow animate__animated animate__fadeIn">Track packages from China, US Post, Canada Post, Royal Mail, Deutsche Post,<br className="d-none d-lg-block" />Aliexpress, UPS, Shein, FedEx, Pitney Bowes, eBay, Amazon</p>
+                            <h2 className="color- mb-25 wow animate__animated animate__fadeIn"style={{Color:'black'}}>Get an Estimate Now with BinBear’s Online Pricing Estimator!<br className="d-none d-lg-block" /></h2>
+                            <p className="color-grey-900 font-md wow animate__animated animate__fadeIn">At BinBear, we know that transparency is essential. Our easy-to-use online pricing estimator gives you a fast, <br className="d-none d-lg-block" /></p>
                             <div className="form-trackparcel wow animate__animated animate__fadeIn">
                                 <form action="#">
                                     <div className="form-group">

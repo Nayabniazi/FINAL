@@ -11,8 +11,8 @@ export default function Faq() {
                     <div className="container position-relative">
                         <div className="banner-trackyourparcel" />
                         <div className="box-info-trackyourparcel">
-                            <h2 className="color-black mb-25 wow animate__animated animate__fadeIn">About Pricing Frequently <br className="d-none d-lg-block" /> Asked Questions</h2>
-                            <p className="color-grey-900 font-md wow animate__animated animate__fadeIn">Everything you need to know about the product and billing. Can not find the answer you are looking for? Please Contact our support team.</p>
+                            <h2 className="color-black mb-25 wow animate__animated animate__fadeIn">Junk Removal Estimate<br className="d-none d-lg-block" /> </h2>
+                            <p className="color-grey-900 font-md wow animate__animated animate__fadeIn"> At Junk King, we guarantee to beat any written estimate. We are confident our prices are better than any comparable operator. This means a licensed, insured, junk removal company who operates a recycling-based operation to keep our landfills free of unnecessary waste materials..</p>
                             <div className="form-trackparcel mb-0">
                                 <form action="#">
                                     <div className="form-group">
@@ -26,28 +26,28 @@ export default function Faq() {
                 </section>
                 <section className="section mt-100">
                     <div className="container position-relative">
-                        <h2 className="title-favicon mb-20 wow animate__animated animate__fadeIn">Popular Topic</h2>
-                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Feeling inquisitive? Have a read through some of our FAQs or contact our supporters for help</p>
+                        <h2 className="title-favicon mb-20 wow animate__animated animate__fadeIn">Different Ways to Get an Estimate</h2>
+                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> For our full service junk hauling, we offer 4 different ways to get an estimate or firm price.</p>
                         <div className="row mt-50">
                             <div className="col-lg-6">
                                 <div className="item-faqs-2 mb-30"><Link href="#">
-                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">What is Junk Removal?</h6></Link>
-                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Junk Removal refers to the process of planning, implementing, and controlling the movement of goods and materials from one place to another. This includes everything from rentals, storage, inventory management, and more.</p>
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">1:On Site Pricing. </h6></Link>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> The best and most accurate way for us to assess the job and offer you the lowest price is free, no obligation on site estimate. When we are on-site, we can see most exactly what the job will require. .</p>
                                 </div>
                                 <div className="item-faqs-2 mb-30"><Link href="#">
-                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">What are the types of Juck Removal?</h6></Link>
-                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">There are several types of Junk Removal, including air freight, sea freight, road Dumpster, rail rentals, and intermodal rentals.</p>
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">2:Online Pricing Estimate</h6></Link>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">For an online pricing estimate, simply click Pricing in the navigation above, scroll to pricing estimator, enter a zip code, and choose estimate by items or volume. The online price estimator is based on the average size of a typical item and the price in your local market</p>
                                 </div>
                                 <div className="item-faqs-2 mb-30"><Link href="#">
-                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">What is the Junk Removal Serices?</h6></Link>
-                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">service refers to the goods being approach, while cargo refers to the actual containers or vessels used to transport the freight.</p>
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Text Us s Photo</h6></Link>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">If you can take a photo of your items, text us at 737-888-5865, and we will text you back an estimate. If your items are in different locations on your property, you can send us multiple photos and we will be able to provide you with an estimate.</p>
                                 </div>
                             </div>
                             <div className="col-lg-6">
                               
                                 <div className="item-faqs-2 mb-30"><Link href="#">
-                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">How is Junk Removal priced?</h6></Link>
-                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Junk REMOVAL is typically priced based on the weight and volume of the cargo, as well as the distance and mode of transportation.</p>
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Call & Talk to Trained Staff</h6></Link>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Finally, you can call and/or live chat our customer service representatives. We are open from 4:45a - 8p PST, 7:45a - 11p EST, 6 days a week, and for 8 hours on Sunday. If you have 4 items or less, in many cases we will be able to offer you a firm price. .</p>
                                 </div>
                                 <div className="item-faqs-2 mb-30"><Link href="#">
                                     <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">What is Junk Removal provider?</h6></Link>

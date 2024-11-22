@@ -11,8 +11,8 @@ export default function WorkProcess() {
                     <div className="banner-howitwork3">
                         <div className="container">
                             <div className="box-info-trackyourparcel"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/template/icons/favicon.svg" alt="transp" />
-                                <h2 className="color-mb-25 wow animate__animated animate__fadeIn"style={{color:'black'}}>How It Works</h2>
-                                <p className="color-grey-700 font-md wow animate__animated animate__fadeIn">You choose the cities where you’d like to deliver. All deliveries are within a specific service area and delivery services vary by location. Whatever the mode or requirement, we will find and book the ideal expedited shipping solution to ensure a timely delivery.</p>
+                                <h2 className="color-mb-25 wow animate__animated animate__fadeIn"style={{color:'black'}}>BinBear Full-Service Junk Removal: Texas’ #1 Junk Company</h2>
+                                <p className="color-grey-700 font-md wow animate__animated animate__fadeIn">At BinBear Junk Removal, we pride ourselves on being the top-rated junk removal service in in the state. .</p>
                             </div>
                         </div>
                     </div>
@@ -24,7 +24,7 @@ export default function WorkProcess() {
                                         <div className="image-play wow animate__animated animate__fadeIn"><img className="mb-15" src="/assets/imgs/template/icons/play.svg" alt="transp" /></div>
                                         <div className="info-play wow animate__animated animate__fadeIn">
                                             <h4 className="color-white mb-15">We have 25 years experience in this passion</h4>
-                                            <p className="font-sm color-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+                                            <p className="font-sm color-white">Our team provides a professional level of service that’s unmatched in the industry. We’re so confident in our service that we guarantee to meet or beat any written estimate</p>
                                         </div>
                                     </div>
                                 </div>
@@ -32,23 +32,23 @@ export default function WorkProcess() {
                             <div className="col-lg-6 mb-30">
                                 <ul className="list-how-works">
                                     <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/order.png" alt="transp" /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" /></span></div>
                                         <div className="info-how">
-                                            <h5 className="color-black">Customer places order</h5>
+                                            <h5 className="color-black">Fast Friendly Service</h5>
                                             <p className="font-md color-grey-700">Inspection and quality check of goods</p>
                                         </div>
                                     </li>
                                     <li className="wow animate__animated animate__fadeIn">
                                         <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp" /></span></div>
                                         <div className="info-how">
-                                            <h5 className="color-black">Payment successful</h5>
-                                            <p className="font-md color-grey-700">Payoneer, Paypal, or Visa master card</p>
+                                            <h5 className="color-black">Free, Upfront Estimates</h5>
+                                            <p className="font-md color-grey-700">Inpect freely with upfront estimations</p>
                                         </div>
                                     </li>
                                     <li className="wow animate__animated animate__fadeIn">
                                         <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
                                         <div className="info-how">
-                                            <h5 className="color-black">Recycling Services</h5>
+                                            <h5 className="color-black">Pay Only for the Space You Use</h5>
                                             <p className="font-md color-grey-700">make the accuracy of the goods.</p>
                                         </div>
                                     </li>
@@ -58,7 +58,7 @@ export default function WorkProcess() {
                                     <li className="wow animate__animated animate__fadeIn">
                                         <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></span></div>
                                         <div className="info-how">
-                                            <h5 className="color-black">Dumpster Rentals</h5>
+                                            <h5 className="color-black">We Handle All the Heavy Lifting</h5>
                                             <p className="font-md color-grey-700">Update order status on the system</p>
                                         </div>
                                     </li>
@@ -73,7 +73,7 @@ export default function WorkProcess() {
                             <h2 className="color-black mb-25 wow animate__animated animate__fadeIn">Our Process</h2>
                             <div className="row">
                                 <div className="col-lg-8 m-auto">
-                                    <p className="color-grey-700 font-md wow animate__animated animate__fadeIn">We invest time and expertise to fully understand your business before designing plans to improve your supply chain. We take responsibility for the performance of all our suppliers and for ensuring the availability of resources and equipment needed to control the flow of goods under our charge.</p>
+                                    <p className="color-grey-700 font-md wow animate__animated animate__fadeIn"> From garage cleanouts to major construction debris removal, BinBear handles jobs of every size. When you choose us, you can expect friendly, professional service aimed at making your life easier with fast, reliable junk removal..</p>
                                 </div>
                             </div>
                         </div>
@@ -83,8 +83,8 @@ export default function WorkProcess() {
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-6 mb-60"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/page/workprocess/parachute.png" alt="transp" />
-                                <h3 className="color-black mb-15 wow animate__animated animate__fadeIn">Junk Removals Defined</h3>
-                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Junk Removal is the planning framework used by the management of an organization to facilitate the distribution of personnel, materiel, service, information and capital flows.</p>
+                                <h3 className="color-black mb-15 wow animate__animated animate__fadeIn">What is Junk Removal?</h3>
+                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Junk removal is an on-demand service for disposing of nearly any type of waste from your home or business. BinBear hauls away large items like furniture and appliances, handles full home cleanouts, provides light demolition in many areas, and clears construction debris from real estate cleanouts. Whether it’s an old couch or piles of post-renovation debris, BinBear can take it (just no hazardous waste)..</p>
                                 <div className="mt-20"><Link className="btn btn-link font-sm color-black wow animate__animated animate__fadeIn" href="#">View Details<span>
                                     <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -95,8 +95,8 @@ export default function WorkProcess() {
                         <div className="row align-items-center">
                             <div className="col-lg-6 mb-60"><Link className="wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/page/workprocess/img2.png" alt="transp" /></Link></div>
                             <div className="col-lg-6 mb-60"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/page/workprocess/pallet.png" alt="transp" />
-                                <h3 className="color-black mb-15 wow animate__animated animate__fadeIn">Junk Removal Company Processes</h3>
-                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Logistics is the planning framework used by the management of an organization to facilitate the distribution of personnel, materiel, service, information and capital flows.</p>
+                                <h3 className="color-black mb-15 wow animate__animated animate__fadeIn"> BinBear’s Approach to Junk Removal</h3>
+                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">At BinBear, we emphasize friendly service and a commitment to eco-friendly practices. Our goal is to recycle or donate as much as possible, reducing waste and helping our community. We operate with local sorting facilities, aiming to recycle 60% or more of every job!</p>
                                 <div className="mt-20 wow animate__animated animate__fadeIn"><Link className="btn btn-link font-sm color-black" href="#">View Details<span>
                                     <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -105,8 +105,8 @@ export default function WorkProcess() {
                         </div>
                         <div className="row align-items-center">
                             <div className="col-lg-6 mb-60"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/page/workprocess/plane.png" alt="transp" />
-                                <h3 className="color-black mb-15 wow animate__animated animate__fadeIn">Services Management</h3>
-                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Junk Removal Company is the planning framework used by the management of an organization to facilitate the distribution of personnel, materiel, service, information and capital flows.</p>
+                                <h3 className="color-black mb-15 wow animate__animated animate__fadeIn">What Makes BinBear Different</h3>
+                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">BinBear has earned its #1 rating by offering exceptional customer service. Our team of friendly professionals is trained, uniformed, licensed, and insured, equipped with vehicles built for efficient junk removal. You’ll notice the BinBear difference as our crew handles everything with care and courtesy..</p>
                                 <div className="mt-20"><Link className="btn btn-link font-sm color-brand-2 wow animate__animated animate__fadeIn" href="#">View Details<span>
                                     <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -117,8 +117,8 @@ export default function WorkProcess() {
                         <div className="row align-items-center">
                             <div className="col-lg-6 mb-60 wow animate__animated animate__fadeIn"><Link href="#"><img src="/assets/imgs/page/workprocess/img4.png" alt="transp" /></Link></div>
                             <div className="col-lg-6 mb-60"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/page/workprocess/cardboard.png" alt="transp" />
-                                <h3 className="color-black mb-15 wow animate__animated animate__fadeIn">Assembly Processing</h3>
-                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Junk Removal Company is the planning framework used by the management of an organization to facilitate the distribution of personnel, materiel, service, information and capital flows.</p>
+                                <h3 className="color-black mb-15 wow animate__animated animate__fadeIn">Our Simple Junk Removal Process</h3>
+                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">From the moment you contact us, BinBear makes junk removal easy. We offer fair, upfront pricing—no hidden fees, no surprises. About 15-30 minutes before your appointment, we call to confirm our arrival. Once we’re on-site, just show us what needs to go, and our insured team will handle it all, respecting your property every step of the way..</p>
                                 <div className="mt-20 wow animate__animated animate__fadeIn"><Link className="btn btn-link font-sm color-brand-2" href="#">View Details<span>
                                     <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -159,19 +159,19 @@ export default function WorkProcess() {
                                     <div className="col-xl-6 col-lg-12 col-md-6">
                                         <div className="item-reason wow animate__animated animate__fadeIn">
                                             <div className="card-offer cardServiceStyle3 hover-up">
-                                                <div className="card-image"><img src="/assets/imgs/page/homepage4/container.png" alt="transp" /></div>
+                                                <div className="card-image"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp" /></div>
                                                 <div className="card-info">
-                                                    <h5 className="color-black mb-15">Shipping Options</h5>
-                                                    <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo consectetur.</p>
+                                                    <h5 className="color-black mb-15">Fair and Transparent Pricing</h5>
+                                                    <p className="font-sm color-grey-900">BinBear offers clear pricing with no hidden fees, ensuring you know exactly what to expect..</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="item-reason wow animate__animated animate__fadeIn">
                                             <div className="card-offer cardServiceStyle3 hover-up">
-                                                <div className="card-image"><img src="/assets/imgs/page/homepage4/24-hours.png" alt="transp" /></div>
+                                                <div className="card-image"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" /></div>
                                                 <div className="card-info">
-                                                    <h5 className="color-black mb-15">Customer Service</h5>
-                                                    <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo consectetur.</p>
+                                                    <h5 className="color-black mb-15">Eco-Friendly Practices</h5>
+                                                    <p className="font-sm color-grey-900">We’re committed to green practices, recycling materials whenever possible to minimize landfill waste.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -181,8 +181,8 @@ export default function WorkProcess() {
                                             <div className="card-offer cardServiceStyle3 hover-up">
                                                 <div className="card-image"><img src="/assets/imgs/page/homepage4/stopwatch.png" alt="transp" /></div>
                                                 <div className="card-info">
-                                                    <h5 className="color-black mb-15">Timely Deliveries</h5>
-                                                    <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo consectetur.</p>
+                                                    <h5 className="color-black mb-15">Professional, Insured Team</h5>
+                                                    <p className="font-sm color-grey-900">Our experienced crew is licensed, insured, and equipped to handle any job safely and efficiently..</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -200,39 +200,38 @@ export default function WorkProcess() {
                             </div>
                             <div className="col-lg-6">
                                 <div className="box-info-pround box-whychooseus-3"><span className="btn btn-tag color-grey-900 wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>Our Features</span>
-                                    <h2 className="color-black mb-15 mt-20 wow animate__animated animate__fadeIn">Why choose us</h2>
+                                    <h2 className="color-black mb-15 mt-20 wow animate__animated animate__fadeIn">Why Choose BinBear?</h2>
                                     <p className="font-md color-grey-900">Sustainability is an increasingly important factor for many customers when choosing a shipping company. Your shipping company can stand out by demonstrating a commitment to sustainable practices, such as using energy-efficient vehicles, reducing waste, and offsetting carbon emissions.</p>
                                     <div className="mt-30">
                                         <ul className="list-ticks">
                                             <li className="wow animate__animated animate__fadeIn">
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Reliable and Timely Deliveries
+                                                </svg>Air Conditioner Disposal
                                             </li>
                                             <li className="wow animate__animated animate__fadeIn">
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Advanced Tracking Systems
+                                                </svg>DIY Construction Debris
                                             </li>
                                             <li className="wow animate__animated animate__fadeIn">
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Cost-Effective Shipping Options
+                                                </svg>Yard Waste Removal
                                             </li>
                                             <li className="wow animate__animated animate__fadeIn">
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Commitment to Sustainability
+                                                </svg>E-Waste Recycling
                                             </li>
                                             <li className="wow animate__animated animate__fadeIn">
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Exceptional Customer Service
-                                            </li>
+                                                </svg>  Refrigerator and Freezer Disposal                                          </li>
                                             <li className="wow animate__animated animate__fadeIn">
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>International Shipping Expertise
+                                                </svg>Furniture Removal
                                             </li>
                                             <li className="wow animate__animated animate__fadeIn">
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

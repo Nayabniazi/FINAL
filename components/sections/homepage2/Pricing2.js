@@ -10,12 +10,12 @@ export default function Pricing2() {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-8 col-md-8">
-                            <h2 className="title-favicon mb-20 wow animate__animated animate__fadeIn">Pricing Plan</h2>
-                            <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Pick your plan. Change
-                                whenever you want. No switching fees between packages</p>
+                            <h2 className="title-favicon mb-20 wow animate__animated animate__fadeIn">Four Ways to Get Your Estimate</h2>
+                            <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">We make it easy to get a free estimate with four convenient options:
+                              </p>
                         </div>
                         <div className="col-lg-4 col-md-4 text-end">
-                            <div className="text-center mt-10 wow animate__animated animate__fadeIn"><span className="text-md color-grey-900 text-billed-month">Bill Monthly</span>
+                            <div className="text-center mt-10 wow animate__animated animate__fadeIn"><span className="text-md color-grey-900 text-billed-month">Online Pricing Estimator</span>
                                 <label className="switch ml-20 mr-20">
                                     <input id="cb_billed_type" type="checkbox" name="billed_type" />
                                     <span className="slider round" onClick={toggleTrueFalse} />
@@ -26,7 +26,7 @@ export default function Pricing2() {
                     <div className="row mt-50 align-items-end pricing-style-2">
                         <div className="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn">
                             <div className="card-plan hover-up">
-                                <h3 className="color-brand-2 title-plan">Premium</h3>
+                                <h3 className="color-brand-2 title-plan">On-Site Pricing</h3>
                                 <p className="font-md color-grey-500 desc-plan">Advanced features for pros who need more
                                     customization.</p>
                                 <div className="item-price-plan">
@@ -74,7 +74,7 @@ export default function Pricing2() {
                         </div>
                         <div className="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn">
                             <div className="card-plan popular hover-up">
-                                <h3 className="color-brand-2 title-plan">Essentials</h3>
+                                <h3 className="color-brand-2 title-plan">Online Pricing Estimator</h3>
                                 <p className="font-md color-grey-500 desc-plan">All the basics for businesses that are just
                                     getting started.</p>
                                 <div className="item-price-plan">

@@ -334,24 +334,25 @@ export default function OurTeam() {
                         <div className="row align-items-center">
                             <div className="col-lg-6 mb-50">
                                 <div className="box-info-6 box-info-8"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>Who We Are?</span>
-                                    <h2 className="color-grey-900 mb-20 mt-15 wow animate__animated animate__fadeIn">We are the world's leading Junk removal service provider</h2>
-                                    <p className="font-md color-grey-900 mb-35 wow animate__animated animate__fadeIn">Over the years, we have worked together to expand our network of partners to deliver reliability and consistency. We’ve also made significant strides to tightly integrate technology with our processes, giving our clients greater visibility into every engagement.</p>
+                                    <h2 className="color-grey-900 mb-20 mt-15 wow animate__animated animate__fadeIn">Learn More About Our Recycling</h2>
+                                    <p className="font-md color-grey-900 mb-35 wow animate__animated animate__fadeIn"> Recycling involves converting waste materials into new products, helping conserve resources and reduce emissions. Instead of throwing away junk, recycling breaks down items to reuse their raw materials. Most communities support recycling efforts by providing bins and curbside services for homes and businesses. At BinBear, we make recycling easy: just point to the items, and we’ll haul them away, ensuring they’re responsibly processed..</p>
                                     <div className="row">
                                         <div className="col-lg-6 mb-30">
-                                            <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Eco-Friendly Solutions</h6>
-                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
+                                            <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">What is Recycling?</h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">Recycling involves converting waste materials into new products, helping conserve resources and reduce emissions. Instead of throwing away junk.</p>
                                         </div>
                                         <div className="col-lg-6 mb-30">
-                                            <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Eco-Friendly Solutions</h6>
-                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
+                                            <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">The State of Recycling</h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">Recycling has changed significantly, especially since China’s 2018 ban on most plastic and recyclable imports. Despite these shifts, recycling remains essential to the U.S. economy, creating jobs and conserving resources. Here are some key benefits.</p>
                                         </div>
                                         <div className="col-lg-6 mb-30">
-                                            <h6 className="feature2-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Introducing New Features</h6>
-                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
+                                            <h6 className="feature2-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">How to Get Rid of Your Recyclable Junk</h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">Not all junk needs to go to waste. Usable items can be repurposed, sold, or donated. Once you’ve handled what you can, BinBear is here to help with the rest, offering</p>
                                         </div>
                                         <div className="col-lg-6 mb-30">
-                                            <h6 className="feature3-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Introducing New Features</h6>
-                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
+                                            <h6 className="feature3-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Top 5 Waste-Producing Countries</h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">Recycling is a $200 billion industry in the U.S. and generates more jobs than landfills or waste-to-energy plants.
+                                            - Resource Conservation: Recycling saves natural resources and water, prevents waste from reaching oceans, and reduces greenhouse gas emissions.</p>
                                         </div>
                                     </div>
                                 </div>
