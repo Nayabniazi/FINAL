@@ -16,19 +16,28 @@ export default function TrackParcel() {
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     height: "100%", opacity:'.6'}}/>
-                        <div className="box-info-trackyourparcel">
+
+<div className="box-info-trackyourparcel">
                             <h2 className="color- mb-25 wow animate__animated animate__fadeIn"style={{Color:'black'}}>JK Junk Removal Services<br className="d-none d-lg-block" /></h2>
                             <p className="color-grey-900 font-md wow animate__animated animate__fadeIn">Track packages from China, US Post, Canada Post, Royal Mail, Deutsche Post,<br className="d-none d-lg-block" />Aliexpress, UPS, Shein, FedEx, Pitney Bowes, eBay, Amazon</p>
                             <div className="form-trackparcel wow animate__animated animate__fadeIn">
-                                <form action="#">
-                                    <div className="form-group">
-                                        <input className="form-control" type="text" placeholder="Your package tracking number" />
-                                        <input className="btn btn-brand-1 btn-track" type="submit" defaultValue="Track Package" style={{backgroundColor:'orange'}}/>
-                                    </div>
-                                </form>
-                            </div>
-                             </div>
-                    </div>
+                               
+                                      </div>
+                                      <div className="mt-20"style={{marginLeft:'90px'}}><div className="btn btn-brand-1-big mr-20 wow animate__animated animate__fadeIn" href="/contact"style={{backgroundColor:'orange'}}>Free Estimate</div><div className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">
+                                  
+                                  </div>
+                                  </div> 
+                </div>
+                            
+                    
+
+
+
+
+
+
+                        </div>
+
                 </section>
                 <section className="section pt-85">
                     <div className="container">
@@ -205,10 +214,8 @@ export default function TrackParcel() {
                                 </div>
                             </div>
                             <div className="col-lg-6 mb-50">
-                                <div className="box-image-why box-image-why-info-8"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/homepage3/img-info-6.png" alt="transp" />
-                                    <div className="box-button-play"style={{backgroundColor:'black'}}><a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeIn" onClick={() => setOpen(true)}><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/template/icons/play.svg" alt="transp"style={{backgroundColor:'black'}} /><span className="color-white wow animate__animated animate__fadeIn"style={{backgroundColor:'black'}}>How it work ?<br />Watch video tour</span></a></div>
-                                    <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)} />
-                                </div>
+                                
+                                
                             </div>
                         </div>
                     </div>

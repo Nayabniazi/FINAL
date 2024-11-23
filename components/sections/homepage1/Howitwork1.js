@@ -29,19 +29,45 @@ export default function Howitwork1() {
                                 <li>
                                     <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" /></span></div>
                                     <div className="info-how">
-                                        <h5 className="color-wow animate__animated animate__fadeIn"style={{color:'black'}}>#1 Junk Removal Company
+                                        <h5 className="color-wow animate__animated animate__fadeIn"style={{color:'black'}}>Free, Upfront Estimates
                                             </h5>
-                                        <p className="font-md color-black-700 wow animate__animated animate__fadeIn">
-                                        Know the cost before we start, with no hidden fees </p>
+                                        <p className="font-md color-black-700 wow animate__animated animate__fadeIn">Know the cost before we start, with no hidden fees.
+
+                                         </p>
                                     </div>
                                 </li>
+
+
+                                <li>
+                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp" /></span></div>
+                                    <div className="info-how">
+                                        <h5 className="color-wow animate__animated animate__fadeIn"style={{color:'black'}}>Low Price Guarantee
+                                        </h5>
+                                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">We promise to beat any written estimate from a comparable service.
+                                            </p>
+                                    </div>
+                                </li>
+
+
+
+
+
                                 <li>
                                     <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp" /></span></div>
                                     <div className="info-how">
-                                        <h5 className="color-wow animate__animated animate__fadeIn"style={{color:'black'}}>Pay Only for the Space You Use
+                                        <h5 className="color-wow animate__animated animate__fadeIn"style={{color:'black'}}>Fast & Friendly Service
                                         </h5>
-                                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">You’re charged based on the volume your items take up in our truck.
+                                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Our team arrives on time, ready to work with a smile.
                                             </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></span></div>
+                                    <div className="info-how">
+                                        <h5 className="color- wow animate__animated animate__fadeIn"style={{color:'black'}}>Big Trucks, Big Value
+                                            </h5>
+                                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">1 BinBear truck equals 6 regular pickup loads, giving you more space for less.
+                                        </p>
                                     </div>
                                 </li>
                                 <li>
@@ -49,23 +75,13 @@ export default function Howitwork1() {
                                     <div className="info-how">
                                         <h5 className="color- wow animate__animated animate__fadeIn"style={{color:'black'}}>
                                         Eco-Friendly Solutions </h5>
-                                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">We recycle up to 60% of what we haul, helping to reduce landfill waste and protect the environment.
+                                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">
 
-                                           .</p>
+                                        We recycle up to 60% of what we haul, helping to reduce landfill waste and protect the environment.  </p>
                                     </div>
                                 </li>
-                                <li>
-                                    
-                                </li>
-                                <li>
-                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></span></div>
-                                    <div className="info-how">
-                                        <h5 className="color- wow animate__animated animate__fadeIn"style={{color:'black'}}>UnBearable junk Problem Solved at UnBearlievable Value
-                                            </h5>
-                                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">When you choose BinBear, all you have to do is point, and we take care of the rest!
-                                        </p>
-                                    </div>
-                                </li>
+                              
+                               
                             </ul>
                         </div>
                     </div>

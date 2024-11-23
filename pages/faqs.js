@@ -16,17 +16,71 @@ export default function Faq() {
                             <div className="form-trackparcel mb-0">
                                 <form action="#">
                                     <div className="form-group">
-                                        <input className="form-control" type="text" placeholder="Enter keyword" />
-                                        <input className="btn btn-brand-1 btn-track" type="submit" defaultValue="Find the answer"style={{backgroundColor:'orange'}} />
-                                    </div>
+
+                                    <div className="mt-20"style={{marginLeft:'250px'}}><div className="btn btn-brand-1-big mr-20 wow animate__animated animate__fadeIn" href="/contact"style={{backgroundColor:'orange'}}>Free Estimate</div><div className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">
+                                  
+                                  </div>
+                                  </div>
+                                          </div>
                                 </form>
                             </div>
                         </div>
                     </div>
                 </section>
+
+               
+
+
+                <section className="section mt-100 mb-50">
+                    <div className="container">
+                        <div className="row align-items-center">
+                            <div className="col-lg-6 mb-30">
+                                <h2 className="color-black mb-25 wow animate__animated animate__fadeIn">King Sized Trucks, King Sized Value</h2>
+                                <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">At Junk King, we guarantee to beat any written estimate. We are confident our prices are better than any comparable operator. This means a licensed, insured, junk removal company who operates a recycling-based operation to keep our landfills free of unnecessary waste materials. </p>
+                                <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn"> Image
+20% more volume for less money…
+.</p>
+                                <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn"> 
+                                We offer free estimates as a part of our service. Our Big Red trucks show up on time at your location and provide you with a free written estimate. If you’re happy with the estimate, in most cases we will haul our items right then and there.
+
+.</p>
+<p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn"> At Junk King we want your business, so no job is too big or too small.
+Junk King Provides Better Value
+.</p>
+                              
+<p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn"> We pay our trained workers a fair market rate. Our operators are insured and we dispose of items properly. We recycle up to 60% of every job which is better for our communities, our neighborhoods, our children and the planet. You can check out our recycling operations here..</p>
+                              
+<p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn"> 
+We believe in FAIR, TRANSPARENT PRICING, and we back it up with 4 different ways to get an estimate.
+
+ </p>
+              
+                            </div>
+                            <div className="col-lg-6 position-relative mb-30">
+                                <div className="row align-items-end">
+                                    <div className="col-lg-5 col-md-5 col-sm-5"><img className="mb-20 wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-1-1.png" alt="transp" /><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-1-2.png" alt="transp" /></div>
+                                    <div className="col-lg-7 col-md-7 col-sm-7"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-1-3.png" alt="transp" /></div>
+                                </div>
+                                <div className="quote-center shape-2" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+
+
+
+
+
+
+
+
                 <section className="section mt-100">
                     <div className="container position-relative">
-                        <h2 className="title-favicon mb-20 wow animate__animated animate__fadeIn">Different Ways to Get an Estimate</h2>
+                        <h2 className="title-favicon mb-20 wow animate__animated animate__fadeIn"> 4 Different Ways to Get an Estimate</h2>
                         <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> For our full service junk hauling, we offer 4 different ways to get an estimate or firm price.</p>
                         <div className="row mt-50">
                             <div className="col-lg-6">
@@ -53,6 +107,11 @@ export default function Faq() {
                                     <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">What is Junk Removal provider?</h6></Link>
                                     <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">A Junk Removal provider is a company that specializes in providing logistics services, including transportation, storage, inventory management, and more.</p>
                                 </div>
+                                <div className="item-faqs-2 mb-30"><Link href="#">
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">CALL & TALK TO TRAINED STAFF</h6></Link>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> Finally, you can call and/or live chat our customer service representatives. We are open from 4:45a - 8p PST, 7:45a - 11p EST, 6 days a week, and for 8 hours on Sunday. If you have 4 items or less, in many cases we will be able to offer you a firm price. If you have 4 items or more, we can offer you an estimate range at the call center. The final price, with no obligation, will be completed by our trained technicians..</p>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -87,7 +146,7 @@ export default function Faq() {
                         </div>
                     </div>
                 </section>
-                <Pricing2/>
+               
                 <section className="section">
                     <div className="container position-relative">
                         <div className="box-cover-contactform"style={{backgroundColor:'orange'}}>

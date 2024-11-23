@@ -39,13 +39,10 @@ export default function Hero1Slider() {
                                     </div>
                                     <div className="box-button mt-30">
                                         <Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeInUp" href="#"style={{backgroundColor:'orange',color:'black'}}>Free Estimate</Link>
-                                        <a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeInUp" onClick={() => setOpen(true)}>
-                                            <img className="wow animate__animated animate__fadeInUp" src="/assets/imgs/template/icons/play.svg" alt=""style={{ backgroundColor: 'orange', borderRadius: '50%', padding: '2px' }} />How it work
-                                            ?</a></div>
+                                      </div>
 
                                 </div>
-                                <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)} />
-                            </div>
+                                  </div>
                         </div>
                     </div>
                 </SwiperSlide>
@@ -62,11 +59,9 @@ export default function Hero1Slider() {
                                             At BinBear, we make junk removal effortless. Whether it’s a single item or a full property cleanout, our team is here to handle every step. With BinBear, .</p>
                                         </div>
                                     </div>
-                                    <div className="box-button mt-30"><Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeInUp" href="#"style={{backgroundColor:'orange',color:'black'}}>Free Estimate</Link><a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeInUp" onClick={() => setOpen(true)}><img className="wow animate__animated animate__fadeInUp" src="/assets/imgs/template/icons/play.svg" alt="" style={{ backgroundColor: 'orange', borderRadius: '50%', padding: '2px' }}
-                                       />How it work ?</a></div>
+                                    <div className="box-button mt-30"><Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeInUp" href="#"style={{backgroundColor:'orange',color:'black'}}>Free Estimate</Link>          </div>
                                 </div>
-                                <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)} />
-                            </div>
+                                   </div>
                         </div>
                     </div>
                 </SwiperSlide>

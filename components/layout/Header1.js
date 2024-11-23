@@ -144,7 +144,7 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
                                     </div>
                                 </div>
                                 <div className="d-none d-sm-inline-block">
-    <Link className="btn btn-default mr-10 hover-up" href="/login">Login</Link>
+    
     
     {/* Online Booking link without plus icon */}
     <Link className="btn btn-brand-1 d-none d-xl-inline-block hover-up" href="/404" style={{ backgroundColor: '#FFA500', height:'40px',textAlign:'center'}}>

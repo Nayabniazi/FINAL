@@ -76,65 +76,70 @@ export default function Login() {
             >
               
             </label>
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", width:'450px',}}>
            
+            <div
+    style={{
+        display: "flex",
+        flexWrap: "wrap", // Allows wrapping on smaller screens
+        gap: "10px", // Space between input and button
+        alignItems: "center",
+        justifyContent: "flex-start", // Align items on larger screens
+    }}
+>
+    <input
+        type="text"
+        id="zip-code"
+        value={zipCode}
+        onChange={handleZipCodeChange}
+        placeholder="ZIP Code"
+        style={{
+            flex: "1", // Flexible width for input
+            minWidth: "250px", // Ensures a minimum width
+            maxWidth: "500px", // Maximum width for larger screens
+            padding: "10px",
+            fontSize: "16px",
+            border: `1px solid ${isHovered ? 'black' : '#ccc'}`, // Border color on hover
+            borderRadius: "4px",
+            height: "50px",
+            transition: "border-color 0.3s ease",
+        }}
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+    />
+    <button
+        type="submit"
+        style={{
+            height: "50px",
+            padding: "10px",
+            backgroundColor: "#FFA500", // Orange color
+            color: "white",
+            border: "none",
+            borderRadius: "4px",
+            cursor: "pointer",
+            minWidth: "100px", // Minimum button width
+            maxWidth: "150px", // Maximum button width
+            flexShrink: 0, // Prevents button from shrinking
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+        }}
+    >
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="white"
+            viewBox="0 0 16 16"
+        >
+            <path
+                fillRule="evenodd"
+                d="M1.5 8a.5.5 0 0 1 .5-.5h10.793L9.146 4.354a.5.5 0 1 1 .708-.708l4.5 4.5a.5.5 0 0 1 0 .708l-4.5 4.5a.5.5 0 1 1-.708-.708L12.793 8.5H2a.5.5 0 0 1-.5-.5z"
+            />
+        </svg>
+    </button>
+</div>
 
-                <input 
-                    type="text"
-                    id="zip-code"
-                    value={zipCode}
-                    onChange={handleZipCodeChange}
-                    placeholder="ZIP Code"
-                    style={{
-                   
-                        border: `1px solid ${isHovered ? 'black' : '#ccc'}`,
-                
-                        marginRight:'1000px',
-                        height:'50px',
-                        width: "500px",
-                        padding: "10px",
-                        fontSize: "16px",
-                        border: "1px solid #ccc",
-                        borderRadius: "4px",
-                        marginRight: "10px",
-                        transition: "border-color 0.3s ease"
-                    }}
-                    onMouseEnter={() => setIsHovered(true)} // Set hover state to true when mouse enters
-                    onMouseLeave={() => setIsHovered(false)} // Set hover state to false when mouse leaves
-               
 
-
-                />
-                <button
-                    type="submit"
-                    style={{
-                        height:'45px',
-                        padding: "10px",
-                        backgroundColor: "#FFA500", // Orange color
-                        color: "white",
-                        border: "none",
-                        borderRadius: "4px",
-                        cursor: "pointer",
-                        width: "100px",
-                        display: "flex",
-                        justifyContent: "center",
-                        alignItems: "center",
-                    }}
-                >
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="white"
-                        viewBox="0 0 16 16"
-                    >
-                        <path
-                            fillRule="evenodd"
-                            d="M1.5 8a.5.5 0 0 1 .5-.5h10.793L9.146 4.354a.5.5 0 1 1 .708-.708l4.5 4.5a.5.5 0 0 1 0 .708l-4.5 4.5a.5.5 0 1 1-.708-.708L12.793 8.5H2a.5.5 0 0 1-.5-.5z"
-                        />
-                    </svg>
-                </button>
-            </div>
             <p
                 style={{
                    marginRight:'500px',

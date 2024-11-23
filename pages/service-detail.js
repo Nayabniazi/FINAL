@@ -25,26 +25,215 @@ export default function ServiceDetail() {
                         </div>
 </div>
                 </div>
-                <section className="section mt-50">
+
+
+
+
+
+
+
+
+                <section className="section mt-100">
+                <div className="container">
+                     <div className="row align-items-end">
+                        <div className="col-lg-8 col-md-8 mb-30">
+                            <p className="font-md color-gray-700 wow animate__animated animate__fadeIn">At BinBear, we can handle just about ANYTHING and EVERYTHING—except hazardous waste. Here are examples of the types of junk we haul away:
+                               </p>
+                        </div>
+                        <div className="col-lg-4 col-md-4 mb-30 text-md-end text-start"><Link className="btn btn-brand-1 hover-up" href="/404" style={{backgroundColor: 'orange', }}>
+                            <svg fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z">
+                                </path>
+                            </svg>Online Booking</Link></div>
+                    </div>
+                    <div className="mt-20 box-background-black" >
+                        <div className="bg-under"/>
+                        <div className="row">
+                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn" >
+                                <div className="card-offer hover-up">
+                                   
+                                    
+                                    <div className="card-info">
+                                        <h5 className="color- mb-15"style={{color:'black'}}>Furniture Removal</h5>
+                                        <p className="font-sm color-grey-900 mb-35"></p>
+                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-"style={{color:'black'}}>View Details<span>
+                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg></span></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
+                                <div className="card-offer hover-up">
+                                    
+                                    
+                                    <div className="card-info">
+                                        <h5 className="color- mb-15"style={{color:'black'}}>TV Disposal & Recycling</h5>
+                                        <p className="font-sm color-grey-900 mb-35"></p>
+                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-"style={{color:'black'}}>View Details<span>
+                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg></span></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn" >
+                                <div className="card-offer hover-up">
+       
+                                    <div className="card-info" >
+                                        <h5 className="color- mb-15"style={{color:'black'}}>Yard Waste Removal</h5>
+                                        <p className="font-sm color-grey-900 mb-35"> </p>
+                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg></span></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
+                                <div className="card-offer hover-up">
+                                   
+                                    <div className="card-info">
+                                        <h5 className="color- mb-15"style={{color:'black'}}>Refrigerator Disposal & Recycling</h5>
+                                        <p className="font-sm color-grey-900 mb-35"></p>
+                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg></span></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
+                                <div className="card-offer hover-up">
+                                  
+                                    <div className="card-info">
+                                        <h5 className="color- mb-15"style={{color:'black'}}>Construction Waste Removal</h5>
+                                        <p className="font-sm color-grey-900 mb-35"></p>
+                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg></span></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
+                                <div className="card-offer hover-up">
+                                    
+                                    <div className="card-info">
+                                        <h5 className="color- mb-15"style={{color:'black'}}>Shed Removal</h5>
+                                        <p className="font-sm color-grey-900 mb-35">
+                                          </p>
+                                        <div className="box-button-offer mb-30" ><a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg></span></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+            <section className="section mt-50">
                     <div className="container">
-                        <div className="content-detail"><strong className="font-md-bold color-grey-900 mb-25 d-block wow animate__animated animate__fadeIn"><h3>Enjoy a Clutter-Free Life with BinBear Junk Removal!</h3></strong>
-                            <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">    Is clutter piling up in your home? Want to reclaim your space? Searching for a reliable junk removal service you can trust? You're not alone! Many homeowners struggle with these same challenges, and BinBear is here to help.                </p>
+                        <div className="content-detail"><strong className="font-md-bold color-grey-900 mb-25 d-block wow animate__animated animate__fadeIn"><h3>Enjoy a Clutter-Free Life with BinBear Junk Removal!**</h3></strong>
+                            <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">    Is clutter piling up in your home? Want to reclaim your space? Searching for a reliable junk removal service you can trust? You're not alone! Many homeowners struggle with these same challenges, and BinBear is here to help.
+                            </p>
                             <p className="wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/service-detail/img3.png" alt="transp" /></p>
-                            <p className="wow animate__animated animate__fadeIn">While many recyclables can be disposed of for free, larger items may come with fees. BinBear offers transparent, upfront pricing with free estimates. We show up on time, provide a written estimate, and, if you’re happy, we can often take your items on the spot..</p>
-                            <p className="wow animate__animated animate__fadeIn">While many recyclables can be disposed of for free, larger items may come with fees. BinBear offers transparent, upfront pricing with free estimates. We show up on time, provide a written estimate, and, if you’re happy, we can often take your items on the spot..</p>
-                            <h3 className="wow animate__animated animate__fadeIn"style={{color:'black'}}>We Haul It All</h3>
+                            <p className="wow animate__animated animate__fadeIn"></p>
+                            <h3>We Haul It All</h3>
+                            <h5>Furniture Removal, Disposal, Recycling, or Donation</h5>
+                            <p className="wow animate__animated animate__fadeIn">Examples: Couches, sofas, beds, chairs, tables, desks, and more.
+  - Need to get rid of old furniture that’s too bulky to handle on your own? BinBear can take care of it, ensuring items are disposed of responsibly, whether through recycling or donation to local charities.
+ </p>
+ <h5>TV Disposal & Recycling</h5>
+ <p>Old televisions and monitors piling up? We’ll handle it all, from CRTs to flat screens, recycling or disposing of them responsibly.</p>
+                           
+                           <h5>Yard Waste Removal</h5>
+                        
+                           <p>
+                           - Got yard debris like branches, clippings, or stumps? We take care of waste from landscaping projects, including old fencing, firewood, and lumber.
+
+                           </p>
+                           <h5>
+                           Clean Out Services** (Foreclosure, Estate, Home, Garage Cleanouts)
+                           </h5>
+                           
+                        <p>
+                        Moving out, managing an estate, or dealing with property cleanouts? We handle it all efficiently and courteously.
+
+                        </p>
+                         <h5>Appliance Removal</h5>
+
+<p>
+Examples: Air conditioners, dishwashers, fridges, washing machines, stoves, water heaters, and more. Don’t worry about the heavy lifting—BinBear has it covered.
+ 
+</p>
+<h5>Hot Tub Disposal</h5>
+<p>
+Dismantling and removing hot tubs is hard work, but we’ll break it down and haul it away for you.
+ 
+</p>
+<h5>E-Waste Disposal, Removal, or Recycling</h5>
+<p>
+Computers, printers, shredders, and more. We ensure electronic waste is handled in an eco-friendly manner.
+</p>
+<h5>
+Mattress Disposal, Removal, Donation, or Recycling  
+</h5>
+<p>
+Old mattresses gathering dust? Let BinBear remove and responsibly recycle or donate them
+</p>
+<h5>
+Trash Removal
+</h5>
+<p>
+Whether you need a one-time trash removal or ongoing cleanup, BinBear provides fast, friendly service with a focus on recycling wherever possible.
+</p>
+                           
+                            <h3 className="wow animate__animated animate__fadeIn"style={{color:'black'}}>What BinBear Can’t Take</h3>
                             <div className="row align-items-center">
                                 <div className="col-lg-7 wow animate__animated animate__fadeIn">
-                                    <p>Need to get rid of old furniture that’s too bulky to handle on your own? BinBear can take care of it, ensuring items are disposed of responsibly, whether through recycling or donation to local charities.
-                                    .</p>
-                                    <p>Cost-Effectiveness: Sea freight forwarding is one of the most cost-effective modes of transportation, especially for businesses that require the transportation of large quantities of goods. This is because cargo ships can transport large volumes of goods at a lower cost compared to other modes of transportation.</p>
-                                    <p>Junk Dumpster forwarding is a reliable mode since it is not affected by traffic or weather conditions. Additionally, cargo ships are designed to withstand harsh weather conditions, which reduces the risk of damage or loss of goods.</p>
+                                    <p> 
+                                    While we handle almost anything, we do not collect hazardous waste, including:
+
+.</p>
+                                    <p>-Paints and solvents</p>
+                                    <p>-Pesticides and fertilizers </p>
+                                    <p> -Chemical cleaners</p>
+                                    <p> -Lead-acid and lithium-ion batteries</p>
+                                    <p> -Flammable liquids</p>
+                                    <p>-Ammunition and explosives</p>
+                                    <p>-Medical waste</p>
+                                    <p>-Materials containing asbestos or mercury</p>
                                 </div>
                                 <div className="col-lg-5 wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/service-detail/img4.png" alt="transp" /></div>
                             </div>
                         </div>
                     </div>
                 </section>
+
+
+
+
+                
+                   
+
+
+
+
+
+
+
+
+
+
+
                 <div className="mt-50" />
                
 
@@ -59,7 +248,145 @@ export default function ServiceDetail() {
                         <div className="box-slider-homepage2 box-slider-homepage-4 box-slider-service-4">
                             <div className="container">
                                 <div className="box-swiper">
-                                    <ServiceSlider />
+
+
+
+                                <div className="mt-20 box-background-black" >
+                        <div className="bg-under"/>
+                        <div className="row">
+                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn" >
+                                <div className="card-offer hover-up">
+                                   
+                                    
+                                    <div className="card-info">
+                                        <h5 className="color- mb-15"style={{color:'black'}}>Book Your Appointment</h5>
+                                        <p className="font-sm color-grey-900 mb-35">Choose a time that’s convenient for you. Book online or call us to set up your two-hour arrival window.
+                                        </p>
+                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-"style={{color:'black'}}>View Details<span>
+                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg></span></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
+                                <div className="card-offer hover-up">
+                                    
+                                    
+                                    <div className="card-info">
+                                        <h5 className="color- mb-15"style={{color:'black'}}>Get a Free Estimate</h5>
+                                        <p className="font-sm color-grey-900 mb-35">Our team will assess your junk and provide a no-obligation quote based on the space your items take in our truck.</p>
+                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-"style={{color:'black'}}>View Details<span>
+                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg></span></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn" >
+                                <div className="card-offer hover-up">
+       
+                                    <div className="card-info" >
+                                        <h5 className="color- mb-15"style={{color:'black'}}>Leave the Heavy Lifting to Us</h5>
+                                        <p className="font-sm color-grey-900 mb-35">
+   Just point out what you want gone, and we’ll handle the rest, from lifting to loading.
+ </p>
+                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg></span></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
+                                <div className="card-offer hover-up">
+                                   
+                                    <div className="card-info">
+                                        <h5 className="color- mb-15"style={{color:'black'}}>Eco-Friendly Disposal</h5>
+                                        <p className="font-sm color-grey-900 mb-35">BinBear is committed to green practices. We sort through items to recycle or donate wherever possible, ensuring minimal landfill impact.
+                                        </p>
+                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg></span></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
+                                <div className="card-offer hover-up">
+                                  
+                                    <div className="card-info">
+                                        <h5 className="color- mb-15"style={{color:'black'}}>Enjoy Your Clutter-Free Space</h5>
+                                        <p className="font-sm color-grey-900 mb-35">With BinBear, reclaim your space without the hassle. You’ll feel good knowing your items were disposed of responsibly</p>
+                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg></span></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
+                                <div className="card-offer hover-up">
+                                    
+                                    <div className="card-info">
+                                        <h5 className="color- mb-15"style={{color:'black'}}>Full-Service Junk Removal</h5>
+                                        <p className="font-sm color-grey-900 mb-35">Our team will arrive on time in our big Black trucks. We’ll confirm your estimate and take care of your junk on the spot.
+                                          </p>
+                                        <div className="box-button-offer mb-30" ><a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg></span></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
+                                <div className="card-offer hover-up">
+                                    
+                                    <div className="card-info">
+                                        <h5 className="color- mb-15"style={{color:'black'}}>Self-Service Dumpster Rental</h5>
+                                        <p className="font-sm color-grey-900 mb-35">We also offer driveway-friendly dumpster rentals. Fill it up at your own pace, and we’ll haul it away when you’re ready.
+
+                                          </p>
+                                        <div className="box-button-offer mb-30" ><a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg></span></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
+                                <div className="card-offer hover-up">
+                                    
+                                    <div className="card-info">
+                                        <h5 className="color- mb-15"style={{color:'black'}}>Get Started Today! </h5>
+                                        <p className="font-sm color-grey-900 mb-35">.Ready to reclaim your space? Schedule your junk removal with BinBear today! Call us or book online for a hassle-free experience and enjoy a cleaner, clutter-free home.
+                                          </p>
+                                        <div className="box-button-offer mb-30" ><a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg></span></a></div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                                 
+
+
+
+
+
+
+
+
+
 
                                 </div>
                             </div>

@@ -21,10 +21,12 @@ export default function Hero4() {
                                             business goals and objectives is what drives mutual success.</p>
                                     </div>
                                 </div>
-                                <div className="box-button mt-30"><a className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeIn" href="#"style={{backgroundColor:'orange'}}>Calculate package</a><a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeIn" onClick={() => setOpen(true)}><img src="/assets/imgs/template/icons/play.svg" alt="transp"  style={{ backgroundColor: 'orange', borderRadius: '50%', padding: '2px' }}/>How it work ?</a></div>
-                                <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)} />
-                            </div>
-                        </div>
+                               
+                                <div className="box-button mt-30"><a className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeIn" href="#"style={{backgroundColor:'orange'}}>Calculate package</a>        </div>
+                              
+                                
+                    
+                        </div></div>
                     </div>
                 </div>
                 <div className="box-slider-homepage2 box-slider-homepage-4">

@@ -41,8 +41,7 @@ export default function Services1() {
                                     </div>
                                     <div className="card-info">
                                         <h5 className="color- mb-15"style={{color:'black'}}>#1 Junk removal company </h5>
-                                        <p className="font-sm color-grey-900 mb-35">We are professional in our work with
-                                            more than 12 years of experience and have shipped more than 100k shipments.</p>
+                                        <p className="font-sm color-grey-900 mb-35">.</p>
                                         <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-"style={{color:'black'}}>View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -57,9 +56,8 @@ export default function Services1() {
                                     </div>
                                     <div className="card-info">
                                         <h5 className="color- mb-15"style={{color:'black'}}>Lowest Price Guaranteed</h5>
-                                        <p className="font-sm color-grey-900 mb-35">We are professional in our work  with
-                                           Lowest price more than 12 years of experience more than 100k shipped.</p>
-                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-"style={{color:'black'}}>View Details<span>
+                                        <p className="font-sm color-grey-900 mb-35"></p>
+                                        <div className="box-button-offer mb-30"style={{marginTop:'80px'}}><a className="btn btn-link font-sm color-"style={{color:'black'}}>View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                             </svg></span></a></div>
@@ -72,7 +70,7 @@ export default function Services1() {
                                     </div>
                                     <div className="card-info" >
                                         <h5 className="color- mb-15"style={{color:'black'}}>UnBearable junk problems solved at an unBEARlievable Value!</h5>
-                                        <p className="font-sm color-grey-900 mb-35">We are professional in our Work </p>
+                                        <p className="font-sm color-grey-900 mb-35"></p>
                                         <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -86,8 +84,7 @@ export default function Services1() {
                                     </div>
                                     <div className="card-info">
                                         <h5 className="color- mb-15"style={{color:'black'}}>Recycling up to 60%</h5>
-                                        <p className="font-sm color-grey-900 mb-35">We are professional in our Work with
-                                            more than 12 years of experience and have shipped more than 100k shipments.</p>
+                                        <p className="font-sm color-grey-900 mb-35"></p>
                                         <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -101,8 +98,7 @@ export default function Services1() {
                                     </div>
                                     <div className="card-info">
                                         <h5 className="color- mb-15"style={{color:'black'}}>Free, Upfront Estimates</h5>
-                                        <p className="font-sm color-grey-900 mb-35">We are professional in our Work with
-                                            more than 12 years of experience and have shipped more than 100k shipments.</p>
+                                        <p className="font-sm color-grey-900 mb-35"></p>
                                         <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -115,8 +111,8 @@ export default function Services1() {
                                     <div className="card-image"><img src="/assets/imgs/page/homepage1/worldwide.png" alt="transp" /></div>
                                     <div className="card-info">
                                         <h5 className="color- mb-15"style={{color:'black'}}>Saving Planet 1 load at a time</h5>
-                                        <p className="font-sm color-grey-900 mb-35">We are professional in our work with 100k shipped  more than 12 years of experience  and well defined experience
-                                          .</p>
+                                        <p className="font-sm color-grey-900 mb-35">
+                                          </p>
                                         <div className="box-button-offer mb-30" ><a className="btn btn-link font-sm color-brand-2">View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
