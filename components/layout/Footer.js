@@ -212,7 +212,7 @@ export default function Footer1({ }) {
                                 marginLeft: '300px',
                             }}
                         >
-                            <a href="/404" style={{ textDecoration: 'none' }}>
+                            <a href="/Booking" style={{ textDecoration: 'none' }}>
                                 <button
                                     style={{
                                         backgroundColor: 'orange',

@@ -21,7 +21,7 @@ export default function WorkProcess() {
                             <div className="col-lg-6 mb-30">
                                 <div className="box-image-how"><img className="w-100 wow animate__animated animate__fadeIn" src="/assets/imgs/page/homepage1/how-it-work.png" alt="transp" />
                                     <div className="box-info-bottom-img"style={{backgroundColor:'black'}}>
-                                        <div className="image-play wow animate__animated animate__fadeIn"><img className="mb-15" src="/assets/imgs/template/icons/play.svg" alt="transp" /></div>
+                                        <div className="image-play wow animate__animated animate__fadeIn"></div>
                                         <div className="info-play wow animate__animated animate__fadeIn">
                                             <h4 className="color-white mb-15">We have 25 years experience in this passion</h4>
                                             <p className="font-sm color-white">Our team provides a professional level of service that’s unmatched in the industry. We’re so confident in our service that we guarantee to meet or beat any written estimate</p>
