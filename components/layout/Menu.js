@@ -41,7 +41,7 @@ export default function Menu() {
 
                 {/* "How it Works" Menu */}
                 <li className="has-children">
-                    <Link className={isActive('/workprocess')} href="/workprocess" style={{ color: 'white' }}>How it Works</Link>
+                    <Link className={isActive('/workprocess')} href="/Residential" style={{ color: 'white' }}>How it Works</Link>
                     <ul className="sub-menu">
                         <li><Link href="/Residential">Residential</Link></li>
                         <li><Link href="/Commercial">Commercial</Link></li>
@@ -51,7 +51,7 @@ export default function Menu() {
 
                 {/* "Pricing" Menu */}
                 <li className="has-children">
-                    <Link className={isActive('/blog')} href="/blog" style={{ color: 'white' }}>Pricing</Link>
+                    <Link className={isActive('/Estimate')} href="/Estimate" style={{ color: 'white' }}>Pricing</Link>
                     <ul className="sub-menu">
                         <li><Link href="/Estimate">Estimate Pricing</Link></li>
                         <li><Link href="/jk-removal-price
