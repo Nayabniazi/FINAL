@@ -184,30 +184,78 @@ Our estimated pricing is based on both the average size of typical household ite
                 </section>
                 
 
+                <section
+  className="section pt-100"
+  style={{
+    backgroundColor: 'black',
+    marginTop: '50px',
+    marginBottom: '50px',
+  }}
+>
+  <div className="container">
+    <div className="text-center">
+      <span
+        className="btn btn-tag color-grey-900 wow animate__animated animate__fadeIn"
+        style={{ backgroundColor: 'orange' }}
+      >
+        Our Features
+      </span>
+      <h2 className="color-mb-15 mt-20 wow animate__animated animate__fadeIn" style={{ color: 'white' }}>
+        Why Choose Junk King?
+      </h2>
+    </div>
+    <div className="row mt-60">
+      <p style={{ color: 'white', marginLeft: '250px' }}>
+        Because we understand that your time is valuable, we call you 15-30 minutes ahead of every job to let you know we are coming.
+      </p>
+      <p style={{ marginTop: '30px', marginLeft: '150px', color: 'white' }}>
+        In fact, we are rated #1 for our customer service nationally. In addition, we also pay our highly-trained workers a fair market rate and our operators are insured.
+      </p>
+      <p style={{ marginTop: '10px', marginLeft: '50px', color: 'white', textAlign: 'center' }}>
+        At Junk King, we guarantee that we will dispose of your junk items properly. In fact, we recycle up to 60 percent of every junk removal job and we are the only national junk removal company with sorting facilities in our locally owned locations.
+      </p>
+      <p style={{ marginTop: '3px', color: 'white', marginLeft: '410px' }}>
+        The only national junk removal company with sorting facilities in our locally owned locations.
+      </p>
+      <p style={{ marginTop: '30px', color: 'white', marginLeft: '240px' }}>
+        We sort, reuse, recycle, and donate as much as we possibly can to be a responsible waste removal partner for a better tomorrow.
+      </p>
+      <p style={{ marginTop: '10px', color: 'white', marginLeft: '330px' }}>
+        *This pricing estimator provides an online estimate. The final price will be determined onsite by our staff.
+      </p>
+      <p style={{ marginTop: '10px', color: 'white', marginLeft: '400px' }}>
+        The price for heavy material, such as dirt, gravel, roofing material, and concrete,
+      </p>
+      <p style={{ marginTop: '10px', color: 'white', marginLeft: '400px', marginBottom: '100px' }}>
+        cannot be estimated with this tool as this material is charged by the bed load.
+      </p>
+    </div>
+  </div>
+</section>
+
+<style jsx>{`
+  @media (max-width: 768px) {
+    .section {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .row {
+      margin-left: 0 !important;  /* Remove left margin */
+    }
+    p {
+      margin-left: 0 !important; /* Remove the large left margins for text */
+      margin-right: 0 !important; /* Remove any right margin */
+      text-align: center !important; /* Center-align text */
+    }
+    .container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+`}</style>
 
 
 
-                <section className="section pt-100"style={{backgroundColor:'black',marginTop:'50px',marginBottom:'50px'}}>
-                    <div className="container">
-                        <div className="text-center"><span className="btn btn-tag color-grey-900 wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>Our Features</span>
-                            <h2 className="color-mb-15 mt-20 wow animate__animated animate__fadeIn"style={{color:'white'}}>Why Choose Junk King?</h2>
-                        </div>
-                        <div className="row mt-60">
-                           <p style={{color:'white',marginLeft:'250px'}}>Because we understand that your time is valuable, we call you 15-30 minutes ahead of every job to let you know we are coming.</p>
-                            <p style={{marginTop:'30px',marginLeft:'150px',color:'white'}}>In fact, we are rated #1 for our customer service nationally. In addition, we also pay our highly-trained workers a fair market rate and our operators are insured.</p>
-                           <p style={{marginTop:'10px',marginLeft:'50px',color:'white',textAlign:"center"}}>At Junk King, we guarantee that we will dispose of your junk items properly. In fact, we recycle up to 60 percent of every junk removal job and we are .</p>
-                                            <p style={{marginTop:'3px',color:'white',marginLeft:'410px'}}>the only national junk removal company with sorting facilities in our locally owned locations.</p>
-                                                 
-                           <p style={{marginTop:'30px',color:'white',marginLeft:'240px'}}>We sort, reuse, recycle, and donate as much as we possibly can to be a responsible waste removal partner for a better tomorrow.</p>                      
-                                                 
-                         <p style={{marginTop:'10px',color:'white',marginLeft:'330px',}}>*This pricing estimator provides an online estimate. The final price will be determined onsite by our staff.</p>                        
-                                         <p style={{marginTop:'10px',color:'white',marginLeft:'400px'}}>The price for heavy material, such as dirt, gravel, roofing material, and concrete, </p>        
-                                                 
-                                             <p style={{marginTop:'10px',color:'white',marginLeft:'400px',marginBottom:'100px'}}>cannot be estimated with this tool as this material is charged by the bed load</p>    
-                                                 
-                                                  </div>
-                    </div>
-                </section>
 
 
 
