@@ -49,7 +49,7 @@ export default function Sidebar({ openClass, handleMobileMenuClose }) {
                                        
                                         <li className={isActive.key == 2 ? "has-children active" : "has-children"} onClick={() => handleToggle(2)}>
                                             <span className="menu-expand"><svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg></span>
-                                            <Link href="/services">How it Works</Link>
+                                            <Link href="/Commercial">How it Works</Link>
                                             <ul className={isActive.key == 2 ? "sub-menu d-block" : "sub-menu d-none"}>
                                             <li><Link href="/Residential">Residential</Link></li>
                         <li><Link href="/Commercial">Commercial</Link></li>
@@ -59,7 +59,7 @@ export default function Sidebar({ openClass, handleMobileMenuClose }) {
 
                                         <li className={isActive.key == 4 ? "has-children active" : "has-children"} onClick={() => handleToggle(4)}>
                                             <span className="menu-expand"><svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg></span>
-                                            <Link href="/blog">Pricing</Link>
+                                            <Link href="/Estimate">Pricing</Link>
                                             <ul className={isActive.key == 4 ? "sub-menu d-block" : "sub-menu d-none"}>
                                             <li><Link href="/Estimate">Estimate Pricing</Link></li>
                         <li><Link href="/jk-removal-price">Jk Removal Pricing</Link></li>

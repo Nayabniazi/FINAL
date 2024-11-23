@@ -14,15 +14,59 @@ export default function Faq() {
                             <h2 className="color-black mb-25 wow animate__animated animate__fadeIn">Junk Removal Estimate<br className="d-none d-lg-block" /> </h2>
                             <p className="color-grey-900 font-md wow animate__animated animate__fadeIn"> At Junk King, we guarantee to beat any written estimate. We are confident our prices are better than any comparable operator. This means a licensed, insured, junk removal company who operates a recycling-based operation to keep our landfills free of unnecessary waste materials..</p>
                             <div className="form-trackparcel mb-0">
-                                <form action="#">
-                                    <div className="form-group">
+                                
 
-                                    <div className="mt-20"style={{marginLeft:'250px'}}><div className="btn btn-brand-1-big mr-20 wow animate__animated animate__fadeIn" href="/contact"style={{backgroundColor:'orange'}}>Free Estimate</div><div className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">
-                                  
-                                  </div>
-                                  </div>
-                                          </div>
-                                </form>
+                            <form action="#">
+    <div className="form-group">
+        <div
+            style={{
+                display: "flex",
+                flexDirection: "column", // Stack buttons vertically
+                justifyContent: "center", // Center horizontally
+                alignItems: "center", // Center vertically
+                gap: "15px", // Add space between buttons
+                marginTop: "20px",
+                width: "100%", // Full-width for responsiveness
+            }}
+        >
+            {/* Button: Free Estimate */}
+            <a
+                href="/contact"
+                style={{
+                    backgroundColor: "orange",
+                    color: "black",
+                    border: "none",
+                    padding: "15px 20px",
+                   
+                    textDecoration: "none", // Remove underline
+                    textAlign: "center",
+                    width: "90%", // Ensure responsiveness
+                    maxWidth: "250px", // Limit max width for larger screens
+                }}
+            >
+                Free Estimate
+            </a>
+
+            {/* Button: Learn More */}
+           
+        </div>
+    </div>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                             </div>
                         </div>
                     </div>

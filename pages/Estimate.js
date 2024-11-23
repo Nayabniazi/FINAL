@@ -25,30 +25,91 @@ export default function Home2() {
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     height: "100%", opacity:'.6'}}/>
-                        <div className="box-info-trackyourparcel">
-                            <h2 className="color- mb-25 wow animate__animated animate__fadeIn"style={{Color:'black'}}>  Pricing estimator!  <br className="d-none d-lg-block" /></h2>
-                            <p className="color-grey-900 font-md wow animate__animated animate__fadeIn">At BinBear, we know that transparency is essential. Our easy-to-use online pricing estimator gives you a fast, <br className="d-none d-lg-block" /></p>
-                            <div className="form-trackparcel wow animate__animated animate__fadeIn">
-                               
-                            <div className="mt-20"><div className="btn btn-brand-1-big mr-20 wow animate__animated animate__fadeIn" href="/contact"style={{backgroundColor:'orange'}}>Free Estimate</div><div className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">
-                                  
+
+
+
+
+
+
+<div className="box-info-trackyourparcel">
+                            <h2 className="color-black mb-25 wow animate__animated animate__fadeIn">Pricing estimator<br className="d-none d-lg-block" /> </h2>
+                            <p className="color-grey-900 font-md wow animate__animated animate__fadeIn">The price for heavy material, such as dirt, gravel, roofing material, and concrete, cannot be estimated with this tool as this material is charged by the bed load. .</p>
+                            <div className="form-trackparcel mb-0">
+            
+
+                            <form action="#">
+    <div className="form-group">
+        <div
+            style={{
+                display: "flex",
+                flexDirection: "column", // Stack buttons vertically
+                justifyContent: "center", // Center horizontally
+                alignItems: "center", // Center vertically
+                gap: "15px", // Add space between buttons
+                marginTop: "20px",
+                width: "100%", // Full-width for responsiveness
+            }}
+        >
+            {/* Button: Free Estimate */}
+            <a
+                href="/contact"
+                style={{
+                    backgroundColor: "orange",
+                    color: "black",
+                    border: "none",
+                    padding: "15px 20px",
+                   
+                    textDecoration: "none", // Remove underline
+                    textAlign: "center",
+                    width: "90%", // Ensure responsiveness
+                    maxWidth: "250px", // Limit max width for larger screens
+                }}
+            >
+                Free Estimate
+            </a>
+
+            {/* Button: Learn More */}
+           
+        </div>
+    </div>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
+
+
+
+                            
+                        </div>
+
+
+
+
+
 </div>
-
-
-                            </div>
-                             </div>
-                    </div>
-                </section>
-
-
-               
+  
 
              
                 
-           
+       </section>    
               
-                <div className="line-border"></div>
+                
 
 
 
@@ -111,20 +172,17 @@ Our estimated pricing is based on both the average size of typical household ite
                                 
 
                                
-                                <div className="mt-20 wow animate__animated animate__fadeIn"><div className="btn btn-link font-sm color-black" href="#">View Details<span>
-                                    <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                    </svg></span></div></div>
+                           
                             </div>
                             <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginLeft:'80px'}}>At Junk King, we guarantee to beat any written estimate and we are confident that our prices are better than any comparable operator. In other words, a licensed</p>               <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginLeft:'80px'}}> and insured junk removal company that operates a recycling-based operation to help keep our landfills free of junk and unnecessary waste materials - just like we do!</p>
                                  
                                
                                
-                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginLeft:'120px'}}>Because we support fair, transparent pricing, we offer you free estimates as a part of our service. While other companies tend to hide their prices, we have 
+                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginLeft:'120px',marginTop:'30px'}}>Because we support fair, transparent pricing, we offer you free estimates as a part of our service. While other companies tend to hide their prices, we have 
                                 </p>
                              <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginLeft:'190px'}}> always been transparent  to hide their prices, we have always been transparent    with ours because our prices offer you more value.</p>
 
-                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginLeft:'130px'}}>That means our big, red trucks will show up on time at your location, and our junk removal team will provide you with a free written estimate. And,  </p>
+                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginLeft:'130px',marginTop:'30px'}}>That means our big, red trucks will show up on time at your location, and our junk removal team will provide you with a free written estimate. And,  </p>
                               <p  className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginLeft:'280px'}}>will show up on time at your location, and our junk removal team will provide you with a free written estimate Add,</p>
                                 <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginLeft:'310px'}}> because we believe in fair and transparent pricing, we give you FOUR different ways to get an estimate.</p>
                               

@@ -37,7 +37,7 @@ export default function Footer1({ }) {
                             kitting, assembly, customized package and business
                             inserts, etc.
                         </p>
-                        <h6 className="color-brand-1">View our Details</h6>
+                        
                     </div>
                     <div
                         className="col-lg-3 width-16 mb-30"
@@ -48,21 +48,21 @@ export default function Footer1({ }) {
                         <h5 className="mb-10 color-brand-1">Services</h5>
                         <ul className="menu-footer">
                             <li>
-                                <Link href="/index-2">Item we take</Link>
+                                <Link href="/Item-we-take">Item we take</Link>
                             </li>
                             <li>
-                                <Link href="/trackyourparcel">
+                                <Link href="/JK-Removal">
                                     Junk removal
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/services">Dumpster Rental</Link>
+                                <Link href="/Dumpster-Rental">Dumpster Rental</Link>
                             </li>
                             <li>
-                                <Link href="/index-3">Jk Dumpster Bag</Link>
+                                <Link href="/JK-bags">Jk Dumpster Bag</Link>
                             </li>
                             <li>
-                                <Link href="/our-team">National Accounts</Link>
+                                <Link href="/Estimate">National Accounts</Link>
                             </li>
                         </ul>
                     </div>
@@ -78,7 +78,7 @@ export default function Footer1({ }) {
                                 <Link href="/about"> About us</Link>
                             </li>
                             <li>
-                                <Link href="comingsoon">Events</Link>
+                                <Link href="Event">Events</Link>
                             </li>
                             <li>
                                 <Link href="#">Apply Locally</Link>
@@ -197,101 +197,97 @@ export default function Footer1({ }) {
                 paddingBottom: '50px',
             }}
         >
-            <div className="container">
-                <div className="footer-bottom">
-                    <div className="row align-items-center">
-                        <div className="col-lg-6 col-md-12 text-center text-lg-start">
-                            <span className="color-grey-300 font-md"> </span>
-                        </div>
+           
 
-                        <div
-                            className="col-lg-6 col-md-12 text-center text-lg-end"
-                            style={{
-                                display: 'flex',
-                                justifyContent: 'space-between',
-                                marginLeft: '300px',
-                            }}
-                        >
-                            <a href="/Booking" style={{ textDecoration: 'none' }}>
-                                <button
-                                    style={{
-                                        backgroundColor: 'orange',
-                                        color: 'black',
-                                        border: 'none',
-                                        padding: '10px 20px',
-                                        cursor: 'pointer',
-                                        display: 'inline-flex',
-                                        justifyContent: 'center',
-                                        alignItems: 'center',
-                                    }}
-                                >
-                                    Online Booking
-                                </button>
-                            </a>
-                            <a
-                                href="/contact"
-                                style={{ textDecoration: 'none' }}
-                            >
-                                <button
-                                    style={{
-                                        backgroundColor: 'orange',
-                                        color: 'black',
-                                        border: 'none',
-                                        padding: '10px 20px',
-                                        cursor: 'pointer',
-                                        display: 'inline-flex',
-                                        justifyContent: 'center',
-                                        alignItems: 'center',
-                                    }}
-                                >
-                                    Our Location
-                                </button>
-                            </a>
-                            <a
-                                href="/register"
-                                style={{ textDecoration: 'none' }}
-                            >
-                                <button
-                                    style={{
-                                        backgroundColor: 'orange',
-                                        color: 'black',
-                                        border: 'none',
-                                        padding: '10px 20px',
-                                        cursor: 'pointer',
-                                        display: 'inline-flex',
-                                        justifyContent: 'center',
-                                        alignItems: 'center',
-                                    }}
-                                >
-                                    Franchise
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+
+
+<p style={{marginLeft:'1150px',fontSize:'20px',color:'orange',}}>View Details</p>
+
+           <div className="container">
+          
+    <div className="footer-bottom">
+        <div className="row align-items-center">
+            <div className="col-lg-6 col-md-12 text-center text-lg-start">
+                <span className="color-grey-300 font-md"> </span>
             </div>
-            <style jsx>{`
-    /* For larger screens (tablet and desktop) */
-    .col-lg-6.col-md-12.text-center.text-lg-end {
-        display: flex;  /* Flexbox for the buttons */
-        justify-content: center;  /* Center the buttons horizontally */
-        align-items: center;  /* Center the buttons vertically */
-        gap: 10px;  /* 10px gap between buttons */
-        flex-wrap: wrap;  /* Allow buttons to wrap if necessary */
-    }
 
-    /* For mobile screens */
-    @media (max-width: 768px) {
-        .col-lg-6.col-md-12.text-center.text-lg-end {
-            flex-direction: column;  /* Stack buttons vertically on smaller screens */
-            justify-content: center;  /* Center the buttons horizontally */
-              /* Center the buttons vertically */
-            gap: 10px;  /* 10px gap between buttons */
-            height: auto;  /* Ensure there’s no fixed height causing clipping */
-            min-height: 50px;  /* Minimum height to prevent content overlap */
-        }
-    }
-`}</style>
+            <div
+                className="col-lg-6 col-md-12 text-center text-lg-end"
+                style={{
+                  marginLeft:'auto',
+                    display: 'flex',
+                    flexDirection: 'column', // Stack buttons vertically
+                    justifyContent: 'center', // Center buttons vertically
+                    alignItems: 'center', // Center buttons horizontally
+                    gap: '15px', // Space between buttons
+                   marginRight:'auto',
+                    marginTop: '20px',
+                    marginBottom: '20px',
+                }}
+            >
+                <a href="/Booking" style={{ textDecoration: 'none' }}>
+                    <button
+                        style={{
+                           marginLeft:'200px',
+                            backgroundColor: 'orange',
+                            color: 'black',
+                            border: 'none',
+                            padding: '10px 20px',
+                            cursor: 'pointer',
+                            display: 'flex',
+                            justifyContent: 'center',
+                            alignItems: 'center',
+                            width: 'auto', // Button width adjusts to content
+                            maxWidth: '200px', // Limit button width
+                        }}
+                    >
+                        Online Booking
+                    </button>
+                </a>
+                <a href="/contact" style={{ textDecoration: 'none' }}>
+                    <button
+                        style={{
+                            marginLeft:'200px',
+                            backgroundColor: 'orange',
+                            color: 'black',
+                            border: 'none',
+                            padding: '10px 20px',
+                            cursor: 'pointer',
+                            display: 'flex',
+                            justifyContent: 'center',
+                            alignItems: 'center',
+                            width: 'auto', // Button width adjusts to content
+                            maxWidth: '200px', // Limit button width
+                        }}
+                    >
+                        Our Location
+                    </button>
+                </a>
+                <a href="/register" style={{ textDecoration: 'none' }}>
+                    <button
+                        style={{
+                            marginLeft:'200px',
+                            backgroundColor: 'orange',
+                            color: 'black',
+                            border: 'none',
+                            padding: '10px 20px',
+                            cursor: 'pointer',
+                            display: 'flex',
+                            justifyContent: 'center',
+                            alignItems: 'center',
+                            width: 'auto', // Button width adjusts to content
+                            maxWidth: '200px', // Limit button width
+                        }}
+                    >
+                        Franchise
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
 
 
