@@ -19,14 +19,23 @@ export default function Menu() {
             <ul className={`main-menu ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
                 {/* "What We Do" Menu */}
                 <li className="has-children">
+
+          
+
+
+
+
+
+
+
                     <Link className={`active ${isActive('/')}`} href="/" style={{ color: 'white' }}>What We Do</Link>
                     <ul className="sub-menu">
-                        <li><Link href="/service-detail">Item we take</Link></li>
-                        <li><Link href="/services">Dumpster Rentals</Link></li>
-                        <li><Link href="/index-3">JK Dumpster Bag</Link></li>
-                        <li><Link href="/our-team">Recycle</Link></li>
-                        <li><Link href="/trackyourparcel">JK Junk Removal</Link></li>
-                        <li><Link href="/index-4">Jk Same Day Junk Removal</Link></li>
+                        <li><Link href="/Item-we-take">Item we take</Link></li>
+                        <li><Link href="/Dumpster-Rental">Dumpster Rentals</Link></li>
+                        <li><Link href="/JK-bags">JK Dumpster Bag</Link></li>
+                        <li><Link href="/Recycle">Recycle</Link></li>
+                        <li><Link href="/JK-Removal">JK Junk Removal</Link></li>
+                        <li><Link href="/sameday-JK">Jk Same Day Junk Removal</Link></li>
                     </ul>
                 </li>
 
@@ -34,9 +43,9 @@ export default function Menu() {
                 <li className="has-children">
                     <Link className={isActive('/workprocess')} href="/workprocess" style={{ color: 'white' }}>How it Works</Link>
                     <ul className="sub-menu">
-                        <li><Link href="/workprocess">Residential</Link></li>
-                        <li><Link href="/request-a-quote">Commercial</Link></li>
-                        <li><Link href="/our-team">National Accounts</Link></li>
+                        <li><Link href="/Residential">Residential</Link></li>
+                        <li><Link href="/Commercial">Commercial</Link></li>
+                        <li><Link href="/Recycle">National Accounts</Link></li>
                     </ul>
                 </li>
 
@@ -44,9 +53,10 @@ export default function Menu() {
                 <li className="has-children">
                     <Link className={isActive('/blog')} href="/blog" style={{ color: 'white' }}>Pricing</Link>
                     <ul className="sub-menu">
-                        <li><Link href="/index-2">Estimate Pricing</Link></li>
-                        <li><Link href="/faqs">Jk Removal Pricing</Link></li>
-                        <li><Link href="/index-2">Dumpster Pricing</Link></li>
+                        <li><Link href="/Estimate">Estimate Pricing</Link></li>
+                        <li><Link href="/jk-removal-price
+                        ">Jk Removal Pricing</Link></li>
+                        <li><Link href="/Estimate">Dumpster Pricing</Link></li>
                     </ul>
                 </li>
 
@@ -57,8 +67,8 @@ export default function Menu() {
                         <li><Link href="/about">About Us</Link></li>
                         <li><Link href="/contact">Our Location</Link></li>
                         <li><Link href="/register">Contact us</Link></li>
-                        <li><Link href="/comingsoon">Events</Link></li>
-                        <li><Link href="/newsletter">Resources</Link></li>
+                        <li><Link href="/Event">Events</Link></li>
+                        <li><Link href="/Resources">Resources</Link></li>
                         <li><Link href="/blog-single">Blog</Link></li>
                     </ul>
                 </li>

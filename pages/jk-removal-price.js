@@ -49,7 +49,11 @@ Junk King Provides Better Value
 .</p>
                               
 <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn"> We pay our trained workers a fair market rate. Our operators are insured and we dispose of items properly. We recycle up to 60% of every job which is better for our communities, our neighborhoods, our children and the planet. You can check out our recycling operations here..</p>
-                              
+
+<p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">For low minimums, free estimates and the BEST OVERALL VALUE in the junk removal industry, you simply cannot beat Junk King. </p>
+  
+
+
 <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn"> 
 We believe in FAIR, TRANSPARENT PRICING, and we back it up with 4 different ways to get an estimate.
 
@@ -86,11 +90,11 @@ We believe in FAIR, TRANSPARENT PRICING, and we back it up with 4 different ways
                             <div className="col-lg-6">
                                 <div className="item-faqs-2 mb-30"><Link href="#">
                                     <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">1:On Site Pricing. </h6></Link>
-                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> The best and most accurate way for us to assess the job and offer you the lowest price is free, no obligation on site estimate. When we are on-site, we can see most exactly what the job will require. .</p>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> The best and most accurate way for us to assess the job and offer you the lowest price is free, no obligation on site estimate. When we are on-site, we can see most exactly what the job will require. This helps us give you an immediate, accurate, and fair price for your junk removal job. When you're happy with the price, in most cases we will complete the job right then and there.</p>
                                 </div>
                                 <div className="item-faqs-2 mb-30"><Link href="#">
                                     <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">2:Online Pricing Estimate</h6></Link>
-                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">For an online pricing estimate, simply click Pricing in the navigation above, scroll to pricing estimator, enter a zip code, and choose estimate by items or volume. The online price estimator is based on the average size of a typical item and the price in your local market</p>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">For an online pricing estimate, simply click Pricing in the navigation above, scroll to pricing estimator, enter a zip code, and choose estimate by items or volume. The online price estimator is based on the average size of a typical item and the price in your local market. The size of a couch or a TV or any item may vary, which will affect your price. The online estimator provides an estimate only. Our goal with the estimator is to give you a solid idea of what the job is likely to cost.</p>
                                 </div>
                                 <div className="item-faqs-2 mb-30"><Link href="#">
                                     <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Text Us s Photo</h6></Link>

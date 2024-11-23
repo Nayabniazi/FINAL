@@ -10,7 +10,7 @@ import Requestquote2 from "@/components/sections/homepage2/Requestquote2"
 import Team1 from "@/components/sections/homepage2/Team1"
 import Testimonial2 from "@/components/sections/homepage2/Testimonial2"
 import Whychooseus1 from "@/components/sections/homepage2/Whychooseus1"
-import Faq from "./faqs"
+import Faq from "./jk-removal-price"
 export default function Home2() {
 
     return (
@@ -169,9 +169,11 @@ Our estimated pricing is based on both the average size of typical household ite
                             <div className="col-lg-6">
                               
                                 <div className="item-faqs-2 mb-30">
-                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Call & Talk to Trained Staff</h6>
-                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Finally, you can call and/or live chat our customer service representatives. We are open from 4:45a - 8p PST, 7:45a - 11p EST, 6 days a week, and for 8 hours on Sunday. If you have 4 items or less, in many cases we will be able to offer you a firm price. .</p>
-                                </div>
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Call Our Trained Staff</h6>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">You can also call or live chat with our knowledgeable and courteous customer service team. If you have 4 items or less, we can likely offer you a firm price. If you have 4 items or more, we can give you an accurate estimate. .</p>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginTop:'20px'}}> Regardless of which method you use to get your free estimate, the final, no-obligation price will be provided to you by our trained technicians..</p>
+                                 
+                                 </div>
                                 <div className="item-faqs-2 mb-30">
                                     <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">What is Junk Removal provider?</h6>
                                     <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">A Junk Removal provider is a company that specializes in providing logistics services, including transportation, storage, inventory management, and more.</p>
@@ -191,53 +193,19 @@ Our estimated pricing is based on both the average size of typical household ite
                             <h2 className="color-mb-15 mt-20 wow animate__animated animate__fadeIn"style={{color:'white'}}>Why Choose Junk King?</h2>
                         </div>
                         <div className="row mt-60">
-                            <div className="col-xl-3 col-lg-3 col-md-6 wow animate__animated animate__fadeIn">
-                                <div className="item-reason">
-                                    <div className="card-offer cardServiceStyle3 hover-up">
-                                        <div className="card-image"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" /></div>
-                                        <div className="card-info">
-                                            <h5 className="color-mb-15"style={{color:'black'}}>#1 Junk Removal Company</h5>
-                                            <p className="font-sm color-grey-900">Our team arrives on time, ready to work with a smile.
-                                            .</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-3 col-lg-3 col-md-6 wow animate__animated animate__fadeIn">
-                                <div className="item-reason">
-                                    <div className="card-offer cardServiceStyle3 hover-up">
-                                        <div className="card-image"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp" /></div>
-                                        <div className="card-info">
-                                            <h5 className="color- mb-15"style={{color:'black'}}>Low Price Guarantee</h5>
-                                            <p className="font-sm color-grey-900"> We promise to beat any written estimate from a comparable service..</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-3 col-lg-3 col-md-6 wow animate__animated animate__fadeIn">
-                                <div className="item-reason">
-                                    <div className="card-offer cardServiceStyle3 hover-up">
-                                        <div className="card-image"><img src="/assets/imgs/page/homepage1/forklift.png" alt="transp" /></div>
-                                        <div className="card-info">
-                                            <h5 className="color-mb-15"style={{color:'black'}}>Recycling More Than 60%</h5>
-                                            <p className="font-sm color-grey-900">We recycle up to 60% of what we haul,  protect the environment..</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-3 col-lg-3 col-md-6 wow animate__animated animate__fadeIn">
-                                <div className="item-reason">
-                                    <div className="card-offer cardServiceStyle3 hover-up">
-                                        <div className="card-image"><img src="/assets/imgs/page/homepage4/pallet.png" alt="transp" /></div>
-                                        <div className="card-info">
-                                            <h5 className="color- mb-15"style={{color:'black'}}>Eco-Friendly Solutions</h5>
-                                            <p className="font-sm color-grey-900">what we haul, helping to reduce landfill waste and protect the environment.
-                                            .</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                           <p style={{color:'white',marginLeft:'250px'}}>Because we understand that your time is valuable, we call you 15-30 minutes ahead of every job to let you know we are coming.</p>
+                            <p style={{marginTop:'30px',marginLeft:'150px',color:'white'}}>In fact, we are rated #1 for our customer service nationally. In addition, we also pay our highly-trained workers a fair market rate and our operators are insured.</p>
+                           <p style={{marginTop:'10px',marginLeft:'50px',color:'white',textAlign:"center"}}>At Junk King, we guarantee that we will dispose of your junk items properly. In fact, we recycle up to 60 percent of every junk removal job and we are .</p>
+                                            <p style={{marginTop:'3px',color:'white',marginLeft:'410px'}}>the only national junk removal company with sorting facilities in our locally owned locations.</p>
+                                                 
+                           <p style={{marginTop:'30px',color:'white',marginLeft:'240px'}}>We sort, reuse, recycle, and donate as much as we possibly can to be a responsible waste removal partner for a better tomorrow.</p>                      
+                                                 
+                         <p style={{marginTop:'10px',color:'white',marginLeft:'330px',}}>*This pricing estimator provides an online estimate. The final price will be determined onsite by our staff.</p>                        
+                                         <p style={{marginTop:'10px',color:'white',marginLeft:'400px'}}>The price for heavy material, such as dirt, gravel, roofing material, and concrete, </p>        
+                                                 
+                                             <p style={{marginTop:'10px',color:'white',marginLeft:'400px',marginBottom:'100px'}}>cannot be estimated with this tool as this material is charged by the bed load</p>    
+                                                 
+                                                  </div>
                     </div>
                 </section>
 

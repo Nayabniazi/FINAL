@@ -34,6 +34,7 @@ export default function Quote() {
                                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn"style={{marginTop:'30px'}}>
                                         Whether you’re dealing with outdated office furniture, discarded electronics, or leftover construction materials, we have the expertise and equipment to handle it all. Trust BinBear, North America’s top choice for commercial junk removal.
                                         </p>
+                                       <h5 style={{marginTop:'60px',color:'black'}}>Why Choose BinBear for Commercial Junk Removal</h5>
                                     </div>
                                 </div>
                                 <div className="row mt-50">
@@ -266,9 +267,7 @@ export default function Quote() {
                         <div className="content-detail"><strong className="font-md-bold color-grey-900 mb-25 d-block wow animate__animated animate__fadeIn"><h3>BinBear: A Green Approach to Commercial Junk Removal</h3></strong>
                             <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">             BinBear is committed to eco-friendly practices, leading the way with recycling-based junk removal. We sort each load to separate metals, electronics, paper, and more, aiming to recycle or repurpose as much as possible. Usable items are donated to local charities, helping reduce landfill waste while benefiting the community.    </p>
                             <p className="wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/service-detail/img3.png" alt="transp" /></p>
-                            <p className="wow animate__animated animate__fadeIn">While many recyclables can be disposed of for free, larger items may come with fees. BinBear offers transparent, upfront pricing with free estimates. We show up on time, provide a written estimate, and, if you’re happy, we can often take your items on the spot..</p>
-                            <p className="wow animate__animated animate__fadeIn">While many recyclables can be disposed of for free, larger items may come with fees. BinBear offers transparent, upfront pricing with free estimates. We show up on time, provide a written estimate, and, if you’re happy, we can often take your items on the spot..</p>
-                            <h3 className="wow animate__animated animate__fadeIn"style={{color:'black'}}>Ready for Commercial Junk Removal?</h3>
+                           <h3 className="wow animate__animated animate__fadeIn"style={{color:'black'}}>Ready for Commercial Junk Removal?</h3>
                             <div className="row align-items-center">
                                 <div className="col-lg-7 wow animate__animated animate__fadeIn">
                                     <p> 
@@ -297,6 +296,7 @@ export default function Quote() {
                         <div className="col-lg-8 col-md-8 mb-30">
                             <p className="font-md color-gray-700 wow animate__animated animate__fadeIn">Let BinBear help your business maintain a clutter-free, efficient environment. Contact us today to schedule a service or learn more about our eco-friendly junk removal solutions!
                                </p>
+                               <p className="font-md color-gray-700 wow animate__animated animate__fadeIn"style={{marginTop:'10px'}}>In addition to commercial junk removal, BinBear specializes in:</p>
                         </div>
                         <div className="col-lg-4 col-md-4 mb-30 text-md-end text-start"><Link className="btn btn-brand-1 hover-up" href="/404" style={{backgroundColor: 'orange', }}>
                             <svg fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">

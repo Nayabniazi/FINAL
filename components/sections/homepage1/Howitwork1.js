@@ -6,14 +6,14 @@ export default function Howitwork1() {
                 <div className="container">
                     <div className="text-center"><img className="mb-15" src="/assets/imgs/template/icons/favicon.svg" alt="transp" />
                         <h2 className="color- mb-20 wow animate__animated animate__fadeIn"style={{color:'black'}}>How It Works</h2>
-                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">At BinBear, we make junk removal effortless. Whether it’s a single item or a full property cleanout, our team is here to handle every step. With BinBear
+                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">When you choose BinBear, all you have to do is point, and we take care of the rest!
                            .</p>
                     </div>
                     <div className="row mt-50">
                         <div className="col-lg-6 mb-30">
                             <div className="box-image-how"><img className="w-100 wow animate__animated animate__fadeIn" src="/assets/imgs/page/homepage1/how-it-work.png" alt="transp" />
                                 <div className="box-info-bottom-img"style={{backgroundColor:'black'}}>
-                                    <div className="image-play"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/template/icons/play.svg" alt="transp"  /></div>
+                                    <div className="image-play"></div>
                                     <div className="info-play">
                                         <h4 className="color-white mb-15 wow animate__animated animate__fadeIn">We have 25 years
                                             experience in this passion</h4>
