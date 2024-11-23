@@ -108,22 +108,26 @@ Our estimated pricing is based on both the average size of typical household ite
                                 <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">8-On the next page, simply click the green "Book It" button.
                                 </p>
                                 <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">9-Junk King Believes in Fair and Transparent Pricing</p>
-                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">At Junk King, we guarantee to beat any written estimate and we are confident that our prices are better than any comparable operator. In other words, a licensed and insured junk removal company that operates a recycling-based operation to help keep our landfills free of junk and unnecessary waste materials - just like we do!</p>
+                                
 
-                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Because we support fair, transparent pricing, we offer you free estimates as a part of our service. While other companies tend to hide their prices, we have always been transparent with ours because our prices offer you more value.
-                                </p>
-                              
-
-                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">That means our big, red trucks will show up on time at your location, and our junk removal team will provide you with a free written estimate. And, if you’re happy with the estimate, most of the time we can haul your items right then.</p>
-                              
-                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">And, because we believe in fair and transparent pricing, we give you FOUR different ways to get an estimate.</p>
-                              
-
+                               
                                 <div className="mt-20 wow animate__animated animate__fadeIn"><div className="btn btn-link font-sm color-black" href="#">View Details<span>
                                     <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                     </svg></span></div></div>
                             </div>
+                            <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginLeft:'80px'}}>At Junk King, we guarantee to beat any written estimate and we are confident that our prices are better than any comparable operator. In other words, a licensed</p>               <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginLeft:'80px'}}> and insured junk removal company that operates a recycling-based operation to help keep our landfills free of junk and unnecessary waste materials - just like we do!</p>
+                                 
+                               
+                               
+                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginLeft:'120px'}}>Because we support fair, transparent pricing, we offer you free estimates as a part of our service. While other companies tend to hide their prices, we have 
+                                </p>
+                             <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginLeft:'190px'}}> always been transparent  to hide their prices, we have always been transparent    with ours because our prices offer you more value.</p>
+
+                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginLeft:'130px'}}>That means our big, red trucks will show up on time at your location, and our junk removal team will provide you with a free written estimate. And,  </p>
+                              <p  className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginLeft:'280px'}}>will show up on time at your location, and our junk removal team will provide you with a free written estimate Add,</p>
+                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginLeft:'310px'}}> because we believe in fair and transparent pricing, we give you FOUR different ways to get an estimate.</p>
+                              
                         </div>
 
 

@@ -270,16 +270,31 @@ export default function Footer1({ }) {
                     </div>
                 </div>
             </div>
-
             <style jsx>{`
+    /* For larger screens (tablet and desktop) */
+    .col-lg-6.col-md-12.text-center.text-lg-end {
+        display: flex;  /* Flexbox for the buttons */
+        justify-content: center;  /* Center the buttons horizontally */
+        align-items: center;  /* Center the buttons vertically */
+        gap: 10px;  /* 10px gap between buttons */
+        flex-wrap: wrap;  /* Allow buttons to wrap if necessary */
+    }
+
+    /* For mobile screens */
     @media (max-width: 768px) {
-        .col-.text-center.text-lg-end {
-       
-            flex-direction: column;  // Stack buttons vertically on smaller screens
-            align-items: center;  // Center align the buttons on mobile
+        .col-lg-6.col-md-12.text-center.text-lg-end {
+            flex-direction: column;  /* Stack buttons vertically on smaller screens */
+            justify-content: center;  /* Center the buttons horizontally */
+              /* Center the buttons vertically */
+            gap: 10px;  /* 10px gap between buttons */
+            height: auto;  /* Ensure there’s no fixed height causing clipping */
+            min-height: 50px;  /* Minimum height to prevent content overlap */
         }
     }
 `}</style>
+
+
+
 
 
         </div>
