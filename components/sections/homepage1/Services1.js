@@ -24,8 +24,32 @@ export default function Services1() {
                         <div className="col-lg-8 col-md-8 mb-30">
                             <p className="font-md color-gray-700 wow animate__animated animate__fadeIn">At BinBear, we make junk removal effortless. Whether it’s a single item or a full property cleanout, our team is here to handle every step. With BinBear
                              with BinBear,you get:  </p>
-                               <p style={{marginLeft:'500px', marginTop:'30px', color:'black'}}>We don't Say we different WE SHOW YOU!</p>
-                        </div>
+
+
+                             <p
+  className="font-md color-gray-700 wow animate__animated animate__fadeIn"
+  style={{
+    marginTop: '20px',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    textAlign: 'center', // Center align text
+    fontSize: 'clamp(14px, 4vw, 24px)', // Dynamically scale font size
+    maxWidth: '80%', // Prevent the text from stretching too wide
+    lineHeight: '1.5', // Improve readability
+    // Adjust width and alignment for larger screens (e.g., laptops)
+    maxWidth: window.innerWidth > 1200 ? '50%' : '80%', // Centered and narrower on large screens
+  }}
+>
+  We don't say we’re different, WE SHOW YOU!
+</p>
+
+
+
+
+
+
+
+                               </div>
                         
                     </div>
                     <div className="mt-20 box-background-black" >
@@ -114,15 +138,61 @@ export default function Services1() {
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                             </svg></span></a></div>
+
+                                           
+
+
                                     </div>
                                 </div>
                             </div>
-                            <p style={{textAlign:'center',marginLeft:'70px',marginTop:'30px'}}>We Prioritize exceptional customer services and consistency delivery top-quality results.</p>
-                       <p style={{marginLeft:'70px',textAlign:'center'}}> Guided by our eco-Friendly mission,we strive to recycle or donate as much of your junk as possible</p>
-                       <p style={{marginLeft:'70px',textAlign:'center'}}> As only National Company  with alocal sorting facility,we aims Recycling 60% or more of every jobs!</p>
-                       <p style={{marginLeft:'70px',textAlign:'center',marginTop:'25px'}}>At Junk king ,you will experience  starightforward process,the commitment to treating </p>
-                       <p style={{marginLeft:'70px',textAlign:'center'}}>You Like Royal with Outstanding Services!</p>
-                       
+                            <p
+  style={{
+    marginTop:'30px',
+    
+    textAlign: 'center',
+    margin: '10px ', // Center the text block and add spacing
+    fontSize: 'clamp(14px, 2.5vw, 8px)', // Dynamically scale font size
+    maxWidth: '90%', // Keep text width constrained
+    lineHeight: '1.6', // Enhance readability
+  }}
+>
+  We Prioritize exceptional customer services and consistency delivery top-quality results.
+</p>
+<p
+  style={{
+    textAlign: 'center',
+    margin: '10px ',
+    fontSize: 'clamp(14px, 2.5vw, 8px)',
+    maxWidth: '90%',
+    lineHeight: '1.6',
+  }}
+>
+  Guided by our eco-Friendly mission, we strive to recycle or donate as much of your junk as possible.
+</p>
+<p
+  style={{
+    textAlign: 'center',
+    margin: '10px ',
+    fontSize: 'clamp(14px, 2.5vw, 8px)',
+    maxWidth: '90%',
+    lineHeight: '1.6',
+  }}
+>
+  As only National Company with a local sorting facility, we aim to recycle 60% or more of every job!
+</p>
+<p
+  style={{
+    textAlign: 'center',
+    margin: '10px ',
+    fontSize: 'clamp(14px, 2.5vw, 8px)',
+    maxWidth: '90%',
+    lineHeight: '1.6',
+  }}
+>
+  At Junk King, you will experience a straightforward process and a commitment to treating you like royalty
+  with outstanding service!
+</p>
+
                         </div>
                     </div>
                 </div>
