@@ -38,12 +38,12 @@ export default function Sidebar({ openClass, handleMobileMenuClose }) {
                                             <span className="menu-expand"><svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg></span>
                                             <Link className="active" href="/">What We Do</Link>
                                             <ul className={isActive.key == 1 ? "sub-menu d-block" : "sub-menu d-none"}>
-                                                <li><Link href="/service-detail">Item we Take</Link></li>
-                                                <li><Link href="/services">Dumpster-Rental</Link></li>
-                                                <li><Link href="/index-3">JK Dumpster Bag</Link></li>
-                                                <li><Link href="/our-team">Recycle</Link></li>
-                                                <li><Link href="/trackyourparcel">JK Junk Removal</Link></li>
-                                                <li><Link href="/index-4">Jk Same Day Junk Removal</Link></li>
+                                                <li><Link href="/Item-we-take">Item we Take</Link></li>
+                                                <li><Link href="/Dumpster-Rental">Dumpster-Rental</Link></li>
+                                                <li><Link href="/JK-bags">JK Dumpster Bag</Link></li>
+                                                <li><Link href="/Recycle">Recycle</Link></li>
+                                                <li><Link href="/JK-Removal">JK Junk Removal</Link></li>
+                                                <li><Link href="/sameday-JK">Jk Same Day Junk Removal</Link></li>
                                             </ul>
                                         </li>
                                        
@@ -51,9 +51,9 @@ export default function Sidebar({ openClass, handleMobileMenuClose }) {
                                             <span className="menu-expand"><svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg></span>
                                             <Link href="/services">How it Works</Link>
                                             <ul className={isActive.key == 2 ? "sub-menu d-block" : "sub-menu d-none"}>
-                                            <li><Link href="/workprocess">Residential</Link></li>
-                        <li><Link href="/request-a-quote">Commercial</Link></li>
-                        <li><Link href="/our-team">National Accounts</Link></li>
+                                            <li><Link href="/Residential">Residential</Link></li>
+                        <li><Link href="/Commercial">Commercial</Link></li>
+                        <li><Link href="/Recycle">National Accounts</Link></li>
                                             </ul>
                                         </li>
 
@@ -61,9 +61,9 @@ export default function Sidebar({ openClass, handleMobileMenuClose }) {
                                             <span className="menu-expand"><svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg></span>
                                             <Link href="/blog">Pricing</Link>
                                             <ul className={isActive.key == 4 ? "sub-menu d-block" : "sub-menu d-none"}>
-                                            <li><Link href="/index-2">Estimate Pricing</Link></li>
-                        <li><Link href="/faqs">Jk Removal Pricing</Link></li>
-                        <li><Link href="/index-2">Dumpster Pricing</Link></li>
+                                            <li><Link href="/Estimate">Estimate Pricing</Link></li>
+                        <li><Link href="/jk-removal-price">Jk Removal Pricing</Link></li>
+                        <li><Link href="/Estimate">Dumpster Pricing</Link></li>
                                             </ul>
                                         </li>
 
@@ -76,8 +76,8 @@ export default function Sidebar({ openClass, handleMobileMenuClose }) {
                                             <li><Link href="/about">About Us</Link></li>
                         <li><Link href="/contact">Our Location</Link></li>
                         <li><Link href="/register">Contact us</Link></li>
-                        <li><Link href="/comingsoon">Events</Link></li>
-                        <li><Link href="/newsletter">Resources</Link></li>
+                        <li><Link href="/Event">Events</Link></li>
+                        <li><Link href="/Resources">Resources</Link></li>
                         <li><Link href="/blog-single">Blog</Link></li>
                                             </ul>
                                         </li>
