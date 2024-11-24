@@ -43,7 +43,7 @@ export default function Hero1Slider() {
 
                                 </div>
                                   </div>
-                        </div>
+                           </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
