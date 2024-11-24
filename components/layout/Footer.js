@@ -256,7 +256,7 @@ export default function Footer1({ }) {
                     gap: '15px', // Space between buttons
                    marginRight:'190px',
                     marginTop: '0px',
-                    marginBottom: '20px',
+                    marginBottom: '0px',
                 }}
             >
                 <a href="/Booking" style={{ textDecoration: 'none' }}>
@@ -322,12 +322,30 @@ export default function Footer1({ }) {
 </div>
 
 
-
-
-
-
-
         </div>
+
+
+        <div className="footer-2">
+                    <div className="container-sub">
+                        <div className="footer-bottom">
+                            <div className="row align-items-center">
+                                <div className="col-sm-5 text-center text-sm-start"><span className="color-grey-300 font-xs">©Transp
+                                    Official {new Date().getFullYear()}. All right reversed.</span></div>
+                                <div className="col-sm-7 text-center text-sm-end">
+                                    <ul className="menu-bottom">
+                                        <li><Link className="font-xs color-grey-300" href="/term-conditions">Privacy policy</Link>
+                                        </li>
+                                        <li><Link className="font-xs color-grey-300" href="/term-conditions">Cookies</Link></li>
+                                        <li><Link className="font-xs color-grey-300" href="/term-conditions">Terms of service</Link>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
     </footer>
 </>
 
