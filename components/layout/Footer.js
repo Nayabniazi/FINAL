@@ -215,8 +215,8 @@ export default function Footer1({ }) {
         style={{
             marginRight:'18px',
             fontSize: '1.25rem', // Responsive font size
-            color: '',
-            margin: '10px 0', // Vertical spacing
+         marginBottom:'20px',
+            // Vertical spacing
         }}
     >
         View more Links
