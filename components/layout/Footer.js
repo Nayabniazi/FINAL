@@ -192,15 +192,14 @@ export default function Footer1({ }) {
         <div
             className="footer-2"
             style={{
+              
                 paddingTop: '0px',
                 backgroundColor: 'black',
                 paddingBottom: '50px',
             }}
         >
-           
-
-
-           <div
+          
+          <div
     style={{
         display: 'flex',
         flexDirection: 'column', // Stack content vertically
@@ -213,7 +212,7 @@ export default function Footer1({ }) {
 >
     <p className="color-brand-1"
         style={{
-            marginRight:'18px',
+            marginRight:'20px',
             fontSize: '1.25rem', // Responsive font size
          marginBottom:'20px',
             // Vertical spacing
@@ -223,7 +222,7 @@ export default function Footer1({ }) {
     </p>
     <p
         style={{
-            marginRight:'15px',
+            marginRight:'18px',
             fontSize: '1rem', // Responsive font size
             color: 'white',
             margin: '10px 0', // Vertical spacing
@@ -242,11 +241,6 @@ export default function Footer1({ }) {
         (Our Company Details)
     </p>
 </div>
-
-
-
-
-
 
 
 
