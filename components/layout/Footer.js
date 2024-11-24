@@ -9,7 +9,7 @@ export default function Footer1({ }) {
         <div
             className="footer-1"
             style={{
-                
+               
                 height: 'auto',
                 padding: '20px 0', 
                 backgroundColor: 'black',
@@ -37,7 +37,7 @@ export default function Footer1({ }) {
                             kitting, assembly, customized package and business
                             inserts, etc.
                         </p>
-<h5 className="color-brand-1"style={{marginTop:'10px'}}>View Details</h5>
+<h5 className="color-brand-1"style={{marginTop:'10px'}}></h5>
 
                     </div>
                     <div
@@ -217,7 +217,6 @@ export default function Footer1({ }) {
 </div>
 
 
-
 <div
     style={{
         display: 'flex',
@@ -225,7 +224,7 @@ export default function Footer1({ }) {
         gap: '10px', // Space between buttons
         alignItems: 'center',
         justifyContent: 'center',
-     paddingLeft:'40px',
+        padding: '20px',
     }}
 >
     <a href="/Booking" style={{ textDecoration: 'none', width: '100%' }}>
@@ -241,7 +240,8 @@ export default function Footer1({ }) {
                 alignItems: 'center',
                 width: '100%',
                 maxWidth: '200px',
-               // Optional: Rounded corners
+                
+                marginLeft:'30px', // Optional: Rounded corners
             }}
         >
             Online Booking
@@ -260,7 +260,8 @@ export default function Footer1({ }) {
                 alignItems: 'center',
                 width: '100%',
                 maxWidth: '200px',
-               // Optional: Rounded corners
+                
+                marginLeft:'30px', // Optional: Rounded corners
             }}
         >
             Our Location
@@ -279,20 +280,14 @@ export default function Footer1({ }) {
                 alignItems: 'center',
                 width: '100%',
                 maxWidth: '200px',
-                // Optional: Rounded corners
+               
+                marginLeft:'30px', // Optional: Rounded corners
             }}
         >
             Franchise
         </button>
     </a>
 </div>
-
-
-
-
-
-
-
 
 
 
