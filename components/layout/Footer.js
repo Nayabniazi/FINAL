@@ -200,8 +200,54 @@ export default function Footer1({ }) {
            
 
 
+           <div
+    style={{
+        display: 'flex',
+        flexDirection: 'column', // Stack content vertically
+        // Align to the right on large screens
+        marginRight: '27%', // Add space from the right edge
+        marginLeft: 'auto', // Ensure alignment to the right
+        textAlign: 'right',
+        padding: '10px', // Add padding for better appearance
+    }}
+>
+    <p className="color-brand-1"
+        style={{
+            fontSize: '1.25rem', // Responsive font size
+            color: '',
+            margin: '10px 0', // Vertical spacing
+        }}
+    >
+        View more Links
+    </p>
+    <p
+        style={{
+            fontSize: '1rem', // Responsive font size
+            color: 'white',
+            margin: '10px 0', // Vertical spacing
+        }}
+    >
+        (1-888-888-JUNK)
+    </p>
+    <p
+        style={{
+            fontSize: '1rem', // Responsive font size
+            color: 'white',
+            margin: '10px 0', // Vertical spacing
+        }}
+    >
+        (Our Company Details)
+    </p>
+</div>
 
-<p style={{marginLeft:'1150px',fontSize:'20px',color:'orange',}}>View Details</p>
+
+
+
+
+
+
+
+
 
            <div className="container">
           
@@ -220,8 +266,8 @@ export default function Footer1({ }) {
                     justifyContent: 'center', // Center buttons vertically
                     alignItems: 'center', // Center buttons horizontally
                     gap: '15px', // Space between buttons
-                   marginRight:'auto',
-                    marginTop: '20px',
+                   marginRight:'210px',
+                    marginTop: '0px',
                     marginBottom: '20px',
                 }}
             >

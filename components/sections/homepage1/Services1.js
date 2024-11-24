@@ -29,10 +29,11 @@ export default function Services1() {
                              <p
   className="font-md color-gray-700 wow animate__animated animate__fadeIn"
   style={{
+   
     marginTop: '20px',
-    marginLeft: 'auto',
+    marginLeft: '20px',
     marginRight: 'auto',
-    textAlign: 'center', // Center align text
+    // Center align text
     fontSize: 'clamp(14px, 4vw, 24px)', // Dynamically scale font size
     maxWidth: '80%', // Prevent the text from stretching too wide
     lineHeight: '1.5', // Improve readability
@@ -62,7 +63,7 @@ export default function Services1() {
                                     </div>
                                     <div className="card-info">
                                         <h5 className="color- mb-15"style={{color:'black'}}>#1 Junk removal company </h5>
-                                        <p className="font-sm color-grey-900 mb-35">.</p>
+                                        <p className="font-sm color-grey-900 mb-35"></p>
                                         <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-"style={{color:'black'}}>View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
