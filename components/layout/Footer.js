@@ -213,6 +213,7 @@ export default function Footer1({ }) {
 >
     <p className="color-brand-1"
         style={{
+            marginRight:'18px',
             fontSize: '1.25rem', // Responsive font size
             color: '',
             margin: '10px 0', // Vertical spacing
@@ -222,6 +223,7 @@ export default function Footer1({ }) {
     </p>
     <p
         style={{
+            marginRight:'15px',
             fontSize: '1rem', // Responsive font size
             color: 'white',
             margin: '10px 0', // Vertical spacing
@@ -231,6 +233,7 @@ export default function Footer1({ }) {
     </p>
     <p
         style={{
+            marginRight:'0px',
             fontSize: '1rem', // Responsive font size
             color: 'white',
             margin: '10px 0', // Vertical spacing
