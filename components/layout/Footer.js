@@ -254,7 +254,7 @@ export default function Footer1({ }) {
                     justifyContent: 'center', // Center buttons vertically
                     alignItems: 'center', // Center buttons horizontally
                     gap: '15px', // Space between buttons
-                   marginRight:'210px',
+                   marginRight:'190px',
                     marginTop: '0px',
                     marginBottom: '20px',
                 }}
