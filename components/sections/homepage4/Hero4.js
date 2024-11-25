@@ -6,7 +6,7 @@ export default function Hero4() {
     return (
         <>
             <section className="section d-block">
-                <div className="banner-1 banner-4 wow animate__animated animate__fadeIn" style={{ backgroundImage: 'url(assets/imgs/page/homepage1/banner-2.png)',}}>
+                <div className="banner-1 banner-4 wow animate__animated animate__fadeIn" style={{ backgroundImage: 'url(assets/imgs/page/homepage1/banner.png)',}}>
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-12">
