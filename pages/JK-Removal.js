@@ -27,7 +27,7 @@ export default function TrackParcel() {
                                   
                                   </div>
                                   </div> 
-                </div>
+ </div>
                             
                     
 

@@ -161,7 +161,7 @@ export default function WorkProcess() {
                                         <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp" /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">Low Price Guarantee</h5>
-                                            <p className="font-md color-grey-700">.</p>
+                                            <p className="font-md color-grey-700"></p>
                                         </div>
                                     </li>
 

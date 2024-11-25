@@ -21,33 +21,38 @@ export default function Home3() {
 
 
          
+
+
             <section className="section d-block">
                     <div className="container position-relative">
-                        <div className="banner-trackyourparcel" style={{ backgroundImage: "url('/assets/imgs/page/blog-single/bag.png')",
+                        <div className="banner-trackyourparcel" style={{ backgroundImage: "url(''/assets/imgs/page/blog-single/bag.png'')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
-   opacity:.6,
-   
-    height: "100%", }}/>
-                        <div className="box-info-trackyourparcel">
-                            <h2 className="color- mb-25 wow animate__animated animate__fadeIn"style={{color:'black',}}>Schedule a Pickup Full Dumpster Bag<br className="d-none d-lg-block" /></h2>
-                            <p className="color- font-md wow animate__animated animate__fadeIn"style={{color:'black',}}><br className="d-none d-lg-block" />At BinBear, we can handle just about ANYTHING and EVERYTHING—except hazardous waste. </p>
+    height: "100%", opacity:'.6'}}/>
+
+<div className="box-info-trackyourparcel">
+                            <h2 className="color- mb-25 wow animate__animated animate__fadeIn"style={{Color:'black'}}>Dumpster Bag Rentals Service <br className="d-none d-lg-block" /></h2>
+                            <p className="color-grey-900 font-md wow animate__animated animate__fadeIn">Discover our JK Dumpster Bag ,How it Simplifies the Junk removal process<br className="d-none d-lg-block" /></p>
                             <div className="form-trackparcel wow animate__animated animate__fadeIn">
-                                <form action="#">
-                                <div className="form-group">
-                                <div className="mb-1000px"style={{marginLeft:'230px',}}><div className="btn btn-brand-1-big mr-20 wow animate__animated animate__fadeIn" href="/contact"style={{backgroundColor:'orange'}}>Free Estimate</div><div className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">
+                               
+                                      </div>
+                                      <div className="mt-20"style={{marginLeft:'90px'}}><div className="btn btn-brand-1-big mr-20 wow animate__animated animate__fadeIn" href="/contact"style={{backgroundColor:'orange'}}>Free Estimate</div><div className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">
                                   
                                   </div>
-                                  </div>  </div>
-                                </form>
-                            </div>
-                            </div>
-                    </div>
+                                  </div> 
+ </div>
+                            
+                    
+
+
+
+
+
+
+                        </div>
+
                 </section>
-
-
-
 
 
 

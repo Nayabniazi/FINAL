@@ -191,7 +191,7 @@ export default function Quote() {
                     <div className="container">
                         <div className="text-start"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/template/icons/favicon.svg" alt="transp" />
                             <h2 className="color-black mb-20 wow animate__animated animate__fadeIn">Benefits of Outsourcing Your Commercial Junk Removal to BinBear</h2>
-                            <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">- Convenience: Free up time by letting BinBear handle all your junk removal needs.
+                            <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Convenience: Free up time by letting BinBear handle all your junk removal needs.
 - Health and Safety: Our team is equipped to handle heavy and bulky items safely, minimizing risks for your staff.
 - Cost Savings: Avoid the productivity loss and expenses associated with DIY junk removal.
 - Peace of Mind: With BinBear, you can trust that junk is disposed of legally and sustainably.
