@@ -21,31 +21,42 @@ export default function Services1() {
                 <div className="container">
                     <h2 className="title-favicon mb-20 wow animate__animated animate__fadeIn"style={{color:'black',}} >What We Offer</h2>
                     <div className="row align-items-end">
-                        <div className="col-lg-8 col-md-8 mb-30">
+                        <div className="">
                             <p className="font-md color-gray-700 wow animate__animated animate__fadeIn">At BinBear, we make junk removal effortless. Whether it’s a single item or a full property cleanout, our team is here to handle every step. With BinBear
                              with BinBear,you get:  </p>
 
 
                              <p
-  className="font-md color-gray-700 wow animate__animated animate__fadeIn"
-  style={{
-   
-    marginTop: '20px',
-    marginLeft: '20px',
-    marginRight: 'auto',
-    // Center align text
-    fontSize: 'clamp(14px, 4vw, 24px)', // Dynamically scale font size
-    maxWidth: '80%', // Prevent the text from stretching too wide
-    lineHeight: '1.5', // Improve readability
-    // Adjust width and alignment for larger screens (e.g., laptops)
-    maxWidth: window.innerWidth > 1200 ? '50%' : '80%', // Centered and narrower on large screens
-  }}
+style={{marginTop:'10px'}}
 >
   We don't say we’re different, WE SHOW YOU!
 </p>
 
 
 
+<p
+  style={{marginTop:'30px'}}
+>
+  We Prioritize exceptional customer services and consistency delivery top-quality results. Guided by our eco-Friendly mission, we strive to recycle or donate as much of your junk as possible.
+</p>
+
+<p
+ style={{marginTop:'10px'}} 
+>
+  As only National Company with a local sorting facility, we aim to recycle 60% or more of every job!
+  At Junk King, you will experience a straightforward process and a commitment to treating you 
+</p>
+<p
+  style={{
+       margin: '10px ',
+    fontSize: 'clamp(14px, 2.5vw, 8px)',
+    maxWidth: '90%',
+    lineHeight: '1.6',
+  }}
+>
+  like royalty
+  with outstanding service!
+</p>
 
 
 
@@ -146,53 +157,7 @@ export default function Services1() {
                                     </div>
                                 </div>
                             </div>
-                            <p
-  style={{
-    marginTop:'30px',
-    
-    textAlign: 'center',
-    margin: '10px ', // Center the text block and add spacing
-    fontSize: 'clamp(14px, 2.5vw, 8px)', // Dynamically scale font size
-    maxWidth: '90%', // Keep text width constrained
-    lineHeight: '1.6', // Enhance readability
-  }}
->
-  We Prioritize exceptional customer services and consistency delivery top-quality results.
-</p>
-<p
-  style={{
-    textAlign: 'center',
-    margin: '10px ',
-    fontSize: 'clamp(14px, 2.5vw, 8px)',
-    maxWidth: '90%',
-    lineHeight: '1.6',
-  }}
->
-  Guided by our eco-Friendly mission, we strive to recycle or donate as much of your junk as possible.
-</p>
-<p
-  style={{
-    textAlign: 'center',
-    margin: '10px ',
-    fontSize: 'clamp(14px, 2.5vw, 8px)',
-    maxWidth: '90%',
-    lineHeight: '1.6',
-  }}
->
-  As only National Company with a local sorting facility, we aim to recycle 60% or more of every job!
-</p>
-<p
-  style={{
-    textAlign: 'center',
-    margin: '10px ',
-    fontSize: 'clamp(14px, 2.5vw, 8px)',
-    maxWidth: '90%',
-    lineHeight: '1.6',
-  }}
->
-  At Junk King, you will experience a straightforward process and a commitment to treating you like royalty
-  with outstanding service!
-</p>
+                          
 
                         </div>
                     </div>

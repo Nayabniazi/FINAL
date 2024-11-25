@@ -244,27 +244,153 @@ Trash Removal
 Whether you need a one-time trash removal or ongoing cleanup, BinBear provides fast, friendly service with a focus on recycling wherever possible.
 </p>
                            
-                            <h3 className="wow animate__animated animate__fadeIn"style={{color:'black'}}>What BinBear Can’t Take</h3>
-                            <div className="row align-items-center">
-                                <div className="col-lg-7 wow animate__animated animate__fadeIn">
-                                    <p> 
-                                    While we handle almost anything, we do not collect hazardous waste, including:
+    
 
-</p>
-                                    <p>-Paints and solvents</p>
-                                    <p>-Pesticides and fertilizers </p>
-                                    <p> -Chemical cleaners</p>
-                                    <p> -Lead-acid and lithium-ion batteries</p>
-                                    <p> -Flammable liquids</p>
-                                    <p>-Ammunition and explosives</p>
-                                    <p>-Medical waste</p>
-                                    <p>-Materials containing asbestos or mercury</p>
-                                </div>
-                                <div className="col-lg-5 wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/service-detail/img4.png" alt="transp" /></div>
-                            </div>
+<div className="col-lg-6 mb-30">
+
+
+
+
+
+
+
+
+
+
+
+                                    
+
+
+
+</div></div>
+
+
+
+
+<section className="section mt-70">
+                    <div className="container">
+                        <div className="row align-items-center">
+                            <div className="col-lg-6 mb-60"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/page/workprocess/parachute.png" alt="transp" />
+                                <h3 className="color-black mb-15 wow animate__animated animate__fadeIn"style={{marginBottom:'30px'}}>What BinBear Can’t Take</h3>
+                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginBottom:'20px'}}>While we handle almost anything, we do not collect hazardous waste, including:
+                                </p>
+                                <ul className="list-how-works">
+                                <li className="wow animate__animated animate__fadeIn">
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
+                                        <div className="info-how">
+                                            <h5 className="color-black">Paints and solvents</h5>
+                                            <p className="font-md color-grey-700"></p>
+                                        </div>
+                                    </li>
+
+                                    <li className="wow animate__animated animate__fadeIn">
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
+                                        <div className="info-how">
+                                            <h5 className="color-black">Pesticides and fertilizers</h5>
+                                            <p className="font-md color-grey-700"> </p>
+                                        </div>
+                                    </li>
+
+
+                                    <li className="wow animate__animated animate__fadeIn">
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
+                                        <div className="info-how">
+                                            <h5 className="color-black">Chemical cleaners</h5>
+                                            <p className="font-md color-grey-700"></p>
+                                        </div>
+                                    </li>
+
+
+                                    <li className="wow animate__animated animate__fadeIn">
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
+                                        <div className="info-how">
+                                            <h5 className="color-black">Lead-acid and lithium-ion batteries</h5>
+                                            <p className="font-md color-grey-700"> </p>
+                                        </div>
+                                    </li>
+
+
+                                    <li className="wow animate__animated animate__fadeIn">
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
+                                        <div className="info-how">
+                                            <h5 className="color-black">Flammable liquids</h5>
+                                            <p className="font-md color-grey-700"></p>
+                                        </div>
+                                    </li>
+                                    <li className="wow animate__animated animate__fadeIn">
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
+                                        <div className="info-how">
+                                            <h5 className="color-black">Ammunition and explosives</h5>
+                                            <p className="font-md color-grey-700"></p>
+                                        </div>
+                                    </li>
+
+                                    <li className="wow animate__animated animate__fadeIn">
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
+                                        <div className="info-how">
+                                            <h5 className="color-black">Medical waste</h5>
+                                            <p className="font-md color-grey-700"></p>
+                                        </div>
+                                    </li>
+
+
+                                    <li className="wow animate__animated animate__fadeIn">
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
+                                        <div className="info-how">
+                                            <h5 className="color-black">Materials containing asbestos or mercury</h5>
+                                            <p className="font-md color-grey-700"></p>
+                                        </div>
+                                    </li>
+
+
+
+</ul>
+
+
+
+
+
+
+                               <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginTop:'20px'}}></p>
+                               
+                               </div>
+                            <div className="col-lg-6 mb-60"><Link className="wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/page/service-detail/img4.png" alt="transp" /></Link></div>
                         </div>
-                    </div>
-                </section>
+                        
+
+
+
+                    
+                        </div>
+                        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</section>                     
+
+
 
 
 
@@ -282,7 +408,7 @@ Whether you need a one-time trash removal or ongoing cleanup, BinBear provides f
 
 
 
-                <div className="mt-50" />
+               
                
 
               
@@ -291,7 +417,7 @@ Whether you need a one-time trash removal or ongoing cleanup, BinBear provides f
                     <div className="container">
                         <div className="text-center"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/template/icons/favicon.svg" alt="transp" />
                             <h2 className="color-mb-15 wow animate__animated animate__fadeIn"style={{color:'black'}}>How Our Service Works</h2>
-                            <p className="font-md color-grey-700 mb-35 wow animate__animated animate__fadeIn">Let me know if there’s anything specific you’d like to add or change! <br className="d-none d-lg-block" /><br className="d-none d-lg-block" /></p>
+                            <p className="font-md color-grey-700 mb-35 wow animate__animated animate__fadeIn"style={{marginTop:'30px'}}>Let me know if there’s anything specific you’d like to add or change! <br className="d-none d-lg-block" /><br className="d-none d-lg-block" /></p>
                         </div>
                         <div className="box-slider-homepage2 box-slider-homepage-4 box-slider-service-4">
                             <div className="container">

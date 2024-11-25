@@ -190,7 +190,8 @@ export default function Quote() {
                 <section className="section pt-85 bg-worldmap">
                     <div className="container">
                         <div className="text-start"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/template/icons/favicon.svg" alt="transp" />
-                            <h2 className="color-black mb-20 wow animate__animated animate__fadeIn">Benefits of Outsourcing Your Commercial Junk Removal to BinBear</h2>
+                            <h2 className="color-black mb-20 wow animate__animated animate__fadeIn">Benefits of Outsourcing Your Commercial </h2>
+                            <h2 className="color-black mb- wow animate__animated animate__fadeIn" style={{marginBottom:'40px'}}>Junk Removal to BinBear</h2>
                             <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Convenience: Free up time by letting BinBear handle all your junk removal needs.
 - Health and Safety: Our team is equipped to handle heavy and bulky items safely, minimizing risks for your staff.
 - Cost Savings: Avoid the productivity loss and expenses associated with DIY junk removal.
@@ -262,29 +263,115 @@ export default function Quote() {
                
 
                 <div className="line-border" />
-                <section className="section mt-50">
-                    <div className="container">
-                        <div className="content-detail"><strong className="font-md-bold color-grey-900 mb-25 d-block wow animate__animated animate__fadeIn"><h3>BinBear: A Green Approach to Commercial Junk Removal</h3></strong>
-                            <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">             BinBear is committed to eco-friendly practices, leading the way with recycling-based junk removal. We sort each load to separate metals, electronics, paper, and more, aiming to recycle or repurpose as much as possible. Usable items are donated to local charities, helping reduce landfill waste while benefiting the community.    </p>
-                            <p className="wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/service-detail/img3.png" alt="transp" /></p>
-                           <h3 className="wow animate__animated animate__fadeIn"style={{color:'black'}}>Ready for Commercial Junk Removal?</h3>
-                            <div className="row align-items-center">
-                                <div className="col-lg-7 wow animate__animated animate__fadeIn">
-                                    <p> 
-                                    Getting started with BinBear is easy. Just follow these steps:
+                <section className="section mt-50"/>
+                   
+                <div className="container">
 
-.</p>
-                                    <p>1. Schedule Your Appointment: Book online or call us to set up a time that works for you</p>
-                                    <p> 2. Get a Free Estimate: Our team will arrive on time, assess the volume of junk, and provide an upfront estimate</p>
-                                    <p> 3. **Sit Back and Relax**: We handle all the heavy lifting, loading, and hauling, so you can focus on what you do best.</p>
-                                    <p> Our professional team is insured and dedicated to providing top-notch service with no hidden fees. Whether it’s old office furniture, construction debris, or unwanted electronics, BinBear has you covered.</p>
-                                    <p> .</p>
-                                </div>
-                                <div className="col-lg-5 wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/service-detail/img4.png" alt="transp" /></div>
+
+                <div className="row align-items-center">
+                            <div className="col-lg-6 mb-60"><Link className="wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/page/workprocess/img2.png" alt="transp" /></Link></div>
+                            <div className="col-lg-6 mb-60"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/page/workprocess/pallet.png" alt="transp" />
+                                <h3 className="color-black mb-15 wow animate__animated animate__fadeIn">BinBear: A Green Approach to Commercial Junk Removal </h3>
+                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> BinBear is committed to eco-friendly practices, leading the way with recycling-based junk removal. We sort each load to separate metals, electronics, paper, and more, aiming to recycle or repurpose as much as possible. Usable items are donated to local charities, helping reduce landfill waste while benefiting the community.</p>
+                              
+                           
+                         <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginTop:'20px'}}> </p>      
+                                <div className="mt-20 wow animate__animated animate__fadeIn"><Link className="btn btn-link font-sm color-black" href="#">View Details<span>
+                                    <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                    </svg></span></Link></div>
                             </div>
                         </div>
-                    </div>
-                </section>
+
+
+
+
+
+                        <section className="section mt-70">
+                    <div className="container">
+                        <div className="row align-items-center">
+                            <div className="col-lg-6 mb-60"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/page/workprocess/parachute.png" alt="transp" />
+                                <h3 className="color-black mb-15 wow animate__animated animate__fadeIn"style={{marginBottom:'30px'}}>Benefits of Outsourcing Your Commercial Junk Removal to BinBear</h3>
+                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginBottom:'20px'}}></p>
+                                <ul className="list-how-works">
+                                <li className="wow animate__animated animate__fadeIn">
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp" /></span></div>
+                                        <div className="info-how">
+                                            <h5 className="color-black">Convenience</h5>
+                                            <p className="font-md color-grey-700">Free up time by letting BinBear handle all your junk removal needs.</p>
+                                        </div>
+                                    </li>
+
+                                    <li className="wow animate__animated animate__fadeIn">
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
+                                        <div className="info-how">
+                                            <h5 className="color-black">Health and Safety</h5>
+                                            <p className="font-md color-grey-700">Our team is equipped to handle heavy and bulky items safely, minimizing risks for your staff.</p>
+                                        </div>
+                                    </li>
+
+
+                                    <li className="wow animate__animated animate__fadeIn">
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp" /></span></div>
+                                        <div className="info-how">
+                                            <h5 className="color-black">Cost Savings</h5>
+                                            <p className="font-md color-grey-700">Avoid the productivity loss and expenses associated with DIY junk removal.</p>
+                                        </div>
+                                    </li>
+
+
+                                    <li className="wow animate__animated animate__fadeIn">
+                                        <div className="image-how"><span className="img"></span></div>
+                                        <div className="info-how">
+                                            <h5 className="color-black">Peace of Mind</h5>
+                                            <p className="font-md color-grey-700"> With BinBear, you can trust that junk is disposed of legally and sustainably</p>
+                                        </div>
+                                    </li>
+
+
+                                    <li className="wow animate__animated animate__fadeIn">
+                                        <div className="image-how"><span className="img"></span></div>
+                                        <div className="info-how">
+                                            <h5 className="color-black">Professional Environment</h5>
+                                            <p className="font-md color-grey-700">Clear out excess equipment and furniture, improving the safety and appearance of your workspace.</p>
+                                        </div>
+                                    </li>
+
+
+
+
+
+
+
+
+
+</ul>
+
+
+
+
+
+
+                               <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginTop:'20px'}}></p>
+                               
+                               </div>
+                            <div className="col-lg-6 mb-60"><Link className="wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/page/workprocess/img1.png" alt="transp" /></Link></div>
+                        </div>
+                        
+
+
+
+                    
+                        </div>
+                        </section>
+
+
+
+
+
+                                   
+                       </div>
+                   
 
 
 
