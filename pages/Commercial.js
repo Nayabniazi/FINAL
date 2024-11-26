@@ -455,7 +455,7 @@ export default function Quote() {
                                 <p className="font-3xl color-white mb-10 wow animate__animated animate__fadeIn">Let BinBear help your business maintain a clutter-free</p>
                                 <h5 className="color-brand-1 wow animate__animated animate__fadeIn">efficient environment. Contact us today to schedule a service or learn more about our eco-friendly junk removal solutions!</h5>
                             </div>
-                            <div className="get-quote-right"><Link className="btn btn-get-quote wow animate__animated animate__fadeIn" href="/Contact" style={{ backgroundColor: '#FFA500', textAlign: 'center',
+                            <div className="get-quote-right"><Link className="btn btn-get-quote wow animate__animated animate__fadeIn" href="/contact" style={{ backgroundColor: '#FFA500', textAlign: 'center',
     display: 'block', // Ensures the element behaves like a block for text alignment
     padding: '10px', }}>
                                 <svg className="mr-10" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">

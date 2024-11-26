@@ -627,7 +627,7 @@ With BinBear, you get more than just junk removal—you get a reliable, green-fo
                                 <p className="font-3xl color-white mb-10 wow animate__animated animate__fadeIn">Ready to reclaim your space? </p>
                                 <h5 className="color-brand-1 wow animate__animated animate__fadeIn">Contact BinBear Junk Removal today for a free estimate and see why we’re the #1 choice for junk removal across North America.</h5>
                             </div>
-                            <div className="get-quote-right"><Link className="btn btn-get-quote wow animate__animated animate__fadeIn" href="/Contact" style={{ backgroundColor: '#FFA500', textAlign: 'center',
+                            <div className="get-quote-right"><Link className="btn btn-get-quote wow animate__animated animate__fadeIn" href="/contact" style={{ backgroundColor: '#FFA500', textAlign: 'center',
     display: 'block', // Ensures the element behaves like a block for text alignment
     padding: '10px', }}>
                                 <svg className="mr-10" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -645,16 +645,7 @@ With BinBear, you get more than just junk removal—you get a reliable, green-fo
 
 
 
-               <section className="section pt-70 pb-70 bg-get-quote"style={{marginBottom:'30px'}}>
-                    <div className="container">
-                        <div className="box-get-quote">
-                            <div className="get-quote-left">
-                                <p className="font-3xl color-white mb-10 wow animate__animated animate__fadeIn">Ready to reclaim your space?</p>
-                                <h2 className="color-brand-1 wow animate__animated animate__fadeIn"style={{fontSize:'20px'}}> Contact BinBear Junk Removal today for a free estimate and see why we’re the #1 choice for junk removal across North America.</h2>
-                            </div>
-                         </div>
-                    </div>
-                </section>
+              
 
 
 
