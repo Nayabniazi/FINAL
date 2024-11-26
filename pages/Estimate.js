@@ -114,66 +114,138 @@ export default function Home2() {
 
 
 
-
-
-
-
-
-              
-       <section className="section mt-50">
+       <section className="section mt-70">
                     <div className="container">
-                        <div className="content-detail"><strong className="font-md-bold color-grey-900 mb-25 d-block wow animate__animated animate__fadeIn"> </strong>
-                           <h3 className="color- wow animate__animated animate__fadeIn"style={{color:'black'}}>Get an Estimate Now with BinBear’s Online Pricing Estimator!</h3>
-                            <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
-                            At BinBear, we know that transparency is essential. Our easy-to-use online pricing estimator gives you a fast, reliable estimate for your junk removal needs, so you can make informed decisions without any surprises.
-                             </p>
-                            <p className="wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/service-detail/img4.png" alt="transp" /></p>
-                            <p className="wow animate__animated animate__fadeIn">Our pricing is based on average item sizes and current local rates. Please note, item size can vary, which may affect your final price, but rest assured, our courteous, trained staff will provide an accurate quote on site.
-                            </p>
-                            <p className="wow animate__animated animate__fadeIn">Our pricing estimator even allows you to estimate based on the space your junk will take up in our large removal trucks. Get an affordable estimate in just minutes!</p>
-                            
-                            
-                            
-                            <h3 className="color- wow animate__animated animate__fadeIn"style={{color:'black'}}>How to Use BinBear’s Pricing Estimator:</h3>
-                            <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
-                            1. Click the green "Launch Pricing Estimator" button above
-                             </p>
-                             <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
-                             2. **Enter your zip code** and follow the prompts
-                             </p>
-                             <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
-                             3. **Choose your estimation method**: select items individually or estimate by truck load.
-                             </p>
-                             <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
-                             4. **Enter your contact info** and let’s get started!
-                             </p>
-                             <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
-                             5. **Add your items** or specify the number of pickup truck loads.---
+                        <div className="row align-items-center">
+                            <div className="col-lg-6 mb-60">
+                                <h3 className="color-black mb-15 wow animate__animated animate__fadeIn"style={{marginBottom:'30px'}}>Get an Estimate Now with BinBear’s Online Pricing Estimator!</h3>
+                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginBottom:'20px'}}>At BinBear, we know that transparency is essential. Our easy-to-use online pricing estimator gives you a fast, reliable estimate for your junk removal needs, so you can make informed decisions without any surprises.</p>
+                               <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginTop:'20px'}}>Our pricing is based on average item sizes and current local rates. Please note, item size can vary, which may affect your final price, but rest assured, our courteous, trained staff will provide an accurate quote on site.
+                               </p>
+                               <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginTop:'20px'}}>Our pricing estimator even allows you to estimate based on the space your junk will take up in our large removal trucks. Get an affordable estimate in just minutes!</p>
+                                <div className="mt-20"><div className="btn btn-link font-sm color-black wow animate__animated animate__fadeIn" href="#">View Details<span>
+                                    <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                    </svg></span></div></div>
+                            </div>
+                            <div className="col-lg-6 mb-60"><div className="wow animate__animated animate__fadeIn" href="#"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/page/blog-single/rental.png" alt="transp" /></div></div>
+                        </div>
+                       
 
-                             </p>
-                             <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
-                             6. **Click "Book It"** to schedule your junk removal!
-
-                             </p>
-                             
-                             <h2 style={{fontSize:'30px'}}>
-                             BinBear Believes in Fair and Transparent Pricing
-                             </h2>
-                            <div className="col-lg-5 wow animate__animated animate__fadeIn"style={{width:'500px'}}><img src="/assets/imgs/page/service-detail/img4.png" alt="transp" /></div>
-                  
-                            <p className="wow animate__animated animate__fadeIn"style={{marginTop:'40px'}}>
-                            At BinBear, we promise to beat any written estimate from a comparable junk removal service. With free estimates and no hidden fees, we’re committed to offering the best value in the industry. When you choose us, you get:
-                            </p>
+                        <div className="row align-items-center">
+                            <div className="col-lg-6 mb-60"><div className="wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/page/workprocess/img2.png" alt="transp" /></div></div>
+                            <div className="col-lg-6 mb-60"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/page/workprocess/pallet.png" alt="transp" />
+                                <h3 className="color-black mb-15 wow animate__animated animate__fadeIn">How to Use BinBear’s Pricing Estimator:
+                                </h3>
+                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">
 
 
 
 
 
+                                <div className="row">
+                                        <div className="col-lg-6 mb-30">
+                                            <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Click the green "Launch Pricing Estimator"** button above</h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"></p>
+                                        </div>
+                                        <div className="col-lg-6 mb-30">
+                                            <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Enter your zip code** and follow the prompts.
+                                            </h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"> </p>
+                                        </div>
+                                        <div className="col-lg-6 mb-30">
+                                            <h6 className="feature2-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Choose your estimation method: select items individually or estimate by truck load.
+                                            </h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"></p>
+                                        </div>
+                                        <div className="col-lg-6 mb-30">
+                                            <h6 className="feature3-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Enter your contact info** and let’s get started!
+                                            </h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"></p>
+                                        </div>
+
+                                        <div className="col-lg-6 mb-30">
+                                            <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Add your items or specify the number of pickup truck loads.</h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"></p>
+                                        </div>
+                                        <div className="col-lg-6 mb-30">
+                                            <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Click "Book It" to schedule your junk removal!</h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"> </p>
+                                        </div>
+                                        <div className="col-lg-6 mb-30">
+                                            <h6 className="feature2-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn"> Medical waste
+                                            </h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"></p>
+                                        </div>
+                                        <div className="col-lg-6 mb-30">
+                                            <h6 className="feature3-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Materials containing asbestos or mercury
+                                            </h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"></p>
+                                        </div>
 
 
-                            <p className="wow animate__animated animate__fadeIn">
 
-                            <ul className="list-how-works">
+
+                                    </div>
+
+                                   
+
+
+
+
+
+
+
+
+                                </p>
+                               
+                         <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginTop:'20px'}}></p>      
+                                <div className="mt-20 wow animate__animated animate__fadeIn"><div className="btn btn-link font-sm color-black" href="#">View Details<span>
+                                    <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                    </svg></span></div></div>
+                            </div>
+                        </div>
+                    
+                        </div>
+                        </section>
+
+
+                    
+
+
+                               
+
+
+                              
+
+
+
+
+
+
+
+
+
+
+
+
+                       
+
+
+
+
+                    
+
+
+
+                     <section className="section mt-70">
+                    <div className="container">
+                        <div className="row align-items-center">
+                            <div className="col-lg-6 mb-60"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/page/workprocess/parachute.png" alt="transp" />
+                                <h3 className="color-black mb-15 wow animate__animated animate__fadeIn"style={{marginBottom:'30px'}}>BinBear Believes in Fair and Transparent Pricing</h3>
+                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginBottom:'20px'}}>At BinBear, we promise to beat any written estimate from a comparable junk removal service. With free estimates and no hidden fees, we’re committed to offering the best value in the industry. When you choose us, you get:</p>
+                                <ul className="list-how-works">
                                 <li className="wow animate__animated animate__fadeIn">
                                         <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp" /></span></div>
                                         <div className="info-how">
@@ -183,7 +255,7 @@ export default function Home2() {
                                     </li>
 
                                     <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp" /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">On-Time Service</h5>
                                             <p className="font-md color-grey-700">Our team arrives on schedule with big, green trucks ready to handle your junk removal.</p>
@@ -200,33 +272,28 @@ export default function Home2() {
                                     </li>
 </ul>
 
-  </p>
-                           
-                            
-                            
-            <p className="font-md color-grey-900 wow animate__animated animate__fadeIn"style={{marginTop:'40px'}} >No job is too big or too small for BinBear, and our pricing reflects our commitment to value.</p>                
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                           
+
+
+
+
+
+                               <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginTop:'20px'}}>No job is too big or too small for BinBear, and our pricing reflects our commitment to value.</p>
+                               
+                               </div>
+                            <div className="col-lg-6 mb-60"><div className="wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/page/blog-single/bagi.png" alt="transp" /></div></div>
                         </div>
-                    </div>
-                </section>
+                        
+
+
+
+                    
+                        </div>
+                        </section>
 
 
 
 
-
-
-
+       
 
 
 

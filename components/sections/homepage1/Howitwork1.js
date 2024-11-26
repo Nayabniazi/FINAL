@@ -8,7 +8,7 @@ export default function Howitwork1() {
                         <h3 className="color- mb-20 wow animate__animated animate__fadeIn"style={{color:'black'}}>Leave the work to us– JUNK REMOVAL & HAULING MADE EASY</h3>
                         <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">At BinBear, we make junk removal effortless. Whether it’s a single item or a full property cleanout, our team is here to handle every step. With BinBear, you get:
                            .</p>
-                           <p className="font-md color-grey-700 wow animate__animated animate__fadeIn" >When you choose BinBear, all you have to do is point, and we take care of the rest!</p>
+                           <p className="font-md color-grey-700 wow animate__animated animate__fadeIn" ></p>
                     </div>
                     <div className="row mt-50">
                         <div className="col-lg-6 mb-30">
