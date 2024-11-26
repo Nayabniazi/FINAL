@@ -499,7 +499,8 @@ BinBear specializes in:
                                      <p style={{marginTop:'20px'}}>- Property Cleanouts
                                     </p>
 
-                                        
+                                    <p style={{marginTop:'20px'}}>- And more!
+                                    </p>
                                     </div>
                                 </div>
                             </div>        

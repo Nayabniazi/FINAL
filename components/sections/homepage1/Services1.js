@@ -19,17 +19,18 @@ export default function Services1() {
 
             <section className="section mt-100">
                 <div className="container">
-                    <h2 className="title-favicon mb-20 wow animate__animated animate__fadeIn"style={{color:'black',}} >What We Offer</h2>
+                <h3 className="color-black wow animate__animated animate__fadeIn">We don't Say We are Different<br className="d-none d-lg-block" />We Show You!</h3>
+                           
                     <div className="row align-items-end">
                         <div className="">
-                            <p className="font-md color-gray-700 wow animate__animated animate__fadeIn">At BinBear, we make junk removal effortless. Whether it’s a single item or a full property cleanout, our team is here to handle every step. With BinBear
-                             with BinBear,you get:  </p>
+                            <p className="font-md color-gray-700 wow animate__animated animate__fadeIn">
+                             </p>
 
 
                              <p
 style={{marginTop:'10px'}}
 >
-  We don't say we’re different, WE SHOW YOU!
+
 </p>
 
 
@@ -75,7 +76,7 @@ style={{marginTop:'10px'}}
                                     <div className="card-info">
                                         <h5 className="color- mb-15"style={{color:'black'}}>#1 Junk removal company </h5>
                                         <p className="font-sm color-grey-900 mb-35"></p>
-                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-"style={{color:'black'}}>View Details<span>
+                                        <div className="box-button-offer mb-30 "style={{marginTop:'80px'}}><a className="btn btn-link font-sm color-"style={{color:'black'}}>View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                             </svg></span></a></div>
@@ -118,7 +119,7 @@ style={{marginTop:'10px'}}
                                     <div className="card-info">
                                         <h5 className="color- mb-15"style={{color:'black'}}>Recycling up to 60%</h5>
                                         <p className="font-sm color-grey-900 mb-35"></p>
-                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                        <div className="box-button-offer mb-30"style={{marginTop:'80px'}}><a className="btn btn-link font-sm color-brand-2">View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                             </svg></span></a></div>
@@ -132,7 +133,7 @@ style={{marginTop:'10px'}}
                                     <div className="card-info">
                                         <h5 className="color- mb-15"style={{color:'black'}}>Free, Upfront Estimates</h5>
                                         <p className="font-sm color-grey-900 mb-35"></p>
-                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                        <div className="box-button-offer mb-30"style={{marginTop:'80px'}}><a className="btn btn-link font-sm color-brand-2">View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                             </svg></span></a></div>
@@ -146,7 +147,7 @@ style={{marginTop:'10px'}}
                                         <h5 className="color- mb-15"style={{color:'black'}}>Saving Planet 1 load at a time</h5>
                                         <p className="font-sm color-grey-900 mb-35">
                                           </p>
-                                        <div className="box-button-offer mb-30" ><a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                        <div className="box-button-offer mb-30" style={{marginTop:'80px'}}><a className="btn btn-link font-sm color-brand-2">View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                             </svg></span></a></div>

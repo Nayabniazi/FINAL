@@ -31,11 +31,14 @@ export default function Menu() {
                     <Link className={`active ${isActive('/')}`} href="/" style={{ color: 'white' }}>What We Do</Link>
                     <ul className="sub-menu">
                         <li><Link href="/Item-we-take">Item we take</Link></li>
+                        <li><Link href="/history"> JK-Removal History</Link></li>
+                        <li><Link href="/Recycle">Recycle</Link></li>
                         <li><Link href="/Dumpster-Rental">Dumpster Rentals</Link></li>
                         <li><Link href="/JK-bags">JK Dumpster Bag</Link></li>
-                        <li><Link href="/Recycle">Recycle</Link></li>
+                        
                         <li><Link href="/JK-Removal">JK Junk Removal</Link></li>
                         <li><Link href="/sameday-JK">Jk Same Day Junk Removal</Link></li>
+                       
                     </ul>
                 </li>
 

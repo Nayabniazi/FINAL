@@ -39,6 +39,7 @@ export default function Sidebar({ openClass, handleMobileMenuClose }) {
                                             <Link className="active" href="/">What We Do</Link>
                                             <ul className={isActive.key == 1 ? "sub-menu d-block" : "sub-menu d-none"}>
                                                 <li><Link href="/Item-we-take">Item we Take</Link></li>
+                                                <li><Link href="/history"> JK-Removal History</Link></li>
                                                 <li><Link href="/Dumpster-Rental">Dumpster-Rental</Link></li>
                                                 <li><Link href="/JK-bags">JK Dumpster Bag</Link></li>
                                                 <li><Link href="/Recycle">Recycle</Link></li>

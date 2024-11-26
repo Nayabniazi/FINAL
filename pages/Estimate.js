@@ -118,78 +118,108 @@ export default function Home2() {
 
 
 
-                <section className="section mt-100 mb-50">
+
+              
+       <section className="section mt-50">
                     <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-lg-6 mb-30">
-                                <h2 className="color-black mb-25 wow animate__animated animate__fadeIn">Get an Estimate Now With our Online Pricing Estimator!</h2>
-                                <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn"> Our convenient and easy-to-use online pricing estimator makes getting an estimate* for your junk removal job fast and simple. .</p>
-                                <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn"> No one likes to hire a vendor, contractor, or service provider without an accurate understanding of how much the job is going to cost them. That’s why our goal with the pricing estimator is to give you a solid idea of what the job is likely to cost.</p>
-                                <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn"> 
-Our estimated pricing is based on both the average size of typical household items and the current pricing in your local market. Keep in mind, however, that the actual size of a sofa, recliner, or television, for example, may vary and this can affect your final price, which will be determined on site by our trained and courteous staff.
-.</p>
-<p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn"> Optionally, our pricing estimator also allows you to obtain an accurate pricing estimate based on how much room** you think your junk will take up in our large, junk removal truck. .</p>
-                              
-<p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn"> Either way, you can have an accurate and affordable estimate in just minutes..</p>
-                              
-                               
-                            </div>
-                            <div className="col-lg-6 position-relative mb-30">
-                                <div className="row align-items-end">
-                                    <div className="col-lg-5 col-md-5 col-sm-5"><img className="mb-20 wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-1-1.png" alt="transp" /><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-1-2.png" alt="transp" /></div>
-                                    <div className="col-lg-7 col-md-7 col-sm-7"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-1-3.png" alt="transp" /></div>
-                                </div>
-                                <div className="quote-center shape-2" />
-                            </div>
+                        <div className="content-detail"><strong className="font-md-bold color-grey-900 mb-25 d-block wow animate__animated animate__fadeIn"> </strong>
+                           <h3 className="color- wow animate__animated animate__fadeIn"style={{color:'black'}}>Get an Estimate Now with BinBear’s Online Pricing Estimator!</h3>
+                            <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
+                            At BinBear, we know that transparency is essential. Our easy-to-use online pricing estimator gives you a fast, reliable estimate for your junk removal needs, so you can make informed decisions without any surprises.
+                             </p>
+                            <p className="wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/service-detail/img4.png" alt="transp" /></p>
+                            <p className="wow animate__animated animate__fadeIn">Our pricing is based on average item sizes and current local rates. Please note, item size can vary, which may affect your final price, but rest assured, our courteous, trained staff will provide an accurate quote on site.
+                            </p>
+                            <p className="wow animate__animated animate__fadeIn">Our pricing estimator even allows you to estimate based on the space your junk will take up in our large removal trucks. Get an affordable estimate in just minutes!</p>
+                            
+                            
+                            
+                            <h3 className="color- wow animate__animated animate__fadeIn"style={{color:'black'}}>How to Use BinBear’s Pricing Estimator:</h3>
+                            <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
+                            1. Click the green "Launch Pricing Estimator" button above
+                             </p>
+                             <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
+                             2. **Enter your zip code** and follow the prompts
+                             </p>
+                             <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
+                             3. **Choose your estimation method**: select items individually or estimate by truck load.
+                             </p>
+                             <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
+                             4. **Enter your contact info** and let’s get started!
+                             </p>
+                             <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
+                             5. **Add your items** or specify the number of pickup truck loads.---
+
+                             </p>
+                             <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
+                             6. **Click "Book It"** to schedule your junk removal!
+
+                             </p>
+                             
+                             <h2 style={{fontSize:'30px'}}>
+                             BinBear Believes in Fair and Transparent Pricing
+                             </h2>
+                            <div className="col-lg-5 wow animate__animated animate__fadeIn"style={{width:'500px'}}><img src="/assets/imgs/page/service-detail/img4.png" alt="transp" /></div>
+                  
+                            <p className="wow animate__animated animate__fadeIn"style={{marginTop:'40px'}}>
+                            At BinBear, we promise to beat any written estimate from a comparable junk removal service. With free estimates and no hidden fees, we’re committed to offering the best value in the industry. When you choose us, you get:
+                            </p>
+
+
+
+
+
+
+
+                            <p className="wow animate__animated animate__fadeIn">
+
+                            <ul className="list-how-works">
+                                <li className="wow animate__animated animate__fadeIn">
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp" /></span></div>
+                                        <div className="info-how">
+                                            <h5 className="color-black">Upfront Pricing</h5>
+                                            <p className="font-md color-grey-700">No surprises—just a fair, competitive rate.</p>
+                                        </div>
+                                    </li>
+
+                                    <li className="wow animate__animated animate__fadeIn">
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
+                                        <div className="info-how">
+                                            <h5 className="color-black">On-Time Service</h5>
+                                            <p className="font-md color-grey-700">Our team arrives on schedule with big, green trucks ready to handle your junk removal.</p>
+                                        </div>
+                                    </li>
+
+
+                                    <li className="wow animate__animated animate__fadeIn">
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp" /></span></div>
+                                        <div className="info-how">
+                                            <h5 className="color-black">Eco-Friendly Disposal</h5>
+                                            <p className="font-md color-grey-700">BinBear sorts and recycles up to 60% of the items we collect, reducing landfill waste and supporting local communities.</p>
+                                        </div>
+                                    </li>
+</ul>
+
+  </p>
+                           
+                            
+                            
+            <p className="font-md color-grey-900 wow animate__animated animate__fadeIn"style={{marginTop:'40px'}} >No job is too big or too small for BinBear, and our pricing reflects our commitment to value.</p>                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                           
                         </div>
                     </div>
                 </section>
-
-
-
-
-                <div className="row align-items-center">
-                            <div className="col-lg-6 mb-60"><div className="wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/page/homepage1/step.png" alt="transp" /></div></div>
-                            <div className="col-lg-6 mb-60"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/page/workprocess/pallet.png" alt="transp" />
-                            
-                                <h3 className="color-black mb-15 wow animate__animated animate__fadeIn">Using Our Pricing Estimator </h3>
-                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">For an online pricing estimate, simply follow these steps:
-                                
-                                </p>
-                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">
-                                   1- Click the green "Launch Pricing Estimator" above.
-                                </p>
-                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">2-Enter your zip code and click the green arrow.
-                                </p>
-                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">3-On the next page you will see this message - "Good news! We've got you covered."</p>
-                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">4-You'll be taken to the next page titled "By Items or Pickup Truck Loads?"</p>
-                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">5-Choose your preferred method of either "Add My Items" or "By Pickup Truck Loads</p>
-                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">6-Enter your name and email address and click the green "Let’s Get Started Button</p>
-                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">7-Depending on the estimating method you choose, either add up your junk items or enter how many pickup truck loads of junk you have.</p>
-                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">8-On the next page, simply click the green "Book It" button.
-                                </p>
-                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">9-Junk King Believes in Fair and Transparent Pricing</p>
-                                
-
-                               
-                           
-                            </div>
-                            <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginLeft:'80px'}}>At Junk King, we guarantee to beat any written estimate and we are confident that our prices are better than any comparable operator. In other words, a licensed</p>               <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginLeft:'80px'}}> and insured junk removal company that operates a recycling-based operation to help keep our landfills free of junk and unnecessary waste materials - just like we do!</p>
-                                 
-                               
-                               
-                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginLeft:'120px',marginTop:'30px'}}>Because we support fair, transparent pricing, we offer you free estimates as a part of our service. While other companies tend to hide their prices, we have 
-                                </p>
-                             <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginLeft:'190px'}}> always been transparent  to hide their prices, we have always been transparent    with ours because our prices offer you more value.</p>
-
-                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginLeft:'130px',marginTop:'30px'}}>That means our big, red trucks will show up on time at your location, and our junk removal team will provide you with a free written estimate. And,  </p>
-                              <p  className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginLeft:'280px'}}>will show up on time at your location, and our junk removal team will provide you with a free written estimate Add,</p>
-                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginLeft:'310px'}}> because we believe in fair and transparent pricing, we give you FOUR different ways to get an estimate.</p>
-                              
-                        </div>
-
-
-
 
 
 
@@ -212,33 +242,33 @@ Our estimated pricing is based on both the average size of typical household ite
                         <section className="section mt-100">
                     <div className="container position-relative">
                         <h2 className="title-favicon mb-20 wow animate__animated animate__fadeIn">Four  Different Ways to Get an Estimate</h2>
-                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> For our full service junk hauling, we offer 4 different ways to get an estimate or firm price.</p>
+                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> We make it easy to get a free estimate with four convenient options:</p>
                         <div className="row mt-50">
                             <div className="col-lg-6">
                                 <div className="item-faqs-2 mb-30">
-                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">1:On Site Pricing. </h6>
-                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> The best and most accurate way for us to assess the job and offer you the lowest price is free, no obligation on site estimate. When we are on-site, we can see most exactly what the job will require. .</p>
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">1:Online Pricing Estimator</h6>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> Estimate your cost quickly with our online tool..</p>
                                 </div>
                                 <div className="item-faqs-2 mb-30">
-                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">2:Online Pricing Estimate</h6>
-                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">For an online pricing estimate, simply click Pricing in the navigation above, scroll to pricing estimator, enter a zip code, and choose estimate by items or volume. The online price estimator is based on the average size of a typical item and the price in your local market</p>
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">2:On-Site Pricing</h6>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">For the most accurate estimate, we offer free on-site evaluations.</p>
                                 </div>
                                 <div className="item-faqs-2 mb-30">
                                     <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Text Us s Photo</h6>
-                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">If you can take a photo of your items, text us at 737-888-5865, and we will text you back an estimate. If your items are in different locations on your property, you can send us multiple photos and we will be able to provide you with an estimate.</p>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> Send photos of your junk to 214-901-4769, and we’ll reply with an estimate..</p>
                                 </div>
                             </div>
                             <div className="col-lg-6">
                               
                                 <div className="item-faqs-2 mb-30">
-                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Call Our Trained Staff</h6>
-                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">You can also call or live chat with our knowledgeable and courteous customer service team. If you have 4 items or less, we can likely offer you a firm price. If you have 4 items or more, we can give you an accurate estimate. .</p>
-                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginTop:'20px'}}> Regardless of which method you use to get your free estimate, the final, no-obligation price will be provided to you by our trained technicians..</p>
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Call or Live Chat</h6>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Talk to our trained staff for a price estimate—perfect for smaller jobs of four items or less.</p>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginTop:'20px'}}>  </p>
                                  
                                  </div>
                                 <div className="item-faqs-2 mb-30">
-                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">What is Junk Removal provider?</h6>
-                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">A Junk Removal provider is a company that specializes in providing logistics services, including transportation, storage, inventory management, and more.</p>
+                            
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">No matter which option you choose, our final, no-obligation price is always confirmed on site by our technicians..</p>
                                 </div>
                             </div>
                         </div>
@@ -263,34 +293,23 @@ Our estimated pricing is based on both the average size of typical household ite
         Our Features
       </span>
       <h2 className="color-mb-15 mt-20 wow animate__animated animate__fadeIn" style={{ color: 'white' }}>
-        Why Choose Junk King?
+      Why Choose BinBear?
       </h2>
     </div>
     <div className="row mt-60">
-      <p style={{ color: 'white', marginLeft: '250px' }}>
-        Because we understand that your time is valuable, we call you 15-30 minutes ahead of every job to let you know we are coming.
+      <p style={{ color: 'white', marginLeft: '150px' }}>
+      When you book with BinBear, you’re choosing convenience, professionalism, and eco-conscious service. Here’s why we’re the #1 choice for junk removal:
       </p>
       <p style={{ marginTop: '30px', marginLeft: '150px', color: 'white' }}>
-        In fact, we are rated #1 for our customer service nationally. In addition, we also pay our highly-trained workers a fair market rate and our operators are insured.
+      Customer Care: We call 15-30 minutes before arrival to respect your time. Experienced Staff: Our team is highly trained, insured, and paid fair rates
       </p>
       <p style={{ marginTop: '10px', marginLeft: '50px', color: 'white', textAlign: 'center' }}>
-        At Junk King, we guarantee that we will dispose of your junk items properly. In fact, we recycle up to 60 percent of every junk removal job and we are the only national junk removal company with sorting facilities in our locally owned locations.
+      Green Initiatives: BinBear recycles up to 60% of the items we collect, sorting and donating wherever possible for a cleaner, greener tomorrow.
       </p>
-      <p style={{ marginTop: '3px', color: 'white', marginLeft: '410px' }}>
-        The only national junk removal company with sorting facilities in our locally owned locations.
+      <p style={{ marginTop: '3px', color: 'white', marginLeft: '100px', marginBottom:'100px'}}>
+      At BinBear, we’re not just removing junk; we’re building a more sustainable community. Choose us for a reliable, environmentally friendly service you can feel good about.
       </p>
-      <p style={{ marginTop: '30px', color: 'white', marginLeft: '240px' }}>
-        We sort, reuse, recycle, and donate as much as we possibly can to be a responsible waste removal partner for a better tomorrow.
-      </p>
-      <p style={{ marginTop: '10px', color: 'white', marginLeft: '330px' }}>
-        *This pricing estimator provides an online estimate. The final price will be determined onsite by our staff.
-      </p>
-      <p style={{ marginTop: '10px', color: 'white', marginLeft: '400px' }}>
-        The price for heavy material, such as dirt, gravel, roofing material, and concrete,
-      </p>
-      <p style={{ marginTop: '10px', color: 'white', marginLeft: '400px', marginBottom: '100px' }}>
-        cannot be estimated with this tool as this material is charged by the bed load.
-      </p>
+      
     </div>
   </div>
 </section>

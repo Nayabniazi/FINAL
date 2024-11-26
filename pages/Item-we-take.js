@@ -274,81 +274,52 @@ Whether you need a one-time trash removal or ongoing cleanup, BinBear provides f
                                 <h3 className="color-black mb-15 wow animate__animated animate__fadeIn"style={{marginBottom:'30px'}}>What BinBear Can’t Take</h3>
                                 <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginBottom:'20px'}}>While we handle almost anything, we do not collect hazardous waste, including:
                                 </p>
-                                <ul className="list-how-works">
-                                <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
-                                        <div className="info-how">
-                                            <h5 className="color-black">Paints and solvents</h5>
-                                            <p className="font-md color-grey-700"></p>
+                                
+                                <div className="row">
+                                        <div className="col-lg-6 mb-30">
+                                            <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Paints and solvents</h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"></p>
                                         </div>
-                                    </li>
-
-                                    <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
-                                        <div className="info-how">
-                                            <h5 className="color-black">Pesticides and fertilizers</h5>
-                                            <p className="font-md color-grey-700"> </p>
+                                        <div className="col-lg-6 mb-30">
+                                            <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Pesticides and fertilizers</h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"> </p>
                                         </div>
-                                    </li>
-
-
-                                    <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
-                                        <div className="info-how">
-                                            <h5 className="color-black">Chemical cleaners</h5>
-                                            <p className="font-md color-grey-700"></p>
+                                        <div className="col-lg-6 mb-30">
+                                            <h6 className="feature2-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn"> Chemical cleaners
+                                            </h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"></p>
                                         </div>
-                                    </li>
-
-
-                                    <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
-                                        <div className="info-how">
-                                            <h5 className="color-black">Lead-acid and lithium-ion batteries</h5>
-                                            <p className="font-md color-grey-700"> </p>
+                                        <div className="col-lg-6 mb-30">
+                                            <h6 className="feature3-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Lead-acid and lithium-ion batteries
+                                            </h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"></p>
                                         </div>
-                                    </li>
 
-
-                                    <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
-                                        <div className="info-how">
-                                            <h5 className="color-black">Flammable liquids</h5>
-                                            <p className="font-md color-grey-700"></p>
+                                        <div className="col-lg-6 mb-30">
+                                            <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Flammable liquids</h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"></p>
                                         </div>
-                                    </li>
-                                    <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
-                                        <div className="info-how">
-                                            <h5 className="color-black">Ammunition and explosives</h5>
-                                            <p className="font-md color-grey-700"></p>
+                                        <div className="col-lg-6 mb-30">
+                                            <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Ammunition and explosives</h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"> </p>
                                         </div>
-                                    </li>
-
-                                    <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
-                                        <div className="info-how">
-                                            <h5 className="color-black">Medical waste</h5>
-                                            <p className="font-md color-grey-700"></p>
+                                        <div className="col-lg-6 mb-30">
+                                            <h6 className="feature2-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn"> Medical waste
+                                            </h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"></p>
                                         </div>
-                                    </li>
-
-
-                                    <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
-                                        <div className="info-how">
-                                            <h5 className="color-black">Materials containing asbestos or mercury</h5>
-                                            <p className="font-md color-grey-700"></p>
+                                        <div className="col-lg-6 mb-30">
+                                            <h6 className="feature3-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Materials containing asbestos or mercury
+                                            </h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"></p>
                                         </div>
-                                    </li>
-
-
-
-</ul>
 
 
 
 
+                                    </div>
+
+                                   
 
 
                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginTop:'20px'}}></p>

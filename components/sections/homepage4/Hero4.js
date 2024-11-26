@@ -22,7 +22,7 @@ export default function Hero4() {
                                     </div>
                                 </div>
                                
-                                <div className="box-button mt-30"><a className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeIn" href="#"style={{backgroundColor:'orange'}}>Calculate package</a>        </div>
+                                <div className="box-button mt-30"><a className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeIn" href="#"style={{backgroundColor:'orange'}}>Free Estimate</a>        </div>
                               
                                 
                     

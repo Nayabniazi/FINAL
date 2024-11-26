@@ -13,8 +13,8 @@ export default function Quote() {
                     <div className="box-bg-requestaquote-4" style={{height:'400px'}}/>
                     <div className="container">
                         <div className="text-center mt-100">
-                            <h2 className="color-black wow animate__animated animate__fadeIn">Commercial Junk Removal Services by BinBear<br className="d-none d-lg-block" />Service</h2>
-                            <div className="box-button mt-30"><Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeIn" href="#"style={{backgroundColor:'orange',color:'black'}}>Calculate Package</Link>    </div>
+                            <h2 className="color-black wow animate__animated animate__fadeIn">Commercial Junk Removal Services by BinBear<br className="d-none d-lg-block" /></h2>
+                            <div className="box-button mt-30"><Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeIn" href="#"style={{backgroundColor:'orange',color:'black'}}>Free Estimate</Link>    </div>
                        </div>
                     </div>
                 </section>
@@ -24,8 +24,8 @@ export default function Quote() {
                     <div className="container">
                         <div className="row mt-50 align-items-center">
                             <div className="col-lg-6 mb-30">
-                                <h6 className="color-black mb-15 wow animate__animated animate__fadeIn">Commercial Junking process</h6>
-                                <h2 className="color-black mb-25 wow animate__animated animate__fadeIn">Why Choose BinBear for Commercial Junk Removal?</h2>
+                                <h2 className="color-black mb-15 wow animate__animated animate__fadeIn">Commercial Junking process</h2>
+                                <h2 className="color-black mb-25 wow animate__animated animate__fadeIn"></h2>
                                 <div className="row">
                                     <div className="col-lg-9">
                                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">Every business, no matter the industry, generates junk. Over time, old office furniture, equipment, and various forms of debris tend to pile up. If your business is ready to clear out the clutter, BinBear is here to help with affordable, tailored commercial junk removal solutions.
@@ -80,12 +80,9 @@ export default function Quote() {
                         <h2 className="color-black mb-20 wow animate__animated animate__fadeIn">Types of Commercial Junk Removal Services<br className="d-none d-lg-block" /></h2>
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-6 mb-30">
-                                <p className="font-md color-gray-700 wow animate__animated animate__fadeIn">We has experience in handling the formalities and documentation required for your imports and exports. We work with all international station to guarantee that your load will safely reach without any delays.</p>
+                                <p className="font-md color-gray-700 wow animate__animated animate__fadeIn"></p>
                             </div>
-                            <div className="col-lg-6 col-md-6 mb-30 text-md-end text-start"><Link className="btn btn-brand-1 hover-up wow animate__animated animate__fadeIn" href="/Booking"style={{backgroundColor:'orange'}}>
-                                <svg fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z" />
-                                </svg>Online Booking</Link></div>
+                            
                         </div>
                         <div className="row mt-50">
                             <div className="col-xl-3 col-md-6 mb-50">
@@ -192,11 +189,7 @@ export default function Quote() {
                         <div className="text-start"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/template/icons/favicon.svg" alt="transp" />
                             <h2 className="color-black mb-20 wow animate__animated animate__fadeIn">Benefits of Outsourcing Your Commercial </h2>
                             <h2 className="color-black mb- wow animate__animated animate__fadeIn" style={{marginBottom:'40px'}}>Junk Removal to BinBear</h2>
-                            <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Convenience: Free up time by letting BinBear handle all your junk removal needs.
-- Health and Safety: Our team is equipped to handle heavy and bulky items safely, minimizing risks for your staff.
-- Cost Savings: Avoid the productivity loss and expenses associated with DIY junk removal.
-- Peace of Mind: With BinBear, you can trust that junk is disposed of legally and sustainably.
-- Professional Environment: Clear out excess equipment and furniture, improving the safety and appearance of your workspace</p>
+                            <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"></p>
                         </div>
                         <div className="row mt-50">
                             <div className="col-lg-6 mb-30">
@@ -291,22 +284,22 @@ export default function Quote() {
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-6 mb-60"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/page/workprocess/parachute.png" alt="transp" />
-                                <h3 className="color-black mb-15 wow animate__animated animate__fadeIn"style={{marginBottom:'30px'}}>Benefits of Outsourcing Your Commercial Junk Removal to BinBear</h3>
-                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginBottom:'20px'}}></p>
+                                <h3 className="color-black mb-15 wow animate__animated animate__fadeIn"style={{marginBottom:'30px'}}>Ready for Commercial Junk Removal?</h3>
+                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginBottom:'20px'}}>Getting started with BinBear is easy. Just follow these steps:</p>
                                 <ul className="list-how-works">
                                 <li className="wow animate__animated animate__fadeIn">
                                         <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp" /></span></div>
                                         <div className="info-how">
-                                            <h5 className="color-black">Convenience</h5>
-                                            <p className="font-md color-grey-700">Free up time by letting BinBear handle all your junk removal needs.</p>
+                                            <h5 className="color-black">Schedule Your Appointment</h5>
+                                            <p className="font-md color-grey-700">Book online or call us to set up a time that works for you.</p>
                                         </div>
                                     </li>
 
                                     <li className="wow animate__animated animate__fadeIn">
                                         <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
                                         <div className="info-how">
-                                            <h5 className="color-black">Health and Safety</h5>
-                                            <p className="font-md color-grey-700">Our team is equipped to handle heavy and bulky items safely, minimizing risks for your staff.</p>
+                                            <h5 className="color-black">Get a Free Estimate</h5>
+                                            <p className="font-md color-grey-700">Our team will arrive on time, assess the volume of junk, and provide an upfront estimate.</p>
                                         </div>
                                     </li>
 
@@ -314,41 +307,15 @@ export default function Quote() {
                                     <li className="wow animate__animated animate__fadeIn">
                                         <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp" /></span></div>
                                         <div className="info-how">
-                                            <h5 className="color-black">Cost Savings</h5>
-                                            <p className="font-md color-grey-700">Avoid the productivity loss and expenses associated with DIY junk removal.</p>
+                                            <h5 className="color-black">Sit Back and Relax</h5>
+                                            <p className="font-md color-grey-700">We handle all the heavy lifting, loading, and hauling, so you can focus on what you do best</p>
                                         </div>
                                     </li>
-
-
-                                    <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"></span></div>
-                                        <div className="info-how">
-                                            <h5 className="color-black">Peace of Mind</h5>
-                                            <p className="font-md color-grey-700"> With BinBear, you can trust that junk is disposed of legally and sustainably</p>
-                                        </div>
-                                    </li>
-
-
-                                    <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"></span></div>
-                                        <div className="info-how">
-                                            <h5 className="color-black">Professional Environment</h5>
-                                            <p className="font-md color-grey-700">Clear out excess equipment and furniture, improving the safety and appearance of your workspace.</p>
-                                        </div>
-                                    </li>
-
-
-
-
-
-
-
-
 
 </ul>
 
 
-
+<p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginTop:'20px'}} >Our professional team is insured and dedicated to providing top-notch service with no hidden fees. Whether it’s old office furniture, construction debris, or unwanted electronics, BinBear has you covered.</p>
 
 
 
@@ -381,7 +348,7 @@ export default function Quote() {
                     <h2 className="title-favicon mb-20 wow animate__animated animate__fadeIn"style={{color:'black',}} >Our Comprehensive Junk Removal Services</h2>
                     <div className="row align-items-end">
                         <div className="col-lg-8 col-md-8 mb-30">
-                            <p className="font-md color-gray-700 wow animate__animated animate__fadeIn">Let BinBear help your business maintain a clutter-free, efficient environment. Contact us today to schedule a service or learn more about our eco-friendly junk removal solutions!
+                            <p className="font-md color-gray-700 wow animate__animated animate__fadeIn">
                                </p>
                                <p className="font-md color-gray-700 wow animate__animated animate__fadeIn"style={{marginTop:'10px'}}>In addition to commercial junk removal, BinBear specializes in:</p>
                         </div>
@@ -481,7 +448,23 @@ export default function Quote() {
             </section>
 
 
-
+            <section className="section pt-70 pb-70 bg-get-quote">
+                    <div className="container">
+                        <div className="box-get-quote">
+                            <div className="get-quote-left">
+                                <p className="font-3xl color-white mb-10 wow animate__animated animate__fadeIn">Let BinBear help your business maintain a clutter-free</p>
+                                <h5 className="color-brand-1 wow animate__animated animate__fadeIn">efficient environment. Contact us today to schedule a service or learn more about our eco-friendly junk removal solutions!</h5>
+                            </div>
+                            <div className="get-quote-right"><Link className="btn btn-get-quote wow animate__animated animate__fadeIn" href="/Contact" style={{ backgroundColor: '#FFA500', textAlign: 'center',
+    display: 'block', // Ensures the element behaves like a block for text alignment
+    padding: '10px', }}>
+                                <svg className="mr-10" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z" />
+                                </svg>Contact us</Link></div>
+                        </div>
+                    </div>
+                </section>
+                <div className="mt-50" />
 
 
 
