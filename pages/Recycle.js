@@ -4,6 +4,26 @@ import { useState } from "react";
 import ModalVideo from 'react-modal-video';
 export default function OurTeam() {
     const [isOpen, setOpen] = useState(false)
+    const [isActive, setIsActive] = useState({
+        status: false,
+        key: 1,
+    });
+
+    const handleToggle = (key) => {
+        if (isActive.key === key) {
+            setIsActive({
+                status: false,
+            });
+        } else {
+            setIsActive({
+                status: true,
+                key,
+            });
+        }
+    };
+
+
+
     return (
         <>
             <Layout> <section className="section mt-70">
@@ -218,16 +238,36 @@ export default function OurTeam() {
 
                            </p>
 
-                           <h5>Economic Growth</h5>
-                        
-                        <p>
-      
-                        Recycling is a $200 billion industry in the U.S. and generates more jobs than landfills or waste-to-energy plants.
-- **Resource Conservation**: Recycling saves natural resources and water, prevents waste from reaching oceans, and reduces greenhouse gas emissions.
+                           
+
+ 
+                           <div className="row">
+                                        <div className="col-lg-6 mb-30">
+                                            <h6 className=" font-md-bold color-grey-700 wow animate__animated animate__fadeIn">Economic Growth</h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">Recycling is a $200 billion industry in the U.S. and generates more jobs than landfills or waste-to-energy plants.</p>
+                                        </div>
+                                        <div className="col-lg-6 mb-30">
+                                            <h6 className=" font-md-bold color-grey-700 wow animate__animated animate__fadeIn">Resource Conservation</h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">Recycling saves natural resources and water, prevents waste from reaching oceans, and reduces greenhouse gas emissions. </p>
+                                        </div>
+                                       
 
 
-                        </p>
-                        
+
+
+                                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -284,235 +324,317 @@ Contrary to popular belief, the U.S. isn’t the world’s top producer of waste
 
 
 
+                
+
                 <section className="section mt-100">
-                <div className="container">
-                     <div className="row align-items-end">
-                        <div className="col-lg-8 col-md-8 mb-30">
-                            <h3>How to Get Rid of Your Recyclable Junk</h3>
-                            
-                            <p className="font-md color-gray-700 wow animate__animated animate__fadeIn"style={{marginTop:'30px'}}>Not all junk needs to go to waste. Usable items can be repurposed, sold, or donated. Once you’ve handled what you can, BinBear is here to help with the rest, offering:</p>
-                           
-                         <p className="font-md color-gray-700 wow animate__animated animate__fadeIn"style={{marginTop:'20px'}}>- Bulk Junk Hauling for oversized items.</p>
-                            
-                            <p className="font-md color-gray-700 wow animate__animated animate__fadeIn">- Home Cleanouts for moving, seasonal cleaning, and downsizing</p>
-                            <p className="font-md color-gray-700 wow animate__animated animate__fadeIn">- Trash Removalfor yard waste, construction debris, and more.
-                            </p>
-                            <p className="font-md color-gray-700 wow animate__animated animate__fadeIn">- Property Cleanouts for landlords, real estate agents, and more.</p>
-                           
-                           
-                           
-                            <p className="font-md color-gray-700 wow animate__animated animate__fadeIn"style={{marginTop:'30px'}}> Our experienced team makes it easy to declutter responsibly, handling all items with care and attention.
-                               </p>
-                        </div>
-                        <div className="col-lg-4 col-md-4 mb-30 text-md-end text-start"><Link className="btn btn-brand-1 hover-up" href="/Booking" style={{backgroundColor: 'orange', }}>
-                            <svg fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z">
-                                </path>
-                            </svg>Online Booking</Link></div>
-                    </div>
-                    <div className="mt-20 box-background-black" >
-                        <div className="bg-under"/>
-                        <div className="row">
-                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn" >
-                                <div className="card-offer hover-up">
-                                   
-                                    
-                                    <div className="card-info">
-                                        <h5 className="color- mb-15"style={{color:'black'}}>Recycling E-Waste</h5>
-                                        <p>Electronic waste (e-waste) includes items like computers, TVs, and phones, which contain valuable and potentially harmful materials. Disposing of these items in landfills releases toxic metals into the environment. BinBear offers safe, eco-friendly e-waste removal, ensuring that your electronics are recycled responsibly.</p>
-                                    <p style={{marginTop:'20px'}}>We accept a wide range of e-waste, including:
-                                    </p>
-                                    
-                                     <p style={{marginTop:'20px'}}>- Computers
-                                     </p>
-                                    <p style={{marginTop:'20px'}}>- Monitors
-                                    </p>
-                                    <p style={{marginTop:'20px'}}>- Printers
-                                     </p>
-                                     <p style={{marginTop:'20px'}}>- Copy machines
-                                    </p>
-                                    <p style={{marginTop:'20px'}}>- Shredders
-                                     </p>
-                                    <p style={{marginTop:'20px'}}>- Televisions
-                                    </p>
-
-
-                                    <p style={{marginTop:'20px'}}>Don’t let e-waste harm the environment—let BinBear handle it for you.
-                                    </p>
+                    <div className="container position-relative">
+                        <h2 className="title-favicon mb-20 wow animate__animated animate__fadeIn">How to Get Rid of Your Recyclable Junk</h2>
+                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Not all junk needs to go to waste. Usable items can be repurposed, sold, or donated. Once you’ve handled what you can, BinBear is here to help with the rest, offering: </p>
+                       
 
 
 
+                        <div className="row"style={{marginTop:'20px'}}>
+                                        <div className="col-lg-6 mb-30">
+                                            <h6 className=" font-md-bold color-grey-700 wow animate__animated animate__fadeIn">1:Bulk Junk Hauling for oversized items.</h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"></p>
+                                        </div>
+                                        <div className="col-lg-6 mb-30">
+                                            <h6 className=" font-md-bold color-grey-700 wow animate__animated animate__fadeIn">2:Home Cleanouts for moving, seasonal cleaning, and downsizing</h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"> </p>
+                                        </div>
+                                       
 
-                                    
+                                        <div className="col-lg-6 mb-30">
+                                            <h6 className=" font-md-bold color-grey-700 wow animate__animated animate__fadeIn">3:Trash Removal for yard waste, construction debris, and more.</h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"></p>
+                                        </div>
+                                        <div className="col-lg-6 mb-30">
+                                            <h6 className=" font-md-bold color-grey-700 wow animate__animated animate__fadeIn">4:Property Cleanouts for landlords, real estate agents, and more.
+                                            </h6>
+                                            <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"> </p>
+                                        </div>
+                                       
+                                       
 
 
-
-                                        
                                     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        
+                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Our experienced team makes it easy to declutter responsibly, handling all items with care and attention </p>
+                      
+                        
+
+                        <div className="row mt-50">
+                            <div className="col-lg-6">
+                                <div className="item-faqs-2 mb-30">
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Recycling E-Waste</h6>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> Electronic waste (e-waste) includes items like computers, TVs, and phones, which contain valuable and potentially harmful materials. Disposing of these items in landfills releases toxic metals into the environment. BinBear offers safe, eco-friendly e-waste removal, ensuring that your electronics are recycled responsibly.</p>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">  We accept a wide range of e-waste, including:</p>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> Computers
+,Monitors
+,Printers
+,Copy machines
+, Shredders
+, Televisions
+ </p>
+             <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Don’t let e-waste harm the environment—let BinBear handle it for you.</p>                  
+                     
+
                                 </div>
+                                <div className="item-faqs-2 mb-30">
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Recycling Furniture and Mattresses</h6>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Disposing of large items like furniture and mattresses can be difficult, especially as they’re often not accepted at landfills. However, most furniture and up to 90% of mattress materials are recyclable. BinBear offers hassle-free furniture and mattress removal, recycling these items whenever possible to keep them out of landfills.</p>
+                                </div>
+                               
                             </div>
-                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
-                                <div className="card-offer hover-up">
-                                    
-                                <h5 className="color- mb-15"style={{color:'black'}}>Recycling Appliances</h5>
-                                        <p>Old appliances often contain chemicals like Freon, which can be harmful to the environment. BinBear provides an eco-friendly appliance removal service, handling items like:</p>
-                                     <p style={{marginTop:'20px'}}>- Refrigerators
-                                     </p>
-                                    <p style={{marginTop:'20px'}}>- Dishwashers
-                                    </p>
-                                    <p style={{marginTop:'20px'}}>- Stoves
-                                     </p>
-                                     <p style={{marginTop:'20px'}}>- Washers and dryers
-                                    </p>
-                                    <p style={{marginTop:'20px'}}>- Heating and cooling units
-                                     </p>
-                                   
-
-
-
-
-
-
-                                  
+                            <div className="col-lg-6">
+                              
+                            <div className="item-faqs-2 mb-30">
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Recycling Appliances</h6>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Old appliances often contain chemicals like Freon, which can be harmful to the environment. BinBear provides an eco-friendly appliance removal service, handling items like:</p>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginTop:'20px'}}>  Refrigerators
+,Dishwashers
+, Stoves
+, Washers and dryers
+, Heating and cooling units
+</p>
+<p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginTop:'20px'}}>We ensure that appliances are disposed of safely and responsibly, with careful handling of hazardous components.</p>
                                  
-                                  <p style={{marginTop:'30px'}}>We ensure that appliances are disposed of safely and responsibly, with careful handling of hazardous components.</p>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn" >
-                                <div className="card-offer hover-up">
-       
-                                    <div className="card-info" >
-                                        <h5 className="color- mb-15"style={{color:'black'}}>Recycling Furniture and Mattresses</h5>
-                                        <p className="font-sm color-grey-900 mb-35">Disposing of large items like furniture and mattresses can be difficult, especially as they’re often not accepted at landfills. However, most furniture and up to 90% of mattress materials are recyclable. BinBear offers hassle-free furniture and mattress removal, recycling these items whenever possible to keep them out of landfills.
-                                        </p>
-                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
-                                <div className="card-offer hover-up">
-                                   
-                                    <div className="card-info">
-                                        <h5 className="color- mb-15"style={{color:'black'}}>Costs of Junk Removal for Recycling</h5>
-                                        <p className="font-sm color-grey-900 mb-35">While many recyclables can be disposed of for free, larger items may come with fees. BinBear offers transparent, upfront pricing with free estimates. We show up on time, provide a written estimate, and, if you’re happy, we can often take your items on the spot.
-
+                                 </div>
+                                 
+                                <div className="item-faqs-2 mb-30">
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Costs of Junk Removal for Recycling</h6>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">While many recyclables can be disposed of for free, larger items may come with fees. BinBear offers transparent, upfront pricing with free estimates. We show up on time, provide a written estimate, and, if you’re happy, we can often take your items on the spot.
+With insured operators and fair pricing, BinBear delivers great value and eco-friendly services.
 </p>
-<p className="font-sm color-grey-900 mb-35"style={{marginTop:'20px'}} >With insured operators and fair pricing, BinBear delivers great value and eco-friendly services.</p>
-                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></span></a></div>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginTop:'20px'}}>  </p>
+                                 
+                                 </div>
+                                 
+                              
+                                <div className="item-faqs-2 mb-30">
+                            
+                                       </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+                </section>
+
+
+
+                 
+            <section className="section pt-80 mb-70 bg-faqs">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <div className="box-faqs-left">
+                                <h2 className="title-favicon mb-20 wow animate__animated animate__fadeIn">Recycling FAQs</h2>
+                                <p className="font-md color-grey-700 mb-50 wow animate__animated animate__fadeIn">
+                                    </p>
+                                <div className="box-gallery-faqs">
+                                    <div className="image-top"><img src="/assets/imgs/page/homepage3/dump.png" alt="transp" />
+                                    </div>
+                                    <div className="image-bottom">
+                                        <div className="image-faq-1"><img src="/assets/imgs/page/homepage1/img-faq2.png" alt="transp" /></div>
+                                        <div className="image-faq-2"><img src="/assets/imgs/page/homepage1/img-faq3.png" alt="transp" /></div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
-                                <div className="card-offer hover-up">
-                                  
-                                    <div className="card-info">
-                                        <h5 className="color- mb-15"style={{color:'black'}}>Recycling FAQs</h5>
-                                        <p className="font-sm color-grey-900 mb-35">What Items Aren’t Recyclable?
-- Garden hoses
-- Sewing needles
-- Bowling balls
-- Food waste or soiled paper
-- Non-empty aerosol cans
-- Certain plastics and glass types
-- Batteries
-- Light bulbs
+                        </div>
+                        
+                        <div className="col-lg-6">
+                            <div className="box-accordion">
+                               
 
-Items That Are Recyclable:
-- Furniture
-- Appliances
-- Electronics
-- Mattresses
-- Hot tubs
-- Construction debris
-Do We Handle Hazardous Materials?
-
-No. Hazardous materials should be disposed of through specialized services. Typical household hazardous items include certain chemicals, paints, and automotive fluids
-</p>
-<p className="font-sm color-grey-900 mb-35"style={{marginTop:'5px'}}>
-Do We Handle Hazardous Materials?
-
-No. Hazardous materials should be disposed of through specialized services. Typical household hazardous items include certain chemicals, paints, and automotive fluids.
-
-</p>
-                                    <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
-                                <div className="card-offer hover-up">
-                                    
-                                    <div className="card-info">
-                                        <h5 className="color- mb-15"style={{color:'black'}}>Choosing a Junk Recycling Company</h5>
-                                        <p className="font-sm color-grey-900 mb-35">When selecting a junk recycling company, consider the following factors:
-
-- Customer Service: Look for positive reviews and referrals from trusted sources.
-- Transparent Pricing: Don’t just choose the cheapest option—look for a company that offers fair pricing with no hidden fees.
-- Eco-Friendly Practices: Ensure the company prioritizes recycling and sustainable practices.
-- **Professionalism and Insurance**: Choose an experienced, insured company for peace of mind.
-
-                                          </p>
-                                        <div className="box-button-offer mb-30" ><a className="btn btn-link font-sm color-brand-2">View Details<span>
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></span></a></div>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                           
-                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
-                                <div className="card-offer hover-up">
-                                  
-                                    <div className="card-info">
-                                        <h5 className="color- mb-15"style={{color:'black'}}>Our Commitment to Recycling and the Planet</h5>
-                                        <p className="font-sm color-grey-900 mb-35">
-                                        At BinBear, we’re committed to reducing waste and preserving the environment. Every truckload is carefully sorted to recycle as much as possible. Our goal is to operate efficiently, reduce landfill contributions, and support a sustainable future.
-
-BinBear specializes in:
-
-                                        </p>
-                                        <p style={{marginTop:'20px'}}>- Appliance Removal
-                                     </p>
-                                    <p style={{marginTop:'20px'}}>- Furniture Removal
-                                    </p>
-                                    <p style={{marginTop:'20px'}}>- Yard Waste Removal
-
-                                     </p>
-                                     <p style={{marginTop:'20px'}}>- Hot Tub Removal
-                                     </p>
-                                    <p style={{marginTop:'20px'}}>- Trash Removal
-                                    </p>
-                                    <p style={{marginTop:'20px'}}>-- Construction Waste Removal
-
-                                     </p>
-
-                                     <p style={{marginTop:'20px'}}>- Property Cleanouts
-                                    </p>
-
-                                    <p style={{marginTop:'20px'}}>- And more!
-                                    </p>
-                                    </div>
-                                </div>
-                            </div>        
-
-                           
+                            <div className="accordion" id="accordionFAQ">
+                <div className="accordion-item wow animate__animated animate__fadeIn">
+                
+                    <div className={isActive.key == 1 ? "accordion-collapse" : "accordion-collapse collapse"}>
+                        <div className="accordion-body"> 
 
 
+                            .</div>
+                    </div>
+                </div>
+                <div className="accordion-item wow animate__animated animate__fadeIn"style={{marginTop:'150px'}}>
+                    <h5 className="accordion-header" onClick={() => handleToggle(2)}>
+                        <button className={isActive.key == 2 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}style={{backgroundColor:'black'}}>What Items Aren’t Recyclable?
+                            ?</button>
+                    </h5>
+                    <div className={isActive.key == 2 ? "accordion-collapse" : "accordion-collapse collapse"}>
+                        <div className="accordion-body">
+                            <p >Garden hoses</p>
+<p style={{marginTop:'10px'}}> Sewing needles</p>
+<p style={{marginTop:'10px'}}> Bowling balls</p>
+ <p style={{marginTop:'10px'}}>Food waste or soiled paper</p>
+<p style={{marginTop:'10px'}}>Non-empty aerosol cans</p>
+<p style={{marginTop:'10px'}}> Certain plastics and glass types</p>
+<p style={{marginTop:'10px'}}>Batteries</p>
+<p style={{marginTop:'10px'}}>Light bulbs</p>
 
                         </div>
                     </div>
                 </div>
-            </section>
+                <div className="accordion-item wow animate__animated animate__fadeIn">
+                    <h5 className="accordion-header" onClick={() => handleToggle(3)}>
+                        <button className={isActive.key == 3 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}style={{backgroundColor:'black'}}>
+                        Items That Are Recyclable?  </button>
+                    </h5>
+                    <div className={isActive.key == 3 ? "accordion-collapse" : "accordion-collapse collapse"}>
+                        <div className="accordion-body">Furniture
+<p style={{marginTop:'10px'}}>Appliances</p>
+<p style={{marginTop:'10px'}}>Electronics</p>
+<p style={{marginTop:'10px'}}>Mattresses</p>
+<p style={{marginTop:'10px'}}>Hot tubs</p>
+<p style={{marginTop:'10px'}}>Construction debris</p>
+
+                           </div>
+                    </div>
+                </div>
+                <div className="accordion-item wow animate__animated animate__fadeIn">
+                    <h5 className="accordion-header" onClick={() => handleToggle(4)}>
+                        <button className={isActive.key == 4 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}style={{backgroundColor:'black'}}>Do We Handle Hazardous Materials?
+                           ?</button>
+                    </h5>
+                    <div className={isActive.key == 4 ? "accordion-collapse" : "accordion-collapse collapse"}>
+                        <div className="accordion-body">
+                        No. Hazardous materials should be disposed of through specialized services. Typical household hazardous items include certain chemicals, paints, and automotive fluids.
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+
+
+
+
+
+
+
+
+                                <div className="line-border mt-50 mb-50" />
+                                <h3 className="color-brand-2 wow animate__animated animate__fadeIn">Nead more help?</h3>
+                                <div className="mt-20"><Link className="btn btn-brand-1-big mr-20 wow animate__animated animate__fadeIn" href="/contact"style={{backgroundColor:'orange'}}>Free Estimate</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn
+                                    More
+                                    <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                    </svg></Link></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>                   
+
+
+
+
+            <section className="section mt-100">
+                    <div className="container position-relative">
+                        <h2 className="title-favicon mb-20 wow animate__animated animate__fadeIn">Choosing a Junk Recycling Company</h2>
+                        
+                          
+                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> When selecting a junk recycling company, consider the following factors:</p>
+                      
+                        
+
+                        <div className="row mt-50">
+                            <div className="col-lg-6">
+                                <div className="item-faqs-2 mb-30">
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Customer Service</h6>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> Look for positive reviews and referrals from trusted sources</p>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">  </p>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> 
+
+ </p>
+             <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">.</p>                  
+                     
+
+                                </div>
+                                <div className="item-faqs-2 mb-30">
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Eco-Friendly Practices</h6>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Ensure the company prioritizes recycling and sustainable practices.</p>
+                                </div>
+
+                                <div className="item-faqs-2 mb-30">
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Our Commitment to Recycling and the Planet</h6>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">At BinBear, we’re committed to reducing waste and preserving the environment. Every truckload is carefully sorted to recycle as much as possible. Our goal is to operate efficiently, reduce landfill contributions, and support a sustainable future.
+                                    </p>
+                                    <p  className="font-md color-grey-700 wow animate__animated animate__fadeIn">BinBear specializes in:</p>
+                                
+                                    <p  className="font-md color-grey-700 wow animate__animated animate__fadeIn" style={{marginTop:'10px'}} >Appliance Removal,Furniture Removal
+, Yard Waste Removal
+, Hot Tub Removal
+, Trash Removal
+, Mattress Disposal
+, E-Waste Recycling
+, Construction Waste Removal
+, Property Cleanouts
+, And more!
+</p>
+
+
+
+                                </div>
+
+
+
+
+
+                               
+                            </div>
+                            <div className="col-lg-6">
+                              
+                            <div className="item-faqs-2 mb-30">
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Transparent Pricing</h6>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"></p>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginTop:'20px'}}> Don’t just choose the cheapest option—look for a company that offers fair pricing with no hidden fees.
+
+</p>
+<p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginTop:'20px'}}></p>
+                                 
+                                 </div>
+                                 
+                                <div className="item-faqs-2 mb-30">
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Professionalism and Insurance</h6>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">
+                                     Choose an experienced, insured company for peace of mind.
+</p>     
+
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginTop:'20px'}}>  </p>
+                              
+                                 </div>
+                                 
+                              
+                                <div className="item-faqs-2 mb-30">
+                            
+                                       </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+                </section>
 
 
 

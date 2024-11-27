@@ -12,7 +12,7 @@ export default function Faq() {
                         <div className="banner-trackyourparcel" />
                         <div className="box-info-trackyourparcel">
                             <h2 className="color-black mb-25 wow animate__animated animate__fadeIn">Junk Removal Estimate<br className="d-none d-lg-block" /> </h2>
-                            <p className="color-grey-900 font-md wow animate__animated animate__fadeIn"> At Junk King, we guarantee to beat any written estimate. We are confident our prices are better than any comparable operator. This means a licensed, insured, junk removal company who operates a recycling-based operation to keep our landfills free of unnecessary waste materials..</p>
+                            <p className="color-grey-900 font-md wow animate__animated animate__fadeIn"> </p>
                             <div className="form-trackparcel mb-0">
                                 
 
@@ -106,8 +106,8 @@ We believe in FAIR, TRANSPARENT PRICING, and we back it up with 4 different ways
                             </div>
                             <div className="col-lg-6 position-relative mb-30">
                                 <div className="row align-items-end">
-                                    <div className="col-lg-5 col-md-5 col-sm-5"><img className="mb-20 wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-1-1.png" alt="transp" /><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-1-2.png" alt="transp" /></div>
-                                    <div className="col-lg-7 col-md-7 col-sm-7"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-1-3.png" alt="transp" /></div>
+                                    <div className="col-lg-5 col-md-5 col-sm-5"><img className="mb-20 wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-1-1.png" alt="transp" /><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/blog-single/bagi.png" alt="transp" /></div>
+                                    <div className="col-lg-7 col-md-7 col-sm-7"><img className="wow animate__animated animate__fadeIn"style={{height:'500px',width:'1000px'}} src="/assets/imgs/page/service-detail/img4.png"/></div>
                                 </div>
                                 <div className="quote-center shape-2" />
                             </div>
@@ -140,24 +140,17 @@ We believe in FAIR, TRANSPARENT PRICING, and we back it up with 4 different ways
                                     <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">2:Online Pricing Estimate</h6></Link>
                                     <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">For an online pricing estimate, simply click Pricing in the navigation above, scroll to pricing estimator, enter a zip code, and choose estimate by items or volume. The online price estimator is based on the average size of a typical item and the price in your local market. The size of a couch or a TV or any item may vary, which will affect your price. The online estimator provides an estimate only. Our goal with the estimator is to give you a solid idea of what the job is likely to cost.</p>
                                 </div>
-                                <div className="item-faqs-2 mb-30"><Link href="#">
-                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Text Us s Photo</h6></Link>
-                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">If you can take a photo of your items, text us at 737-888-5865, and we will text you back an estimate. If your items are in different locations on your property, you can send us multiple photos and we will be able to provide you with an estimate.</p>
-                                </div>
+                               
                             </div>
                             <div className="col-lg-6">
                               
                                 <div className="item-faqs-2 mb-30"><Link href="#">
                                     <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Call & Talk to Trained Staff</h6></Link>
-                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Finally, you can call and/or live chat our customer service representatives. We are open from 4:45a - 8p PST, 7:45a - 11p EST, 6 days a week, and for 8 hours on Sunday. If you have 4 items or less, in many cases we will be able to offer you a firm price. .</p>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Finally, you can call and/or live chat our customer service representatives. We are open from 4:45a - 8p PST, 7:45a - 11p EST, 6 days a week, and for 8 hours on Sunday. If you have 4 items or less, in many cases we will be able to offer you a firm price. If you have 4 items or more, we can offer you an estimate range at the call center. The final price, with no obligation, will be completed by our trained technicians.</p>
                                 </div>
                                 <div className="item-faqs-2 mb-30"><Link href="#">
-                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">What is Junk Removal provider?</h6></Link>
-                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">A Junk Removal provider is a company that specializes in providing logistics services, including transportation, storage, inventory management, and more.</p>
-                                </div>
-                                <div className="item-faqs-2 mb-30"><Link href="#">
-                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">CALL & TALK TO TRAINED STAFF</h6></Link>
-                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> Finally, you can call and/or live chat our customer service representatives. We are open from 4:45a - 8p PST, 7:45a - 11p EST, 6 days a week, and for 8 hours on Sunday. If you have 4 items or less, in many cases we will be able to offer you a firm price. If you have 4 items or more, we can offer you an estimate range at the call center. The final price, with no obligation, will be completed by our trained technicians..</p>
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Text Us s Photo</h6></Link>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">If you can take a photo of your items, text us at 737-888-5865, and we will text you back an estimate. If your items are in different locations on your property, you can send us multiple photos and we will be able to provide you with an estimate. Please note an estimate is not a firm price. Our Big Red truck teams will give you a firm, no obligation price on-site.</p>
                                 </div>
 
                             </div>
@@ -172,10 +165,10 @@ We believe in FAIR, TRANSPARENT PRICING, and we back it up with 4 different ways
                                     <h2 className="title-favicon mb-20 wow animate__animated animate__fadeIn">FAQs</h2>
                                     <p className="font-md color-grey-700 mb-50 wow animate__animated animate__fadeIn">Feeling inquisitive? Have a read through some of our FAQs or contact our supporters for help</p>
                                     <div className="box-gallery-faqs">
-                                        <div className="image-top wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/trackyourparcel/img-faqs1.png" alt="transp" /></div>
+                                        <div className="image-top wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/blog-single/bagi.png" alt="transp" /></div>
                                         <div className="image-bottom wow animate__animated animate__fadeIn">
                                             <div className="image-faq-1"><img src="/assets/imgs/page/trackyourparcel/img-faqs2.png" alt="transp" /></div>
-                                            <div className="image-faq-2"><img src="/assets/imgs/page/trackyourparcel/img-faqs3.png" alt="transp" /></div>
+                                            <div className="image-faq-2"><img src="/assets/imgs/page/service-detail/img4.png" alt="transp" /></div>
                                         </div>
                                     </div>
                                 </div>

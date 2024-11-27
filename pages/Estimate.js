@@ -145,40 +145,40 @@ export default function Home2() {
 
                                 <div className="row">
                                         <div className="col-lg-6 mb-30">
-                                            <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Click the green "Launch Pricing Estimator"** button above</h6>
+                                            <h6 className=" font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Click the green "Launch Pricing Estimator" button above</h6>
                                             <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"></p>
                                         </div>
                                         <div className="col-lg-6 mb-30">
-                                            <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Enter your zip code** and follow the prompts.
+                                            <h6 className=" font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Enter your zip code and follow the prompts.
                                             </h6>
                                             <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"> </p>
                                         </div>
                                         <div className="col-lg-6 mb-30">
-                                            <h6 className="feature2-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Choose your estimation method: select items individually or estimate by truck load.
+                                            <h6 className=" font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Choose your estimation method: select items individually or estimate by truck load.
                                             </h6>
                                             <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"></p>
                                         </div>
                                         <div className="col-lg-6 mb-30">
-                                            <h6 className="feature3-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Enter your contact info** and let’s get started!
+                                            <h6 className=" font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Enter your contact info** and let’s get started!
                                             </h6>
                                             <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"></p>
                                         </div>
 
                                         <div className="col-lg-6 mb-30">
-                                            <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Add your items or specify the number of pickup truck loads.</h6>
+                                            <h6 className=" font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Add your items or specify the number of pickup truck loads.</h6>
                                             <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"></p>
                                         </div>
                                         <div className="col-lg-6 mb-30">
-                                            <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Click "Book It" to schedule your junk removal!</h6>
+                                            <h6 className=" font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Click "Book It" to schedule your junk removal!</h6>
                                             <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"> </p>
                                         </div>
                                         <div className="col-lg-6 mb-30">
-                                            <h6 className="feature2-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn"> Medical waste
+                                            <h6 className=" font-md-bold color-grey-900 wow animate__animated animate__fadeIn"> Medical waste
                                             </h6>
                                             <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"></p>
                                         </div>
                                         <div className="col-lg-6 mb-30">
-                                            <h6 className="feature3-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Materials containing asbestos or mercury
+                                            <h6 className=" font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Materials containing asbestos or mercury
                                             </h6>
                                             <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"></p>
                                         </div>

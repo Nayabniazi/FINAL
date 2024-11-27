@@ -167,7 +167,7 @@ export default function TrackParcel() {
                                         <div className="image-top wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/blog-single/rental.png" alt="transp" /></div>
                                         <div className="image-bottom wow animate__animated animate__fadeIn">
                                             <div className="image-faq-1"><img src="/assets/imgs/page/trackyourparcel/img-faqs2.png" alt="transp" /></div>
-                                            <div className="image-faq-2"><img src="/assets/imgs/page/trackyourparcel/img-faqs3.png" alt="transp" /></div>
+                                            <div className="image-faq-2"><img src="/assets/imgs/page/service-detail/img4.png" alt="transp" /></div>
                                         </div>
                                     </div>
                                 </div>

@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import Menu from "./Menu";
 import Image from 'next/image';
 
+
 export default function Header({ topBarStyle, handleMobileMenuOpen }) {
     const [scroll, setScroll] = useState(0)
     useEffect(() => {
@@ -98,14 +99,17 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
                          </div> 
                                             
                                               
-                                              
-                                              </div> 
-
-            <header className={scroll ? "header sticky-bar stick" : "header sticky-bar"}>
+                        
+                        
+                        
+                        
+                        
+                        
+                                                     </div> 
+                                                     <header className={scroll ? "header sticky-bar stick" : "header sticky-bar"}>
                 <div className="container"style={{ backgroundColor:'black', color: 'white', width: '100%',
-    maxWidth: '3000px', }}>
-   
-                    <div className="main-header"style={{backgroundColor:'black',marginLeft:'39px',marginInlineEnd:'50px'}}>
+    maxWidth: '3000px',}}>     
+                    <div className="main-header"style={{backgroundColor:'black',marginLeft:'50px',marginInlineEnd:'60px',}}>
                         <div className="header-left">
                             <div className="header-logo"><Link className="d-flex" href="/"> <Image src="/img/bear.png.png" alt="Ecom" width={150} height={60} /></Link></div>
                             <div className="header-nav">
@@ -162,6 +166,82 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
                     </div>
                 </div>
             </header>
+
+
+
+<style jsx>{
+    `
+   
+    @media (max-width: 768px) {
+    /* Mobile styles: Remove margin and padding */
+    .header.sticky-bar {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        padding: 0 !important;
+    }
+
+    .container {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .main-header {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .header-nav {
+     /* Add some margin to the right */
+    }
+
+    .burger-icon {
+        display: block !important;
+    }
+
+    .header-right {
+        padding-right: 0 !important;
+    }
+
+    .box-dropdown-cart {
+        margin-right: 0 !important;
+    }
+
+    /* Button Style: Ensure button appears as expected */
+    .btn.btn-brand-1 {
+        background-color: orange !important;
+        color: white !important;
+        padding: 10px 20px !important;
+        font-size: 16px !important;
+        text-decoration: none !important;
+    }
+
+    .btn.btn-brand-1:hover {
+        background-color: darkorange !important;
+    }
+}
+
+@media (min-width: 769px) {
+    /* Desktop styles: Ensure no changes are made */
+    .burger-icon {
+        display: none;
+    }
+}
+
+    
+    `}
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
         </>
     )
 }
