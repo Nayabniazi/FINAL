@@ -42,6 +42,7 @@ const ItemSelectionForm = () => {
 
     return (
         <Layout>
+            
             <div
                 style={{
                     textAlign: "center",
@@ -50,6 +51,9 @@ const ItemSelectionForm = () => {
                     minHeight: "100vh",
                 }}
             >
+                <button className="back-button" onClick={() => router.back()}>
+          ← Back
+        </button>
                 <h4 style={{ marginBottom: "20px" }}>
                     Click and Tap to Select Category Type(s)
                 </h4>
@@ -139,7 +143,7 @@ const ItemSelectionForm = () => {
                     <button
                         type="submit"
                         style={{
-                            width: "300px",
+                            width: "250px",
                             padding: "13px 20px",
                             backgroundColor: "orange",
                             color: "#fff",
@@ -153,7 +157,32 @@ const ItemSelectionForm = () => {
                     </button>
                 </form>
             </div>
+            <style jsx>
+            {`
+            
+           
+          .back-button {
+          
+            margin-bottom:20px;
+            
+            background: none;
+            border: none;
+            color: #007bff;
+            font-size: 1rem;
+            cursor: pointer;
+          }
+          .back-button:hover {
+            color: #0056b3;
+          } 
+            
+            
+            
+            
+            `}
+        </style>
+
         </Layout>
+
     );
 };
 

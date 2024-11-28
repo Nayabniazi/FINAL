@@ -111,7 +111,7 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
     maxWidth: '3000px',}}>     
                     <div className="main-header"style={{backgroundColor:'black',marginLeft:'50px',marginInlineEnd:'60px',}}>
                         <div className="header-left">
-                            <div className="header-logo"style={{marginLeft:'20px'}}><Link className="d-flex" href="/"> <Image src="/img/bear.png.png" alt="Ecom" width={150} height={60} /></Link></div>
+                            <div className="header-logo"style={{marginLeft:'5px',}}><Link className="d-flex" href="/"> <Image src="/img/bear.png.png" alt="Ecom" width={180} height={50} /></Link></div>
                             <div className="header-nav">
                                 <nav className="nav-main-menu d-none d-xl-block">
                                   
@@ -167,46 +167,17 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
                 </div>
             </header>
 
-
-
-<style jsx>{
-    `
-   
-    @media (max-width: 768px) {
-    /* Mobile styles: Remove margin and padding */
-    .header.sticky-bar {
-        margin-top: 0 !important;
-        margin-bottom: 0 !important;
-        padding: 0 !important;
-    }
-
-    .container {
-        padding: 0 !important;
-        margin: 0 !important;
-    }
-
-    .main-header {
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-    }
-
-    .header-nav {
-     /* Add some margin to the right */
-    }
-
-    .burger-icon {
-        display: block !important;
+            <style jsx>
+{`
+    /* General Styles */
+    .phone-icon {
+        margin-left: 15px !important; /* Add space from the left edge */
     }
 
     .header-right {
-        padding-right: 0px !important;
+        margin-right: 15px !important; /* Add space from the right edge */
     }
 
-    .box-dropdown-cart {
-        margin-right: 0px !important;
-    }
-
-    /* Button Style: Ensure button appears as expected */
     .btn.btn-brand-1 {
         background-color: orange !important;
         color: white !important;
@@ -218,18 +189,45 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
     .btn.btn-brand-1:hover {
         background-color: darkorange !important;
     }
-}
 
-@media (min-width: 769px) {
-    /* Desktop styles: Ensure no changes are made */
-    .burger-icon {
-        display: none;
+    /* Mobile-specific adjustments */
+    @media (max-width: 768px) {
+        .header.sticky-bar {
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+            padding: 0px !important; /* Add padding around the header */
+        }
+
+        .container {
+            padding: 0 15px !important; /* Add horizontal padding */
+            margin: 0 !important;
+        }
+
+        .main-header {
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+
+        .burger-icon {
+            display: block !important;
+        }
+
+        .header-right {
+            padding-right: 15px !important; /* Ensure space on the right side */
+        }
+
+        .box-dropdown-cart {
+            margin-right: 15px !important; /* Add margin to the cart dropdown */
+        }
     }
-}
 
-    
-    `}
-
+    /* Desktop-specific adjustments */
+    @media (min-width: 769px) {
+        .burger-icon {
+            display: none;
+        }
+    }
+`}
 </style>
 
 

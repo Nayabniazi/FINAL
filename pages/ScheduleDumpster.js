@@ -1,7 +1,11 @@
 import Layout from "@/components/layout/Layout"
 import { useState } from "react";
-
+import { useRouter } from "next/router";
 export default function ScheduleDumpster() {
+    const router = useRouter();
+    const handlemyClick = () => {
+        router.push("/FinalBooking"); // Redirect to Dumpster Rental page
+    };
     const [formData, setFormData] = useState({
         firstName: "",
         address: "",
@@ -40,7 +44,11 @@ export default function ScheduleDumpster() {
 
     return (
         <Layout>
+           
         <div style={{ textAlign: "center", padding: "20px", backgroundColor: "#f0f0f0", minHeight: "100vh" }}>
+        <button className="back-button" onClick={() => router.back()}>
+          ← Back
+        </button>
             <h4 style={{ marginBottom: "20px" }}>Schedule Your Dumpster</h4>
 
             <form
@@ -166,12 +174,36 @@ export default function ScheduleDumpster() {
                             cursor: "pointer",
                             fontSize: "16px",
                         }}
+                        onClick={handlemyClick} 
                     >
                         Next
                     </button>
                 </div>
             </form>
         </div>
+        <style jsx>
+            {`
+            
+           
+          .back-button {
+          
+            
+            
+            background: none;
+            border: none;
+            color: #007bff;
+            font-size: 1rem;
+            cursor: pointer;
+          }
+          .back-button:hover {
+            color: #0056b3;
+          } 
+            
+            
+            
+            
+            `}
+        </style>
         </Layout>
     );
 }
