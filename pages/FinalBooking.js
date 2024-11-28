@@ -26,11 +26,17 @@ const CreditCardForm = () => {
 
   return (
     <Layout>
-      <div className="form-container">
-        {/* Back Button */}
-        <button className="back-button" onClick={() => router.back()}>
+        <>
+        <button style={{ background:"none",
+            border:'none',
+            color:"#007bff",
+            fontsize: "1rem",
+            cursor: "pointer",}} className="back-button" onClick={() => router.back()}>
           ← Back
         </button>
+      <div className="form-container">
+        {/* Back Button */}
+        
         <h2>Enter your credit card info to reserve your dumpster rental</h2>
         <form onSubmit={handleSubmit}>
           <div className="form-group">
@@ -97,6 +103,7 @@ const CreditCardForm = () => {
           .form-container {
             max-width: 400px;
             margin: 20px auto;
+            margin-bottom:100px;
             padding: 20px;
             background-color: white;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -169,6 +176,7 @@ const CreditCardForm = () => {
           }
         `}</style>
       </div>
+      </>
     </Layout>
   );
 };
