@@ -1,8 +1,6 @@
-
 import Layout from "@/components/layout/Layout";
 import { useState, useEffect } from "react"; // Import useState and useEffect
 import { useRouter } from "next/router"; // Import useRouter for navigation
-import Brand1Slider from "@/components/slider/Brand1Slider";
 
 export default function Login() {
     const [zipCode, setZipCode] = useState(""); // Initialize state for zip code
@@ -105,6 +103,7 @@ export default function Login() {
                                             value={zipCode}
                                             onChange={handleZipCodeChange}
                                             placeholder="ZIP Code"
+                                            className="zip-code-input"
                                             style={{
                                                 flex: "1",
                                                 minWidth: "250px",
@@ -157,6 +156,13 @@ export default function Login() {
                     </div>
                 </div>
             </section>
+            <style jsx>{`
+                @media (max-width: 768px) {
+                    .zip-code-input {
+                        margin-right: 13px; /* Add margin on mobile screens */
+                    }
+                }
+            `}</style>
         </Layout>
     );
 }
