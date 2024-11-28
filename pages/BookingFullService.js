@@ -43,6 +43,9 @@ const ItemSelectionForm = () => {
     return (
         <Layout>
             
+            <button className="back-button" onClick={() => router.back()}>
+          ← Back
+        </button>
             <div
                 style={{
                     textAlign: "center",
@@ -51,9 +54,6 @@ const ItemSelectionForm = () => {
                     minHeight: "100vh",
                 }}
             >
-                <button className="back-button" onClick={() => router.back()}>
-          ← Back
-        </button>
                 <h4 style={{ marginBottom: "20px" }}>
                     Click and Tap to Select Category Type(s)
                 </h4>
@@ -164,7 +164,7 @@ const ItemSelectionForm = () => {
           .back-button {
           
             margin-bottom:20px;
-            
+            margin-left:0px;
             background: none;
             border: none;
             color: #007bff;

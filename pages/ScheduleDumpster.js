@@ -44,11 +44,11 @@ export default function ScheduleDumpster() {
 
     return (
         <Layout>
-           
-        <div style={{ textAlign: "center", padding: "20px", backgroundColor: "#f0f0f0", minHeight: "100vh" }}>
-        <button className="back-button" onClick={() => router.back()}>
+            <button className="back-button" onClick={() => router.back()}>
           ← Back
         </button>
+        <div style={{ textAlign: "center", padding: "20px", backgroundColor: "#f0f0f0", minHeight: "100vh" }}>
+       
             <h4 style={{ marginBottom: "20px" }}>Schedule Your Dumpster</h4>
 
             <form

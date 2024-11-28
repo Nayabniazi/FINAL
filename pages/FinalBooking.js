@@ -104,9 +104,9 @@ const CreditCardForm = () => {
             position: relative;
           }
           .back-button {
-           margin-bottom:20px;
+           margin-bottom:10px;
             
-            top: 10px;
+            
             left: 10px;
             background: none;
             border: none;
