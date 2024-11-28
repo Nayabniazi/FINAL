@@ -48,6 +48,7 @@ const ItemSelectionForm = () => {
         </button>
             <div
                 style={{
+                    marginTop:'10px',
                     marginBottom:'80px',
                     textAlign: "center",
                     padding: "20px",
@@ -61,6 +62,7 @@ const ItemSelectionForm = () => {
                 <form
                     onSubmit={handleSubmit}
                     style={{
+                      
                         maxWidth: "600px",
                         margin: "0 auto",
                         backgroundColor: "#fff",
