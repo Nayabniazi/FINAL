@@ -41,11 +41,11 @@ export default function Sidebar({ openClass, handleMobileMenuClose }) {
                                             <li><Link href="/Item-we-take">Item we take</Link></li>
                         <li><Link href="/history"> JK-Removal History</Link></li>
                         <li><Link href="/Recycle">Recycle</Link></li>
-                        <li><Link href="/Dumpster-Rental">Dumpster Rentals</Link></li>
-                        <li><Link href="/JK-bags">JK Dumpster Bag</Link></li>
+                        <li><Link href="/"></Link></li>
+                        <li><Link href="/"></Link></li>
                         
-                        <li><Link href="/JK-Removal">JK Junk Removal</Link></li>
-                        <li><Link href="/sameday-JK">Jk Same Day Junk Removal</Link></li>
+                        <li><Link href="/"></Link></li>
+                        <li><Link href="/"></Link></li>
                        
                                             </ul>
                                         </li>
@@ -61,7 +61,7 @@ export default function Sidebar({ openClass, handleMobileMenuClose }) {
                         <li><Link href="/Commercial">Commercial</Link></ li>
 
  <li><Link href="/pricing">Estimate pricing</Link></li>
-                        <li><Link href="/Recycle">National Accounts</Link></li>
+                        <li><Link href="/"></Link></li>
                                             </ul>
                                         </li>
                                         <li className={isActive.key == 3 ? "has-children active" : "has-children"} onClick={() => handleToggle(3)}>
@@ -71,23 +71,10 @@ export default function Sidebar({ openClass, handleMobileMenuClose }) {
                                             <li><Link href="/Estimateprice">Estimate Pricing</Link></li>
                         <li><Link href="/jk-removal-price
                         ">Jk Removal Pricing</Link></li>
-                        <li><Link href="/Estimate">Dumpster Pricing</Link></li> 
+                        <li><Link href="/"></Link></li> 
                                             </ul>
                                         </li>
-                                        <li className={isActive.key == 4 ? "has-children active" : "has-children"} onClick={() => handleToggle(4)}>
-                                            <span className="menu-expand"><svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg></span>
-                                            <Link href="/">More</Link>
-                                            <ul className={isActive.key == 4 ? "sub-menu d-block" : "sub-menu d-none"}>
-                                            <li><Link href="/about">About Us</Link></li>
-                        <li><Link href="/contact">Our Location</Link></li>
-                        <li><Link href="/register">Contact us</Link></li>
-                        <li><Link href="/Event">Events</Link></li>
-                        <li><Link href="/Resources">Resources</Link></li>
-                        <li><Link href="/blog-single">Blog</Link></li>
-                                            </ul>
-                                        </li>
-                                        
-                                    </ul>
+                            </ul>
                                 </nav>
                             </div>
                             <div className="site-copyright color-grey-400 mt-0">

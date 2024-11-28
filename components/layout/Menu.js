@@ -39,17 +39,17 @@ export default function Menu() {
                             <Link href="/Recycle">Recycle</Link>
                         </li>
                         <li>
-                            <Link href="/Dumpster-Rental">Dumpster Rentals</Link>
+                            <Link href="/"></Link>
                         </li>
                         <li>
-                            <Link href="/JK-bags">JK Dumpster Bag</Link>
+                            <Link href="/"></Link>
                         </li>
                         <li>
-                            <Link href="/JK-Removal">JK Junk Removal</Link>
+                            <Link href="/"></Link>
                         </li>
                         <li>
-                            <Link href="/sameday-JK">
-                                JK Same Day Junk Removal
+                            <Link href="/">
+                                
                             </Link>
                         </li>
                     </ul>
@@ -69,8 +69,8 @@ export default function Menu() {
                             <Link href="/Residential">Residential</Link>
                         </li>
                         <li>
-                            <Link href="/jk-removal-price">
-                                JK Removal Pricing
+                            <Link href="/">
+                                
                             </Link>
                         </li>
                         <li>
@@ -80,7 +80,7 @@ export default function Menu() {
                             <Link href="/pricing">Estimate pricing</Link>
                         </li>
                         <li>
-                            <Link href="/Recycle">National Accounts</Link>
+                            <Link href="/"></Link>
                         </li>
                     </ul>
                 </li>
@@ -104,7 +104,7 @@ export default function Menu() {
                             </Link>
                         </li>
                         <li>
-                            <Link href="/Estimate">Dumpster Pricing</Link>
+                            <Link href="/"></Link>
                         </li>
                     </ul>
                 </li>
