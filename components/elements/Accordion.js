@@ -23,7 +23,7 @@ export default function Accordion() {
             <div className="accordion" id="accordionFAQ">
                 <div className="accordion-item wow animate__animated animate__fadeIn">
                     <h5 className="accordion-header" onClick={() => handleToggle(1)}>
-                        <button className={isActive.key == 1 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}style={{backgroundColor:'orange'}}>How can Our BinBear Company is
+                        <button className={isActive.key == 1 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}style={{backgroundColor:'orange',color:'white'}}>How can Our BinBear Company is
                             preferable?</button>
                     </h5>
                     <div className={isActive.key == 1 ? "accordion-collapse" : "accordion-collapse collapse"}>
@@ -33,7 +33,7 @@ export default function Accordion() {
                 </div>
                 <div className="accordion-item wow animate__animated animate__fadeIn">
                     <h5 className="accordion-header" onClick={() => handleToggle(2)}>
-                        <button className={isActive.key == 2 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}style={{backgroundColor:'black'}}>Can Pay Only for the Space You Use
+                        <button className={isActive.key == 2 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}style={{backgroundColor:'black',color:'white'}}>Can Pay Only for the Space You Use
                             ?</button>
                     </h5>
                     <div className={isActive.key == 2 ? "accordion-collapse" : "accordion-collapse collapse"}>
@@ -47,7 +47,7 @@ export default function Accordion() {
                 </div>
                 <div className="accordion-item wow animate__animated animate__fadeIn">
                     <h5 className="accordion-header" onClick={() => handleToggle(3)}>
-                        <button className={isActive.key == 3 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}style={{backgroundColor:'black'}}>I have promotional or
+                        <button className={isActive.key == 3 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}style={{backgroundColor:'black',color:'white'}}>I have promotional or
                             discount code?</button>
                     </h5>
                     <div className={isActive.key == 3 ? "accordion-collapse" : "accordion-collapse collapse"}>
@@ -60,7 +60,7 @@ export default function Accordion() {
                 </div>
                 <div className="accordion-item wow animate__animated animate__fadeIn">
                     <h5 className="accordion-header" onClick={() => handleToggle(4)}>
-                        <button className={isActive.key == 4 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}style={{backgroundColor:'black'}}>What Fast & Friendly Service
+                        <button className={isActive.key == 4 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}style={{backgroundColor:'black',color:'white'}}>What Fast & Friendly Service
                            ?</button>
                     </h5>
                     <div className={isActive.key == 4 ? "accordion-collapse" : "accordion-collapse collapse"}>
@@ -75,7 +75,7 @@ export default function Accordion() {
                 </div>
                 <div className="accordion-item wow animate__animated animate__fadeIn">
                     <h5 className="accordion-header" onClick={() => handleToggle(5)}>
-                        <button className={isActive.key == 5 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}style={{backgroundColor:'black'}}>How can Low Price Guarantee
+                        <button className={isActive.key == 5 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}style={{backgroundColor:'black',color:'white'}}>How can Low Price Guarantee
                             ?</button>
                     </h5>
                     <div className={isActive.key == 5 ? "accordion-collapse" : "accordion-collapse collapse"}>

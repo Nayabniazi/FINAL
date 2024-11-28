@@ -106,12 +106,12 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
                         
                         
                                                      </div> 
-                                                     <header className={scroll ? "header sticky-bar stick" : "header sticky-bar"}>
+                                                     <header className={scroll ? "header sticky-bar stick" : "header sticky-bar"}style={{marginRight:'40px'}}>
                 <div className="container"style={{ backgroundColor:'black', color: 'white', width: '100%',
     maxWidth: '3000px',}}>     
                     <div className="main-header"style={{backgroundColor:'black',marginLeft:'50px',marginInlineEnd:'60px',}}>
                         <div className="header-left">
-                            <div className="header-logo"><Link className="d-flex" href="/"> <Image src="/img/bear.png.png" alt="Ecom" width={150} height={60} /></Link></div>
+                            <div className="header-logo"style={{marginLeft:'20px'}}><Link className="d-flex" href="/"> <Image src="/img/bear.png.png" alt="Ecom" width={150} height={60} /></Link></div>
                             <div className="header-nav">
                                 <nav className="nav-main-menu d-none d-xl-block">
                                   
@@ -199,11 +199,11 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
     }
 
     .header-right {
-        padding-right: 0 !important;
+        padding-right: 0px !important;
     }
 
     .box-dropdown-cart {
-        margin-right: 0 !important;
+        margin-right: 0px !important;
     }
 
     /* Button Style: Ensure button appears as expected */

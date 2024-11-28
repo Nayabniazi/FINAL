@@ -132,7 +132,7 @@ export default function Home2() {
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                     </svg></span></div></div>
                             </div>
-                            <div className="col-lg-6 mb-60"><div className="wow animate__animated animate__fadeIn" href="#"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/page/blog-single/rental.png" alt="transp" /></div></div>
+                            <div className="col-lg-6 mb-60"><div className="wow animate__animated animate__fadeIn" href="#"><img className="mb-15 wow animate__animated animate__fadeIn"style={{width:'1000px'}} src="/assets/imgs/page/blog-single/rental.png" alt="transp" /></div></div>
                         </div>
                        
 
