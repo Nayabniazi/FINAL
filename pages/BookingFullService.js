@@ -48,6 +48,7 @@ const ItemSelectionForm = () => {
         </button>
             <div
                 style={{
+                    marginBottom:'80px',
                     textAlign: "center",
                     padding: "20px",
                     backgroundColor: "#f9f9f9",
