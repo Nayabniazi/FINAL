@@ -68,11 +68,7 @@ export default function Menu() {
                         <li>
                             <Link href="/Residential">Residential</Link>
                         </li>
-                        <li>
-                            <Link href="/">
-                                
-                            </Link>
-                        </li>
+                       
                         <li>
                             <Link href="/Commercial">Commercial</Link>
                         </li>
@@ -110,35 +106,7 @@ export default function Menu() {
                 </li>
 
                 {/* "More" Menu */}
-                <li className="has-children">
-                    <Link
-                        className={isActive("/about")}
-                        href="/about"
-                        style={{ color: "white" }}
-                    >
-                        More
-                    </Link>
-                    <ul className="sub-menu">
-                        <li>
-                            <Link href="/about">About Us</Link>
-                        </li>
-                        <li>
-                            <Link href="/contact">Our Location</Link>
-                        </li>
-                        <li>
-                            <Link href="/register">Contact us</Link>
-                        </li>
-                        <li>
-                            <Link href="/Event">Events</Link>
-                        </li>
-                        <li>
-                            <Link href="/Resources">Resources</Link>
-                        </li>
-                        <li>
-                            <Link href="/blog-single">Blog</Link>
-                        </li>
-                    </ul>
-                </li>
+               
             </ul>
 
             {/* Mobile menu toggle button */}
