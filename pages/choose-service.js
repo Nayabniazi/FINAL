@@ -61,6 +61,7 @@ function ServiceCards() {
           color: #007bff;
           font-size: 1rem;
           cursor: pointer;
+          display: block; /* Default to visible */
         }
 
         .back-button:hover {
@@ -108,12 +109,17 @@ function ServiceCards() {
           margin-bottom: 20px;
         }
 
+        /* Hide the back button on screens larger than 768px */
+        @media (min-width: 768px) {
+          .back-button {
+            display: none;
+          }
+        }
+
         @media (min-width: 1024px) {
-       
           .cards-container {
-           margin-top:20px;
+            margin-top: 20px;
             gap: 20px; /* Reduced gap for laptop screens */
-            
           }
         }
       `}</style>

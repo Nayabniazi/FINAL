@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import { useRouter } from "next/router"; // For navigation
 import Layout from "@/components/layout/Layout";
@@ -26,84 +27,83 @@ const CreditCardForm = () => {
 
   return (
     <Layout>
-        <>
-        <button style={{ background:"none",
-            border:'none',
-            color:"#007bff",
-            fontsize: "1rem",
-            cursor: "pointer",}} className="back-button" onClick={() => router.back()}>
+      <>
+        {/* Back Button */}
+        <button
+          className="back-button"
+          onClick={() => router.back()}
+        >
           ← Back
         </button>
-      <div className="form-container">
-        {/* Back Button */}
-        
-        <h2>Enter your credit card info to reserve your dumpster rental</h2>
-        <form onSubmit={handleSubmit}>
-          <div className="form-group">
-            <label htmlFor="card-number">Card Number</label>
-            <input
-              type="text"
-              id="card-number"
-              name="cardNumber"
-              value={formData.cardNumber}
-              onChange={handleChange}
-              placeholder="---- ---- ---- ----"
-            />
-          </div>
-          <div className="form-group">
-            <label>Expiry Date (MM/YY)</label>
-            <div style={{ display: "flex", gap: "10px" }}>
+        <div className="form-container">
+          <h2>Enter your credit card info to reserve your dumpster rental</h2>
+          <form onSubmit={handleSubmit}>
+            <div className="form-group">
+              <label htmlFor="card-number">Card Number</label>
               <input
                 type="text"
-                name="expiryMonth"
-                value={formData.expiryMonth}
+                id="card-number"
+                name="cardNumber"
+                value={formData.cardNumber}
                 onChange={handleChange}
-                placeholder="Enter Month"
-                style={{ flex: 1 }}
-              />
-              <input
-                type="text"
-                name="expiryYear"
-                value={formData.expiryYear}
-                onChange={handleChange}
-                placeholder="Enter Year"
-                style={{ flex: 1 }}
+                placeholder="---- ---- ---- ----"
               />
             </div>
-          </div>
-          <div className="form-group half">
-            <label htmlFor="name-on-card">Name on Card</label>
-            <input
-              type="text"
-              id="name-on-card"
-              name="nameOnCard"
-              value={formData.nameOnCard}
-              onChange={handleChange}
-              placeholder="Name"
-            />
-          </div>
-          <div className="form-group half">
-            <label htmlFor="billing-zip">Billing ZIP/Postal Code</label>
-            <input
-              type="text"
-              id="billing-zip"
-              name="billingZip"
-              value={formData.billingZip}
-              onChange={handleChange}
-              placeholder="-----"
-            />
-          </div>
-          <div className="form-actions">
-            <button type="submit" style={{ width: "230px", color: "black" }}>
-              Book It
-            </button>
-          </div>
-        </form>
+            <div className="form-group">
+              <label>Expiry Date (MM/YY)</label>
+              <div style={{ display: "flex", gap: "10px" }}>
+                <input
+                  type="text"
+                  name="expiryMonth"
+                  value={formData.expiryMonth}
+                  onChange={handleChange}
+                  placeholder="Enter Month"
+                  style={{ flex: 1 }}
+                />
+                <input
+                  type="text"
+                  name="expiryYear"
+                  value={formData.expiryYear}
+                  onChange={handleChange}
+                  placeholder="Enter Year"
+                  style={{ flex: 1 }}
+                />
+              </div>
+            </div>
+            <div className="form-group half">
+              <label htmlFor="name-on-card">Name on Card</label>
+              <input
+                type="text"
+                id="name-on-card"
+                name="nameOnCard"
+                value={formData.nameOnCard}
+                onChange={handleChange}
+                placeholder="Name"
+              />
+            </div>
+            <div className="form-group half">
+              <label htmlFor="billing-zip">Billing ZIP/Postal Code</label>
+              <input
+                type="text"
+                id="billing-zip"
+                name="billingZip"
+                value={formData.billingZip}
+                onChange={handleChange}
+                placeholder="-----"
+              />
+            </div>
+            <div className="form-actions">
+              <button type="submit" style={{ width: "230px", color: "black" }}>
+                Book It
+              </button>
+            </div>
+          </form>
+        </div>
         <style jsx>{`
           .form-container {
             max-width: 400px;
             margin: 20px auto;
-            margin-bottom:100px;
+            margin-bottom: 100px;
             padding: 20px;
             background-color: white;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -111,10 +111,7 @@ const CreditCardForm = () => {
             position: relative;
           }
           .back-button {
-           margin-bottom:10px;
-            
-            
-            left: 10px;
+            margin-bottom: 10px;
             background: none;
             border: none;
             color: #007bff;
@@ -168,14 +165,12 @@ const CreditCardForm = () => {
           .form-actions button:hover {
             background-color: darkorange;
           }
-          @media (max-width: 768px) {
-            .form-group.half {
-              flex: 1 1 100%;
-              padding-right: 0;
+          @media (min-width: 768px) {
+            .back-button {
+              display: none;
             }
           }
         `}</style>
-      </div>
       </>
     </Layout>
   );
