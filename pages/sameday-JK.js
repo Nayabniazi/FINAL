@@ -1,5 +1,5 @@
 import Layout from "@/components/layout/Layout"
-import Brands1 from "@/components/sections/homepage1/Brands1"
+
 
 import Newsletter1 from "@/components/sections/homepage2/Newsletter1"
 
@@ -25,7 +25,7 @@ export default function Home4() {
                 <div className="line-border mb-30 mt-70"></div>
              
                 <Whychooseus3 />
-                <Brands1 />
+             
               
                 
                 <Newsletter1 />

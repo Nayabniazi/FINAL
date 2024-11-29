@@ -1,6 +1,6 @@
 import Layout from "@/components/layout/Layout"
 
-import Brands1 from "@/components/sections/homepage1/Brands1"
+
 import Faqs1 from "@/components/sections/homepage1/Faqs1"
 import News2 from "@/components/sections/homepage2/News2"
 import Newsletter1 from "@/components/sections/homepage2/Newsletter1"
@@ -66,7 +66,7 @@ export default function Home3() {
 
 
 
-                <Brands1 />
+             
                
               
                 <Projects2 />

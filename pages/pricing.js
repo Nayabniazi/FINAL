@@ -1,5 +1,5 @@
 import Layout from "@/components/layout/Layout"
-import Brands1 from "@/components/sections/homepage1/Brands1"
+
 
 import Newsletter1 from "@/components/sections/homepage2/Newsletter1"
 
@@ -493,7 +493,7 @@ Our pricing estimator even allows you to estimate based on the space your junk w
 
 
              
-                <Brands1 />
+               
                
              
 
