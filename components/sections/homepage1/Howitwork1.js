@@ -1,10 +1,34 @@
-
+import Services1 from "./Services1"
 export default function Howitwork1() {
     return (
         <>
+
+
+
+
+<Services1/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <section className="section pt-85 bg-worldmap">
                 <div className="container">
+
+
+
+
                     <div className="text-center"><img className="mb-15" src="/assets/imgs/template/icons/favicon.svg" alt="transp" />
+                
                         <h3 className="color- mb-20 wow animate__animated animate__fadeIn"style={{color:'black'}}>Leave the work to us– JUNK REMOVAL & HAULING MADE EASY</h3>
                         <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">At BinBear, we make junk removal effortless. Whether it’s a single item or a full property cleanout, our team is here to handle every step. With BinBear, you get:
                            .</p>

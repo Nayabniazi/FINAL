@@ -401,8 +401,10 @@ Contrary to popular belief, the U.S. isn’t the world’s top producer of waste
                                
                             </div>
                             <div className="col-lg-6">
-                              
+                            
+                                   
                             <div className="item-faqs-2 mb-30">
+                            
                                     <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Recycling Appliances</h6>
                                     <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Old appliances often contain chemicals like Freon, which can be harmful to the environment. BinBear provides an eco-friendly appliance removal service, handling items like:</p>
                                     <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginTop:'20px'}}>  Refrigerators
@@ -663,6 +665,8 @@ With insured operators and fair pricing, BinBear delivers great value and eco-fr
 
 
 <div className="card-info">
+
+
    <h5 className="color- mb-15"style={{color:'black'}}>Furniture Removal</h5>
    <p className="font-sm color-grey-900 mb-35">
 
