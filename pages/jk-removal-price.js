@@ -1,6 +1,6 @@
 import Accordion from "@/components/elements/Accordion"
 import Layout from "@/components/layout/Layout"
-import Pricing2 from "@/components/sections/homepage2/Pricing2"
+
 import Link from "next/link"
 export default function Faq() {
 

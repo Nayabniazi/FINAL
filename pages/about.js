@@ -1,7 +1,7 @@
 import Layout from "@/components/layout/Layout";
 import Brand1Slider from "@/components/slider/Brand1Slider";
 import News2Slider from "@/components/slider/News2Slider";
-import Testimonial2Slider from "@/components/slider/Testimonial2Slider";
+
 import Link from "next/link";
 import { useState } from "react";
 import ModalVideo from 'react-modal-video';

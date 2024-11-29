@@ -1,6 +1,5 @@
 import Layout from "@/components/layout/Layout"
-import Pricing2 from "@/components/sections/homepage2/Pricing2"
-import Project1Slider from "@/components/slider/Project1Slider"
+
 import Link from "next/link"
 export default function WorkProcess() {
 

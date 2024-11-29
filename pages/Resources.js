@@ -1,6 +1,5 @@
 import Layout from "@/components/layout/Layout";
-import Pricing1 from "@/components/sections/homepage1/Pricing1";
-import Pricing2 from "@/components/sections/homepage2/Pricing2";
+
 import NewsletterSlider from "@/components/slider/NewsletterSlider";
 import Link from "next/link";
 export default function Newsletter() {
