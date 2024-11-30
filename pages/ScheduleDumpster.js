@@ -45,16 +45,17 @@ export default function ScheduleDumpster() {
     return (
         <Layout>
            
-        <div style={{ textAlign: "center", padding: "20px", backgroundColor: "#f0f0f0", minHeight: "65vh", marginBottom:'50px'}}>
+        <div style={{ textAlign: "center", padding: "20px", minHeight: "65vh", marginBottom:'50px'}}>
        
             <h4 style={{ marginBottom: "20px" }}>Schedule Your Dumpster</h4>
 
             <form
                 onSubmit={handleSubmit}
                 style={{
+                    backgroundColor: "#fff",
                     maxWidth: "600px",
                     margin: "0 auto",
-                    backgroundColor: "#fff",
+                  
                     padding: "20px",
                     borderRadius: "10px",
                     boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",

@@ -50,7 +50,7 @@ const ItemSelectionForm = () => {
                     marginBottom:'50px',
                     textAlign: "center",
                     padding: "20px",
-                    backgroundColor: "#f9f9f9",
+                   
                     minHeight: "100vh",
                 }}
             >
