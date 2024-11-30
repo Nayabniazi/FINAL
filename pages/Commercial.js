@@ -111,7 +111,7 @@ export default function Quote() {
                     <div className="container">
                         <div className="text-center mt-100">
                             <h2 className="color-black wow animate__animated animate__fadeIn">Commercial Junk Removal Services by BinBear<br className="d-none d-lg-block" /></h2>
-                            <div className="box-button mt-30"><Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeIn" href="Booking"style={{backgroundColor:'orange',color:'black'}}>Free Estimate</Link>    </div>
+                            <div className="box-button mt-30"><Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeIn" href="Booking"style={{backgroundColor:'orange',color:'black',marginLeft:'17px'}}>Free Estimate</Link>    </div>
                        </div>
                     </div>
                 </section>
