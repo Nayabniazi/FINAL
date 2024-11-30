@@ -532,7 +532,7 @@ Whether you need a one-time trash removal or ongoing cleanup, BinBear provides f
                                 <p className="font-3xl color-white mb-10 wow animate__animated animate__fadeIn">Get Started Today! </p>
                                 <h5 className="color-brand-1 wow animate__animated animate__fadeIn">Ready to reclaim your space? Schedule your junk removal with BinBear today! Call us or book online for a hassle-free experience and enjoy a cleaner, clutter-free home.</h5>
                             </div>
-                            <div className="get-quote-right"><Link className="btn btn-get-quote wow animate__animated animate__fadeIn" href="/register" style={{ backgroundColor: '#FFA500', textAlign: 'center',
+                            <div className="get-quote-right"><Link className="btn btn-get-quote wow animate__animated animate__fadeIn" href="Booking" style={{ backgroundColor: '#FFA500', textAlign: 'center',
     display: 'block', // Ensures the element behaves like a block for text alignment
     padding: '10px', }}>
                                 <svg className="mr-10" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -582,7 +582,7 @@ Whether you need a one-time trash removal or ongoing cleanup, BinBear provides f
                                                     </div>
                                                 </div>
                                                 <div className="col-md-12">
-                                                    <input className="btn btn-brand-1-big" type="button" defaultValue="Submit"style={{backgroundColor:'orange',color:'black'}} />
+                                                    <input className="btn btn-brand-1-big" type="button" defaultValue="Submit" href="Booking" style={{backgroundColor:'orange',color:'black'}} />
                                                 </div>
                                             </div>
                                         </form>

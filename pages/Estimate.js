@@ -41,7 +41,7 @@ export default function Home2() {
         >
             {/* Button: Free Estimate */}
             <a
-                href="/contact"
+                href="Booking"
                 style={{
                     backgroundColor: "orange",
                     color: "black",

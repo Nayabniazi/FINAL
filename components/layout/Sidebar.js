@@ -72,13 +72,13 @@ export default function Sidebar({ openClass, handleMobileMenuClose }) {
                                                 ></path>
                                             </svg>
                                         </span>
-                                        <Link href="/">What we do</Link>
+                                        <span href="/">What we do</span>
                                         <ul
                                             className={isActive.key === 1 ? "sub-menu d-block" : "sub-menu d-none"}
                                         >
-                                            <li><Link href="/Item-we-take">Item we take</Link></li>
-                                            <li><Link href="/history">JK-Removal History</Link></li>
-                                            <li><Link href="/Recycle">Recycle</Link></li>
+                                            <li><a href="/Item-we-take">Item we take</a></li>
+                                            <li><a href="/history">JK-Removal History</a></li>
+                                            <li><a href="/Recycle">Recycle</a></li>
                                         </ul>
                                     </li>
 
@@ -102,14 +102,14 @@ export default function Sidebar({ openClass, handleMobileMenuClose }) {
                                                 ></path>
                                             </svg>
                                         </span>
-                                        <Link href="/services">How it works</Link>
+                                        <span href="">How it works</span>
                                         <ul
                                             className={isActive.key === 2 ? "sub-menu d-block" : "sub-menu d-none"}
                                         >
-                                            <li><Link href="/Residential">Residential</Link></li>
-                                            <li><Link href="/jk-removal-price">JK Removal Pricing</Link></li>
-                                            <li><Link href="/Commercial">Commercial</Link></li>
-                                            <li><Link href="/pricing">Estimate pricing</Link></li>
+                                            <li><a href="/Residential">Residential</a></li>
+                                            <li><a href="/jk-removal-price">JK Removal Pricing</a></li>
+                                            <li><a href="/Commercial">Commercial</a></li>
+                                            <li><a href="/pricing">Estimate pricing</a></li>
                                         </ul>
                                     </li>
 
@@ -133,12 +133,12 @@ export default function Sidebar({ openClass, handleMobileMenuClose }) {
                                                 ></path>
                                             </svg>
                                         </span>
-                                        <Link href="#">Pricing</Link>
+                                        <span href="#">Pricing</span>
                                         <ul
                                             className={isActive.key === 3 ? "sub-menu d-block" : "sub-menu d-none"}
                                         >
-                                            <li><Link href="/Estimateprice">Estimate Pricing</Link></li>
-                                            <li><Link href="/jk-removal-price">JK Removal Pricing</Link></li>
+                                            <li><a href="/Estimateprice">Estimate Pricing</a></li>
+                                            <li><a href="/jk-removal-price">JK Removal Pricing</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -159,6 +159,7 @@ export default function Sidebar({ openClass, handleMobileMenuClose }) {
                     </div>
                 </div>
             </div>
+           
         </div>
     );
 }

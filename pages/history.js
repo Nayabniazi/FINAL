@@ -33,7 +33,7 @@ const HistoryPage = () => {
         >
             {/* Button: Free Estimate */}
             <a
-                href="/contact"
+                href="Booking"
                 style={{
                     backgroundColor: "orange",
                     color: "black",
@@ -114,7 +114,7 @@ const HistoryPage = () => {
 Junk removal traces its roots to the evolution of waste management, a practice that has been around since the 18th century. Back then, waste piled up in city streets, posing health risks. In London, organized waste management began as a way to collect and repurpose coal ash for brick-making, eventually leading to sanitation reforms that removed waste from populated areas.
 
 In the United States, as waste production grew, so did the need for efficient disposal strategies. By the 1960s, the U.S. established national waste management policies with the **Solid Waste Disposal Act of 1965**, laying the foundation for modern junk removal. BinBear continues this legacy by offering responsible, eco-friendly junk removal solutions.</p>
-                                    <div className="box-button mt-40"><Link className="btn btn-brand-2 mr-20 wow animate__animated animate__fadeIn" href="/contact"style={{backgroundColor:'orange',color:'black',}}>Free Estimate</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn More
+                                    <div className="box-button mt-40"><Link className="btn btn-brand-2 mr-20 wow animate__animated animate__fadeIn" href="Booking"style={{backgroundColor:'orange',color:'black',}}>Free Estimate</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn More
                                         <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                         </svg></Link></div>
@@ -146,7 +146,7 @@ We recycle a wide range of materials, including paper, cardboard, glass, metal, 
 
 
 </p>
-                                    <div className="box-button mt-40"><Link className="btn btn-brand-2 mr-20 wow animate__animated animate__fadeIn" href="/contact"style={{backgroundColor:'orange',color:'black',}}>Free Estimate</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn More
+                                    <div className="box-button mt-40"><Link className="btn btn-brand-2 mr-20 wow animate__animated animate__fadeIn" href="Booking"style={{backgroundColor:'orange',color:'black',}}>Free Estimate</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn More
                                         <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                         </svg></Link></div>
@@ -375,7 +375,7 @@ We recycle a wide range of materials, including paper, cardboard, glass, metal, 
                                 <p className="font-3xl color-white mb-10 wow animate__animated animate__fadeIn">Ready to reclaim your space? </p>
                                 <h4 className="color-brand-1 wow animate__animated animate__fadeIn">BinBear Junk Removal today to get started with your hassle-free junk removal solution.</h4>
                             </div>
-                            <div className="get-quote-right"><Link className="btn btn-get-quote wow animate__animated animate__fadeIn" href="/register" style={{ backgroundColor: '#FFA500', textAlign: 'center',
+                            <div className="get-quote-right"><Link className="btn btn-get-quote wow animate__animated animate__fadeIn" href="Booking" style={{ backgroundColor: '#FFA500', textAlign: 'center',
     display: 'block', // Ensures the element behaves like a block for text alignment
     padding: '10px', }}>
                                 <svg className="mr-10" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">

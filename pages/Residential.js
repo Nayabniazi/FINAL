@@ -256,7 +256,6 @@ export default function WorkProcess() {
 
 
 
-
                            
                         
                         
@@ -281,21 +280,58 @@ export default function WorkProcess() {
 
 
 
+                        <section className="section mt-70">
+                        <div className="container">
 
-                            <div className="col-lg-6 mb-60 wow animate__animated animate__fadeIn"><Link href="#"><img src="/assets/imgs/page/workprocess/img4.png" alt="transp" /></Link></div>
+
+
+                        <div className="row align-items-center">
+                            <div className="col-lg-6 mb-60"><Link className="wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/page/workprocess/img4.png" alt="transp" /></Link></div>
                             <div className="col-lg-6 mb-60"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/page/workprocess/cardboard.png" alt="transp" />
-                                <h3 className="color-black mb-15 wow animate__animated animate__fadeIn">Our Simple Junk Removal Process</h3>
-                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginTop:'40px'}}>From the moment you contact us, BinBear makes junk removal easy. We offer fair, upfront pricing—no hidden fees, no surprises. About 15-30 minutes before your appointment, we call to confirm our arrival. Once we’re on-site, just show us what needs to go, and our insured team will handle it all, respecting your property every step of the way..</p>
-                                <div className="mt-20 wow animate__animated animate__fadeIn"><Link className="btn btn-link font-sm color-brand-2" href="#">View Details<span>
+                                <h3 className="color-black mb-15 wow animate__animated animate__fadeIn"> Our Simple Junk Removal Process</h3>
+                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">From the moment you contact us, BinBear makes junk removal easy. We offer fair, upfront pricing—no hidden fees, no surprises. About 15-30 minutes before your appointment, we call to confirm our arrival. Once we’re on-site, just show us what needs to go, and our insured team will handle it all, respecting your property every step of the way.</p>
+                               
+                         <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginTop:'20px'}}></p>      
+                                <div className="mt-20 wow animate__animated animate__fadeIn"><Link className="btn btn-link font-sm color-black" href="#">View Details<span>
                                     <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                     </svg></span></Link></div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    <div className="line-border mt-50" />
+
+
+
+     
+
+
+
+
+
+                          
                            </div>
-                           
+                           </section>     
+
 </div>
 
             
-                           <div className="line-border mt-50" />
+                          
                
 
 
@@ -549,7 +585,7 @@ Customers love BinBear because we’re fast, professional, and eco-friendly. We 
 
 
                
-               <section className="section pt-110 pb-110">
+               <section className="section pt-110 pb-0">
                    <div className="container">
                        <div className="row align-items-center">
                            <div className="col-lg-6">
@@ -596,7 +632,7 @@ Customers love BinBear because we’re fast, professional, and eco-friendly. We 
                                    </div>
                                </div>
                            </div>
-                           <div className="col-lg-6"style={{marginBottom:'250px'}}>
+                           <div className="col-lg-6"style={{marginBottom:'20px'}}>
                                <div className="box-info-pround box-whychooseus-3"style={{marginTop:'10px'}}><span className="btn btn-tag color-grey-900 wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>Our Features</span>
                                    <h2 className="color-black mb-15 mt-20 wow animate__animated animate__fadeIn">Why Choose BinBear?</h2>
                                    <p className="font-md color-grey-900">
@@ -619,14 +655,14 @@ With BinBear, you get more than just junk removal—you get a reliable, green-fo
 
 
 
-               <section className="section pt-70 pb-70 bg-get-quote">
+               <section className="section pt-70 pb-50 bg-get-quote">
                     <div className="container">
                         <div className="box-get-quote">
                             <div className="get-quote-left">
                                 <p className="font-3xl color-white mb-10 wow animate__animated animate__fadeIn">Ready to reclaim your space? </p>
                                 <h5 className="color-brand-1 wow animate__animated animate__fadeIn">Contact BinBear Junk Removal today for a free estimate and see why we’re the #1 choice for junk removal across North America.</h5>
                             </div>
-                            <div className="get-quote-right"><Link className="btn btn-get-quote wow animate__animated animate__fadeIn" href="/register" style={{ backgroundColor: '#FFA500', textAlign: 'center',
+                            <div className="get-quote-right"><Link className="btn btn-get-quote wow animate__animated animate__fadeIn" href="Booking" style={{ backgroundColor: '#FFA500', textAlign: 'center',
     display: 'block', // Ensures the element behaves like a block for text alignment
     padding: '10px', }}>
                                 <svg className="mr-10" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -729,6 +765,46 @@ With BinBear, you get more than just junk removal—you get a reliable, green-fo
                            </div>
                        </div>
                    </div>
+                   <style jsx>{
+                    `
+                    
+                    
+                    /* General margin for desktop */
+.section {
+    margin-bottom: 50px; /* Adjust this value for larger screens if needed */
+}
+
+/* Reduce the space between "Why Choose" and "Ready to Reclaim" on mobile and small screens */
+@media (max-width: 768px) {
+    .section.pt-110.pb-110 {
+        margin-bottom: 10px; /* Reduce the space between sections */
+    }
+
+    .section.bg-get-quote {
+        margin-top: 10px; /* Ensure the banner has 10px margin from the previous section */
+    }
+}
+
+/* Further adjust for very small screens */
+@media (max-width: 480px) {
+    .section.pt-110.pb-110 {
+        margin-bottom: 10px; /* Keep 10px margin on very small screens */
+    }
+
+    .section.bg-get-quote {
+        margin-top: 10px; /* Keep 10px margin on small screens */
+    }
+}
+
+                
+
+                    
+                    
+                    
+                    
+                    `}
+
+                   </style>
                </div>
            </Layout>
        </>

@@ -117,7 +117,7 @@ style={{marginTop:'10px'}}
                                     <div className="card-image"><img src="/assets/imgs/page/homepage1/forklift.png" alt="transp" />
                                     </div>
                                     <div className="card-info">
-                                        <h5 className="color- mb-15"style={{color:'black'}}>Recycling up to 60%</h5>
+                                        <h5 className="color- mb-15"style={{color:'black'}}>Service Request is easy for 1,2,3!</h5>
                                         <p className="font-sm color-grey-900 mb-35"></p>
                                         <div className="box-button-offer mb-30"style={{marginTop:'80px'}}><a className="btn btn-link font-sm color-brand-2">View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

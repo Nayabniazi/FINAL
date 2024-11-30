@@ -48,7 +48,7 @@ export default function pricing() {
         >
             {/* Button: Free Estimate */}
             <a
-                href="/contact"
+                href="Booking"
                 style={{
                     backgroundColor: "orange",
                     color: "black",

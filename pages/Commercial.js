@@ -13,7 +13,7 @@ export default function Quote() {
                     <div className="container">
                         <div className="text-center mt-100">
                             <h2 className="color-black wow animate__animated animate__fadeIn">Commercial Junk Removal Services by BinBear<br className="d-none d-lg-block" /></h2>
-                            <div className="box-button mt-30"><Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeIn" href="#"style={{backgroundColor:'orange',color:'black'}}>Free Estimate</Link>    </div>
+                            <div className="box-button mt-30"><Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeIn" href="Booking"style={{backgroundColor:'orange',color:'black'}}>Free Estimate</Link>    </div>
                        </div>
                     </div>
                 </section>
@@ -134,7 +134,7 @@ export default function Quote() {
 
 
 
-                            <div className="col-xl-3 col-md-6 mb-50"style={{marginLeft:'200px'}}>
+                            <div className="col-xl-3 col-md-6 mb-50"style={{marginLeft:'10px'}}>
                                 <div className="cardService">
                                     <div className="cardImage wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/contact/branch4.png" alt="transp" /></div>
                                     <div className="cardInfo wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" />
@@ -454,7 +454,7 @@ export default function Quote() {
                                 <p className="font-3xl color-white mb-10 wow animate__animated animate__fadeIn">Let BinBear help your business maintain a clutter-free</p>
                                 <h5 className="color-brand-1 wow animate__animated animate__fadeIn">efficient environment. Contact us today to schedule a service or learn more about our eco-friendly junk removal solutions!</h5>
                             </div>
-                            <div className="get-quote-right"><Link className="btn btn-get-quote wow animate__animated animate__fadeIn" href="/register" style={{ backgroundColor: '#FFA500', textAlign: 'center',
+                            <div className="get-quote-right"><Link className="btn btn-get-quote wow animate__animated animate__fadeIn" href="Booking" style={{ backgroundColor: '#FFA500', textAlign: 'center',
     display: 'block', // Ensures the element behaves like a block for text alignment
     padding: '10px', }}>
                                 <svg className="mr-10" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
