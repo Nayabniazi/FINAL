@@ -145,11 +145,11 @@ We believe in FAIR, TRANSPARENT PRICING, and we back it up with 4 different ways
                             <div className="col-lg-6">
                               
                                 <div className="item-faqs-2 mb-30"><Link href="#">
-                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Call & Talk to Trained Staff</h6></Link>
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">3:Call & Talk to Trained Staff</h6></Link>
                                     <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Finally, you can call and/or live chat our customer service representatives. We are open from 4:45a - 8p PST, 7:45a - 11p EST, 6 days a week, and for 8 hours on Sunday. If you have 4 items or less, in many cases we will be able to offer you a firm price. If you have 4 items or more, we can offer you an estimate range at the call center. The final price, with no obligation, will be completed by our trained technicians.</p>
                                 </div>
                                 <div className="item-faqs-2 mb-30"><Link href="#">
-                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Text Us s Photo</h6></Link>
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">4:Text Us s Photo</h6></Link>
                                     <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">If you can take a photo of your items, text us at 737-888-5865, and we will text you back an estimate. If your items are in different locations on your property, you can send us multiple photos and we will be able to provide you with an estimate. Please note an estimate is not a firm price. Our Big Red truck teams will give you a firm, no obligation price on-site.</p>
                                 </div>
 

@@ -45,17 +45,18 @@ style={{marginTop:'10px'}}
  style={{marginTop:'10px'}} 
 >
   As only National Company with a local sorting facility, we aim to recycle 60% or more of every job!
-  At Junk King, you will experience a straightforward process and a commitment to treating you 
+  
 </p>
 <p
   style={{
-       margin: '10px ',
+    marginLeft:'10px',
+      marginTop:'10px',
     fontSize: 'clamp(14px, 2.5vw, 8px)',
     maxWidth: '90%',
     lineHeight: '1.6',
   }}
 >
-  like royalty
+At Junk King, you will experience a straightforward process and a commitment to treating youlike royalty
   with outstanding service!
 </p>
 

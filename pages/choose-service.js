@@ -14,9 +14,7 @@ function ServiceCards() {
 
   return (
     <Layout>
-      <button className="back-button" onClick={() => router.back()}>
-        ← Back
-      </button>
+      
       <div className="cards-container">
         {/* Full-Service Card */}
         <div className="service-card" onClick={handleFullServiceClick}>
@@ -53,6 +51,11 @@ function ServiceCards() {
           </ul>
           <button style={buttonStyle}>I'll Do it Myself</button>
         </div>
+
+        <button className="back-button" onClick={() => router.back()}>
+        ← Back
+      </button>
+
       </div>
       <style jsx>{`
         .back-button {

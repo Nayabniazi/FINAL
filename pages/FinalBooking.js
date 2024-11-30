@@ -29,12 +29,7 @@ const CreditCardForm = () => {
     <Layout>
       <>
         {/* Back Button */}
-        <button
-          className="back-button"
-          onClick={() => router.back()}
-        >
-          ← Back
-        </button>
+        
         <div className="form-container">
           <h2>Enter your credit card info to reserve your dumpster rental</h2>
           <form onSubmit={handleSubmit}>
@@ -98,12 +93,19 @@ const CreditCardForm = () => {
               </button>
             </div>
           </form>
+          
         </div>
+        <button style={{marginLeft:"120px",marginBottom:'70px'}}
+          className="back-button"
+          onClick={() => router.back()}
+        >
+          ← Back
+        </button>
         <style jsx>{`
           .form-container {
             max-width: 400px;
             margin: 20px auto;
-            margin-bottom: 100px;
+            margin-bottom: 30px;
             padding: 20px;
             background-color: white;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);

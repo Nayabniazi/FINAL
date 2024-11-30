@@ -43,13 +43,11 @@ const ItemSelectionForm = () => {
     return (
         <Layout>
                   
-                  <button className="back-button" onClick={() => router.back()}>
-          ← Back
-        </button>
+                
             <div
                 style={{
                     marginTop:'10px',
-                    marginBottom:'80px',
+                    marginBottom:'50px',
                     textAlign: "center",
                     padding: "20px",
                     backgroundColor: "#f9f9f9",
@@ -160,15 +158,17 @@ const ItemSelectionForm = () => {
                         Book It
                     </button>
                 </form>
+                <button className="back-button" onClick={() => router.back()}>
+          ← Back
+        </button>
             </div>
             <style jsx>
             {`
             
            
           .back-button {
+          margin-top:20px;
           
-            margin-bottom:20px;
-            margin-left:0px;
             background: none;
             border: none;
             color: #007bff;

@@ -86,6 +86,22 @@ export default function Howitwork1() {
                                             </p>
                                     </div>
                                 </li>
+
+                                <li>
+                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp" /></span></div>
+                                    <div className="info-how">
+                                        <h5 className="color-wow animate__animated animate__fadeIn"style={{color:'black'}}>Pay Only for the Space You Use
+                                        </h5>
+                                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> You’re charged based on the volume your items take up in our truck.
+                                            </p>
+                                    </div>
+                                </li>
+
+
+
+
+
+
                                 <li>
                                     <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></span></div>
                                     <div className="info-how">
