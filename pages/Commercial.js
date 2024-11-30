@@ -4,10 +4,108 @@ import Link from "next/link";
 import { useState } from "react";
 import ModalVideo from 'react-modal-video';
 export default function Quote() {
-    const [isOpen, setOpen] = useState(false)
+
+
+
+
+    const [clickedCardIndex, setClickedCardIndex] = useState(null);
+
+    const handleCardClick = (index) => {
+      // Set the clicked card index or reset if clicked again
+      setClickedCardIndex(clickedCardIndex === index ? null : index);
+    };
+  
+
+
+
+    const cards = [
+        {
+          title: "Office Junk Removal",
+          backgroundColor:'red',
+          description:
+            "When office furniture becomes obsolete, removing it can be more than most people want to handle alone. BinBear offers efficient, eco-friendly office furniture removal to keep your workspace clear and organized.",
+          image: "/assets/imgs/page/contact/branch1.png",
+          icon: "/assets/imgs/page/homepage1/delivery.png",
+        },
+        {
+          title: "Commercial Equipment Removal",
+          description:
+            "Old equipment can be difficult to dispose of, especially when dealing with large, heavy, or unwieldy items. Outsourcing equipment removal to BinBear is often the most cost-effective choice.",
+          image: "/assets/imgs/page/contact/branch2.png",
+          icon: "/assets/imgs/page/homepage1/plane.png",
+        },
+        {
+          title: "Commercial Scrap Pick-Up",
+          description:
+            "Disposing of scrap metal like iron, copper, aluminum, or construction metal can be challenging. BinBear will safely pick up and recycle your scrap metal.",
+          image: "/assets/imgs/page/contact/branch3.png",
+          icon: "/assets/imgs/page/homepage1/delivery.png",
+        },
+        {
+          title: "Property Management Clean-Out",
+          description:
+            "Rental properties often require cleanouts between tenants. BinBear’s property management junk removal service helps property managers quickly clear out abandoned junk, minimizing downtime and getting your property ready for the next occupant.",
+          image: "/assets/imgs/page/contact/branch4.png",
+          icon: "/assets/imgs/page/homepage1/delivery.png",
+        },
+       
+        {
+            title: "Foreclosure Clean-Out",
+            description:
+              "Foreclosed properties are often left with junk that needs to be cleared before they can be sold. BinBear’s team can handle all the heavy lifting and disposal, making the property market-ready in no time",
+
+            image: "/assets/imgs/page/contact/branch4.png",
+            icon: "/assets/imgs/page/homepage1/delivery.png",
+          },
+         
+          {
+            title: "Storage Facility Clean-Out",
+            description:
+              "When storage units are abandoned or left filled with junk, BinBear helps facility managers clear out these units quickly and efficiently, ensuring they’re ready for new tenants.",
+            image: "/assets/imgs/page/contact/branch4.png",
+            icon: "/assets/imgs/page/homepage1/delivery.png",
+          },
+          {
+            title: "Construction Debris Removal",
+            description:
+              "Managing construction debris can be a time-consuming task. BinBear offers hassle-free construction debris removal, giving contractors and project managers peace of mind that their waste is being handled responsibly.",
+
+            image: "/assets/imgs/page/contact/branch4.png",
+            icon: "/assets/imgs/page/homepage1/delivery.png",
+          },
+         
+
+       
+      ];
+    
+     
+
+
+
+   
     return (
         <>
             <Layout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 <section className="section box-requestaquote-4"style={{marginBottom:'100px'}}>
                     <div className="box-bg-requestaquote-4" style={{height:'400px'}}/>
                     <div className="container">
@@ -19,46 +117,49 @@ export default function Quote() {
                 </section>
 
 
+
+
+
                 <section className="section pt-85">
                     <div className="container">
                         <div className="row mt-50 align-items-center">
                             <div className="col-lg-6 mb-30">
-                                <h2 className="color-black mb-15 wow animate__animated animate__fadeIn">Commercial Junking process</h2>
-                                <h2 className="color-black mb-25 wow animate__animated animate__fadeIn"></h2>
+                                <h6 className="color- mb-15 wow animate__animated animate__fadeIn"></h6>
+                                <h2 className="color-mb-25 wow animate__animated animate__fadeIn"style={{color:'black',marginBottom:'30PX'}}>Commercial Junk Removal Process</h2>
                                 <div className="row">
                                     <div className="col-lg-9">
-                                        <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">Every business, no matter the industry, generates junk. Over time, old office furniture, equipment, and various forms of debris tend to pile up. If your business is ready to clear out the clutter, BinBear is here to help with affordable, tailored commercial junk removal solutions.
-                                        .</p>
-
-                                        <p className="font-md color-grey-900 wow animate__animated animate__fadeIn"style={{marginTop:'30px'}}>
-                                        Whether you’re dealing with outdated office furniture, discarded electronics, or leftover construction materials, we have the expertise and equipment to handle it all. Trust BinBear, North America’s top choice for commercial junk removal.
-                                        </p>
-                                       <h5 style={{marginTop:'60px',color:'black'}}>Why Choose BinBear for Commercial Junk Removal</h5>
+                                        <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">Every business, no matter the industry, generates junk. Over time, old office furniture, equipment, and various forms of debris tend to pile up. If your business is ready to clear out the clutter, BinBear is here to help with affordable, tailored commercial junk removal solutions.</p>
                                     </div>
+
+                                    <div className="col-lg-9"style={{marginTop:'20px'}}>
+                                        <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">Whether you’re dealing with outdated office furniture, discarded electronics, or leftover construction materials, we have the expertise and equipment to handle it all. Trust BinBear, North America’s top choice for commercial junk removal.</p>
+                                    </div>
+
                                 </div>
+                                <h5 style={{marginTop:'30px'}}>Why Choose BinBear for Commercial Junk Removal?</h5>
                                 <div className="row mt-50">
-                                    <div className="col-lg-6 mb-30">
+                                <div className="col-lg-6 mb-30">
                                         <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Top-Rated Service</h6>
-                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">Our commitment to reliability and professionalism ensures exceptional value for your business..</p>
+                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">Our commitment to reliability and professionalism ensures exceptional value for your business.</p>
                                     </div>
                                     <div className="col-lg-6 mb-30">
                                         <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Flexible Payment Plans</h6>
-                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">BinBear offers business accounts with convenient payment options..</p>
+                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"> BinBear offers business accounts with convenient payment options.
+                                        </p>
                                     </div>
                                     <div className="col-lg-6 mb-30">
                                         <h6 className="feature2-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Fully Insured</h6>
-                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">You’re protected, and so are we, as our team performs junk removal on your property..</p>
+                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">You’re protected, and so are we, as our team performs junk removal on your property.</p>
                                     </div>
                                    
                                 </div>
                             </div>
                             <div className="col-lg-6 mb-30">
-                            <div className="box-image-how"><img className="w-100 wow animate__animated animate__fadeIn" src="/assets/imgs/page/trackyourparcel/img-info-7.png" alt="transp" />
+                                <div className="box-image-how"><img className="w-100 wow animate__animated animate__fadeIn" src="/assets/imgs/page/trackyourparcel/img-info-7.png" alt="transp" />
                                     <div className="box-info-bottom-img"style={{backgroundColor:'black'}}>
-                                        <div className="image-play wow animate__animated animate__fadeIn"></div>
-                                        <div className="info-play wow animate__animated animate__fadeIn">
+                                          <div className="info-play wow animate__animated animate__fadeIn"style={{backgroundColor:"black"}}>
                                             <h4 className="color-white mb-15">We have 25 years experience in this passion</h4>
-                                            <p className="font-sm color-white">BinBear offers efficient, eco-friendly office furniture removal to keep your workspace clear and organized. </p>
+                                            <p className="font-sm color-white">BinBear offer efficient,eco-friendly office furniture removal to keep your workspace clean and organized.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -73,116 +174,81 @@ export default function Quote() {
 
 
 
+
+
+
+
+
                 <section className="section mt-100">
-                    <div className="container">
-                      
-                        <h2 className="color-black mb-20 wow animate__animated animate__fadeIn">Types of Commercial Junk Removal Services<br className="d-none d-lg-block" /></h2>
-                        <div className="row align-items-center">
-                            <div className="col-lg-6 col-md-6 mb-30">
-                                <p className="font-md color-gray-700 wow animate__animated animate__fadeIn"></p>
-                            </div>
-                            
-                        </div>
-                        <div className="row mt-50">
-                            <div className="col-xl-3 col-md-6 mb-50">
-                                <div className="cardService">
-                                    <div className="cardImage wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/contact/branch1.png" alt="transp" /></div>
-                                    <div className="cardInfo wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" />
-                                        <h6 className="color-black mb-15">Office Junk Removal</h6>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-black"></strong>When office furniture becomes obsolete, removing it can be more than most people want to handle alone. BinBear offers efficient, eco-friendly office furniture removal to keep your workspace clear and organized. We’ll even ensure that usable items are donated, and the rest is recycled responsibly.
-                                        </p>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-black"></strong></p>
-                                        <p className="font-xs color-grey-900"><strong className="color-black"></strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-3 col-md-6 mb-50">
-                                <div className="cardService">
-                                    <div className="cardImage wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/contact/branch2.png" alt="transp" /></div>
-                                    <div className="cardInfo wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" />
-                                        <h6 className="color-black mb-15">Commercial Equipment Removal</h6>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2"></strong></p>
-                                        <p className="font-xs color-grey-900 mb-10" >< strong className="color-brand-2"/>Old equipment can be difficult to dispose of, especially when dealing with large, heavy, or unwieldy items. Outsourcing equipment removal to BinBear is often the most cost-effective choice, freeing up your team to focus on their work while we handle the disposal.</p>
-                                        <p className="font-xs color-grey-900"><strong className="color-brand-2"></strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-3 col-md-6 mb-50">
-                                <div className="cardService">
-                                    <div className="cardImage wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/contact/branch3.png" alt="transp" /></div>
-                                    <div className="cardInfo wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" />
-                                        <h6 className="color-brand-2 mb-15">Commercial Scrap Pick-Up</h6>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2"></strong></p>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2"></strong></p>
-                                        <p className="font-xs color-grey-900"><p className="color-brand-2"/>Disposing of scrap metal like iron, copper, aluminum, or construction metal can be challenging. BinBear will safely pick up and recycle your scrap metal, keeping your workplace clutter-free and environmentally friendly.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-3 col-md-6 mb-50">
-                                <div className="cardService">
-                                    <div className="cardImage wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/contact/branch4.png" alt="transp" /></div>
-                                    <div className="cardInfo wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" />
-                                        <h6 className="color-black mb-15">Property Management Clean-Out</h6>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2"></strong>Rental properties often require cleanouts between tenants. BinBear’s property management junk removal service helps property managers quickly clear out abandoned junk, minimizing downtime and getting your property ready for the next occupant.
-                                        </p>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2"></strong></p>
-                                        <p className="font-xs color-grey-900"><strong className="color-brand-2"></strong></p>
-                                    </div>
-                                </div>
-                            </div>
+      <div className="container">
+        <h2 className="color-black mb-20 wow animate__animated animate__fadeIn">
+          Types of Commercial Junk Removal Services
+        </h2>
+        <div className="row mt-50">
+          {cards.map((card, index) => (
+            <div className="col-xl-3 col-md-6 mb-50" key={index}>
+              <div
+                className={`cardService ${
+                  clickedCardIndex === index ? "clicked" : ""
+                }`}
+                onClick={() => handleCardClick(index)}
+              >
+                <div className="cardImage wow animate__animated animate__fadeIn ">
+                  <img src={card.image} alt={card.title} />
+                </div>
+                <div className="cardInfo wow animate__animated animate__fadeIn">
+                  <img src={card.icon} alt={card.title} />
+                  <h6 className="color-black mb-15 ">{card.title}</h6>
+                  <p className="font-xs color-grey-900">{card.description}</p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+    </section>
 
 
+    <style jsx>{`
+    
+    .cardService {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: white; /* Default background */
+  color: inherit; /* Default content color */
+}
 
-                            <div className="col-xl-3 col-md-6 mb-50"style={{marginLeft:'10px'}}>
-                                <div className="cardService">
-                                    <div className="cardImage wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/contact/branch4.png" alt="transp" /></div>
-                                    <div className="cardInfo wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" />
-                                        <h6 className="color-black mb-15">Foreclosure Clean-Out</h6>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2"></strong> Foreclosed properties are often left with junk that needs to be cleared before they can be sold. BinBear’s team can handle all the heavy lifting and disposal, making the property market-ready in no time.
+.cardService .cardInfo {
 
-                                        </p>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2"></strong></p>
-                                        <p className="font-xs color-grey-900"><strong className="color-brand-2"></strong></p>
-                                    </div>
-                                </div>
-                            </div>
+  color:white;
+}
 
+.cardService:hover {
+   /* Change background on hover */
+}
+.cardInfo:hover{
+background-color:black;}
+.cardService:hover .cardInfo h6,
+.cardService:hover .cardInfo p,
+.cardService:hover .cardInfo img {
 
-                            <div className="col-xl-3 col-md-6 mb-50">
-                                <div className="cardService">
-                                    <div className="cardImage wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/contact/branch4.png" alt="transp" /></div>
-                                    <div className="cardInfo wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" />
-                                        <h6 className="color-black mb-15">Storage Facility Clean-Out</h6>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2"></strong> When storage units are abandoned or left filled with junk, BinBear helps facility managers clear out these units quickly and efficiently, ensuring they’re ready for new tenants.
-                                        </p>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2"></strong></p>
-                                        <p className="font-xs color-grey-900"><strong className="color-brand-2"></strong></p>
-                                    </div>
-                                </div>
-                            </div>
+  color: orange; /* Change content color on hover */
+}
 
-   <div className="col-xl-3 col-md-6 mb-50">
-                                <div className="cardService">
-                                    <div className="cardImage wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/contact/branch4.png" alt="transp" /></div>
-                                    <div className="cardInfo wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" />
-                                        <h6 className="color-black mb-15">Construction Debris Removal</h6>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2"></strong>Managing construction debris can be a time-consuming task. BinBear offers hassle-free construction debris removal, giving contractors and project managers peace of mind that their waste is being handled responsibly.
-                                        </p>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2"></strong></p>
-                                        <p className="font-xs color-grey-900"><strong className="color-brand-2"></strong></p>
-                                    </div>
-                                </div>
-                            </div>
+.cardService:hover .cardInfo img {
+ 
+  /* Optional: Adjust icon color */
+}
 
-  
+    
+    
+    `}</style>
 
 
 
 
-                        </div>
-                    </div>
-                </section>
+
+
                 <section className="section pt-85 bg-worldmap">
                     <div className="container">
                         <div className="text-start"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/template/icons/favicon.svg" alt="transp" />

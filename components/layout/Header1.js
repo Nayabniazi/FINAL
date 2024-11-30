@@ -111,7 +111,7 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
     maxWidth: '3000px',}}>     
                     <div className="main-header"style={{backgroundColor:'black',marginLeft:'50px',marginInlineEnd:'60px',}}>
                         <div className="header-left">
-                            <div className="header-logo"style={{marginLeft:'5px',}}><Link className="d-flex" href=""> <Image src="/img/bear.png.png" alt="Ecom" width={180} height={50} /></Link></div>
+                            <div className="header-logo"style={{marginLeft:'5px',}}><Link className="d-flex" href="/"> <Image src="/img/bear.png.png" alt="Ecom" width={180} height={50} /></Link></div>
                             <div className="header-nav">
                                 <nav className="nav-main-menu d-none d-xl-block">
                                   

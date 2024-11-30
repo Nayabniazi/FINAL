@@ -19,14 +19,15 @@ export default function Footer1({ }) {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-3 width-23 mb-30">
-                                <div className="mb-20">
+                                <Link className="mb-20" href="/">
                                     <img
+                                    
                                         src="/img/bear.png.png"
                                         width={150}
                                         height={60}
                                         alt="transp"
                                     />
-                                </div>
+                                </Link>
                                 <p className="font-xs mb-20 color-white">
                                     We fuse our global network with our depth of
                                     expertise in air freight, ocean freight, railway
