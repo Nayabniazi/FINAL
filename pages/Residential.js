@@ -585,7 +585,7 @@ Customers love BinBear because we’re fast, professional, and eco-friendly. We 
 
 
                
-               <section className="section pt-110 pb-0">
+               <section className="section pt-110 pb-90">
                    <div className="container">
                        <div className="row align-items-center">
                            <div className="col-lg-6">

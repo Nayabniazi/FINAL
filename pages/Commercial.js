@@ -427,7 +427,7 @@ export default function Quote() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
+                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn"style={{marginBottom:'70px'}}>
                                 <div className="card-offer hover-up">
                                     
                                     <div className="card-info">

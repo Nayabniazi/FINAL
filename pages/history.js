@@ -286,8 +286,8 @@ We recycle a wide range of materials, including paper, cardboard, glass, metal, 
   className="section pt-100"
   style={{
     backgroundColor: 'black',
-    marginTop: '50px',
-    marginBottom: '50px',
+    marginTop: '10px',
+    marginBottom: '100px',
   }}
 >
   <div className="container">
@@ -298,7 +298,7 @@ We recycle a wide range of materials, including paper, cardboard, glass, metal, 
       >
         Our Features
       </span>
-      <h2 className="color-mb-15 mt-20 wow animate__animated animate__fadeIn" style={{ color: 'white' }}>
+      <h2 className="color-mb-20 mt-10 wow animate__animated animate__fadeIn" style={{ color: 'white' }}>
         Why Choose BinBear?
       </h2>
     </div>
