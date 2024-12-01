@@ -111,9 +111,9 @@ const HistoryPage = () => {
                                 <div className="box-info-aabout-2"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>History</span>
                                     <h2 className="color-black mt-15 mb-25 wow animate__animated animate__fadeIn">The History of Junk Removal</h2>
                                     <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">
-Junk removal traces its roots to the evolution of waste management, a practice that has been around since the 18th century. Back then, waste piled up in city streets, posing health risks. In London, organized waste management began as a way to collect and repurpose coal ash for brick-making, eventually leading to sanitation reforms that removed waste from populated areas.
+                                    Junk removal traces its roots to the evolution of waste management, a practice that has been around since the 18th century. Back then, waste piled up in city streets, posing health risks. In London, organized waste management began as a way to collect and repurpose coal ash for brick-making, eventually leading to sanitation reforms that removed waste from populated areas.
 
-In the United States, as waste production grew, so did the need for efficient disposal strategies. By the 1960s, the U.S. established national waste management policies with the **Solid Waste Disposal Act of 1965**, laying the foundation for modern junk removal. BinBear continues this legacy by offering responsible, eco-friendly junk removal solutions.</p>
+                                     In the United States, as waste production grew, so did the need for efficient disposal strategies. By the 1960s, the U.S. established national waste management policies with the **Solid Waste Disposal Act of 1965**, laying the foundation for modern junk removal. BinBear continues this legacy by offering responsible, eco-friendly junk removal solutions.</p>
                                     <div className="box-button mt-40"><Link className="btn btn-brand-2 mr-20 wow animate__animated animate__fadeIn" href="Booking"style={{backgroundColor:'orange',color:'black',}}>Free Estimate</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn More
                                         <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -125,7 +125,7 @@ In the United States, as waste production grew, so did the need for efficient di
                         <div className="row align-items-center item-about-2">
                             <div className="col-lg-6"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-2-3.png" alt="transp" /></div>
                             <div className="col-lg-6">
-                                <div className="box-info-aabout-2"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>Our Partners</span>
+                                <div className="box-info-about-2"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>Our Partners</span>
                                     <h2 className="color-black mt-15 mb-25 wow animate__animated animate__fadeIn">Landfill Stress in the United States</h2>
                                     <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">Today, landfills face increasing pressure due to the amount of waste produced. The U.S. generates around 728,000 tons of garbage daily, leading to overcrowded landfills. While modern landfills are designed with safety measures, the growing volume poses environmental concerns, such as greenhouse gas emissions from decomposing waste. BinBear is committed to reducing landfill waste by recycling and donating as much as possible from each junk removal job.
                                     </p>
@@ -142,7 +142,7 @@ In the United States, as waste production grew, so did the need for efficient di
                                     <h2 className="color-black mt-15 mb-25 wow animate__animated animate__fadeIn">Recycling and Junk</h2>
                                     <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">Recycling has become a critical part of waste management, with the U.S. recycling over 30% of its waste. Recycling not only reduces landfill strain but also conserves resources. BinBear supports these efforts by sorting through collected items to recycle or donate usable materials whenever possible.
 
-We recycle a wide range of materials, including paper, cardboard, glass, metal, and certain plastics. To make a meaningful impact, we encourage clients to partner with us for eco-friendly disposal, ensuring that items don’t end up in landfills unnecessarily.
+                                         We recycle a wide range of materials, including paper, cardboard, glass, metal, and certain plastics. To make a meaningful impact, we encourage clients to partner with us for eco-friendly disposal, ensuring that items don’t end up in landfills unnecessarily.
 
 
 </p>
@@ -181,10 +181,15 @@ We recycle a wide range of materials, including paper, cardboard, glass, metal, 
 
                     </div>
                 </section>
-                <section className="section mt-55  position-relative pt-90 pb-90">
+               <div>
+              
+
+                <section >
+                
+
                     <div className="container">
-                        <div className="row">
-                            <div className="col-lg-6"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>History</span>
+                        <div  className="row">
+                            <div className="col-lg-6" ><span className="btn btn-tag wow animate__animated animate__fadeIn" style={{backgroundColor:'orange'}}>History</span>
                                
                                 <h3 className="color-grey-900 mb-20 mt-15 wow animate__animated animate__fadeIn">The Junk Removal Process</h3>
                                 <p className="font-md color-grey-900 mb-40 wow animate__animated animate__fadeIn" style={{marginTop:'20px'}}>At BinBear, we simplify the junk removal process for you:</p>
@@ -193,38 +198,40 @@ We recycle a wide range of materials, including paper, cardboard, glass, metal, 
 
 
 
-
+                               
 
                                 <ul className="list-how-works">
-                                    <li className="wow animate__animated animate__fadeIn">
+                                    <li >
                                         <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp" /></span></div>
-                                        <div className="info-how">
+                                        <div className="info-how"style={{marginRight:'30px'}}>
                                             <h5 className="color-black">Schedule Your Appointment</h5>
-                                            <p className="font-md color-grey-700"> Book a time that works for you, either online or over the phone.</p>
-                                        </div>
+                                           
+                                            <p  className="font-md color-black-700 wow animate__animated animate__fadeIn"> Book a time that works for you, either online or over the phone.  </p>
+                                  
+                                     </div>
                                     </li>
-                                    <li className="wow animate__animated animate__fadeIn">
+                                    <li >
                                         <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp" /></span></div>
-                                        <div className="info-how">
+                                        <div className="info-how"style={{marginRight:'30px'}}>
                                             <h5 className="color-black">Get a Free Estimate</h5>
-                                            <p className="font-md color-grey-700">Our team will assess your junk and provide an upfront, no-obligation quote.</p>
+                                            <p className="font-md color-grey-700">Our team will  be assess your junk ,and provide an  upfront, no-obligation quote.</p>
                                         </div>
                                     </li>
 
-                                    <li className="wow animate__animated animate__fadeIn">
+                                    <li>
                                         <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">We Do the Heavy Lifting</h5>
-                                            <p className="font-md color-grey-700"> Once you approve the quote, our team will load everything for you.</p>
+                                            <p className="font-md color-grey-700"> Once you approve  quote our team load everything for you.</p>
                                         </div>
                                     </li>
 
 
-                                    <li className="wow animate__animated animate__fadeIn">
+                                    <li >
                                         <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp" /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">Eco-Friendly Disposal</h5>
-                                            <p className="font-md color-grey-700">We sort items to recycle or donate as much as possible, reducing waste in landfills.</p>
+                                            <p className="font-md color-grey-700"style={{alignContent:'flex-start'}}>We sort items to recycle or donate as much as possible, for reducing waste in  landfills.</p>
                                         </div>
                                     </li>
 
@@ -233,7 +240,7 @@ We recycle a wide range of materials, including paper, cardboard, glass, metal, 
                                     <li className="wow animate__animated animate__fadeIn">
                                         
                                     </li>
-                                    <li className="wow animate__animated animate__fadeIn">
+                                    <li >
                                         <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">Enjoy a Clutter-Free Space</h5>
@@ -252,29 +259,20 @@ We recycle a wide range of materials, including paper, cardboard, glass, metal, 
 
 
 
-
-
-
-
-
-                                <div className="row">
-                                    <div className="col-lg-6 mb-30">
-                                        <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn"></h6>
-                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">
-                                        </p>
-                                    </div>
-                                    <div className="col-lg-6 mb-30">
-                                        <h6 className="feature-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn"></h6>
-                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn"></p>
-                                    </div>
-                                </div>
                                
                             </div>
                         </div>
                     </div>
-                    <div className="box-image-touch box-image-info-2-2" />
+                   
                 </section>
-               
+               </div>
+
+                
+
+
+
+
+
                 <div className="mt-50" />
 
 
@@ -282,17 +280,32 @@ We recycle a wide range of materials, including paper, cardboard, glass, metal, 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 <section
-  className="section pt-100"
-  style={{
-    backgroundColor: 'black',
-    marginTop: '10px',
-    marginBottom: '100px',
-  }}
->
-  <div className="container">
-    <div className="text-center">
-      <span
+                       className="section pt-100"
+                                  style={{
+                                        backgroundColor: 'black',
+                                          marginTop: '10px',
+                                        marginBottom: '100px',
+                                           }}
+                                                 >
+                                               <div className="container">
+                                                 <div className="text-center">
+                                                       <span
         className="btn btn-tag color-grey-900 wow animate__animated animate__fadeIn"
         style={{ backgroundColor: 'orange' }}
       >
@@ -461,6 +474,19 @@ We recycle a wide range of materials, including paper, cardboard, glass, metal, 
                         </div>
                     </div>
                 </div>
+                <style jsx>{`
+  @media (max-width: 768px) {
+    .list-how-works .info-how {
+      text-align: left;
+      margin-left: 0; /* Ensure no unintended indentation */
+    }
+    .list-how-works p,
+    .list-how-works h5 {
+      margin-left: 0; /* Align text consistently */
+    }
+  }
+`}</style>
+
             </Layout>
         </>
        
