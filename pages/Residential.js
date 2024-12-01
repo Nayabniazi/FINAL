@@ -77,7 +77,7 @@ export default function WorkProcess() {
                                         <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">We Handle All the Heavy Lifting</h5>
-                                            <p className="font-md color-grey-700">Update order status on the system</p>
+                                            <p className="font-md color-grey-700"></p>
                                         </div>
                                     </li>
                                 </ul>
