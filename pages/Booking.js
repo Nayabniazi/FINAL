@@ -49,8 +49,8 @@ export default function Login() {
                         className="col-lg-6"
                         style={{
                             marginBottom: "150px",
-                            marginLeft: isMobile ? "20px" : "400px", // Adjust left margin on mobile
-                            marginRight: isMobile ? "20px" : "0", // Adjust right margin on mobile
+                            marginLeft: isMobile ? "0px" : "400px", // Adjust left margin on mobile
+                            marginRight: isMobile ? "0px" : "0", // Adjust right margin on mobile
                         }}
                     >
                         <div className="box-login-left">
@@ -128,7 +128,7 @@ export default function Login() {
                                                 minWidth: "100px",
                                                 maxWidth: "150px",
                                                 flexShrink: 0,
-                                                marginRight: isMobile ? "10px" : "0", // Adjust right margin on mobile
+                                                marginRight: isMobile ? "65px" : "0", // Adjust right margin on mobile
                                             }}
                                         >
                                             Submit
@@ -158,8 +158,19 @@ export default function Login() {
             </section>
             <style jsx>{`
                 @media (max-width: 768px) {
-                    .zip-code-input {
-                        margin-right: 13px; /* Add margin on mobile screens */
+                    .box-login-left {
+                        text-align: center; /* Center the content */
+                    }
+
+                    .zip-code-input,
+                    button {
+                        width: 100%; /* Make input and button full width */
+                        max-width: 400px; /* Adjust max width for small screens */
+                       margin :0px auto; /* Center the input and button */
+                    }
+
+                    .box-form-login {
+                        margin-left: 0;
                     }
                 }
             `}</style>
