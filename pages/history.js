@@ -294,7 +294,7 @@ const HistoryPage = () => {
 
 
 
-
+<div>
                 <section
                        className="section pt-100"
                                   style={{
@@ -367,7 +367,7 @@ const HistoryPage = () => {
 `}</style>
 
 
-
+</div>
 
 
 
@@ -474,18 +474,7 @@ const HistoryPage = () => {
                         </div>
                     </div>
                 </div>
-                <style jsx>{`
-  @media (max-width: 768px) {
-    .list-how-works .info-how {
-      text-align: left;
-      margin-left: 0; /* Ensure no unintended indentation */
-    }
-    .list-how-works p,
-    .list-how-works h5 {
-      margin-left: 0; /* Align text consistently */
-    }
-  }
-`}</style>
+               
 
             </Layout>
         </>
