@@ -71,9 +71,6 @@ export default function WorkProcess() {
 
 
                                     <li className="wow animate__animated animate__fadeIn">
-                                        
-                                    </li>
-                                    <li className="wow animate__animated animate__fadeIn">
                                         <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">We Handle All the Heavy Lifting</h5>
@@ -479,6 +476,105 @@ Customers love BinBear because we’re fast, professional, and eco-friendly. We 
                                    </div>
                                </div>
                            </div>
+
+                           <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn" >
+                               <div className="card-offer hover-up">
+      
+                                   <div className="card-info" >
+                                       <h5 className="color- mb-15"style={{color:'black'}}>Yard Waste Removal</h5>
+                                       <p className="font-sm color-grey-900 mb-35"> Let us handle branches, clippings, and other yard waste from landscaping projects.</p>
+                                       <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                           <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                           </svg></span></a></div>
+                                   </div>
+                               </div>
+                           </div>
+
+
+
+ <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn" >
+                               <div className="card-offer hover-up">
+      
+                                   <div className="card-info" >
+                                       <h5 className="color- mb-15"style={{color:'black'}}>E-Waste Recycling</h5>
+                                       <p className="font-sm color-grey-900 mb-35">We ensure your electronics, like computers and TVs, are responsibly recycled or donated.</p>
+                                       <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                           <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                           </svg></span></a></div>
+                                   </div>
+                               </div>
+                           </div>
+
+ <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn" >
+                               <div className="card-offer hover-up">
+      
+                                   <div className="card-info" >
+                                       <h5 className="color- mb-15"style={{color:'black'}}>Estate Cleanouts</h5>
+                                       <p className="font-sm color-grey-900 mb-35"> Our team respectfully clears estates, making a difficult process easier..</p>
+                                       <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                           <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                           </svg></span></a></div>
+                                   </div>
+                               </div>
+                           </div>
+
+ <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn" >
+                               <div className="card-offer hover-up">
+      
+                                   <div className="card-info" >
+                                       <h5 className="color- mb-15"style={{color:'black'}}>Refrigerator and Freezer Disposal</h5>
+                                       <p className="font-sm color-grey-900 mb-35">Save space and recycle responsibly with our appliance disposal service..</p>
+                                       <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                           <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                           </svg></span></a></div>
+                                   </div>
+                               </div>
+                           </div>
+                           <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn" >
+                               <div className="card-offer hover-up">
+      
+                                   <div className="card-info" >
+                                       <h5 className="color- mb-15"style={{color:'black'}}>Foreclosure Cleanouts</h5>
+                                       <p className="font-sm color-grey-900 mb-35">Property professionals rely on BinBear for fast, efficient cleanouts of foreclosed homes.</p>
+                                       <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                           <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                           </svg></span></a></div>
+                                   </div>
+                               </div>
+                           </div>
+                           <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn" >
+                               <div className="card-offer hover-up">
+      
+                                   <div className="card-info" >
+                                       <h5 className="color- mb-15"style={{color:'black'}}>Furniture Removal</h5>
+                                       <p className="font-sm color-grey-900 mb-35"> Whether broken or unwanted, we handle the removal of all types of furniture..</p>
+                                       <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                           <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                           </svg></span></a></div>
+                                   </div>
+                               </div>
+                           </div>
+
+ <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn" >
+                               <div className="card-offer hover-up">
+      
+                                   <div className="card-info" >
+                                       <h5 className="color- mb-15"style={{color:'black'}}>Hot Tub Removal</h5>
+                                       <p className="font-sm color-grey-900 mb-35">Dismantling and removing old hot tubs is no problem for our trained team.</p>
+                                       <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                           <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                           </svg></span></a></div>
+                                   </div>
+                               </div>
+                           </div>
+
                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
                                <div className="card-offer hover-up">
                                   
@@ -599,7 +695,24 @@ Customers love BinBear because we’re fast, professional, and eco-friendly. We 
                                                    <p className="font-sm color-grey-900">BinBear offers clear pricing with no hidden fees, ensuring you know exactly what to expect..</p>
                                                </div>
                                            </div>
+
                                        </div>
+                                       <style jsx>{`
+
+                                    
+                                       .card-info:hover{
+                                       background-color:black;
+                                       color:orange;
+                                       }
+                                       .card-offer:hover{
+                                       h5{
+color:orange;}
+                                       background-color:black;
+                                       color:white;
+                                       }
+                                       
+                                       
+                                       `}</style>
                                        <div className="item-reason wow animate__animated animate__fadeIn">
                                            <div className="card-offer cardServiceStyle3 hover-up">
                                                <div className="card-image"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" /></div>
@@ -620,16 +733,16 @@ Customers love BinBear because we’re fast, professional, and eco-friendly. We 
                                                </div>
                                            </div>
                                        </div>
-                                       <div className="item-reason wow animate__animated animate__fadeIn">
-                                           <div className="card-offer cardServiceStyle3 hover-up">
-                                               <div className="card-image"><img src="/assets/imgs/page/homepage4/pallet.png" alt="transp" /></div>
-                                               <div className="card-info">
-                                                   <h5 className="color-black mb-15">Professional, Insured Team</h5>
-                                                   <p className="font-sm color-grey-900">Our experienced crew is licensed, insured, and equipped to handle any job safely and efficiently.</p>
-                                               </div>
-                                           </div>
-                                       </div>
+                                      <style jsx>{`
+                                      .card-offer:hover{
+                                       h5{
+                                      color:orange;}
+                                      Background-color:black;
+                                      
+                                     }
+                                      `}</style>
                                    </div>
+                                  
                                </div>
                            </div>
                            <div className="col-lg-6"style={{marginBottom:'20px'}}>

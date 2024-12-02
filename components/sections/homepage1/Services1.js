@@ -38,25 +38,25 @@ style={{marginTop:'10px'}}
 <p
   style={{marginTop:'30px'}}
 >
-  We Prioritize exceptional customer services and consistency delivery top-quality results. Guided by our eco-Friendly mission, we strive to recycle or donate as much of your junk as possible.
+  We Prioritize exceptional customer services and consistency delivering top-quality results. Guided by our eco-Friendly mission, we strive to recycle or donate as much of your junk as possible.
 </p>
 
 <p
  style={{marginTop:'10px'}} 
 >
-  As only National Company with a local sorting facility, we aim to recycle 60% or more of every job!
+  As only national company with a local sorting facility, we aim to recycle 60% or more of every job!
   
 </p>
 <p
   style={{
-    marginLeft:'10px',
+    marginLeft:'0px',
       marginTop:'10px',
     fontSize: 'clamp(14px, 2.5vw, 8px)',
     maxWidth: '90%',
     lineHeight: '1.6',
   }}
 >
-At Junk King, you will experience a straightforward process and a commitment to treating youlike royalty
+At Junk King, you will experience a straightforward process and a commitment to treating you like royalty
   with outstanding service!
 </p>
 

@@ -307,7 +307,7 @@ For low minimum amounts, free estimates, and the BEST OVERALL VALUE in the junk 
                                 </div>
                                
                                 <div className="item-faqs-2 mb-30">
-                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">CALL OUR TRAINED STAFF</h6>
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">3:CALL OUR TRAINED STAFF</h6>
                                     <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">You can also call or live chat with our knowledgeable and courteous customer service team. If you have 4 items or less, we can likely offer you a firm price. If you have 4 items or more, we can give you an accurate estimate. </p>
                                 </div>
                                 <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Regardless of which method you use to get your free estimate, the final, no-obligation price will be provided to you by our trained technicians.</p>

@@ -123,7 +123,7 @@ const HistoryPage = () => {
                             <div className="col-lg-6"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-2-2.png" alt="transp" /></div>
                         </div>
                         <div className="row align-items-center item-about-2">
-                            <div className="col-lg-6"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-2-3.png" alt="transp" /></div>
+                            <div className="col-lg-6"style={{marginTop:'100px'}}><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-2-3.png" alt="transp" /></div>
                             <div className="col-lg-6">
                                 <div className="box-info-about-2"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>Our Partners</span>
                                     <h2 className="color-black mt-15 mb-25 wow animate__animated animate__fadeIn">Landfill Stress in the United States</h2>
@@ -138,8 +138,9 @@ const HistoryPage = () => {
 
                         <div className="row align-items-center item-about-2 item-about-2-revert">
                             <div className="col-lg-6">
-                                <div className="box-info-aabout-2"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}></span>
-                                    <h2 className="color-black mt-15 mb-25 wow animate__animated animate__fadeIn">Recycling and Junk</h2>
+                            <div className="box-info-aabout-2">
+                              
+                                     <h2 className="color-black mt-15 mb-25 wow animate__animated animate__fadeIn">Recycling and Junk</h2>
                                     <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">Recycling has become a critical part of waste management, with the U.S. recycling over 30% of its waste. Recycling not only reduces landfill strain but also conserves resources. BinBear supports these efforts by sorting through collected items to recycle or donate usable materials whenever possible.
 
                                          We recycle a wide range of materials, including paper, cardboard, glass, metal, and certain plastics. To make a meaningful impact, we encourage clients to partner with us for eco-friendly disposal, ensuring that items don’t end up in landfills unnecessarily.
@@ -152,10 +153,10 @@ const HistoryPage = () => {
                                         </svg></Link></div>
                                 </div>
                             </div>
-                            <div className="col-lg-6"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-2-2.png" alt="transp" /></div>
+                            <div className="col-lg-6"style={{marginTop:'100px'}}><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-2-2.png" alt="transp" /></div>
                         </div>
                         <div className="row align-items-center item-about-2">
-                            <div className="col-lg-6"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-2-3.png" alt="transp" /></div>
+                            <div className="col-lg-6"style={{marginTop:'100px'}}><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-2-3.png" alt="transp" /></div>
                             <div className="col-lg-6">
                                 <div className="box-info-aabout-2"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>Our Partners</span>
                                     <h2 className="color-black mt-15 mb-25 wow animate__animated animate__fadeIn">Hazardous Waste and Junk Removal</h2>
@@ -190,7 +191,7 @@ const HistoryPage = () => {
                     <div className="container">
                         <div  className="row">
                             <div className="col-lg-6" ><span className="btn btn-tag wow animate__animated animate__fadeIn" style={{backgroundColor:'orange'}}>History</span>
-                               
+                           
                                 <h3 className="color-grey-900 mb-20 mt-15 wow animate__animated animate__fadeIn">The Junk Removal Process</h3>
                                 <p className="font-md color-grey-900 mb-40 wow animate__animated animate__fadeIn" style={{marginTop:'20px'}}>At BinBear, we simplify the junk removal process for you:</p>
                                 <p className="font-md color-grey-900 mb-40 wow animate__animated animate__fadeIn">
@@ -237,9 +238,7 @@ const HistoryPage = () => {
 
 
 
-                                    <li className="wow animate__animated animate__fadeIn">
-                                        
-                                    </li>
+                                   
                                     <li >
                                         <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></span></div>
                                         <div className="info-how">
@@ -261,11 +260,18 @@ const HistoryPage = () => {
 
                                
                             </div>
-                        </div>
-                    </div>
+                            
+                            <div  style={{marginTop:'200px'}} className="col-lg-6 mb-60"><Link className="wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/page/workprocess/img1.png" alt="transp" /></Link></div>
+                        
+                        
+                          </div>
+                        </div>   
+                        
+                        
+                        
                    
                 </section>
-               </div>
+              </div>
 
                 
 

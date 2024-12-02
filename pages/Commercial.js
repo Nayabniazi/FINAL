@@ -23,28 +23,28 @@ export default function Quote() {
           title: "Office Junk Removal",
           backgroundColor:'red',
           description:
-            "When office furniture becomes obsolete, removing it can be more than most people want to handle alone. BinBear offers efficient, eco-friendly office furniture removal to keep your workspace clear and organized.",
+            "When office furniture becomes obsolete, removing it can be more than most people want to handle alone. BinBear offers efficient, eco-friendly office furniture removal to keep your workspace clear and organized. We’ll even ensure that usable items are donated, and the rest is recycled responsibly.",
           image: "/assets/imgs/page/contact/branch1.png",
           icon: "/assets/imgs/page/homepage1/delivery.png",
         },
         {
           title: "Commercial Equipment Removal",
           description:
-            "Old equipment can be difficult to dispose of, especially when dealing with large, heavy, or unwieldy items. Outsourcing equipment removal to BinBear is often the most cost-effective choice.",
+            "Old equipment can be difficult to dispose of, especially when dealing with large, heavy, or unwieldy items. Outsourcing equipment removal to BinBear is often the most cost-effective choice, freeing up your team to focus on their work while we handle the disposal..",
           image: "/assets/imgs/page/contact/branch2.png",
-          icon: "/assets/imgs/page/homepage1/plane.png",
+          icon: "/assets/imgs/page/homepage1/delivery.png",
         },
         {
           title: "Commercial Scrap Pick-Up",
           description:
-            "Disposing of scrap metal like iron, copper, aluminum, or construction metal can be challenging. BinBear will safely pick up and recycle your scrap metal.",
+            "Disposing of scrap metal like iron, copper, aluminum, or construction metal can be challenging. BinBear will safely pick up and recycle your scrap metal, keeping your workplace clutter-free and environmentally friendly.",
           image: "/assets/imgs/page/contact/branch3.png",
           icon: "/assets/imgs/page/homepage1/delivery.png",
         },
         {
           title: "Property Management Clean-Out",
           description:
-            "Rental properties often require cleanouts between tenants. BinBear’s property management junk removal service helps property managers quickly clear out abandoned junk, minimizing downtime and getting your property ready for the next occupant.",
+            "Rental properties often require cleanouts between tenants. BinBear’s property management junk removal service helps property managers quickly clear out abandoned junk, minimizing downtime and getting your property ready for the next occupant..",
           image: "/assets/imgs/page/contact/branch4.png",
           icon: "/assets/imgs/page/homepage1/delivery.png",
         },
@@ -52,7 +52,7 @@ export default function Quote() {
         {
             title: "Foreclosure Clean-Out",
             description:
-              "Foreclosed properties are often left with junk that needs to be cleared before they can be sold. BinBear’s team can handle all the heavy lifting and disposal, making the property market-ready in no time",
+              "Foreclosed properties are often left with junk that needs to be cleared before they can be sold. BinBear’s team can handle all the heavy lifting and disposal, making the property market-ready in no time.",
 
             image: "/assets/imgs/page/contact/branch4.png",
             icon: "/assets/imgs/page/homepage1/delivery.png",
@@ -219,7 +219,7 @@ export default function Quote() {
 }
 
 .cardService .cardInfo {
-
+height:300px;
   color:white;
 }
 
@@ -302,9 +302,7 @@ background-color:black;}
                                     </li>
 
 
-                                    <li>
-                                        
-                                    </li>
+                                    
                                     <li>
                                         <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></span></div>
                                         <div className="info-how">
@@ -467,11 +465,55 @@ background-color:black;}
                                     </div>
                                 </div>
                             </div>
+
+                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn" >
+                                <div className="card-offer hover-up">
+       
+                                    <div className="card-info" >
+                                        <h5 className="color- mb-15"style={{color:'black'}}>Hot Tub Removal</h5>
+                                        <p className="font-sm color-grey-900 mb-35"> </p>
+                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg></span></a></div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+ <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn" >
+                                <div className="card-offer hover-up">
+       
+                                    <div className="card-info" >
+                                        <h5 className="color- mb-15"style={{color:'black'}}>Trash Removal</h5>
+                                        <p className="font-sm color-grey-900 mb-35"> </p>
+                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg></span></a></div>
+                                    </div>
+                                </div>
+                            </div>
+
+ <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn" >
+                                <div className="card-offer hover-up">
+       
+                                    <div className="card-info" >
+                                        <h5 className="color- mb-15"style={{color:'black'}}>Mattress Disposal</h5>
+                                        <p className="font-sm color-grey-900 mb-35"> </p>
+                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg></span></a></div>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
                                 <div className="card-offer hover-up">
                                    
                                     <div className="card-info">
-                                        <h5 className="color- mb-15"style={{color:'black'}}>Hot Tub Removal</h5>
+                                        <h5 className="color- mb-15"style={{color:'black'}}>Refrigerator Disposal & Recycling</h5>
                                         <p className="font-sm color-grey-900 mb-35"></p>
                                         <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -484,7 +526,7 @@ background-color:black;}
                                 <div className="card-offer hover-up">
                                   
                                     <div className="card-info">
-                                        <h5 className="color- mb-15"style={{color:'black'}}>Refrigerator Disposal & Recycling</h5>
+                                        <h5 className="color- mb-15"style={{color:'black'}}>E-Waste Disposal</h5>
                                         <p className="font-sm color-grey-900 mb-35"></p>
                                         <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
