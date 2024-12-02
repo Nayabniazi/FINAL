@@ -204,7 +204,7 @@ const HistoryPage = () => {
                                 <ul className="list-how-works">
                                     <li >
                                         <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp" /></span></div>
-                                        <div className="info-how"style={{marginRight:'30px'}}>
+                                        <div className="info-how"style={{marginRight:'30px',}}>
                                             <h5 className="color-black">Schedule Your Appointment</h5>
                                            
                                             <p  className="font-md color-black-700 wow animate__animated animate__fadeIn"> Book a time that works for you, either online or over the phone.  </p>
@@ -261,7 +261,7 @@ const HistoryPage = () => {
                                
                             </div>
                             
-                            <div  style={{marginTop:'200px'}} className="col-lg-6 mb-60"><Link className="wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/page/workprocess/img1.png" alt="transp" /></Link></div>
+                            <div  style={{marginTop:'90px'}} className="col-lg-6 mb-60"><Link className="wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/page/workprocess/img1.png" alt="transp" /></Link></div>
                         
                         
                           </div>
