@@ -8,9 +8,9 @@ export default function Cta1() {
                 <div className="container">
                     <div className="box-get-quote">
                         <div className="get-quote-left">
-                            <p className="font-3xl color-white mb-10 wow animate__animated animate__fadeIn">When you choose BinBear!
+                            <p className="font-3xl color-white mb-10 wow animate__animated animate__fadeIn">When you think Junk, think BinBear!
                                 </p>
-                            <h3 className="color-brand-1 wow animate__animated animate__fadeIn"> All you have to do is point, and we take care of the rest
+                            <h3 className="color-brand-1 wow animate__animated animate__fadeIn"> With a few quick clicks, your waste is our commands!
                             </h3>
                         </div>
                         <div className="get-quote-right"><Link className="btn btn-get-quote wow animate__animated animate__fadeIn" href="/register" style={{ backgroundColor: '#FFA500', textAlign: 'center',

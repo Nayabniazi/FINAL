@@ -53,7 +53,7 @@ export default function Hero4Slider() {
                     <div className="card-offer hover-up">
                         <div className="card-image"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp" /></div>
                         <div className="card-info">
-                            <h5 className="color- mb-15"style={{color:'black'}}>#1 Junk Removal Company</h5>
+                            <h5 className="color- mb-15"style={{color:'black'}}>#1 Junk Removal Company in Texas</h5>
                             <p className="font-sm color-grey-900 mb-35">We are professional in our work
                                 with more than 12 years of experience and have shipped more than 100k
                                 shipments.</p>

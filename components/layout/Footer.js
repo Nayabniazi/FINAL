@@ -63,7 +63,7 @@ export default function Footer1({ }) {
                                                 maxWidth: '200px',
                                             }}
                                         >
-                                            Online Booking
+                                            Book Online
                                         </button>
                                     </a>
                                     <a href="/contact" style={{ textDecoration: 'none', width: '100%' }}>

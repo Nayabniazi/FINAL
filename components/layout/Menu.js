@@ -30,13 +30,13 @@ export default function Menu() {
                     </Link>
                     <ul className="sub-menu">
                         <li>
-                            <Link href="/Item-we-take">Item we take</Link>
+                            <Link href="/Item-we-take">Items we take</Link>
                         </li>
                         <li>
                             <Link href="/history">JK-Removal History</Link>
                         </li>
                         <li>
-                            <Link href="/Recycle">Recycle</Link>
+                            <Link href="/Recycle">We Recycle</Link>
                         </li>
                         <li>
                             <Link href="/"></Link>
@@ -62,7 +62,7 @@ export default function Menu() {
                         href="/Residential"
                         style={{ color: "white" }}
                     >
-                        How it Works
+                        How It Works
                     </Link>
                     <ul className="sub-menu">
                         <li>
@@ -92,7 +92,7 @@ export default function Menu() {
                     </Link>
                     <ul className="sub-menu">
                         <li>
-                            <Link href="/Estimateprice">Estimate Pricing</Link>
+                            <Link href="/Estimateprice">Book Online</Link>
                         </li>
                         <li>
                             <Link href="/jk-removal-price">

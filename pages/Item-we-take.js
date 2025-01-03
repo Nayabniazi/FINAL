@@ -9,21 +9,15 @@ export default function ServiceDetail() {
                 <section className="section">
                     <div className="container">
                         <div className="box-pageheader-1 box-pageheader-services text-center"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange',color:'black'}}>Our Services</span>
-                            <h2 className="color- mt-15 mb-10 wow animate__animated animate__fadeIn"style={{color:'black'}}>BinBear Junk Removal Items We Take</h2>
+                            <h2 className="color- mt-15 mb-10 wow animate__animated animate__fadeIn"style={{color:'black'}}> Items We Take</h2>
                             <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">At BinBear, we can handle just about ANYTHING and EVERYTHING—except hazardous waste Here are examples of the types of junk we haul away:<br className="d-none d-lg-block" /> </p>
                         </div>
                     </div>
                 </section>
-                <div className="section">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-6 wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/service-detail/wetake.png"height={500}width={1000} alt="transp" /></div>
-                             <div className="col-lg-6 position-relative wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/service-detail/img4.png" alt="transp"height={500}width={1000} />
-                                <div className="quote-center shape-2" />
-                            </div>
-                        </div>
-</div>
-                </div>
+                
+                        
+
+                
 
 
 
@@ -32,235 +26,79 @@ export default function ServiceDetail() {
 
 
 
-                <section className="section mt-100">
-                <div className="container">
-                     <div className="row align-items-end">
-                        <div className="col-lg-8 col-md-8 mb-30">
-                                 
-                        </div>
-                       
-                    </div>
-                    <div className="mt-20 box-background-black" >
-                        <div className="bg-under"/>
-                        <div className="row">
-                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn" >
-                                <div className="card-offer hover-up">
-                                   
-                                    
-                                    <div className="card-info">
-                                        <h5 className="color- mb-15"style={{color:'black'}}>Furniture Removal</h5>
-                                        <p className="font-sm color-grey-900 mb-35"></p>
-                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-"style={{color:'black'}}>View Details<span>
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
-                                <div className="card-offer hover-up">
-                                    
-                                    
-                                    <div className="card-info">
-                                        <h5 className="color- mb-15"style={{color:'black'}}>TV Disposal & Recycling</h5>
-                                        <p className="font-sm color-grey-900 mb-35"></p>
-                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-"style={{color:'black'}}>View Details<span>
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn" >
-                                <div className="card-offer hover-up">
+
+                      
+   
        
-                                    <div className="card-info" >
-                                        <h5 className="color- mb-15"style={{color:'black'}}>Yard Waste Removal</h5>
-                                        <p className="font-sm color-grey-900 mb-35"> </p>
-                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
-                                <div className="card-offer hover-up">
-                                   
-                                    <div className="card-info">
-                                        <h5 className="color- mb-15"style={{color:'black'}}>Foreclosure Cleanouts</h5>
-                                        <p className="font-sm color-grey-900 mb-35"></p>
-                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></span></a></div>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
-                                <div className="card-offer hover-up">
-                                    
-                                    
-                                    <div className="card-info">
-                                        <h5 className="color- mb-15"style={{color:'black'}}>Tire Disposal</h5>
-                                        <p className="font-sm color-grey-900 mb-35"></p>
-                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-"style={{color:'black'}}>View Details<span>
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-
- <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
-                                <div className="card-offer hover-up">
-                                    
-                                    
-                                    <div className="card-info">
-                                        <h5 className="color- mb-15"style={{color:'black'}}>Appliance Removal</h5>
-                                        <p className="font-sm color-grey-900 mb-35"></p>
-                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-"style={{color:'black'}}>View Details<span>
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
-                                <div className="card-offer hover-up">
-                                    
-                                    
-                                    <div className="card-info">
-                                        <h5 className="color- mb-15"style={{color:'black'}}>Hot Tub Disposal</h5>
-                                        <p className="font-sm color-grey-900 mb-35"></p>
-                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-"style={{color:'black'}}>View Details<span>
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-
- <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
-                                <div className="card-offer hover-up">
-                                    
-                                    
-                                    <div className="card-info">
-                                        <h5 className="color- mb-15"style={{color:'black'}}>E-Waste Disposal</h5>
-                                        <p className="font-sm color-grey-900 mb-35"></p>
-                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-"style={{color:'black'}}>View Details<span>
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-
-                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
-                                <div className="card-offer hover-up">
-                                  
-                                    <div className="card-info">
-                                        <h5 className="color- mb-15"style={{color:'black'}}>Trash Removal</h5>
-                                        <p className="font-sm color-grey-900 mb-35"></p>
-                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
-                                <div className="card-offer hover-up">
-                                    
-                                    <div className="card-info">
-                                        <h5 className="color- mb-15"style={{color:'black'}}>Mattress Disposal</h5>
-                                        <p className="font-sm color-grey-900 mb-35">
-                                          </p>
-                                        <div className="box-button-offer mb-30" ><a className="btn btn-link font-sm color-brand-2">View Details<span>
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-
-
-
-
-
-                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
-                                <div className="card-offer hover-up">
-                                   
-                                    <div className="card-info">
-                                        <h5 className="color- mb-15"style={{color:'black'}}>Refrigerator Disposal & Recycling</h5>
-                                        <p className="font-sm color-grey-900 mb-35"></p>
-                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
-                                <div className="card-offer hover-up">
-                                  
-                                    <div className="card-info">
-                                        <h5 className="color- mb-15"style={{color:'black'}}>Construction Waste Removal</h5>
-                                        <p className="font-sm color-grey-900 mb-35"></p>
-                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
-                                <div className="card-offer hover-up">
-                                    
-                                    <div className="card-info">
-                                        <h5 className="color- mb-15"style={{color:'black'}}>Garbage Removal</h5>
-                                        <p className="font-sm color-grey-900 mb-35">
-                                          </p>
-                                        <div className="box-button-offer mb-30" ><a className="btn btn-link font-sm color-brand-2">View Details<span>
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
-                                <div className="card-offer hover-up">
-                                    
-                                    <div className="card-info">
-                                        <h5 className="color- mb-15"style={{color:'black'}}>Shed Removal</h5>
-                                        <p className="font-sm color-grey-900 mb-35">
-                                          </p>
-                                        <div className="box-button-offer mb-30" ><a className="btn btn-link font-sm color-brand-2">View Details<span>
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
+                <div className="mt-20 box-background-black">
+    <div className="bg-under" />
+    <div className="row"style={{marginLeft:"30px",marginRight:"20px"}}>
+        {[
+            { title: "Furniture Removal" },
+            { title: "TV Disposal & Recycling" },
+            { title: "Yard Waste Removal" },
+            { title: "Foreclosure Cleanouts" },
+            { title: "Tire Disposal" },
+            { title: "Appliance Removal" },
+            { title: "Hot Tub Disposal" },
+            { title: "E-Waste Disposal" },
+            { title: "Trash Removal" },
+            { title: "Mattress Disposal" },
+            { title: "Refrigerator Disposal & Recycling" },
+            { title: "Construction Waste Removal" },
+            { title: "Garbage Removal" },
+            { title: "Shed Removal" },
+        ].map((service, index) => (
+            <div
+                key={index}
+                className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn"
+            >
+                <div
+                    className="card-offer hover-up"
+                    style={{
+                        backgroundColor: "orange",
+                        borderBottom: "4px solid black",
+                    }}
+                >
+                    <div className="card-info">
+                        <h5
+                            className="color- mb-15"
+                            style={{ color: "black" }}
+                        >
+                            {service.title}
+                        </h5>
+                        <p className="font-sm color-grey-900 mb-35"></p>
+                        <div className="box-button-offer mb-30">
+                            <a
+                                className="btn btn-link font-sm color-"
+                                style={{ color: "black" }}
+                            >
+                                View Details
+                                <span>
+                                    <svg
+                                        className="w-6 h-6 icon-16"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            strokeWidth={2}
+                                            d="M14 5l7 7m0 0l-7 7m7-7H3"
+                                        />
+                                    </svg>
+                                </span>
+                            </a>
                         </div>
                     </div>
                 </div>
-            </section>
-
+            </div>
+        ))}
+    </div>
+</div>
 
 
 
@@ -483,7 +321,7 @@ Whether you need a one-time trash removal or ongoing cleanup, BinBear provides f
                                     
                                     <div className="card-info">
                                         <h5 className="color- mb-15"style={{color:'black'}}>Book Your Appointment</h5>
-                                        <p className="font-sm color-grey-900 mb-35">Choose a time that’s convenient for you. Book online or call us to set up your two-hour arrival window.
+                                        <p className="font-sm color-grey-900 mb-35">Get a price,Use our proprietary junk cost calculator to determine your services Charge.
                                         </p>
                                         <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-"style={{color:'black'}}>View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -497,8 +335,8 @@ Whether you need a one-time trash removal or ongoing cleanup, BinBear provides f
                                     
                                     
                                     <div className="card-info">
-                                        <h5 className="color- mb-15"style={{color:'black'}}>Get a Free Estimate</h5>
-                                        <p className="font-sm color-grey-900 mb-35">Our team will assess your junk and provide a no-obligation quote based on the space your items take in our truck.</p>
+                                        <h5 className="color- mb-15"style={{color:'black'}}>Schedule Pickup</h5>
+                                        <p className="font-sm color-grey-900 mb-35">Choose a date and time that best suite your availablility for junk pickup.</p>
                                         <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-"style={{color:'black'}}>View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -562,21 +400,7 @@ Whether you need a one-time trash removal or ongoing cleanup, BinBear provides f
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
-                                <div className="card-offer hover-up">
-                                    
-                                    <div className="card-info">
-                                        <h5 className="color- mb-15"style={{color:'black'}}>Self-Service Dumpster Rental</h5>
-                                        <p className="font-sm color-grey-900 mb-35">We also offer driveway-friendly dumpster rentals. Fill it up at your own pace, and we’ll haul it away when you’re ready.
-
-                                          </p>
-                                        <div className="box-button-offer mb-30" ><a className="btn btn-link font-sm color-brand-2">View Details<span>
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></span></a></div>
-                                    </div>
-                                </div>
-                            </div>
+                           
                            
                         </div>
                     </div>
