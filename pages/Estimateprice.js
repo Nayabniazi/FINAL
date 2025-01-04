@@ -295,7 +295,7 @@ For low minimum amounts, free estimates, and the BEST OVERALL VALUE in the junk 
 
                         <section className="section mt-100">
                     <div className="container position-relative">
-                        <h2 className="title-favicon mb-20 wow animate__animated animate__fadeIn">Four Different Ways to Get an Estimate</h2>
+                        <h2 className=" mb-20 wow animate__animated animate__fadeIn">Four Different Ways to Get an Estimate</h2>
                         <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">In addition to our Online Pricing Estimator, we offer you these three additional ways for getting an estimate or even a firm price:
                         </p>
                         <div className="row mt-50">
@@ -330,7 +330,7 @@ For low minimum amounts, free estimates, and the BEST OVERALL VALUE in the junk 
 
                 <section className="section pb-5 pt-50 mb-80">
                     <div className="container">
-                        <div className="text-center"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/template/icons/favicon.svg" alt="transp" />
+                        <div className="text-center"><img className="mb-15 wow animate__animated animate__fadeIn" src="/img/bear.png.png"style={{height:'60px'}} alt="transp" />
                             <h2 className="color-mb-15 wow animate__animated animate__fadeIn"style={{color:'black'}}>Why Choose Junk King?</h2>
                             <p className="font-md color-grey-700 mb-35 wow animate__animated animate__fadeIn"style={{marginTop:'30px'}}>Because we understand that your time is valuable, we call you 15-30 minutes ahead of every job to let you know we are coming. <br className="d-none d-lg-block" /><br className="d-none d-lg-block" /></p>
                         </div>

@@ -286,7 +286,7 @@ background-color:black;}
                                         </div>
                                     </li>
                                     <li>
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" style={{height:'90px'}}/></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black wow animate__animated animate__fadeIn">Convenience</h5>
                                             <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Free up time by letting BinBear handle all your junk removal needs..</p>
@@ -304,7 +304,7 @@ background-color:black;}
 
                                     
                                     <li>
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp"style={{height:'90px'}} /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black wow animate__animated animate__fadeIn">Health and Safety</h5>
                                             <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Our team is equipped to handle heavy and bulky items safely, minimizing risks for your staff.</p>
@@ -359,7 +359,7 @@ background-color:black;}
                                     </li>
 
                                     <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp"style={{height:'90px'}} /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">Get a Free Estimate</h5>
                                             <p className="font-md color-grey-700">Our team will arrive on time, assess the volume of junk, and provide an upfront estimate.</p>
@@ -408,7 +408,7 @@ background-color:black;}
 
                 <section className="section mt-100">
                 <div className="container">
-                    <h2 className="title-favicon mb-20 wow animate__animated animate__fadeIn"style={{color:'black',}} >Our Comprehensive Junk Removal Services</h2>
+                    <h2 className=" mb-20 wow animate__animated animate__fadeIn"style={{color:'black',}} >Our Comprehensive Junk Removal Services</h2>
                     <div className="row align-items-end">
                         <div className="col-lg-8 col-md-8 mb-30">
                             <p className="font-md color-gray-700 wow animate__animated animate__fadeIn">

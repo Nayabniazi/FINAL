@@ -128,7 +128,7 @@ We believe in FAIR, TRANSPARENT PRICING, and we back it up with 4 different ways
 
                 <section className="section mt-100">
                     <div className="container position-relative">
-                        <h2 className="title-favicon mb-20 wow animate__animated animate__fadeIn"> 4 Different Ways to Get an Estimate</h2>
+                        <h2 className=" mb-20 wow animate__animated animate__fadeIn"> 4 Different Ways to Get an Estimate</h2>
                         <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> For our full service junk hauling, we offer 4 different ways to get an estimate or firm price.</p>
                         <div className="row mt-50">
                             <div className="col-lg-6">
@@ -162,7 +162,7 @@ We believe in FAIR, TRANSPARENT PRICING, and we back it up with 4 different ways
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="box-faqs-left">
-                                    <h2 className="title-favicon mb-20 wow animate__animated animate__fadeIn">FAQs</h2>
+                                    <h2 className="mb-20 wow animate__animated animate__fadeIn">FAQs</h2>
                                     <p className="font-md color-grey-700 mb-50 wow animate__animated animate__fadeIn">Feeling inquisitive? Have a read through some of our FAQs or contact our supporters for help</p>
                                     <div className="box-gallery-faqs">
                                         <div className="image-top wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/blog-single/bagi.png" alt="transp" /></div>

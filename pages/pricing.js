@@ -255,7 +255,7 @@ Our pricing estimator even allows you to estimate based on the space your junk w
                                     </li>
 
                                     <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp"style={{height:'90px'}} /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">
                                             Eco-Friendly Disposal: 

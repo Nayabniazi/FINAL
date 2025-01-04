@@ -302,7 +302,7 @@ Whether you need a one-time trash removal or ongoing cleanup, BinBear provides f
                 <div className="line-border" />
                 <section className="section pb-5 pt-50 mb-80">
                     <div className="container">
-                        <div className="text-center"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/template/icons/favicon.svg" alt="transp" />
+                        <div className="text-center"><img className="mb-15 wow animate__animated animate__fadeIn" src="/img/bear.png.png"style={{height:'60px'}} alt="transp" />
                             <h2 className="color-mb-15 wow animate__animated animate__fadeIn"style={{color:'black'}}>How Our Service Works</h2>
                             <p className="font-md color-grey-700 mb-35 wow animate__animated animate__fadeIn"style={{marginTop:'30px'}}>Let me know if there’s anything specific you’d like to add or change! <br className="d-none d-lg-block" /><br className="d-none d-lg-block" /></p>
                         </div>

@@ -204,7 +204,7 @@ As Urbanization grew, particularly in the 20th century,waste disposal became mor
                                     </li>
 
                                     <li>
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp"style={{height:'90px'}} /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">We Do the Heavy Lifting</h5>
                                             <p className="font-md color-grey-700"> Once you approve  quote our team load everything for you.</p>
@@ -224,7 +224,7 @@ As Urbanization grew, particularly in the 20th century,waste disposal became mor
 
                                    
                                     <li >
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" style={{height:'90px'}}/></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">Enjoy a Clutter-Free Space</h5>
                                             <p className="font-md color-grey-700">Relax in your newly cleared space, knowing that your junk was handled responsibly.

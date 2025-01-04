@@ -7,9 +7,9 @@ export default function WorkProcess() {
         <>
             <Layout>
                 <section className="section d-block position-relative">
-                    <div className="banner-howitwork3">
+                    <div className="   banner-howitwork   ">
                         <div className="container">
-                            <div className="box-info-trackyourparcel"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/template/icons/favicon.svg" alt="transp" />
+                            <div className="box-info-trackyourparcel"><img className="mb-15 wow animate__animated animate__fadeIn" src="/img/bear.png.png"style={{height:'60px'}} alt="transp" />
                                 <h2 className="color-mb-25 wow animate__animated animate__fadeIn"style={{color:'black'}}>BinBear Full-Service Junk Removal: Texas’ #1 Junk Company</h2>
                                 <p className="color-grey-700 font-md wow animate__animated animate__fadeIn">At BinBear Junk Removal, we pride ourselves on being the top-rated junk removal service in in the state. We offer:</p>
                             </div>
@@ -52,7 +52,7 @@ export default function WorkProcess() {
                                     </li>
 
                                     <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp"style={{height:'90px'}} /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">Pay Only for the Space You Use</h5>
                                             <p className="font-md color-grey-700"></p>
@@ -71,7 +71,7 @@ export default function WorkProcess() {
 
 
                                     <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" style={{height:'90px'}}/></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">We Handle All the Heavy Lifting</h5>
                                             <p className="font-md color-grey-700"></p>
@@ -169,7 +169,7 @@ export default function WorkProcess() {
                                     </li>
 
                                     <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" style={{height:'90px'}}/></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">We Call You 15 Minutes Before Arrival</h5>
                                             <p className="font-md color-grey-700"></p>
@@ -335,7 +335,7 @@ export default function WorkProcess() {
 
                <section className="section mt-100">
                <div className="container">
-                   <h2 className="title-favicon mb-20 wow animate__animated animate__fadeIn"style={{color:'black',}} >Residential Junk Removal with BinBear</h2>
+                   <h2 className="mb-20 wow animate__animated animate__fadeIn"style={{color:'black',}} >Residential Junk Removal with BinBear</h2>
                    <div className="row align-items-end">
                        <div className="col-lg-8 col-md-8 mb-30">
                            <p className="font-md color-gray-700 wow animate__animated animate__fadeIn">Our residential junk removal service is the ideal solution for homeowners and tenants looking to clear clutter and reclaim space. With BinBear, you’ll get prompt, dependable service—no need to wait around all day.
@@ -428,7 +428,7 @@ Customers love BinBear because we’re fast, professional, and eco-friendly. We 
 
            <section className="section mt-100">
                <div className="container">
-                   <h3 className="title-favicon mb-20 wow animate__animated animate__fadeIn"style={{color:'black',}} >Specialty Services:</h3>
+                   <h3 className=""style={{color:'black',}} >Specialty Services:</h3>
                  
                    <div className="mt-20 box-background-black" >
                        <div className="bg-under"/>

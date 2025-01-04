@@ -103,7 +103,7 @@ export default function Howitwork1() {
 
 
                                 <li>
-                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></span></div>
+                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp"style={{height:'90px'}} /></span></div>
                                     <div className="info-how">
                                         <h5 className="color- wow animate__animated animate__fadeIn"style={{color:'black'}}>Fast, Friendly and clean service
                                             </h5>
@@ -112,7 +112,7 @@ export default function Howitwork1() {
                                     </div>
                                 </li>
                                 <li>
-                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
+                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/worldwide.png" alt="transp"style={{height:'90px'}} /></span></div>
                                     <div className="info-how">
                                         <h5 className="color- wow animate__animated animate__fadeIn"style={{color:'black'}}>
                                         Our Planet,Our service </h5>

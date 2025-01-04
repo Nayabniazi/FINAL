@@ -141,10 +141,10 @@ landfills.With trusted relationship with local landfills,we work hard to recycle
                             <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
                                 <div className="card-offer hover-up">
                                     
-                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" />
+                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp"style={{width:'120px'}} />
                                     </div>
                                     <div className="card-info">
-                                        <h5 className="color- mb-15"style={{color:'black'}}>UnBearable junk problems solved at an unBEARlievable Value!</h5>
+                                        <h5 className="color- mb-15"style={{color:'black',}}>UnBearable junk problems solved at an unBEARlievable Value!</h5>
                                         <p className="font-sm color-grey-900 mb-35"></p>
                                         <div className="box-button-offer mb-30"style={{marginTop:'50px'}}><a className="btn btn-link font-sm color-"style={{color:'black'}}>View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
