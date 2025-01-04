@@ -109,7 +109,7 @@ landfills.With trusted relationship with local landfills,we work hard to recycle
                             <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn" >
                                 <div className="card-offer hover-up">
                                    
-                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" style={{borderRadius:"60px",width:"100px"}}/>
+                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" />
                                     </div>
                                     <div className="card-info">
                                         <h5 className="color- mb-15"style={{color:'black'}}>#1 Junk removal company in Texas </h5>
