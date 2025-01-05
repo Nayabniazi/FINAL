@@ -9,8 +9,35 @@ export default function ServiceDetail() {
                 <section className="section">
                     <div className="container">
                         <div className="box-pageheader-1 box-pageheader-services text-center"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange',color:'black'}}>Our Services</span>
+                       
                             <h2 className="color- mt-15 mb-10 wow animate__animated animate__fadeIn"style={{color:'black'}}> Items We Take</h2>
+                          
                             <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">At BinBear, we can handle just about ANYTHING and EVERYTHING—except hazardous waste Here are examples of the types of junk we haul away:<br className="d-none d-lg-block" /> </p>
+                           
+
+
+
+
+                            <div className="d-flex align-items-center justify-content-center">
+  <div className="col-lg-6 mb-60">
+    <div className="wow animate__animated animate__fadeIn">
+      <img src="/assets/imgs/page/service-detail/img4.png" alt="transp"style={{marginTop:'20px',width:'500px'}} />
+    </div>
+  </div>
+  <div className="col-lg-6 mb-60">
+    <div className="wow animate__animated animate__fadeIn">
+      <img src="/assets/imgs/page/service-detail/wetake.png" alt="transp2" style={{width:'400px',marginTop:'20px'}} />
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
                         </div>
                     </div>
                 </section>

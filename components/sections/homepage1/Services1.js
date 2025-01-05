@@ -14,7 +14,7 @@ export default function Services1() {
                 <div className="row">
                     <div className="col-md-4">
                         <div className="step-box wow animate__animated animate__fadeIn">
-                            <img src="/assets/imgs/page/blog-single/step1.jpg" alt="Step 1" style={{height:"300px",width:"300px"}} className="img-fluid" />
+                            <img src="/assets/imgs/page/blog-single/step1.png" alt="Step 1" style={{height:"300px",width:"300px"}} className="img-fluid" />
                             <h5 className="color-black mt-10">1. Click Book Online</h5>
                             <p className="font-md color-grey-700">Click book online & provide us with your informations</p>
                         </div>
@@ -28,7 +28,7 @@ export default function Services1() {
                     </div>
                     <div className="col-md-4">
                         <div className="step-box wow animate__animated animate__fadeIn">
-                            <img src="/assets/imgs/page/blog-single/step3.jpg" alt="Step 3" style={{height:"300px",width:"300px"}} className="img-fluid" />
+                            <img src="/assets/imgs/page/blog-single/step3.png" alt="Step 3" style={{height:"300px",width:"400px"}} className="img-fluid" />
                             <h5 className="color-black mt-10">3. Choose a Date for Pickup</h5>
                             <p className="font-md color-grey-700">Choose a Date for Pickup</p>
                         </div>
