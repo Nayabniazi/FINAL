@@ -30,7 +30,7 @@ export default function Howitwork1() {
                     <div className="text-center"><img className="mb-15" src="/img/bear.png.png" width={150}
                                         height={60} alt="transp" />
                 
-                        <h3 className="color- mb-20 wow animate__animated animate__fadeIn"style={{color:'black'}}>You just Book, and we take care of rest!We make Junk Removal Easy</h3>
+                        <h3 className="color- mb-20 wow animate__animated animate__fadeIn"style={{color:'black'}}>You just Book, and we take care of rest! We make Junk Removal Easy</h3>
                         <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">At BinBear, we make junk removal effortless. Whether it’s a single item or a full property cleanout, our team is here to handle every step. With BinBear, you get:
                            .</p>
                            <p className="font-md color-grey-700 wow animate__animated animate__fadeIn" ></p>

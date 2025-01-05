@@ -358,7 +358,7 @@ Our pricing estimator even allows you to estimate based on the space your junk w
 
                         <section className="section mt-100">
                     <div className="container position-relative">
-                        <h2 className="title-favicon mb-20 wow animate__animated animate__fadeIn">Four Ways to Get Your Estimate</h2>
+                        <h2 className="mb-20 wow animate__animated animate__fadeIn">Four Ways to Get Your Estimate</h2>
                         <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">
                         </p>We make it easy to get a free estimate with four convenient options:
                         <div className="row mt-50">
@@ -395,7 +395,7 @@ Our pricing estimator even allows you to estimate based on the space your junk w
 
                 <section className="section pb-5 pt-50 mb-80">
                     <div className="container">
-                        <div className="text-center"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/template/icons/favicon.svg" alt="transp" />
+                        <div className="text-center"><img className="mb-15 wow animate__animated animate__fadeIn" src="/img/bear.png.png" alt="transp" style={{width:'120px'}}/>
                             <h2 className="color-mb-15 wow animate__animated animate__fadeIn"style={{color:'black'}}>Why Choose Junk King?</h2>
                             <p className="font-md color-grey-700 mb-35 wow animate__animated animate__fadeIn"style={{marginTop:'30px'}}>When you book with BinBear, you’re choosing convenience, professionalism, and eco-conscious service. Here’s why we’re the #1 choice for junk removal: <br className="d-none d-lg-block" /><br className="d-none d-lg-block" /></p>
                         </div>

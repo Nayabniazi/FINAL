@@ -10,32 +10,36 @@ export default function Services1() {
           
                
                 <h3 className="color-black mt-30 mb-30">3 Quick Steps to Get Started:</h3>
+                
                 <div className="row">
                     <div className="col-md-4">
                         <div className="step-box wow animate__animated animate__fadeIn">
                             <img src="/assets/imgs/page/blog-single/step1.jpg" alt="Step 1" style={{height:"300px",width:"300px"}} className="img-fluid" />
                             <h5 className="color-black mt-10">1. Click Book Online</h5>
-                            <p className="font-md color-grey-700">Provide us with your information.</p>
+                            <p className="font-md color-grey-700">Click book online & provide us with your informations</p>
                         </div>
                     </div>
                     <div className="col-md-4">
                         <div className="step-box wow animate__animated animate__fadeIn">
                             <img src="/assets/imgs/page/blog-single/step2.png" alt="Step 2" style={{height:"300px",width:"300px"}} className="img-fluid" />
                             <h5 className="color-black mt-10">2. Use Our Calculator</h5>
-                            <p className="font-md color-grey-700">Choose your items with our proprietary calculator.</p>
+                            <p className="font-md color-grey-700">Use our proprietary calculator to choose your items</p>
                         </div>
                     </div>
                     <div className="col-md-4">
                         <div className="step-box wow animate__animated animate__fadeIn">
                             <img src="/assets/imgs/page/blog-single/step3.jpg" alt="Step 3" style={{height:"300px",width:"300px"}} className="img-fluid" />
                             <h5 className="color-black mt-10">3. Choose a Date for Pickup</h5>
-                            <p className="font-md color-grey-700">That’s it! You’ll receive a text on service day to confirm.</p>
+                            <p className="font-md color-grey-700">Choose a Date for Pickup</p>
                         </div>
                     </div>
                 </div>
 
                 <p className="font-md color-grey-700 wow animate__animated animate__fadeIn" style={{marginBottom:'20px',marginTop:"20px"}}>
-                    No job is too big or too small for BinBear, and our pricing reflects our commitment to value.
+                   That's It! You'll receive a text on service day to confirm.
+                </p>
+                <p className=" " style={{marginBottom:'0px',marginTop:"0px",fontSize:"13px",color:'red'}}>
+            Disclaimer: If you load differs greatly from the information you provided, your price of service may increase by 10%-20%
                 </p>
             </div>
            
@@ -76,7 +80,7 @@ style={{marginTop:'10px'}}
 <p className="font-md color-gray-700 wow animate__animated animate__fadeIn"
   style={{marginTop:'30px'}}
 >
- At BinBear, we pride in offering top-tier customer service while ensuring consistent,high-quality results.Our missions is not just to remove Junk,
+ At BinBear, we take pride in offering top-tier customer service while ensuring consistent,high-quality results.Our missions is not just to remove Junk,
 but to make a positive impact on our environment.We do this by prioritizing recycle and donations,we strive to divert as much waste as possible from
 landfills.With trusted relationship with local landfills,we work hard to recycle a significant portion of every job, aiming for 50% of all recycle eligible
    trash.At BinBear,We belive in making the junk removal process simple eficient and eco-conscious, all while delivering a service that make you feel valued every steps of the way</p><p
@@ -127,9 +131,11 @@ landfills.With trusted relationship with local landfills,we work hard to recycle
                                     <div className="card-image"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp"style={{borderRadius:"50px",}} />
                                     </div>
                                     <div className="card-info">
-                                        <h5 className="color- mb-15"style={{color:'black'}}>Lowest Price Guaranteed!100% Price Matching</h5>
+                                        <h5 className="color- mb-15"style={{color:'black'}}>Lowest  Price  Guaranteed! </h5>
+                                        <h5 className="color- "style={{color:'black'}}> 100% Price Matching</h5>
+                                     
                                         <p className="font-sm color-grey-900 mb-35"></p>
-                                        <div className="box-button-offer mb-30"style={{marginTop:'80px'}}><a className="btn btn-link font-sm color-"style={{color:'black'}}>View Details<span>
+                                        <div className="box-button-offer mb-30"style={{marginTop:'65px'}}><a className="btn btn-link font-sm color-"style={{color:'black'}}>View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                             </svg></span></a></div>
