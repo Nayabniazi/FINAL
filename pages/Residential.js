@@ -84,7 +84,7 @@ export default function WorkProcess() {
                 </section>
                 <section className="section mt-30">
                     <div className="container">
-                        <div className="text-center"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/template/icons/favicon.svg" alt="transp" />
+                        <div className="text-center"><img className="mb-15 wow animate__animated animate__fadeIn" src="/img/bear.png.png" alt="transp"style={{height:'60px'}} />
                             <h2 className="color-black mb-25 wow animate__animated animate__fadeIn">Our Process</h2>
                             
                         </div>

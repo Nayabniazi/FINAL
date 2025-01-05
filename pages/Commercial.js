@@ -158,8 +158,8 @@ export default function Quote() {
                                 <div className="box-image-how"><img className="w-100 wow animate__animated animate__fadeIn" src="/assets/imgs/page/trackyourparcel/img-info-7.png" alt="transp" />
                                     <div className="box-info-bottom-img"style={{backgroundColor:'black'}}>
                                           <div className="info-play wow animate__animated animate__fadeIn"style={{backgroundColor:"black"}}>
-                                            <h4 className="color-white mb-15">We have 25 years experience in this passion</h4>
-                                            <p className="font-sm color-white">BinBear offer efficient,eco-friendly office furniture removal to keep your workspace clean and organized.</p>
+                                            <h4 className="color-white mb-15">We have 8 years passion and reputation</h4>
+                                            <p className="font-sm color-white">What started as small,locally owned junk hauling business has quickly grown into a trusted name in our community </p>
                                         </div>
                                     </div>
                                 </div>
@@ -251,7 +251,7 @@ background-color:black;}
 
                 <section className="section pt-85 bg-worldmap">
                     <div className="container">
-                        <div className="text-start"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/template/icons/favicon.svg" alt="transp" />
+                        <div className="text-start">
                             <h2 className="color-black mb-20 wow animate__animated animate__fadeIn">Benefits of Outsourcing Your Commercial </h2>
                             <h2 className="color-black mb- wow animate__animated animate__fadeIn" style={{marginBottom:'40px'}}>Junk Removal to BinBear</h2>
                             <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"></p>
@@ -262,8 +262,8 @@ background-color:black;}
                                     <div className="box-info-bottom-img"style={{backgroundColor:'black'}}>
                                         <div className="image-play wow animate__animated animate__fadeIn"></div>
                                         <div className="info-play">
-                                            <h4 className="color-white mb-15 wow animate__animated animate__fadeIn">We have 25 years experience in this passion</h4>
-                                            <p className="font-sm color-white wow animate__animated animate__fadeIn">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+                                            <h4 className="color-white mb-15 wow animate__animated animate__fadeIn">We have 8 years passion and reputation</h4>
+                                            <p className="font-sm color-white wow animate__animated animate__fadeIn">What started as small,locally owned junk hauling business has quickly grown into a trusted name in our community</p>
                                         </div>
                                     </div>
                                 </div>
