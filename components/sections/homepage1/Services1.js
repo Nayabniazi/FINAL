@@ -12,17 +12,26 @@ export default function Services1() {
             <div className="row align-items-end">
                 <div className="col-lg-8 col-md-8 mb-0">
                     <h3 className="wow animate__animated animate__fadeIn">3 Quick Steps to Get Started:</h3>
+                    
                 </div>
 
-                <div className="col-lg-4 col-md-4 mb-0 text-md-end text-start " style={{ 
-                 
-     
-    // Responsive margin adjustments for smaller screens
-    marginTop: '10px', // Add some spacing above on smaller screens
-    marginBottom: '10px', // Add some spacing below on smaller screens
-     // Center-align content for better mobile experience
-}}>
-    <Link className="btn btn-brand-1 hover-up" href="/Booking" style={{ backgroundColor: 'orange' }}>
+                <div 
+    className="col-lg-4 col-md-4 mb-0 text-md-end text-start" 
+    style={{ 
+        // Margin-left adjustment for laptop screens
+        marginLeft: '900px', 
+        // Center alignment for smaller screens
+        textAlign: 'center', 
+        // Add some top and bottom spacing for better appearance
+        marginTop: '0px', 
+        
+    }}
+>
+    <Link 
+        className="btn btn-brand-1 hover-up" 
+        href="/Booking" 
+        style={{ backgroundColor: 'orange' }}
+    >
         <svg
             className="mr-10"
             fill="none"
@@ -41,7 +50,6 @@ export default function Services1() {
         Get quotes
     </Link>
 </div>
- 
 
             </div>
 
@@ -167,10 +175,10 @@ export default function Services1() {
         }
 
         h2{
-        margin-top:30px;
+       margin-top:40px;
             font-size: clamp(1.2rem, 4vw, 1.5rem);
             text-align: center;
-            margin-bottom: 10px;
+            margin-bottom: 0px;
         }
 
         p {
@@ -218,6 +226,12 @@ export default function Services1() {
             .swiper-wrapper {
                 flex-direction: column;
             }
+            @media (max-width: 768px) {
+        .col-lg-4 {
+            margin-left: 0 !important; /* Reset left margin for smaller screens */
+            text-align: center !important; /* Center-align for mobile */
+        }
+    }     
         }
     `}</style>
 </section>
@@ -268,7 +282,7 @@ style={{marginTop:'10px'}}
 
 
 
-<p className="font-md color-gray-700 wow animate__animated animate__fadeIn"
+<p className="font-sm color-grey-900 mb-35"
   style={{marginTop:'30px'}}
 >
  At BinBear, we take pride in offering top-tier customer service while ensuring consistent,high-quality results.Our missions is not just to remove Junk,
