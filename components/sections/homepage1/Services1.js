@@ -23,15 +23,26 @@ export default function Services1() {
 
 
 
-    <section className="section mt-100">
+    <section className="section mt-20">
 
-    <h2 className=" mb-20 wow animate__animated animate__fadeIn">3 Quick Steps to Get Started:</h2>
+    
                     <div className="row align-items-end">
-                        <div className="col-lg-8 col-md-8 mb-30">
-                            <p className="font-md color-gray-700 wow animate__animated animate__fadeIn">
-                                </p>
+                    <div className="col-lg-8 col-md-8 mb-0">
+                        <p className="font-md color-gray-700 wow animate__animated animate__fadeIn">
+                        </p>
+                        
+    <h3 className="  wow animate__animated animate__fadeIn" >3 Quick Steps to Get Started:</h3>
                         </div>
-                        <div className="col-lg-4 col-md-4 mb-30 text-md-end text-start"><Link className="btn btn-brand-1 hover-up" href="/Booking"style={{backgroundColor:'orange'}}>
+
+                        
+           
+
+                       
+
+
+
+
+                        <div className="col-lg-4 col-md-4 mb-0 text-md-end text-start"style={{paddingRight:'30px'}}><Link className="btn btn-brand-1 hover-up" href="/Booking"style={{backgroundColor:'orange'}}>
                             <svg className="mr-10" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25">
                                 </path>
