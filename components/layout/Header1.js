@@ -35,35 +35,23 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
     
                                     <div className="col-lg-5 col-md-4 col-sm-7 col-8 text-end">
                                    {/* "Own a Frenchise" link */}
-  
-                                                            <Link
-                                                            className="hover-pointer"
-                                                             href="contact"                                                      style={{
-                                                                color: 'white',
-                                                              textDecoration: 'none',
-                                                              cursor: 'pointer', // Pointer cursor on hover
-                                                              display: 'inline-flex',
-                                                              alignItems: 'center',
-                                                              gap: '8px', // Space between text and icon
-                                                            }}
-                                                                           
-                                                            >
-                                                            Apply Locally
-                                                            <svg
-                                                              xmlns="http://www.w3.org/2000/svg"
-                                                              width={14}
-                                                              height={14}
-                                                              viewBox="0 0 24 24"
-                                                              style={{
-                                                                fill: 'currentColor', // Matches text color
-                                                                transition: 'fill 0.3s ease',
-                                                              }}
-                                                            >
-                                                             
-                                                                <path d="M10 10h4v4h-4z" />
-                                                              </svg>
-                                                            </Link>
-                                                          
+ 
+                                   <li style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+  <a
+    href="/Booking"
+    style={{
+        marginTop:'30px',
+        marginRight:'60px',
+      textDecoration: 'none',
+      color: 'inherit',
+      cursor: 'pointer',
+    }}
+  >
+     Apply Locally
+  </a>
+</li>
+
+
                                                           
                                                           </div>
                                                           
@@ -213,7 +201,7 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
 
 
 
-
         </>
     )
 }
+ 

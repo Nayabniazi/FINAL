@@ -47,8 +47,14 @@ export default function Contact() {
                                                     </div>
                                                 </div>
                                                 <div className="col-md-12">
-                                                    <input className="btn btn-brand-1-big" type="submit" defaultValue="Submit Now" style={{backgroundColor:'orange'}}/>
-                                                </div>
+  <a
+    href="/Booking"
+    className="btn btn-brand-1-big"
+    style={{ backgroundColor: 'orange', color: 'black', textDecoration: 'none', padding: '18px 20px', display: 'inline-block', textAlign: 'center',width:'100px',height:'50px' }}
+  >
+    Submit
+  </a>
+</div>
                                             </div>
                                         </form>
                                     </div>
@@ -80,7 +86,7 @@ export default function Contact() {
                 
                 <section className="section pt-110 pb-100">
                     <div className="container">
-                        <h2 className="title-favicon mb-20 wow animate__animated animate__fadeIn">Meet Our Team</h2>
+                        <h2 className=" mb-20 wow animate__animated animate__fadeIn">Meet Our Team</h2>
                         <div className="row align-items-center">
                             <div className="col-md-6 mb-30">
                                 <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Welcome to our tranporation services agency. We are<br className="d-none d-lg-block" />the best at our trans-portation service ever.</p>
@@ -298,8 +304,14 @@ export default function Contact() {
                                                     </div>
                                                 </div>
                                                 <div className="col-md-12">
-                                                    <input className="btn btn-brand-1-big" type="submit" defaultValue="Submit Now" style={{backgroundColor:'orange'}}/>
-                                                </div>
+  <a
+    href="/Booking"
+    className="btn btn-brand-1-big"
+    style={{ backgroundColor: 'orange', color: 'black', textDecoration: 'none', padding: '18px 20px', display: 'inline-block', textAlign: 'center',width:'100px',height:'50px' }}
+  >
+    Submit
+  </a>
+</div>
                                             </div>
                                         </form>
                                     </div>

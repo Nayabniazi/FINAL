@@ -30,7 +30,8 @@ export default function Howitwork1() {
                     <div className="text-center"><img className="mb-15" src="/img/bear.png.png" width={150}
                                         height={60} alt="transp" />
                 
-                        <h3 className="color- mb-20 wow animate__animated animate__fadeIn"style={{color:'black'}}>You just Book, and we take care of rest! We make Junk Removal Easy</h3>
+                        <h3 className="color- mb-20 wow animate__animated animate__fadeIn"style={{color:'black'}}>You just Book, and we take care of rest!</h3>
+                        <h3 className="color- mb-20 wow animate__animated animate__fadeIn"style={{color:'black'}}> We make Junk Removal Easy</h3>
                         <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">At BinBear, we make junk removal effortless. Whether it’s a single item or a full property cleanout, our team is here to handle every step. With BinBear, you get:
                            .</p>
                            <p className="font-md color-grey-700 wow animate__animated animate__fadeIn" ></p>
@@ -115,7 +116,7 @@ export default function Howitwork1() {
                                     <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/worldwide.png" alt="transp"style={{height:'90px'}} /></span></div>
                                     <div className="info-how">
                                         <h5 className="color- wow animate__animated animate__fadeIn"style={{color:'black'}}>
-                                        Our Planet,Our service </h5>
+                                        Our Planet,Our responsibility </h5>
                                         <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">
 
                                        We try our best to recycle 100% of all recyclable waste we pickup, Although our efforts may not impact the world greatly, though if we all do our part then our impact will be felt by future generations  </p>

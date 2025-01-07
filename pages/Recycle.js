@@ -645,7 +645,7 @@ With insured operators and fair pricing, BinBear delivers great value and eco-fr
 
 
 
-<div className="row"style={{marginLeft:'20px',marginRight:'20px'}}>
+<div className="row"style={{marginLeft:'50px',marginRight:'50px'}}>
 <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn" >
 <div className="card-offer hover-up">
 
@@ -861,8 +861,14 @@ With insured operators and fair pricing, BinBear delivers great value and eco-fr
                                                     </div>
                                                 </div>
                                                 <div className="col-md-12">
-                                                    <input className="btn btn-brand-1-big" type="submit" defaultValue="Submit Now" style={{backgroundColor:'orange',color:'black'}}/>
-                                                </div>
+  <a
+    href="/Booking"
+    className="btn btn-brand-1-big"
+    style={{ backgroundColor: 'orange', color: 'black', textDecoration: 'none', padding: '18px 20px', display: 'inline-block', textAlign: 'center',width:'100px',height:'50px' }}
+  >
+    Submit
+  </a>
+</div>
                                             </div>
                                         </form>
                                     </div>

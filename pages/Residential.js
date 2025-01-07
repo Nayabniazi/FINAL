@@ -855,8 +855,14 @@ With BinBear, you get more than just junk removal—you get a reliable, green-fo
                                                    </div>
                                                </div>
                                                <div className="col-md-12">
-                                                   <input className="btn btn-brand-1-big" type="submit" defaultValue="Submit Now"style={{backgroundColor:'orange',color:'black'}} />
-                                               </div>
+  <a
+    href="/Booking"
+    className="btn btn-brand-1-big"
+    style={{ backgroundColor: 'orange', color: 'black', textDecoration: 'none', padding: '18px 20px', display: 'inline-block', textAlign: 'center',width:'100px',height:'50px' }}
+  >
+    Submit
+  </a>
+</div>
                                            </div>
                                        </form>
                                    </div>
@@ -889,6 +895,7 @@ With BinBear, you get more than just junk removal—you get a reliable, green-fo
                                                </div>
                                            </li>
                                        </ul>
+                               
                                    </div>
                                </div>
                            </div>

@@ -18,15 +18,24 @@ export default function ServiceDetail() {
 
 
 
-                            <div className="d-flex align-items-center justify-content-center">
-  <div className="col-lg-6 mb-60">
+                           
+                            <div className="d-flex flex-wrap align-items-center justify-content-center">
+  <div className="col-lg-6 col-md-6 col-sm-12 mb-3">
     <div className="wow animate__animated animate__fadeIn">
-      <img src="/assets/imgs/page/service-detail/img4.png" alt="transp"style={{marginTop:'20px',width:'500px'}} />
+      <img
+        src="/assets/imgs/page/service-detail/img4.png"
+        alt="transp"
+        style={{ marginTop: '20px', width: '100%', maxWidth: '500px' }}
+      />
     </div>
   </div>
-  <div className="col-lg-6 mb-60">
+  <div className="col-lg-6 col-md-6 col-sm-12 mb-3">
     <div className="wow animate__animated animate__fadeIn">
-      <img src="/assets/imgs/page/service-detail/wetake.png" alt="transp2" style={{width:'400px',marginTop:'20px'}} />
+      <img
+        src="/assets/imgs/page/service-detail/wetake.png"
+        alt="transp2"
+        style={{ marginTop: '20px', width: '100%', maxWidth: '400px' }}
+      />
     </div>
   </div>
 </div>
@@ -60,7 +69,7 @@ export default function ServiceDetail() {
 
                 <div className="mt-20 box-background-black">
     <div className="bg-under" />
-    <div className="row"style={{marginLeft:"30px",marginRight:"20px"}}>
+    <div className="row"style={{marginLeft:"60px",marginRight:"80px"}}>
         {[
             { title: "Furniture Removal" },
             { title: "TV Disposal & Recycling" },
@@ -512,8 +521,15 @@ Whether you need a one-time trash removal or ongoing cleanup, BinBear provides f
                                                     </div>
                                                 </div>
                                                 <div className="col-md-12">
-                                                    <input className="btn btn-brand-1-big" type="button" defaultValue="Submit" href="Booking" style={{backgroundColor:'orange',color:'black'}} />
-                                                </div>
+  <a
+    href="/Booking"
+    className="btn btn-brand-1-big"
+    style={{ backgroundColor: 'orange', color: 'black', textDecoration: 'none', padding: '18px 20px', display: 'inline-block', textAlign: 'center',width:'100px',height:'50px' }}
+  >
+    Submit
+  </a>
+</div>
+
                                             </div>
                                         </form>
                                     </div>

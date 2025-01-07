@@ -144,7 +144,7 @@ As Urbanization grew, particularly in the 20th century,waste disposal became mor
                             <div className="col-lg-6">
                                 <div className="box-info-aabout-2"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>Our Partners</span>
                                     <h2 className="color-black mt-15 mb-25 wow animate__animated animate__fadeIn">Hazardous Waste and Junk Removal</h2>
-                                    <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn"> While BinBear can handle almost any type of junk, we can’t accept hazardous waste. Hazardous items include anything that’s corrosive, explosive, flammable, or poisonous, like certain chemicals, paints, automotive fluids, and batteries. These materials require special handling and disposal through dedicated facilities to ensure safety and environmental protection.
+                                    <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn"> While BinBear can handle almost any type of junk, we can’t accept hazardous waste. Hazardous items include anything  corrosive, explosive, flammable, or poisonous, like certain chemicals, paints, automotive fluids, and batteries. These materials require special handling and disposal through dedicated facilities to ensure safety and environmental protection.
                                     </p>
                                </div>
                             </div>
@@ -327,7 +327,7 @@ As Urbanization grew, particularly in the 20th century,waste disposal became mor
 
 <div className="row align-items-center item-about-2 item-about-2-revert">
                             <div className="col-lg-6">
-                            <div className="box-info-aabout-2"style={{marginLeft:"20px"}}>
+                            <div className="box-info-aabout-2"style={{marginLeft:"50px"}}>
                               
                                      <h3 className="color-black mt-15 mb-25 wow animate__animated animate__fadeIn">Option2</h3>
                                     <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">
@@ -534,8 +534,14 @@ Customer should choose BinBear for junk removal Services because we offers relia
                                                     </div>
                                                 </div>
                                                 <div className="col-md-12">
-                                                    <input className="btn btn-brand-1-big" type="submit" defaultValue="Submit Now"style={{backgroundColor:'orange'}} />
-                                                </div>
+  <a
+    href="/Booking"
+    className="btn btn-brand-1-big"
+    style={{ backgroundColor: 'orange', color: 'black', textDecoration: 'none', padding: '18px 20px', display: 'inline-block', textAlign: 'center',width:'100px',height:'50px' }}
+  >
+    Submit
+  </a>
+</div>
                                             </div>
                                         </form>
                                     </div>
