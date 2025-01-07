@@ -104,10 +104,7 @@ export default function Services1() {
                         <div className="cardInfo">
                             <h5 className="color-brand-2 mb-10">1. Click Book Online</h5>
                             <p className="font-xs color-grey-500">Click book online & provide us with your informations</p>
-                            <div className="box-button mt-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
-                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                </svg></span></a></div>
+                           
                         </div>
                     </div>
                 </SwiperSlide>
@@ -117,10 +114,7 @@ export default function Services1() {
                         <div className="cardInfo">
                             <h5 className="color-brand-2 mb-10">2. Use Our Calculator</h5>
                             <p className="font-xs color-grey-500">Use our proprietary calculator to choose your items</p>
-                            <div className="box-button mt-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
-                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                </svg></span></a></div>
+                            
                         </div>
                     </div>
                 </SwiperSlide>
@@ -130,10 +124,7 @@ export default function Services1() {
                         <div className="cardInfo">
                             <h5 className="color-brand-2 mb-10">3. Choose a Date for Pickup</h5>
                             <p className="font-xs color-grey-500">Choose a Date for Pickup</p>
-                            <div className="box-button mt-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
-                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                </svg></span></a></div>
+                            
                         </div>
                     </div>
                 </SwiperSlide>
