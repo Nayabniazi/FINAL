@@ -41,7 +41,7 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
     href="/Booking"
     style={{
         marginTop:'30px',
-        marginRight:'60px',
+        marginRight:'25px',
       textDecoration: 'none',
       color: 'inherit',
       cursor: 'pointer',
@@ -61,8 +61,7 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
                          </div> 
                                             
                                               
-                        
-                        
+                       
                         
                         
                         
@@ -155,19 +154,21 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
     /* Mobile-specific adjustments */
     @media (max-width: 768px) {
         .header.sticky-bar {
+     
             margin-top: 0 !important;
             margin-bottom: 0 !important;
             padding: 0px !important; /* Add padding around the header */
         }
 
         .container {
-            padding: 0 15px !important; /* Add horizontal padding */
-            margin: 0 !important;
+      padding: 20 15px !important; /* Add horizontal padding */
+           
+          margin-left:0px; !important;
         }
 
         .main-header {
             margin-left: 0 !important;
-            margin-right: 0 !important;
+            margin-right: 40 !important;
         }
 
         .burger-icon {
@@ -188,7 +189,25 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
         .burger-icon {
             display: none;
         }
+
+          
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 `}
 </style>
 
@@ -196,7 +215,7 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
 
 
 
-
+ 
 
 
 

@@ -25,28 +25,28 @@ export default function Quote() {
           description:
             "When office furniture becomes obsolete, removing it can be more than most people want to handle alone. BinBear offers efficient, eco-friendly office furniture removal to keep your workspace clear and organized. We’ll even ensure that usable items are donated, and the rest is recycled responsibly.",
           image: "/assets/imgs/page/contact/branch1.png",
-          icon: "/assets/imgs/page/homepage1/delivery.png",
+          icon: "/assets/imgs/page/homepage1/deliveryy.png",
         },
         {
           title: "Commercial Equipment Removal",
           description:
             "Old equipment can be difficult to dispose of, especially when dealing with large, heavy, or unwieldy items. Outsourcing equipment removal to BinBear is often the most cost-effective choice, freeing up your team to focus on their work while we handle the disposal..",
           image: "/assets/imgs/page/contact/branch2.png",
-          icon: "/assets/imgs/page/homepage1/delivery.png",
+          icon: "/assets/imgs/page/homepage1/deliveryy.png",
         },
         {
           title: "Commercial Scrap Pick-Up",
           description:
             "Disposing of scrap metal like iron, copper, aluminum, or construction metal can be challenging. BinBear will safely pick up and recycle your scrap metal, keeping your workplace clutter-free and environmentally friendly.",
           image: "/assets/imgs/page/contact/branch3.png",
-          icon: "/assets/imgs/page/homepage1/delivery.png",
+          icon: "/assets/imgs/page/homepage1/deliveryy.png",
         },
         {
           title: "Property Management Clean-Out",
           description:
             "Rental properties often require cleanouts between tenants. BinBear’s property management junk removal service helps property managers quickly clear out abandoned junk, minimizing downtime and getting your property ready for the next occupant..",
           image: "/assets/imgs/page/contact/branch4.png",
-          icon: "/assets/imgs/page/homepage1/delivery.png",
+          icon: "/assets/imgs/page/homepage1/deliveryy.png",
         },
        
         {
@@ -55,7 +55,7 @@ export default function Quote() {
               "Foreclosed properties are often left with junk that needs to be cleared before they can be sold. BinBear’s team can handle all the heavy lifting and disposal, making the property market-ready in no time.",
 
             image: "/assets/imgs/page/contact/branch4.png",
-            icon: "/assets/imgs/page/homepage1/delivery.png",
+            icon: "/assets/imgs/page/homepage1/deliveryy.png",
           },
          
           {
@@ -63,7 +63,7 @@ export default function Quote() {
             description:
               "When storage units are abandoned or left filled with junk, BinBear helps facility managers clear out these units quickly and efficiently, ensuring they’re ready for new tenants.",
             image: "/assets/imgs/page/contact/branch4.png",
-            icon: "/assets/imgs/page/homepage1/delivery.png",
+            icon: "/assets/imgs/page/homepage1/deliveryy.png",
           },
           {
             title: "Construction Debris Removal",
@@ -71,7 +71,7 @@ export default function Quote() {
               "Managing construction debris can be a time-consuming task. BinBear offers hassle-free construction debris removal, giving contractors and project managers peace of mind that their waste is being handled responsibly.",
 
             image: "/assets/imgs/page/contact/branch4.png",
-            icon: "/assets/imgs/page/homepage1/delivery.png",
+            icon: "/assets/imgs/page/homepage1/deliveryy.png",
           },
          
 
@@ -271,14 +271,14 @@ background-color:black;}
                             <div className="col-lg-6 mb-30">
                                 <ul className="list-how-works">
                                     <li>
-                                        <div className="image-how"><span className="img wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" /></span></div>
+                                        <div className="image-how"><span className="img wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp"style={{height:'60px'}} /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black wow animate__animated animate__fadeIn">Peace  of Mind</h5>
                                             <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Avoid the productivity loss and expenses associated with DIY junk removal.</p>
                                         </div>
                                     </li>
                                     <li>
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp" /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp"style={{height:'60px'}} /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black wow animate__animated animate__fadeIn">Professional Environment</h5>
                                             <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Clear out excess equipment and furniture, improving the safety and appearance of your workspace.
@@ -286,7 +286,7 @@ background-color:black;}
                                         </div>
                                     </li>
                                     <li>
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" style={{height:'90px'}}/></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" style={{height:'50px'}}/></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black wow animate__animated animate__fadeIn">Convenience</h5>
                                             <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Free up time by letting BinBear handle all your junk removal needs..</p>
@@ -294,7 +294,7 @@ background-color:black;}
                                     </li>
 
                                     <li>
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp" /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp"style={{height:'60px'}} /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black wow animate__animated animate__fadeIn">Cost Savings</h5>
                                             <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Avoid the productivity loss and expenses associated with DIY junk removal.</p>
@@ -304,7 +304,7 @@ background-color:black;}
 
                                     
                                     <li>
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp"style={{height:'90px'}} /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp"style={{height:'50px'}} /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black wow animate__animated animate__fadeIn">Health and Safety</h5>
                                             <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Our team is equipped to handle heavy and bulky items safely, minimizing risks for your staff.</p>
@@ -325,7 +325,7 @@ background-color:black;}
 
 
                 <div className="row align-items-center">
-                            <div className="col-lg-6 mb-60"><Link className="wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/page/workprocess/img2.png" alt="transp" /></Link></div>
+                            <div className="col-lg-6 mb-60"><Link className="wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/page/workprocess/img2.png" alt="transp"style={{height:'60px'}} /></Link></div>
                             <div className="col-lg-6 mb-60"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/page/workprocess/pallet.png" alt="transp" />
                                 <h3 className="color-black mb-15 wow animate__animated animate__fadeIn">BinBear: A Green Approach to Commercial Junk Removal </h3>
                                 <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> BinBear is committed to eco-friendly practices, leading the way with recycling-based junk removal. We sort each load to separate metals, electronics, paper, and more, aiming to recycle or repurpose as much as possible. Usable items are donated to local charities, helping reduce landfill waste while benefiting the community.</p>
@@ -351,7 +351,7 @@ background-color:black;}
                                 <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginBottom:'20px'}}>Getting started with BinBear is easy. Just follow these steps:</p>
                                 <ul className="list-how-works">
                                 <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp" /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp"style={{height:'60px'}} /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">Schedule Your Appointment</h5>
                                             <p className="font-md color-grey-700">Book online or call us to set up a time that works for you.</p>
@@ -359,7 +359,7 @@ background-color:black;}
                                     </li>
 
                                     <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp"style={{height:'90px'}} /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp"style={{height:'50px'}} /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">Get a Free Estimate</h5>
                                             <p className="font-md color-grey-700">Our team will arrive on time, assess the volume of junk, and provide an upfront estimate.</p>
@@ -368,7 +368,7 @@ background-color:black;}
 
 
                                     <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp" /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp"style={{height:'60px'}} /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">Sit Back and Relax</h5>
                                             <p className="font-md color-grey-700">We handle all the heavy lifting, loading, and hauling, so you can focus on what you do best</p>

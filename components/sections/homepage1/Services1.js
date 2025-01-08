@@ -318,7 +318,7 @@ landfills.With trusted relationship with local landfills,we work hard to recycle
                             <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn" >
                                 <div className="card-offer hover-up">
                                    
-                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" />
+                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/planey.png" alt="transp" />
                                     </div>
                                     <div className="card-info">
                                         <h5 className="color- mb-15"style={{color:'black'}}>#1 Junk removal company in Texas </h5>
@@ -333,7 +333,7 @@ landfills.With trusted relationship with local landfills,we work hard to recycle
                             <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
                                 <div className="card-offer hover-up">
                                     
-                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp"style={{borderRadius:"50px",}} />
+                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/cargo-shipy.png" alt="transp"style={{borderRadius:"50px",}} />
                                     </div>
                                     <div className="card-info">
                                         <h5 className="color- mb-15"style={{color:'black'}}>Lowest  Price  Guaranteed! </h5>
@@ -352,7 +352,7 @@ landfills.With trusted relationship with local landfills,we work hard to recycle
                             <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
                                 <div className="card-offer hover-up">
                                     
-                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp"style={{width:'120px'}} />
+                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/deliveryy.png" alt="transp"style={{width:'120px'}} />
                                     </div>
                                     <div className="card-info">
                                         <h5 className="color- mb-15"style={{color:'black',}}>UnBearable junk problems solved at an unBEARlievable Value!</h5>
@@ -369,7 +369,7 @@ landfills.With trusted relationship with local landfills,we work hard to recycle
                            
                             <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
                                 <div className="card-offer hover-up">
-                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/forklift.png" alt="transp" />
+                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/forklifty.png" alt="transp" />
                                     </div>
                                     <div className="card-info">
                                         <h5 className="color- mb-15"style={{color:'black'}}>Click!Schedule We Pickup It's Easy as 1, 2, 3!</h5>
@@ -397,7 +397,7 @@ landfills.With trusted relationship with local landfills,we work hard to recycle
                             </div>
                             <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
                                 <div className="card-offer hover-up">
-                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/worldwide.png  "alt="transp" /></div>
+                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/worldwidey.png  "alt="transp" /></div>
                                     <div className="card-info">
                                         <h5 className="color- mb-15"style={{color:'black'}}>Choose BinBear and do your part by saving the planet 1 load at a time!</h5>
                                         <p className="font-sm color-grey-900 mb-35">

@@ -53,7 +53,7 @@ export default function Howitwork1() {
                         <div className="col-lg-6 mb-30">
                             <ul className="list-how-works">
                                 <li>
-                                    <div className="image-how"> <span><img src="/assets/imgs/page/homepage1/plane.png" alt="transp"style={{height:'80px'}} /></span></div>
+                                    <div className="image-how"> <span className="img"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp"style={{height:'60px'}} /></span></div>
                                     <div className="info-how">
                                         <h5 className="color-wow animate__animated animate__fadeIn"style={{color:'black'}}>Price-You know before we go!
                                             </h5>
@@ -65,7 +65,7 @@ export default function Howitwork1() {
 
 
                                 <li>
-                                    <div className="image-how"><span ><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp"style={{height:'70px'}} /></span></div>
+                                    <div className="image-how"><span  className="img"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp"style={{height:'60px'}} /></span></div>
                                     <div className="info-how">
                                         <h5 className="color-wow animate__animated animate__fadeIn"style={{color:'black'}}>Low Price Guarantee
                                         </h5>
@@ -79,7 +79,7 @@ export default function Howitwork1() {
 
 
                                 <li>
-                                    <div className="image-how"><span ><img src="/assets/imgs/page/homepage1/payment.png" alt="transp" style={{height:'70px'}}/></span></div>
+                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp" style={{height:'60px'}}/></span></div>
                                     <div className="info-how">
                                         <h5 className="color-wow animate__animated animate__fadeIn"style={{color:'black'}}>Book a service in as little as 30 seconds
                                         </h5>
@@ -89,7 +89,7 @@ export default function Howitwork1() {
                                 </li>
 
                                 <li>
-                                    <div className="image-how"><span ><img src="/assets/imgs/page/homepage1/payment.png" alt="transp"style={{height:'70px'}} /></span></div>
+                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp"style={{height:'60px'}} /></span></div>
                                     <div className="info-how">
                                         <h5 className="color-wow animate__animated animate__fadeIn"style={{color:'black'}}>Call, text or use our properitary trash dash!
                                         </h5>
@@ -104,7 +104,7 @@ export default function Howitwork1() {
 
 
                                 <li>
-                                    <div className="image-how"><span ><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp"style={{height:'50px'}} /></span></div>
+                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp"style={{height:'50px'}} /></span></div>
                                     <div className="info-how">
                                         <h5 className="color- wow animate__animated animate__fadeIn"style={{color:'black'}}>Fast, Friendly and clean service
                                             </h5>
@@ -113,7 +113,7 @@ export default function Howitwork1() {
                                     </div>
                                 </li>
                                 <li>
-                                    <div className="image-how"><span ><img src="/assets/imgs/page/homepage1/worldwide.png" alt="transp"style={{height:'70px'}} /></span></div>
+                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/worldwide.png" alt="transp"style={{height:'60px'}} /></span></div>
                                     <div className="info-how">
                                         <h5 className="color- wow animate__animated animate__fadeIn"style={{color:'black'}}>
                                         Our Planet,Our responsibility </h5>

@@ -37,14 +37,14 @@ export default function WorkProcess() {
                             <div className="col-lg-6 mb-30">
                                 <ul className="list-how-works">
                                     <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" style={{height:'60px'}}/></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">Fast Friendly Service</h5>
                                             <p className="font-md color-grey-700"></p>
                                         </div>
                                     </li>
                                     <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp" /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp"style={{height:'60px'}} /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">Free, Upfront Estimates</h5>
                                             <p className="font-md color-grey-700"></p>
@@ -52,7 +52,7 @@ export default function WorkProcess() {
                                     </li>
 
                                     <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp"style={{height:'90px'}} /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp"style={{height:'50px'}} /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">Pay Only for the Space You Use</h5>
                                             <p className="font-md color-grey-700"></p>
@@ -61,7 +61,7 @@ export default function WorkProcess() {
 
 
                                     <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp" /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp"style={{height:'60px'}} /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">Low Price Guarantee</h5>
                                             <p className="font-md color-grey-700"></p>
@@ -71,7 +71,7 @@ export default function WorkProcess() {
 
 
                                     <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" style={{height:'90px'}}/></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" style={{height:'50px'}}/></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">We Handle All the Heavy Lifting</h5>
                                             <p className="font-md color-grey-700"></p>
@@ -161,7 +161,7 @@ export default function WorkProcess() {
                                 <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginBottom:'20px'}}></p>
                                 <ul className="list-how-works">
                                 <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp" /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp"style={{height:'60px'}} /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">Pick a Date and Two-Hour Window</h5>
                                             <p className="font-md color-grey-700"></p>
@@ -169,7 +169,7 @@ export default function WorkProcess() {
                                     </li>
 
                                     <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" style={{height:'90px'}}/></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" style={{height:'50px'}}/></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">We Call You 15 Minutes Before Arrival</h5>
                                             <p className="font-md color-grey-700"></p>
@@ -178,7 +178,7 @@ export default function WorkProcess() {
 
 
                                     <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp" /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp"style={{height:'60px'}} /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">If You Agree to Our Price, We Take Your Junk</h5>
                                             <p className="font-md color-grey-700"></p>
@@ -191,7 +191,7 @@ export default function WorkProcess() {
 
 
 
-                               <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginTop:'20px'}}></p>
+                               <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginTop:'20px',height:'60px'}}></p>
                                
                                </div>
                             <div className="col-lg-6 mb-60"><Link className="wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/page/workprocess/img1.png" alt="transp" /></Link></div>
@@ -689,7 +689,7 @@ Customers love BinBear because we’re fast, professional, and eco-friendly. We 
                                    <div className="col-xl-6 col-lg-12 col-md-6">
                                        <div className="item-reason wow animate__animated animate__fadeIn">
                                            <div className="card-offer cardServiceStyle3 hover-up">
-                                               <div className="card-image"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp" /></div>
+                                               <div className="card-image"><img src="/assets/imgs/page/homepage1/cargo-shipy.png" alt="transp" /></div>
                                                <div className="card-info">
                                                    <h5 className="color-black mb-15">Fair and Transparent Pricing</h5>
                                                    <p className="font-sm color-grey-900">BinBear offers clear pricing with no hidden fees, ensuring you know exactly what to expect..</p>
@@ -715,7 +715,7 @@ color:orange;}
                                        `}</style>
                                        <div className="item-reason wow animate__animated animate__fadeIn">
                                            <div className="card-offer cardServiceStyle3 hover-up">
-                                               <div className="card-image"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" /></div>
+                                               <div className="card-image"><img src="/assets/imgs/page/homepage1/planey.png" alt="transp" /></div>
                                                <div className="card-info">
                                                    <h5 className="color-black mb-15">Eco-Friendly Practices</h5>
                                                    <p className="font-sm color-grey-900">We’re committed to green practices, recycling materials whenever possible to minimize landfill waste.</p>
