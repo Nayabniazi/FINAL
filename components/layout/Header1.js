@@ -38,7 +38,7 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
                                     <div className="col-lg-5 col-md-4 col-sm-7 col-8 text-end">
                                    {/* "Own a Frenchise" link */}
  
-                                   <li className="apply-locally-link" style={{ listStyle: 'none', padding: 0, margin: 10, }}>
+                                   <li className="apply-locally-link" style={{ listStyle: 'none', paddingRight: 19, margintop: 10, }}>
   <a href="/Booking">
     Apply Locally
   </a>

@@ -284,7 +284,7 @@ As urbanization grew, particularly in the 20th century,waste disposal became mor
     className="col-lg-4 col-md-4 mb-0 text-md-end text-start" 
     style={{ 
         // Margin-left adjustment for laptop screens
-        marginLeft: '900px', 
+        marginLeft: '920px', 
         // Center alignment for smaller screens
         textAlign: 'center', 
         // Add some top and bottom spacing for better appearance
@@ -295,7 +295,7 @@ As urbanization grew, particularly in the 20th century,waste disposal became mor
     <Link 
         className="btn btn-brand-1 hover-up" 
         href="/Booking" 
-        style={{ backgroundColor: 'orange' }}
+        style={{ backgroundColor: 'orange', }}
     >
         <svg
             className="mr-10"
