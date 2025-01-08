@@ -883,21 +883,21 @@ With insured operators and fair pricing, BinBear delivers great value and eco-fr
                                                 <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/address.svg" alt="transp" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-white">Address</h6>
-                                                    <p className="font-sm color-white">65 Allerton Street 901 N Pitt Str, USA</p>
+                                                    <p className="font-sm color-white">Headquarters in Frisco,Texas</p>
                                                 </div>
                                             </li>
                                             <li className="wow animate__animated animate__fadeIn">
                                                 <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/email.svg" alt="transp" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-white">Email</h6>
-                                                    <p className="font-sm color-white">contact@transp.com</p>
+                                                    <p className="font-sm color-white">contact@binbears.com</p>
                                                 </div>
                                             </li>
                                             <li className="wow animate__animated animate__fadeIn">
                                                 <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/phone.svg" alt="transp" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-white">Telephone</h6>
-                                                    <p className="font-sm color-white">(+380) 50 318 47 07 - (+182) 50 318 47 07</p>
+                                                    <p className="font-sm color-white">214 901 4769</p>
                                                 </div>
                                             </li>
                                         </ul>

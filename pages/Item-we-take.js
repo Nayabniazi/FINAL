@@ -25,7 +25,7 @@ export default function ServiceDetail() {
       <img
         src="/assets/imgs/page/service-detail/img4.png"
         alt="transp"
-        style={{ marginTop: '20px', width: '100%', maxWidth: '500px' }}
+        style={{ marginTop: '20px', width: '100%', maxWidth: '510px' }}
       />
     </div>
   </div>
@@ -34,7 +34,7 @@ export default function ServiceDetail() {
       <img
         src="/assets/imgs/page/service-detail/wetake.png"
         alt="transp2"
-        style={{ marginTop: '20px', width: '100%', maxWidth: '400px' }}
+        style={{ marginTop: '20px', maxWidth: '490px',marginRight:'60px' }}
       />
     </div>
   </div>
@@ -71,20 +71,20 @@ export default function ServiceDetail() {
     <div className="bg-under" />
     <div className="row"style={{marginLeft:"60px",marginRight:"80px"}}>
         {[
-            { title: "Furniture Removal" },
-            { title: "TV Disposal & Recycling" },
-            { title: "Yard Waste Removal" },
-            { title: "Foreclosure Cleanouts" },
-            { title: "Tire Disposal" },
-            { title: "Appliance Removal" },
-            { title: "Hot Tub Disposal" },
-            { title: "E-Waste Disposal" },
-            { title: "Trash Removal" },
-            { title: "Mattress Disposal" },
-            { title: "Refrigerator Disposal & Recycling" },
-            { title: "Construction Waste Removal" },
-            { title: "Garbage Removal" },
-            { title: "Shed Removal" },
+            { title: "1. Furniture Removal" },
+            { title: "2. TV Disposal & Recycling" },
+            { title: "3. Yard Waste Removal" },
+            { title: "4. Foreclosure Cleanouts" },
+            { title: "5. Tire Disposal" },
+            { title: "6. Appliance Removal" },
+            { title: "7. Hot Tub Disposal" },
+            { title: "8. E-Waste Disposal" },
+            { title: "9. Trash Removal" },
+            { title: "10. Mattress Disposal" },
+            { title: "11. Refrigerator Disposal & Recycling" },
+            { title: "12. Construction Waste Removal" },
+            { title: "13. Garbage Removal" },
+            { title: "14. Shed Removal" },
         ].map((service, index) => (
             <div
                 key={index}
@@ -544,21 +544,21 @@ Whether you need a one-time trash removal or ongoing cleanup, BinBear provides f
                                                 <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/address.svg" alt="transp" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-white">Address</h6>
-                                                    <p className="font-sm color-white">65 Allerton Street 901 N Pitt Str, USA</p>
+                                                    <p className="font-sm color-white">Headquarters in Frisco,Texas</p>
                                                 </div>
                                             </li>
                                             <li className="wow animate__animated animate__fadeIn">
                                                 <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/email.svg" alt="transp" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-white">Email</h6>
-                                                    <p className="font-sm color-white">contact@transp.com</p>
+                                                    <p className="font-sm color-white">contact@binbears.com</p>
                                                 </div>
                                             </li>
                                             <li className="wow animate__animated animate__fadeIn">
                                                 <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/phone.svg" alt="transp" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-white">Telephone</h6>
-                                                    <p className="font-sm color-white">(+380) 50 318 47 07 - (+182) 50 318 47 07</p>
+                                                    <p className="font-sm color-white">214 901 4769</p>
                                                 </div>
                                             </li>
                                         </ul>

@@ -61,7 +61,7 @@ export default function pricing() {
                     maxWidth: "250px", // Limit max width for larger screens
                 }}
             >
-                Free Estimate
+                Book Now
             </a>
 
             {/* Button: Learn More */}

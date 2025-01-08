@@ -7,7 +7,8 @@ import Link from "next/link";
 import { useState } from "react";
 import ModalVideo from 'react-modal-video';
 import React from 'react';
-
+import { Autoplay, Navigation, Pagination } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 const HistoryPage = () => {
     const [isOpen, setOpen] = useState(false)
     return (
@@ -47,7 +48,7 @@ const HistoryPage = () => {
                     maxWidth: "250px", // Limit max width for larger screens
                 }}
             >
-                Free Estimate
+                Book Online
             </a>
 
             {/* Button: Learn More */}
@@ -90,7 +91,7 @@ const HistoryPage = () => {
                                     <h2 className="color-black mt-15 mb-25 wow animate__animated animate__fadeIn">The History of Junk Removal</h2>
                                     <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">
                                   Junk removal has its roots in early waste managment practices,where people disposed of unwanted items by simply burning burying,or throwing them away.
-As Urbanization grew, particularly in the 20th century,waste disposal became more regulated,leading to the creation of organization systems for trash collection
+As urbanization grew, particularly in the 20th century,waste disposal became more regulated,leading to the creation of organization systems for trash collection
    In the 1970s,junk removal services became emerging as businessess offers specialized removal of large,bulky itmes likes furnitures and appliances   
       Over time,these services expanded to include residential, commercial and construction debris removal,with a focus on sustainability through recycling and donation
                           of usable items.        
@@ -263,7 +264,6 @@ As Urbanization grew, particularly in the 20th century,waste disposal became mor
 
 
 
-                <div className="mt-50" />
 
 
 
@@ -271,13 +271,7 @@ As Urbanization grew, particularly in the 20th century,waste disposal became mor
 
 
 
-
-
-
-
-
-
-
+  
 
 
 
@@ -286,36 +280,143 @@ As Urbanization grew, particularly in the 20th century,waste disposal became mor
         <div className="row align-items-center">
         <h3 className="color-black mt-30 mb-30">Choose your Junk Pickup Options</h3>
                <p className="font-md color-grey-700">There are two Options for choosing Junk Pickups.please pickup one option from these two options for reliable experience.</p>
+               <div 
+    className="col-lg-4 col-md-4 mb-0 text-md-end text-start" 
+    style={{ 
+        // Margin-left adjustment for laptop screens
+        marginLeft: '900px', 
+        // Center alignment for smaller screens
+        textAlign: 'center', 
+        // Add some top and bottom spacing for better appearance
+        marginTop: '0px', 
+        
+    }}
+>
+    <Link 
+        className="btn btn-brand-1 hover-up" 
+        href="/Booking" 
+        style={{ backgroundColor: 'orange' }}
+    >
+        <svg
+            className="mr-10"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.5"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+        >
+            <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+            ></path>
+        </svg>
+        Get quotes
+    </Link>
+</div>
+
+                
+                
+                
                 <h3 className="color-black mt-30 mb-30">Option1</h3>
                 <div className="row">
-                    <div className="col-md-4">
-                        <div className="step-box wow animate__animated animate__fadeIn">
-                            <img src="/assets/imgs/page/blog-single/historypic1.webp" alt="Step 1" style={{height:"300px",width:"300px"}} className="img-fluid" />
-                            <h5 className="color-black mt-10">1.junk cost calcultor
-                            </h5>
-                            <p className="font-md color-grey-700">use our proprietary junk cost calcultor to determine your service charge.</p>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="step-box wow animate__animated animate__fadeIn">
-                            <img src="/assets/imgs/page/blog-single/historypic2.webp" alt="Step 2" style={{height:"300px",width:"300px"}} className="img-fluid" />
-                            <h5 className="color-black mt-10">2.Choose a date and time </h5>
-                            <p className="font-md color-grey-700">Choose a date and time that best suits your availability for junk pickup.</p>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="step-box wow animate__animated animate__fadeIn">
-                            <img src="/assets/imgs/page/blog-single/historypic3.png" alt="Step 3" style={{height:"300px",width:"300px"}} className="img-fluid" />
-                            <h5 className="color-black mt-10">3.Confirm your Booking </h5>
-                            <p className="font-md color-grey-700">click confirm and that's it! Easy as 1,2,3!.</p>
-                        </div>
-                    </div>
-                </div>
 
-                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn" style={{marginBottom:'20px',marginTop:"20px"}}>
-                 
-                </p>
+
+
+
+
+
+
+
+
+                <div className="container">
+                <Swiper
+                    modules={[Autoplay, Pagination, Navigation]}
+                    slidesPerView={1}
+                    spaceBetween={30}
+                    loop={true}
+                    autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    }}
+                    pagination={{
+                        clickable: true,
+                        el: '.swiper-pagination-banner',
+                    }}
+                    breakpoints={{
+                        320: {
+                            slidesPerView: 1,
+                            spaceBetween: 10,
+                        },
+                        575: {
+                            slidesPerView: 1,
+                            spaceBetween: 10,
+                        },
+                        767: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                        },
+                        991: {
+                            slidesPerView: 3,
+                            spaceBetween: 20,
+                        },
+                        1199: {
+                            slidesPerView: 4,
+                            spaceBetween: 30,
+                        },
+                    }}
+                    className="swiper-wrapper"
+                >
+                    <SwiperSlide className="wow animate__animated animate__fadeIn">
+                        <div className="cardGrid">
+                            <div className="cardImage">
+                                <img src="/assets/imgs/page/blog-single/historypic1.webp" alt="transp" />
+                            </div>
+                            <div className="cardInfo">
+                                <h5 className="color-brand-2 mb-10">1.junk cost calcultor</h5>
+                                <p className="font-xs color-grey-500">use our proprietary junk cost calcultor to determine your service charge.</p>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="wow animate__animated animate__fadeIn">
+                        <div className="cardGrid">
+                            <div className="cardImage">
+                                <img src="/assets/imgs/page/blog-single/historypic2.webp" alt="transp" />
+                            </div>
+                            <div className="cardInfo">
+                                <h5 className="color-brand-2 mb-10">2.Choose a date and time </h5>
+                                <p className="font-xs color-grey-500">Choose a date and time that best suits your availability for junk pickup.</p>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="wow animate__animated animate__fadeIn">
+                        <div className="cardGrid">
+                            <div className="cardImage" style={{ height: '315px' }}>
+                                <img src="/assets/imgs/page/blog-single/historypic3.png" alt="transp"style={{height:'290px'}} />
+                            </div>
+                            <div className="cardInfo">
+                                <h5 className="color-brand-2 mb-10">3.Confirm your Booking </h5>
+                                <p className="font-xs color-grey-500">click confirm and that's it! Easy as 1,2,3!.</p>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                </Swiper>
+
+                
             </div>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
            
           
         
@@ -467,6 +568,10 @@ Customer should choose BinBear for junk removal Services because we offers relia
 `}</style>
 
 
+
+
+
+
 </div>
 
 
@@ -556,7 +661,7 @@ Customer should choose BinBear for junk removal Services because we offers relia
                                                 <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/address.svg" alt="transp" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-white">Address</h6>
-                                                    <p className="font-sm color-white">65 Allerton Street 901 N Pitt Str, USA</p>
+                                                    <p className="font-sm color-white">Headquarters in Frisco,Texas</p>
                                                 </div>
                                             </li>
                                             <li className="wow animate__animated animate__fadeIn">

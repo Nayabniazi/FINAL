@@ -111,7 +111,7 @@ export default function Quote() {
                     <div className="container">
                         <div className="text-center mt-100">
                             <h2 className="color-black wow animate__animated animate__fadeIn">Commercial Junk Removal Services by BinBear<br className="d-none d-lg-block" /></h2>
-                            <div className="box-button mt-30"><Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeIn" href="Booking"style={{backgroundColor:'orange',color:'black',marginLeft:'17px'}}>Free Estimate</Link>    </div>
+                            <div className="box-button mt-30"><Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeIn" href="Booking"style={{backgroundColor:'orange',color:'black',marginLeft:'17px'}}>Book Now</Link>    </div>
                        </div>
                     </div>
                 </section>
@@ -325,7 +325,7 @@ background-color:black;}
 
 
                 <div className="row align-items-center">
-                            <div className="col-lg-6 mb-60"><Link className="wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/page/workprocess/img2.png" alt="transp"style={{height:'60px'}} /></Link></div>
+                            <div className="col-lg-6 mb-60"><Link className="wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/page/workprocess/img2.png" alt="transp" /></Link></div>
                             <div className="col-lg-6 mb-60"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/page/workprocess/pallet.png" alt="transp" />
                                 <h3 className="color-black mb-15 wow animate__animated animate__fadeIn">BinBear: A Green Approach to Commercial Junk Removal </h3>
                                 <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> BinBear is committed to eco-friendly practices, leading the way with recycling-based junk removal. We sort each load to separate metals, electronics, paper, and more, aiming to recycle or repurpose as much as possible. Usable items are donated to local charities, helping reduce landfill waste while benefiting the community.</p>
@@ -634,21 +634,21 @@ background-color:black;}
                                                 <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/address.svg" alt="transp" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-white">Address</h6>
-                                                    <p className="font-sm color-white">65 Allerton Street 901 N Pitt Str, USA</p>
+                                                    <p className="font-sm color-white">Headquarters in Frisco,Texas</p>
                                                 </div>
                                             </li>
                                             <li className="wow animate__animated animate__fadeIn">
                                                 <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/email.svg" alt="transp" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-white">Email</h6>
-                                                    <p className="font-sm color-white">contact@transp.com</p>
+                                                    <p className="font-sm color-white">contact@binbears.com</p>
                                                 </div>
                                             </li>
                                             <li className="wow animate__animated animate__fadeIn">
                                                 <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/phone.svg" alt="transp" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-white">Telephone</h6>
-                                                    <p className="font-sm color-white">(+380) 50 318 47 07 - (+182) 50 318 47 07</p>
+                                                    <p className="font-sm color-white">214 901 4769</p>
                                                 </div>
                                             </li>
                                         </ul>

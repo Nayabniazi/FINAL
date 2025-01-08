@@ -108,7 +108,7 @@ export default function Howitwork1() {
                                     <div className="info-how">
                                         <h5 className="color- wow animate__animated animate__fadeIn"style={{color:'black'}}>Fast, Friendly and clean service
                                             </h5>
-                                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> BinBear arrive well dressed with a smile ready to tackle your needs!
+                                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> BinBears arrive well dressed with a smile ready to tackle your needs!
                                         </p>
                                     </div>
                                 </li>
