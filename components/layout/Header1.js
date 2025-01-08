@@ -33,29 +33,32 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
                                         </path>
                                     </svg>contact@binbears.com</Link></div>
     
+                                   
+                                                          
                                     <div className="col-lg-5 col-md-4 col-sm-7 col-8 text-end">
                                    {/* "Own a Frenchise" link */}
  
-                                   <li style={{ listStyle: 'none', padding: 0, margin: 0 }}>
-  <a
-    href="/Booking"
-    style={{
-        marginTop:'30px',
-        marginRight:'25px',
-      textDecoration: 'none',
-      color: 'inherit',
-      cursor: 'pointer',
-    }}
-  >
-     Apply Locally
+                                   <li className="apply-locally-link" style={{ listStyle: 'none', padding: 0, margin: 10, }}>
+  <a href="/Booking">
+    Apply Locally
   </a>
 </li>
 
 
-                                                          
-                                                          </div>
-                                                          
-                                                          
+
+
+
+
+
+
+                                  
+
+
+
+
+
+                                   </div>
+ 
                                                       </div>
                                               </div>
                          </div> 
@@ -109,7 +112,8 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
                                     </div>
                                 </div>
                                 <div className="d-none d-sm-inline-block">
-    
+                             
+
     
     {/* Online Booking link without plus icon */}
     <div className="col-  mb-30 text-md-end text-start"style={{marginTop:'40px'}}><Link className="btn btn-brand-1 hover-up" href="Booking" style={{backgroundColor: 'orange', }}>
@@ -117,6 +121,8 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z">
                                 </path>
                             </svg>Book Online</Link></div>
+                       
+
                     
 </div>
 
@@ -211,7 +217,36 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
 `}
 </style>
 
+<style jsx>{
+    `
+/* Default margin and color for all screens */
+.apply-locally-link a {
+  color: white; /* Text color set to white */
+  margin-top: 0px;
+  margin-right: 50px;
+  text-decoration: none; /* Ensure no underline */
+}
 
+/* Margin for mobile screens */
+@media (max-width: 768px) {
+  .apply-locally-link a {
+    margin-top: 15px; /* Reduced top margin */
+    margin-right: 20px; /* Reduced right margin */
+  }
+}
+
+/* Margin for laptop screens */
+@media (min-width: 769px) {
+  .apply-locally-link a {
+    margin-top: 20px; /* Slightly smaller top margin */
+    margin-right: 40px; /* Adjusted right margin */
+  }
+}
+
+
+    `}
+
+</style>
 
 
 
