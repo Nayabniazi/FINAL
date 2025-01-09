@@ -69,7 +69,7 @@ export default function ServiceDetail() {
 
                 <div className="mt-20 box-background-black">
     <div className="bg-under" />
-    <div className="row"style={{marginLeft:"60px",marginRight:"80px"}}>
+    <div className="row"style={{marginLeft:"150px",marginRight:"150px"}}>
         {[
             { title: "1. Furniture Removal" },
             { title: "2. TV Disposal & Recycling" },

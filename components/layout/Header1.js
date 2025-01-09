@@ -19,8 +19,9 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
 
     return (
         <>
-            <div className={topBarStyle ? topBarStyle : ""}>
-                <div className="box-bar bg-grey-900 "style={{backgroundColor:'black',}}>
+     
+     <div className={topBarStyle ? topBarStyle : ""}>
+                <div className="box-bar bg-grey-900 "style={{ backgroundColor: 'black', margin: 0 }}>
                     <div className="container position-relative">
                         <div className="row align-items-center">
                             <div className="col-lg-7 col-md-8 col-sm-5 col-4"> <Link className="phone-icon mr-45" href="tel:+01-246-357">
@@ -70,13 +71,13 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
                         
                         
                                                      </div> 
-                                                     <header className={scroll ? "header sticky-bar stick" : "header sticky-bar"}style={{marginRight:'40px'}}>
+                                                     <header className={scroll ? "header sticky-bar stick" : "header sticky-bar"} style={{ margin: 0 }}>
                 <div className="container"style={{ backgroundColor:'black', color: 'white', width: '100%',
     maxWidth: '3000px',}}>     
                     <div className="main-header"style={{backgroundColor:'black',marginLeft:'50px',marginInlineEnd:'60px',}}>
                         <div className="header-left">
                             <div className="header-logo"style={{marginLeft:'5px',}}><Link className="d-flex" href="/"> <Image src="/img/bear.png.png" alt="Ecom" width={180} height={50} /></Link></div>
-                            <div className="header-nav">
+                            <div className="header-nav"style={{marginLeft:'30px'}}>
                                 <nav className="nav-main-menu d-none d-xl-block">
                                   
 
@@ -197,7 +198,7 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
         }
 
           
-    }
+    `}
 
 
 
@@ -214,11 +215,10 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
 
 
 
-`}
 </style>
 
-<style jsx>{
-    `
+<style jsx>{`
+    
 /* Default margin and color for all screens */
 .apply-locally-link a {
   color: white; /* Text color set to white */
@@ -243,17 +243,9 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
   }
 }
 
-
-    `}
+`}
 
 </style>
-
-
-
- 
-
-
-
 
         </>
     )
