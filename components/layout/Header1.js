@@ -71,7 +71,7 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
                         
                         
                                                      </div> 
-                                                     <header className={scroll ? "header sticky-bar stick" : "header sticky-bar"} style={{ margin: 0 }}>
+                                                     <header className={scroll ? "header sticky-bar stick" : "header sticky-bar"} style={{ margin: 0,padding:0 }}>
                 <div className="container"style={{ backgroundColor:'black', color: 'white', width: '100%',
     maxWidth: '3000px',}}>     
                     <div className="main-header"style={{backgroundColor:'black',marginLeft:'50px',marginInlineEnd:'60px',}}>
