@@ -90,10 +90,10 @@ const HistoryPage = () => {
                                 <div className="box-info-aabout-2"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>History</span>
                                     <h2 className="color-black mt-15 mb-25 wow animate__animated animate__fadeIn">The History of Junk Removal</h2>
                                     <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">
-                                  Junk removal has its roots in early waste managment practices,where people disposed of unwanted items by simply burning burying,or throwing them away.
-As urbanization grew, particularly in the 20th century,waste disposal became more regulated,leading to the creation of organization systems for trash collection
-   In the 1970s,junk removal services became emerging as businessess offers specialized removal of large,bulky itmes likes furnitures and appliances   
-      Over time,these services expanded to include residential, commercial and construction debris removal,with a focus on sustainability through recycling and donation
+                                  Junk removal has its roots in early waste management practices, where people disposed of unwanted items by simply burning, burying, or throwing them away.
+As urbanization grew, particularly in the 20th century, waste disposal became more regulated, leading to the creation of organized systems for trash collection.
+   In the 1970s, junk removal services became emerging as businessess offers specialized removal of large, bulky items like furnitures and appliances   
+      Over time, these services expanded to include residential, commercial and construction debris removal,with a focus on sustainability through recycling and donation
                           of usable items.        
                                   </p>
                                     <div className="box-button mt-40"><Link className="btn btn-brand-2 mr-20 wow animate__animated animate__fadeIn" href="Booking"style={{backgroundColor:'orange',color:'black',}}>Free Estimate</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn More
@@ -109,7 +109,7 @@ As urbanization grew, particularly in the 20th century,waste disposal became mor
                             <div className="col-lg-6">
                                 <div className="box-info-about-2"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>Our Partners</span>
                                     <h2 className="color-black mt-15 mb-25 wow animate__animated animate__fadeIn">Landfill Stress in the United States</h2>
-                                    <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">Landfill stress in the U.S has grown as urban populations and waste generations increased. Over Time,landfills became overwhelmed,leading to concerns about environmental impacts,such as soil and water contamination.
+                                    <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">Landfill stress in the U.S. has grown as urban populations and waste generation increased. Over Time, landfills become overwhelmed, leading to concerns about environmental impacts, such as soil and water contamination.
                                     
           the Rising volumn of waste,limited landfills space, and stricter regulation have pushed for more sustainable aste management solutions,including recycling, composting                         
            and waste reduction efforts.
