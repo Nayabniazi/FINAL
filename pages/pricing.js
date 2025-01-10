@@ -236,14 +236,14 @@ Our pricing estimator even allows you to estimate based on the space your junk w
                                     
                                 <ul className="list-how-works">
                                     <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp"style={{height:'60px'}} /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp"style={{height:'40px'}} /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">Upfront Pricing:</h5>
                                             <p className="font-md color-grey-700">  No surprises—just a fair, competitive rate</p>
                                         </div>
                                     </li>
                                     <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp"style={{height:'60px'}} /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp"style={{height:'40px'}} /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">
                                             On-Time Service: 
@@ -255,7 +255,7 @@ Our pricing estimator even allows you to estimate based on the space your junk w
                                     </li>
 
                                     <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp"style={{height:'50px'}} /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp"style={{height:'35px'}} /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">
                                             Eco-Friendly Disposal: 

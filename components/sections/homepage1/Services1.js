@@ -10,7 +10,7 @@ export default function Services1() {
 
 <section className="section mt-100">
                 <div className="container">
-                    <h2 className=" mb-20 wow animate__animated animate__fadeIn">3 Quick Steps to Get Started:</h2>
+                    <h3 className=" mb-20 wow animate__animated animate__fadeIn">3 Quick Steps to Get Started:</h3>
                     
                     <div className="row align-items-end">
                    

@@ -59,7 +59,7 @@ export default function Howitwork1() {
     <li style={{ display: "flex", alignItems: "center", marginBottom: "30px" }}>
       <div className="image-how">
         <span className="img">
-          <img src="/assets/imgs/page/homepage1/plane.png" alt="transp" style={{ height: "60px" }} />
+          <img src="/assets/imgs/page/homepage1/plane.png" alt="transp" style={{ height: "50px" }} />
         </span>
       </div>
       <div className="info-how">
@@ -74,7 +74,7 @@ export default function Howitwork1() {
     <li style={{ display: "flex", alignItems: "center", marginBottom: "30px" }}>
       <div className="image-how">
         <span className="img">
-          <img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp" style={{ height: "60px" }} />
+          <img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp" style={{ height: "40px" }} />
         </span>
       </div>
       <div className="info-how">
@@ -89,7 +89,7 @@ export default function Howitwork1() {
     <li style={{ display: "flex", alignItems: "center", marginBottom: "30px" }}>
       <div className="image-how">
         <span className="img">
-          <img src="/assets/imgs/page/homepage1/payment.png" alt="transp" style={{ height: "60px" }} />
+          <img src="/assets/imgs/page/homepage1/payment.png" alt="transp" style={{ height: "40px" }} />
         </span>
       </div>
       <div className="info-how">
@@ -104,7 +104,7 @@ export default function Howitwork1() {
     <li style={{ display: "flex", alignItems: "center", marginBottom: "0px" }}>
       <div className="image-how"style={{marginBottom:'80px'}}>
         <span className="img">
-          <img src="/assets/imgs/page/homepage1/payment.png" alt="transp" style={{ height: "60px" }} />
+          <img src="/assets/imgs/page/homepage1/payment.png" alt="transp" style={{ height: "40px" }} />
         </span>
       </div>
       <div className="info-how">
@@ -120,7 +120,7 @@ export default function Howitwork1() {
     <li style={{ display: "flex", alignItems: "center", marginBottom: "30px" }}>
       <div className="image-how">
         <span className="img">
-          <img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" style={{ height: "50px" }} />
+          <img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" style={{ height: "30px" }} />
         </span>
       </div>
       <div className="info-how">
@@ -135,7 +135,7 @@ export default function Howitwork1() {
     <li style={{ display: "flex", alignItems: "center", marginBottom: "30px" }}>
       <div className="image-how"style={{marginBottom:'50px'}}>
         <span className="img">
-          <img src="/assets/imgs/page/homepage1/worldwide.png" alt="transp" style={{ height: "60px" }} />
+          <img src="/assets/imgs/page/homepage1/worldwide.png" alt="transp" style={{ height: "40px" }} />
         </span>
       </div>
       <div className="info-how">

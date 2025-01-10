@@ -187,7 +187,7 @@ As urbanization grew, particularly in the 20th century, waste disposal became mo
 
                                 <ul className="list-how-works">
                                     <li >
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp"style={{height:'60px'}} /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp"style={{height:'40px'}} /></span></div>
                                         <div className="info-how"style={{marginRight:'30px',}}>
                                             <h5 className="color-black">Schedule Your Appointment</h5>
                                            
@@ -196,7 +196,7 @@ As urbanization grew, particularly in the 20th century, waste disposal became mo
                                      </div>
                                     </li>
                                     <li >
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp"style={{height:'60px'}} /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp"style={{height:'40px'}} /></span></div>
                                         <div className="info-how"style={{marginRight:'30px'}}>
                                             <h5 className="color-black">Get a Free Estimate</h5>
                                             <p className="font-md color-grey-700">Our team will  be assess your junk ,and provide an  upfront, no-obligation quote.</p>
@@ -204,7 +204,7 @@ As urbanization grew, particularly in the 20th century, waste disposal became mo
                                     </li>
 
                                     <li>
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp"style={{height:'50px'}} /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp"style={{height:'35px'}} /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">We Do the Heavy Lifting</h5>
                                             <p className="font-md color-grey-700"> Once you approve  quote our team load everything for you.</p>
@@ -213,7 +213,7 @@ As urbanization grew, particularly in the 20th century, waste disposal became mo
 
 
                                     <li >
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp"style={{height:'60px'}} /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp"style={{height:'40px'}} /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">Eco-Friendly Disposal</h5>
                                             <p className="font-md color-grey-700"style={{alignContent:'flex-start'}}>We sort items to recycle or donate as much as possible, for reducing waste in  landfills.</p>
@@ -224,7 +224,7 @@ As urbanization grew, particularly in the 20th century, waste disposal became mo
 
                                    
                                     <li >
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" style={{height:'50px'}}/></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" style={{height:'30px'}}/></span></div>
                                         <div className="info-how">
                                             <h5 className="color-black">Enjoy a Clutter-Free Space</h5>
                                             <p className="font-md color-grey-700">Relax in your newly cleared space, knowing that your junk was handled responsibly.
