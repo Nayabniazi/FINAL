@@ -50,82 +50,116 @@ export default function Howitwork1() {
                                 </div>
                             </div>
                         </div>
+                        
+
+
+
                         <div className="col-lg-6 mb-30">
-                            <ul className="list-how-works">
-                                <li>
-                                    <div className="image-how"> <span className="img"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp"style={{height:'60px'}} /></span></div>
-                                    <div className="info-how">
-                                        <h5 className="color-wow animate__animated animate__fadeIn"style={{color:'black'}}>Price-You know before we go!
-                                            </h5>
-                                        <p className="font-md color-black-700 wow animate__animated animate__fadeIn">Know the cost before you Book a service, with no hidden fees No HASSLE.
+  <ul className="list-how-works" style={{ listStyleType: "none", padding: 0, margin: 0 }}>
+    <li style={{ display: "flex", alignItems: "center", marginBottom: "30px" }}>
+      <div className="image-how">
+        <span className="img">
+          <img src="/assets/imgs/page/homepage1/plane.png" alt="transp" style={{ height: "60px" }} />
+        </span>
+      </div>
+      <div className="info-how">
+        <h5 className="color-wow animate__animated animate__fadeIn" style={{ color: "black" }}>
+          Price-You know before we go!
+        </h5>
+        <p className="font-md color-black-700 wow animate__animated animate__fadeIn">
+          Know the cost before you Book a service, with no hidden fees No HASSLE.
+        </p>
+      </div>
+    </li>
+    <li style={{ display: "flex", alignItems: "center", marginBottom: "30px" }}>
+      <div className="image-how">
+        <span className="img">
+          <img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp" style={{ height: "60px" }} />
+        </span>
+      </div>
+      <div className="info-how">
+        <h5 className="color-wow animate__animated animate__fadeIn" style={{ color: "black" }}>
+          Low Price Guarantee
+        </h5>
+        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">
+          We promise to beat any written estimate from a comparable service.
+        </p>
+      </div>
+    </li>
+    <li style={{ display: "flex", alignItems: "center", marginBottom: "30px" }}>
+      <div className="image-how">
+        <span className="img">
+          <img src="/assets/imgs/page/homepage1/payment.png" alt="transp" style={{ height: "60px" }} />
+        </span>
+      </div>
+      <div className="info-how">
+        <h5 className="color-wow animate__animated animate__fadeIn" style={{ color: "black" }}>
+          Book a service in as little as 30 seconds
+        </h5>
+        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">
+          Start by clicking the booking online at top right of the page
+        </p>
+      </div>
+    </li>
+    <li style={{ display: "flex", alignItems: "center", marginBottom: "0px" }}>
+      <div className="image-how"style={{marginBottom:'80px'}}>
+        <span className="img">
+          <img src="/assets/imgs/page/homepage1/payment.png" alt="transp" style={{ height: "60px" }} />
+        </span>
+      </div>
+      <div className="info-how">
+        <h5 className="color-wow animate__animated animate__fadeIn" style={{ color: "black", }}>
+          Call, text or use our proprietary trash dash!
+        </h5>
+        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">
+          Carefully choose the items you would like to have picked up. If this is a construction pickup, property
+          cleanout, or commercial customer, then please call/text us so we can provide you with the most accurate quotes.
+        </p>
+      </div>
+    </li>
+    <li style={{ display: "flex", alignItems: "center", marginBottom: "30px" }}>
+      <div className="image-how">
+        <span className="img">
+          <img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" style={{ height: "50px" }} />
+        </span>
+      </div>
+      <div className="info-how">
+        <h5 className="color-wow animate__animated animate__fadeIn" style={{ color: "black" }}>
+          Fast, Friendly and clean service
+        </h5>
+        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">
+          BinBears arrive well-dressed with a smile, ready to tackle your needs!
+        </p>
+      </div>
+    </li>
+    <li style={{ display: "flex", alignItems: "center", marginBottom: "30px" }}>
+      <div className="image-how"style={{marginBottom:'50px'}}>
+        <span className="img">
+          <img src="/assets/imgs/page/homepage1/worldwide.png" alt="transp" style={{ height: "60px" }} />
+        </span>
+      </div>
+      <div className="info-how">
+        <h5 className="color-wow animate__animated animate__fadeIn" style={{ color: "black" }}>
+          Our Planet, Our responsibility
+        </h5>
+        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">
+          We try our best to recycle 100% of all recyclable waste we pick up. Although our efforts may not impact the
+          world greatly, if we all do our part, then our impact will be felt by future generations.
+        </p>
+      </div>
+    </li>
+  </ul>
+</div>
 
-                                         </p>
-                                    </div>
-                                </li>
-
-
-                                <li>
-                                    <div className="image-how"><span  className="img"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp"style={{height:'60px'}} /></span></div>
-                                    <div className="info-how">
-                                        <h5 className="color-wow animate__animated animate__fadeIn"style={{color:'black'}}>Low Price Guarantee
-                                        </h5>
-                                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">We promise to beat any written estimate from a comparable service.
-                                            </p>
-                                    </div>
-                                </li>
-
-
-
-
-
-                                <li>
-                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp" style={{height:'60px'}}/></span></div>
-                                    <div className="info-how">
-                                        <h5 className="color-wow animate__animated animate__fadeIn"style={{color:'black'}}>Book a service in as little as 30 seconds
-                                        </h5>
-                                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Start by clicking the booking online at top right of the page
-                                            </p>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp"style={{height:'60px'}} /></span></div>
-                                    <div className="info-how">
-                                        <h5 className="color-wow animate__animated animate__fadeIn"style={{color:'black'}}>Call, text or use our properitary trash dash!
-                                        </h5>
-                                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> Carfully choose the items you would like to have picked up.If this is a construction
-                                      pickup Property cleanout or cammercial customer then please call/text us so then we can provide you with the most accurate quotes      </p>
-                                    </div>
-                                </li>
 
 
 
 
 
 
-                                <li>
-                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp"style={{height:'50px'}} /></span></div>
-                                    <div className="info-how">
-                                        <h5 className="color- wow animate__animated animate__fadeIn"style={{color:'black'}}>Fast, Friendly and clean service
-                                            </h5>
-                                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> BinBears arrive well dressed with a smile ready to tackle your needs!
-                                        </p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/worldwide.png" alt="transp"style={{height:'60px'}} /></span></div>
-                                    <div className="info-how">
-                                        <h5 className="color- wow animate__animated animate__fadeIn"style={{color:'black'}}>
-                                        Our Planet,Our responsibility </h5>
-                                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">
 
-                                       We try our best to recycle 100% of all recyclable waste we pickup, Although our efforts may not impact the world greatly, though if we all do our part then our impact will be felt by future generations  </p>
-                                    </div>
-                                </li>
-                              
-                               
-                            </ul>
-                        </div>
+
+
                     </div>
                 </div>
             </section>

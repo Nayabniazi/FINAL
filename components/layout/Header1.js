@@ -19,9 +19,8 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
 
     return (
         <>
-     
-     <div className={topBarStyle ? topBarStyle : ""}>
-                <div className="box-bar bg-grey-900 "style={{ backgroundColor: 'black', margin: 0 }}>
+      <div className={topBarStyle ? topBarStyle : ""}>
+                <div className="box-bar bg-grey-900 "style={{backgroundColor:'black'}}>
                     <div className="container position-relative">
                         <div className="row align-items-center">
                             <div className="col-lg-7 col-md-8 col-sm-5 col-4"> <Link className="phone-icon mr-45" href="tel:+01-246-357">
@@ -33,61 +32,85 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
                                         <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75">
                                         </path>
                                     </svg>contact@binbears.com</Link></div>
-    
-                                   
-                                                          
+
                                     <div className="col-lg-5 col-md-4 col-sm-7 col-8 text-end">
-                                   {/* "Own a Frenchise" link */}
- 
-                                   <li className="apply-locally-link" style={{ listStyle: 'none', paddingRight: 19, margintop: 10, }}>
-  <a href="/Booking">
-    Apply Locally
-  </a>
-</li>
+  <Link href="/Booking" className="responsive-link"style={{color:'white'}}>
+    <svg xmlns="http://www.w3.org/2000/svg" width={14} height={19} viewBox="0 0 24 24">
+      <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+    </svg>
+    <span>Apply Locally</span>
+  </Link>
+</div>
+<style jsx>{
+    `
+    .responsive-link {
+    
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Align to the right */
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.responsive-link span {
+  margin-left: auto; /* Push text to the right of the icon */
+  color: white;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .responsive-link {
+    justify-content: center; /* Center align on smaller screens */
+  }
+  .responsive-link span {
+    margin-left: 10px; /* Adjust spacing for smaller screens */
+    font-size: 14px; /* Adjust text size for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .responsive-link {
+    flex-direction: column; /* Stack icon and text */
+    align-items: center; 
+  }
+  .responsive-link span {
+    margin-left: 0;
+    margin-top: 5px; /* Add space between icon and text */
+    font-size: 12px; /* Further reduce text size */
+  }
+}
+
+    
+    `}
+
+</style>
 
 
 
-
-
-
-
-
-                                  
-
-
-
-
-
-                                   </div>
- 
-                                                      </div>
-                                              </div>
-                         </div> 
-                                            
-                                              
-                       
-                        
-                        
-                        
-                        
-                                                     </div> 
-                                                     <header className={scroll ? "header sticky-bar stick" : "header sticky-bar"} style={{ margin: 0,padding:0 }}>
-                <div className="container"style={{ backgroundColor:'black', color: 'white', width: '100%',
-    maxWidth: '3000px',}}>     
-                    <div className="main-header"style={{backgroundColor:'black',marginLeft:'50px',marginInlineEnd:'60px',}}>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <header className={scroll ? "header sticky-bar stick" : "header sticky-bar"}style={{backgroundColor:'black'}}>
+                <div className="container">
+                    <div className="main-header">
                         <div className="header-left">
-                            <div className="header-logo"style={{marginLeft:'5px',}}><Link className="d-flex" href="/"> <Image src="/img/bear.png.png" alt="Ecom" width={180} height={50} /></Link></div>
-                            <div className="header-nav"style={{marginLeft:'30px'}}>
+                            <div className="header-logo"><Link className="d-flex" href=""><img alt="Ecom" src="/img/bear.png.png" /></Link></div>
+                            <div className="header-nav">
                                 <nav className="nav-main-menu d-none d-xl-block">
-                                  
-
-                           
-                  <Menu/>
-
-
-
-
+                                    <Menu />
                                 </nav>
+
+
+
+
+
+
+
+
+
+
+
                                 <div className="burger-icon burger-icon-white" onClick={handleMobileMenuOpen}>
                                     <span className="burger-icon-top" />
                                     <span className="burger-icon-mid" />
@@ -95,12 +118,8 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
                                 </div>
                             </div>
                             <div className="header-right">
-                                <div className="d-inline-block box-dropdown-cart"><span className="font-lg " ><span className="font-sm color--900 arrow-down"style={{ color: 'white',}}>
-                                    <svg 
-                                    fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" >
-                                        </path>
-                                    </svg> </span></span>
+                                <div className="d-inline-block box-dropdown-cart"><span className="font-lg icon-list icon-account"><span className="font-sm color-grey-900 arrow-down">
+                                   </span></span>
                                     <div className="dropdown-account">
                                         <ul>
                                             <li><Link className="font-md" href="#"><img src="/assets/imgs/template/icons/en.png" alt="transp" />
@@ -111,142 +130,24 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
                                                 Chiness</Link></li>
                                         </ul>
                                     </div>
+
+
                                 </div>
-                                <div className="d-none d-sm-inline-block">
-                             
 
-    
-    {/* Online Booking link without plus icon */}
-    <div className="col-  mb-30 text-md-end text-start"style={{marginTop:'40px'}}><Link className="btn btn-brand-1 hover-up" href="Booking" style={{backgroundColor: 'orange', }}>
-                            <svg fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z">
-                                </path>
-                            </svg>Book Online</Link></div>
-                       
-
-                    
-</div>
+                           
 
 
+                                <div className="d-none d-sm-inline-block"><Link className="btn btn-brand-1 d-none d-xl-inline-block hover-up" href="/Booking"style={{backgroundColor:'orange'}}>
+                                    <svg fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                        <path  strokeLinecap="round" strokeLinejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z">
+                                        </path>
+                                    </svg>Book Online</Link></div>
                             </div>
-
                         </div>
                     </div>
                 </div>
             </header>
-
-            <style jsx>
-{`
-    /* General Styles */
-    .phone-icon {
-        margin-left: 15px !important; /* Add space from the left edge */
-    }
-
-    .header-right {
-        margin-right: 15px !important; /* Add space from the right edge */
-    }
-
-    .btn.btn-brand-1 {
-        background-color: orange !important;
-        color: white !important;
-        padding: 10px 20px !important;
-        font-size: 16px !important;
-        text-decoration: none !important;
-    }
-
-    .btn.btn-brand-1:hover {
-        background-color: darkorange !important;
-    }
-
-    /* Mobile-specific adjustments */
-    @media (max-width: 768px) {
-        .header.sticky-bar {
-     
-            margin-top: 0 !important;
-            margin-bottom: 0 !important;
-            padding: 0px !important; /* Add padding around the header */
-        }
-
-        .container {
-      padding: 20 15px !important; /* Add horizontal padding */
-           
-          margin-left:0px; !important;
-        }
-
-        .main-header {
-            margin-left: 0 !important;
-            margin-right: 40 !important;
-        }
-
-        .burger-icon {
-            display: block !important;
-        }
-
-        .header-right {
-            padding-right: 15px !important; /* Ensure space on the right side */
-        }
-
-        .box-dropdown-cart {
-            margin-right: 15px !important; /* Add margin to the cart dropdown */
-        }
-    }
-
-    /* Desktop-specific adjustments */
-    @media (min-width: 769px) {
-        .burger-icon {
-            display: none;
-        }
-
-          
-    `}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</style>
-
-<style jsx>{`
     
-/* Default margin and color for all screens */
-.apply-locally-link a {
-  color: white; /* Text color set to white */
-  margin-top: 0px;
-  margin-right: 50px;
-  text-decoration: none; /* Ensure no underline */
-}
-
-/* Margin for mobile screens */
-@media (max-width: 768px) {
-  .apply-locally-link a {
-    margin-top: 15px; /* Reduced top margin */
-    margin-right: 20px; /* Reduced right margin */
-  }
-}
-
-/* Margin for laptop screens */
-@media (min-width: 769px) {
-  .apply-locally-link a {
-    margin-top: 20px; /* Slightly smaller top margin */
-    margin-right: 40px; /* Adjusted right margin */
-  }
-}
-
-`}
-
-</style>
-
         </>
     )
 }
