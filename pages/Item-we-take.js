@@ -59,17 +59,12 @@ export default function ServiceDetail() {
 
 
 
-
-
-
-
-                      
-   
-       
-
                 <div className="mt-20 box-background-black">
     <div className="bg-under" />
-    <div className="row"style={{marginLeft:"150px",marginRight:"150px"}}>
+    <div 
+        className="card-grid" 
+        style={{ marginLeft: "80px", marginRight: "80px" }}
+    >
         {[
             { title: "1. Furniture Removal" },
             { title: "2. TV Disposal & Recycling" },
@@ -88,7 +83,7 @@ export default function ServiceDetail() {
         ].map((service, index) => (
             <div
                 key={index}
-                className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn"
+                className="card-item wow animate__animated animate__fadeIn"
             >
                 <div
                     className="card-offer hover-up"
@@ -135,6 +130,56 @@ export default function ServiceDetail() {
         ))}
     </div>
 </div>
+<style jsx>{
+    `
+    .card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    gap: 20px; /* Space between cards */
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px; /* Fixed height for all cards */
+    border-radius: 8px; /* Optional: Rounded corners */
+    overflow: hidden;
+}
+
+.card-info {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+/* Responsiveness */
+@media (max-width: 1024px) {
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 cards per row on smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .card-grid {
+        grid-template-columns: repeat(1, 1fr); /* 1 card per row on mobile screens */
+    }
+
+    .card-offer {
+        height: auto; /* Adjust height for smaller screens */
+    }
+}
+
+    
+    `}
+
+</style>
+
 
 
 
@@ -340,7 +385,7 @@ Whether you need a one-time trash removal or ongoing cleanup, BinBear provides f
                     <div className="container">
                         <div className="text-center"><img className="mb-15 wow animate__animated animate__fadeIn" src="/img/bear.png.png"style={{height:'60px'}} alt="transp" />
                             <h2 className="color-mb-15 wow animate__animated animate__fadeIn"style={{color:'black'}}>How Our Service Works</h2>
-                            <p className="font-md color-grey-700 mb-35 wow animate__animated animate__fadeIn"style={{marginTop:'30px'}}>Let me know if there’s anything specific you’d like to add or change! <br className="d-none d-lg-block" /><br className="d-none d-lg-block" /></p>
+                            <p className="font-md color-grey-700 mb-30 wow animate__animated animate__fadeIn"style={{marginTop:'30px'}}>Let me know if there’s anything specific you’d like to add or change! <br className="d-none d-lg-block" /><br className="d-none d-lg-block" /></p>
                         </div>
                         <div className="box-slider-homepage2 box-slider-homepage-4 box-slider-service-4">
                             <div className="container">
@@ -357,7 +402,7 @@ Whether you need a one-time trash removal or ongoing cleanup, BinBear provides f
                                     
                                     <div className="card-info">
                                         <h5 className="color- mb-15"style={{color:'black'}}>Book Your Appointment</h5>
-                                        <p className="font-sm color-grey-900 mb-35">Get a price,Use our proprietary junk cost calculator to determine your services Charge.
+                                        <p className="font-sm color-grey-900 mb-30">Get a price,Use our proprietary junk cost calculator to determine your services Charge.
                                         </p>
                                         <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-"style={{color:'black'}}>View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -366,13 +411,22 @@ Whether you need a one-time trash removal or ongoing cleanup, BinBear provides f
                                     </div>
                                 </div>
                             </div>
+
+
+
+                            
+
+
+
+
+
                             <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
                                 <div className="card-offer hover-up">
                                     
                                     
                                     <div className="card-info">
-                                        <h5 className="color- mb-15"style={{color:'black'}}>Schedule Pickup</h5>
-                                        <p className="font-sm color-grey-900 mb-35">Choose a date and time that best suite your availablility for junk pickup.</p>
+                                        <h5 className="color- mb-15"style={{color:'black'}}> Pickup your Schedule</h5>
+                                        <p className="font-sm color-grey-900 mb-30">Choose a date and time that best suite your availablility and reliability for junk pickup.</p>
                                         <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-"style={{color:'black'}}>View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -385,7 +439,7 @@ Whether you need a one-time trash removal or ongoing cleanup, BinBear provides f
        
                                     <div className="card-info" >
                                         <h5 className="color- mb-15"style={{color:'black'}}>Leave the Heavy Lifting to Us</h5>
-                                        <p className="font-sm color-grey-900 mb-35">
+                                        <p className="font-sm color-grey-900 mb-30">
    Just point out what you want gone, and we’ll handle the rest, from lifting to loading.
  </p>
                                         <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
@@ -400,7 +454,7 @@ Whether you need a one-time trash removal or ongoing cleanup, BinBear provides f
                                    
                                     <div className="card-info">
                                         <h5 className="color- mb-15"style={{color:'black'}}>Eco-Friendly Disposal</h5>
-                                        <p className="font-sm color-grey-900 mb-35">BinBear is committed to green practices. We sort through items to recycle or donate wherever possible, ensuring minimal landfill impact.
+                                        <p className="font-sm color-grey-900 mb-30">BinBear is committed to green practices. We sort through items to recycle or donate wherever possible, ensuring minimal landfill impact.
                                         </p>
                                         <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -414,7 +468,7 @@ Whether you need a one-time trash removal or ongoing cleanup, BinBear provides f
                                   
                                     <div className="card-info">
                                         <h5 className="color- mb-15"style={{color:'black'}}>Enjoy Your Clutter-Free Space</h5>
-                                        <p className="font-sm color-grey-900 mb-35">With BinBear, reclaim your space without the hassle. You’ll feel good knowing your items were disposed of responsibly</p>
+                                        <p className="font-sm color-grey-900 mb-30">With BinBear, reclaim your space without the hassle. You’ll feel good knowing your items were disposed of responsibly</p>
                                         <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -427,7 +481,7 @@ Whether you need a one-time trash removal or ongoing cleanup, BinBear provides f
                                     
                                     <div className="card-info">
                                         <h5 className="color- mb-15"style={{color:'black'}}>Full-Service Junk Removal</h5>
-                                        <p className="font-sm color-grey-900 mb-35">Our team will arrive on time in our big Black trucks. We’ll confirm your estimate and take care of your junk on the spot.
+                                        <p className="font-sm color-grey-900 mb-30">Our team will arrive on time in our big Black trucks. We’ll confirm your estimate and take care of your junk on the spot.
                                           </p>
                                         <div className="box-button-offer mb-30" ><a className="btn btn-link font-sm color-brand-2">View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

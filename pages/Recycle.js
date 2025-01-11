@@ -217,6 +217,55 @@ export default function OurTeam() {
             </section>
 
 
+            <style jsx>{
+    `
+    .card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    gap: 20px; /* Space between cards */
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px; /* Fixed height for all cards */
+    border-radius: 8px; /* Optional: Rounded corners */
+    overflow: hidden;
+}
+
+.card-info {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+/* Responsiveness */
+@media (max-width: 1024px) {
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 cards per row on smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .card-grid {
+        grid-template-columns: repeat(1, 1fr); /* 1 card per row on mobile screens */
+    }
+
+    .card-offer {
+        height: auto; /* Adjust height for smaller screens */
+    }
+}
+
+    
+    `}
+
+</style>
 
 
 
@@ -911,3 +960,4 @@ With insured operators and fair pricing, BinBear delivers great value and eco-fr
         </>
     )
 }
+

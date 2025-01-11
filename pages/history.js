@@ -288,86 +288,81 @@ As urbanization grew, particularly in the 20th century, waste disposal became mo
 
 
 
+
+
                     <div className="container">
-                <Swiper
-                    modules={[Autoplay, Pagination, Navigation]}
-                    slidesPerView={1}
-                    spaceBetween={30}
-                    loop={true}
-                    autoplay={{
-                        delay: 2500,
-                        disableOnInteraction: false,
-                    }}
-                    pagination={{
-                        clickable: true,
-                        el: '.swiper-pagination-banner',
-                    }}
-                    breakpoints={{
-                        320: {
-                            slidesPerView: 1,
-                            spaceBetween: 10,
-                        },
-                        575: {
-                            slidesPerView: 1,
-                            spaceBetween: 10,
-                        },
-                        767: {
-                            slidesPerView: 2,
-                            spaceBetween: 20,
-                        },
-                        991: {
-                            slidesPerView: 3,
-                            spaceBetween: 20,
-                        },
-                        1199: {
-                            slidesPerView: 4,
-                            spaceBetween: 30,
-                        },
-                    }}
-                    className="swiper-wrapper"
-                >
-                    <SwiperSlide className="wow animate__animated animate__fadeIn">
-                        <div className="cardGrid">
-                            <div className="cardImage">
-                                <img src="/assets/imgs/page/blog-single/historypic1.webp" alt="transp" />
-                            </div>
-                            <div className="cardInfo">
-                                <h5 className="color-brand-2 mb-10">1.junk cost calcultor</h5>
-                                <p className="font-xs color-grey-500">use our proprietary junk cost calcultor to determine your service charge.</p>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="wow animate__animated animate__fadeIn">
-                        <div className="cardGrid">
-                            <div className="cardImage">
-                                <img src="/assets/imgs/page/blog-single/historypic2.webp" alt="transp" />
-                            </div>
-                            <div className="cardInfo">
-                                <h5 className="color-brand-2 mb-10">2.Choose a date and time </h5>
-                                <p className="font-xs color-grey-500">Choose a date and time that best suits your availability for junk pickup.</p>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="wow animate__animated animate__fadeIn">
-                        <div className="cardGrid">
-                            <div className="cardImage" style={{ height: '315px' }}>
-                                <img src="/assets/imgs/page/blog-single/historypic3.png" alt="transp"style={{height:'290px'}} />
-                            </div>
-                            <div className="cardInfo">
-                                <h5 className="color-brand-2 mb-10">3.Confirm your Booking </h5>
-                                <p className="font-xs color-grey-500">click confirm and that's it! Easy as 1,2,3!.</p>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                </Swiper>
-
-                
+    <Swiper
+        modules={[Autoplay, Pagination, Navigation]}
+        slidesPerView={1}
+        spaceBetween={30}
+        loop={true}
+        autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+        }}
+        pagination={{
+            clickable: true,
+            el: '.swiper-pagination-banner',
+        }}
+        breakpoints={{
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+            },
+            575: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+            },
+            767: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            991: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+            },
+            1199: {
+                slidesPerView: 4,
+                spaceBetween: 30,
+            },
+        }}
+        className="swiper-wrapper"
+    >
+        <SwiperSlide className="wow animate__animated animate__fadeIn">
+            <div className="cardGrid">
+                <div className="cardImage">
+                    <img src="/assets/imgs/page/blog-single/historypic1.webp" alt="transp"  style={{height:'200px'}}/>
+                </div>
+                <div className="cardInfo">
+                    <h5 className="color-brand-2 mb-10">1. Junk Cost Calculator</h5>
+                    <p className="font-xs color-grey-500">Use our proprietary junk cost calculator to determine your service charge.</p>
+                </div>
             </div>
-
-
-
-
-
+        </SwiperSlide>
+        <SwiperSlide className="wow animate__animated animate__fadeIn">
+            <div className="cardGrid">
+                <div className="cardImage">
+                    <img src="/assets/imgs/page/blog-single/historypic2.webp" alt="transp" style={{height:'200px'}} />
+                </div>
+                <div className="cardInfo">
+                    <h5 className="color-brand-2 mb-10">2. Choose a Date and Time</h5>
+                    <p className="font-xs color-grey-500">Choose a date and time that best suits your availability for junk pickup.</p>
+                </div>
+            </div>
+        </SwiperSlide>
+        <SwiperSlide className="wow animate__animated animate__fadeIn">
+            <div className="cardGrid">
+                <div className="cardImage">
+                    <img src="/assets/imgs/page/blog-single/historypic3.png" alt="transp" style={{height:'200px'}}/>
+                </div>
+                <div className="cardInfo">
+                    <h5 className="color-brand-2 mb-10">3. Confirm Your Booking</h5>
+                    <p className="font-xs color-grey-500">Click confirm and that's it! Easy as 1, 2, 3!</p>
+                </div>
+            </div>
+        </SwiperSlide>
+    </Swiper>
+</div>
 
 
 
@@ -550,7 +545,102 @@ Customer should choose BinBear for junk removal Services because we offers relia
   }
 `}</style>
 
+<style jsx>
+    {`
+/* Ensure all cards have the same height */
+.cardGrid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 20px;
+    height: 400px; /* Uniform height for all cards */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
 
+.cardGrid:hover {
+    transform: translateY(-10px);
+}
+
+.cardImage {
+    width: 100%;
+    height: 220px; /* Fixed height for all images */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.cardImage img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* Ensure images fill their container */
+    border-radius: 8px;
+}
+
+.cardInfo {
+    text-align: center;
+    flex-grow: 1; /* Allow content section to grow if necessary */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Text styles */
+.cardInfo h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cardInfo p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+/* Swiper Responsiveness */
+@media (max-width: 991px) {
+    .cardGrid {
+        height: 350px; /* Adjust height for smaller screens */
+    }
+
+    .cardImage {
+        height: 200px; /* Smaller image height */
+    }
+}
+
+@media (max-width: 767px) {
+    .cardGrid {
+        height: 300px;
+        padding: 15px;
+    }
+
+    .cardImage {
+        height: 180px;
+    }
+}
+
+@media (max-width: 575px) {
+    .cardGrid {
+        height: 280px;
+    }
+
+    .cardImage {
+        height: 160px;
+    }
+}
+
+
+    `}
+
+</style>
 
 
 

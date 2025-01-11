@@ -72,7 +72,7 @@ export default function Services1() {
                     <SwiperSlide className="wow animate__animated animate__fadeIn">
                         <div className="cardGrid">
                             <div className="cardImage">
-                                <img src="/assets/imgs/page/blog-single/step1.png" alt="transp" />
+                                <img src="/assets/imgs/page/blog-single/step1.png" alt="transp"style={{height:'200px'}} />
                             </div>
                             <div className="cardInfo">
                                 <h5 className="color-brand-2 mb-10">1. Click Book Online</h5>
@@ -83,7 +83,7 @@ export default function Services1() {
                     <SwiperSlide className="wow animate__animated animate__fadeIn">
                         <div className="cardGrid">
                             <div className="cardImage">
-                                <img src="/assets/imgs/page/blog-single/step2.png" alt="transp" />
+                                <img src="/assets/imgs/page/blog-single/step2.png" alt="transp"style={{height:'200px'}} />
                             </div>
                             <div className="cardInfo">
                                 <h5 className="color-brand-2 mb-10">2. Use Our Calculator </h5>
@@ -93,8 +93,8 @@ export default function Services1() {
                     </SwiperSlide>
                     <SwiperSlide className="wow animate__animated animate__fadeIn">
                         <div className="cardGrid">
-                            <div className="cardImage" style={{ height: '240px' }}>
-                                <img src="/assets/imgs/page/blog-single/step3.png" alt="transp"style={{height:'250px'}} />
+                            <div className="cardImage" >
+                                <img src="/assets/imgs/page/blog-single/step3.png" alt="transp"style={{height:'200px'}} />
                             </div>
                             <div className="cardInfo">
                                 <h5 className="color-brand-2 mb-10">3. Choose a Date for Pickup</h5>
