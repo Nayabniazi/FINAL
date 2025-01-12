@@ -14,18 +14,13 @@ export default function ServiceDetail() {
                           
                             <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">At BinBear, we can handle just about ANYTHING and EVERYTHING—except hazardous waste Here are examples of the types of junk we haul away:<br className="d-none d-lg-block" /> </p>
                            
-
-
-
-
-                           
                             <div className="d-flex flex-wrap align-items-center justify-content-center">
   <div className="col-lg-6 col-md-6 col-sm-12 mb-3">
     <div className="wow animate__animated animate__fadeIn">
       <img
         src="/assets/imgs/page/service-detail/img4.png"
         alt="transp"
-        style={{ marginTop: '20px', width: '100%', maxWidth: '510px' }}
+        style={{ marginTop: '20px', maxWidth: '400px' ,}}
       />
     </div>
   </div>
@@ -34,7 +29,7 @@ export default function ServiceDetail() {
       <img
         src="/assets/imgs/page/service-detail/wetake.png"
         alt="transp2"
-        style={{ marginTop: '20px', maxWidth: '490px',marginRight:'60px' }}
+        style={{ marginTop: '20px', maxWidth: '380px',marginRight:'30px', }}
       />
     </div>
   </div>
@@ -42,18 +37,22 @@ export default function ServiceDetail() {
 
 
 
-
-
-
-
-
                         </div>
                     </div>
-                </section>
-                
-                        
 
-                
+
+              
+
+
+
+
+
+                </section>
+  
+
+
+
+
 
 
 
@@ -517,7 +516,7 @@ Whether you need a one-time trash removal or ongoing cleanup, BinBear provides f
                     </div>
                 </section>
 
-
+              
                 <section className="section pt-70 pb-70 bg-get-quote"style={{marginBottom:'30px'}}>
                     <div className="container">
                         <div className="box-get-quote">

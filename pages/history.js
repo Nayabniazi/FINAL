@@ -462,24 +462,31 @@ Once WE Arrive at  your location.if the items chosen do not correctly describe y
       >
         Our Features
       </span>
-      <h2 className="color-mb-20 mt-10 wow animate__animated animate__fadeIn" style={{ color: 'white' }}>
+      <h2 className="color-mb-20 mt-10 wow animate__animated animate__fadeIn" style={{ color: 'white',marginRight:'40px' }}>
         Why Choose BinBear?
       </h2>
     </div>
-    <div className="row mt-60">
-      <p style={{ color: 'white', marginLeft: '250px' }}>
-Customer should choose BinBear for junk removal Services because we offers reliable efficient and eco-friendly solutions.we prioritize customers
-      </p>
-      <p style={{ marginTop: '10px', marginLeft: '150px', color: 'white' }}>
-       satisfaction by providing fast, professional services is competitive rates.Our team  handles all types of junks,from residential to commercial,
-       with the focus on recycling 
+    <div className="row mt-60          "     >
+      <p style={{ color: 'white', marginLeft: '120px', }}>
+Customer should choose BinBear for junk removal Services because we offers reliable efficient and eco-friendly solutions. We prioritize customers
+ <p style={{marginTop:'10px'}}>    
+satisfaction by providing fast, professional services is competitive rates. Our team  handles all types of junks,from residential to commercial,
+       with the 
        </p>
-      <p style={{ marginTop: '10px', marginLeft: '50px', color: 'white', textAlign: 'center' }}>
-      and donation when possible.We're commited to supporting our community and environment,making us the go-to choice for responsible, Hassle-free  
-       </p>
-      <p style={{ marginTop: '10px', color: 'white', marginLeft: '600px', marginBottom:'10px'}}>
-      junk removal in the DFW  metroplex.
+       <p style={{marginTop:'10px'}}>
+       focus on recycling  and donation when possible.We're commited to supporting our community and environment,making us the go-to choice for   
+      
       </p>
+      <p style={{marginTop:'10px',marginLeft:'290px'}} >responsible, Hassle-free, junk removal in the DFW  metroplex.
+      </p>
+      </p>
+      <p style={{ marginTop: '10px', marginLeft: '50px', color: 'white' }}>
+       
+       </p>
+      <p style={{ marginTop: '10px', marginLeft: '50px', color: 'white',}}>
+        </p>
+      <p style={{ marginTop: '10px', color: 'white', marginLeft: '50px', marginBottom:'10px'}}>
+       </p>
       <p style={{ marginTop: '2px', color: 'white', marginLeft: '350px' }}>
      
 
