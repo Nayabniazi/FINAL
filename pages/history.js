@@ -92,7 +92,7 @@ const HistoryPage = () => {
                                     <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">
                                   Junk removal has its roots in early waste management practices, where people disposed of unwanted items by simply burning, burying, or throwing them away.
 As urbanization grew, particularly in the 20th century, waste disposal became more regulated, leading to the creation of organized systems for trash collection.
-   In the 1970s, junk removal services became emerging as businessess offers specialized removal of large, bulky items like furnitures and appliances   
+   In the 1970s, junk removal services began emerging as businesses offering specialized removal of large, bulky items like furnitures and appliances   
       Over time, these services expanded to include residential, commercial and construction debris removal,with a focus on sustainability through recycling and donation
                           of usable items.        
                                   </p>
@@ -109,9 +109,9 @@ As urbanization grew, particularly in the 20th century, waste disposal became mo
                             <div className="col-lg-6">
                                 <div className="box-info-about-2"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>Our Partners</span>
                                     <h2 className="color-black mt-15 mb-25 wow animate__animated animate__fadeIn">Landfill Stress in the United States</h2>
-                                    <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">Landfill stress in the U.S. has grown as urban populations and waste generation increased. Over Time, landfills become overwhelmed, leading to concerns about environmental impacts, such as soil and water contamination.
+                                    <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">Landfill stress in the U.S. has grown as urban populations and waste generation increased. Over Time, landfills have become overwhelmed, leading to concerns about environmental impacts, such as soil and water contamination.
                                     
-          the Rising volumn of waste,limited landfills space, and stricter regulation have pushed for more sustainable aste management solutions,including recycling, composting                         
+          The Rising volumn of waste,limited landfills space, and stricter regulation have pushed for more sustainable waste management solutions,including recycling, composting                         
            and waste reduction efforts.
            </p>
                                </div>
@@ -276,15 +276,38 @@ As urbanization grew, particularly in the 20th century, waste disposal became mo
                            
                         </div>
                         
-                        
-                        <div className="col-lg-4 col-md-4 mb-30 text-md-end text-start"><Link className="btn btn-brand-1 hover-up wow animate__animated animate__fadeIn" href="Booking"style={{backgroundColor:'orange'}}>
                        
-                            <svg fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z">
-                                </path>
-                            </svg>Get a quote</Link></div>
-                    </div>
-                    <h3 className="color-black mt-30 mb-30">Option1</h3>
+               </div>
+               
+
+                       <div className="d-flex justify-content-between align-items-center mb-30">
+    <h3 className="color-black mt-15 mb-25 wow animate__animated animate__fadeIn">
+        Option1
+    </h3>
+    <div>
+        <Link 
+            className="btn btn-brand-1 hover-up wow animate__animated animate__fadeIn" 
+            href="Booking" 
+            style={{ backgroundColor: 'orange', display: 'flex', alignItems: 'center', gap: '8px' ,marginRight:'370px'}}
+        >
+            <svg 
+                fill="none" 
+                stroke="currentColor" 
+                strokeWidth="1.5" 
+                viewBox="0 0 24 24" 
+                xmlns="http://www.w3.org/2000/svg" 
+                aria-hidden="true"
+            >
+                <path 
+                    strokeLinecap="round" 
+                    strokeLinejoin="round" 
+                    d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z"
+                ></path>
+            </svg>
+            Get a quote
+        </Link>
+    </div>
+</div>
 
 
 
@@ -380,6 +403,7 @@ As urbanization grew, particularly in the 20th century, waste disposal became mo
 
 
 
+           
   
 
 
@@ -399,27 +423,32 @@ As urbanization grew, particularly in the 20th century, waste disposal became mo
           
         
     </div>
-</section>
+
+
+    </section>
+
+
+
 
 
 
 
 <div className="row align-items-center item-about-2 item-about-2-revert">
                             <div className="col-lg-6">
-                            <div className="box-info-aabout-2"style={{marginLeft:"50px"}}>
+                            <div className="box-info-aabout-2"style={{marginLeft:'60px'}}>
                               
                                      <h3 className="color-black mt-15 mb-25 wow animate__animated animate__fadeIn">Option2</h3>
                                     <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">
-                                    YOU can give us a call ,send  us atext or email us to request a quote to schedule a junk pickup! please use this options if you  are:
+                                    You can give us a call ,send  us a text or email us to request a quote to schedule a junk pickup! please use this options if you  are:
                                    
 </p>
-<p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">1.commercial customer</p>
-<p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn" >2.post construction</p>
-<p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn" >3.tenant cleanout(Vacant/Residential)</p>
+<p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">1.Commercial customer</p>
+<p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn" >2.Post construction</p>
+<p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn" >3.Tenant cleanout(Vacant/Residential)</p>
 <h6>*only customer that choose options 2 please  read*</h6>
 <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn"style={{marginTop:"20px"}} >
 
-Once WE Arrive at  your location.if the items chosen do not correctly describe your input then you may incur a 15% suchanrge.Or a new price will be calculated then sent your for confirmation.
+Once we arrive at  your location.if the items chosen do not correctly describe your input then you may incur a 15% suchanrge.Or a new price will be calculated then sent your for confirmation.
 </p>
                                     <div className="box-button mt-40"><Link className="btn btn-brand-2 mr-20 wow animate__animated animate__fadeIn" href="Booking"style={{backgroundColor:'orange',color:'black',}}>Book Online</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn More
                                         <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -436,7 +465,7 @@ Once WE Arrive at  your location.if the items chosen do not correctly describe y
    
 
 
-
+                              
 
 
 
@@ -446,6 +475,9 @@ Once WE Arrive at  your location.if the items chosen do not correctly describe y
 
 
 <div>
+
+
+
                 <section
                        className="section pt-100"
                                   style={{
@@ -516,8 +548,40 @@ satisfaction by providing fast, professional services is competitive rates. Our 
 
 
 
+<style jsx>{
+    `
+    /* Default styles for smaller screens */
+.box-info-about-2 {
+    margin-left: 500px;
+    margin-right: 50px;
+    padding: 20px;
+}
 
+/* For larger screens (e.g., 1920px) */
+@media (min-width: 1920px) {
+    .box-info-about-2 {
+        padding-left: 700px; /* Increase left padding for 1920px */
+        margin-right: 50px; /* Right margin stays consistent */
+        max-width: 100px; /* Keep text box width in control */
+    }
 
+    img.img-fluid {
+        max-width: 800px; /* Adjust image size */
+        margin-left: 0; /* Reset image alignment */
+    }
+}
+
+/* Responsive image scaling */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+    
+    
+    `}
+
+</style>
 
 
 
@@ -537,6 +601,10 @@ satisfaction by providing fast, professional services is competitive rates. Our 
       padding-top: 20px;
       padding-bottom: 20px;
     }
+
+
+
+
     .row {
       margin-left: 0 !important;  /* Remove left margin */
     }

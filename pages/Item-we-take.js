@@ -62,7 +62,7 @@ export default function ServiceDetail() {
     <div className="bg-under" />
     <div 
         className="card-grid" 
-        style={{ marginLeft: "80px", marginRight: "80px" }}
+        style={{ marginLeft: "60px", marginRight: "60px" }}
     >
         {[
             { title: "1. Furniture Removal" },
@@ -163,7 +163,13 @@ export default function ServiceDetail() {
         grid-template-columns: repeat(2, 1fr); /* 2 cards per row on smaller screens */
     }
 }
+@media (min-width: 1920px){
+.card-grid {
+padding-left: 200px;
+padding-right:205px;
+}
 
+}
 @media (max-width: 768px) {
     .card-grid {
         grid-template-columns: repeat(1, 1fr); /* 1 card per row on mobile screens */
@@ -184,59 +190,61 @@ export default function ServiceDetail() {
 
 
             <section className="section mt-50">
+            <div className=""><strong className="font-md-bold color-grey-900 mb-25 d-block wow animate__animated animate__fadeIn"><h3 style={{marginLeft:'80px'}}></h3></strong>
+           
                     <div className="container">
-                        <div className="content-detail"><strong className="font-md-bold color-grey-900 mb-25 d-block wow animate__animated animate__fadeIn"><h3>Enjoy a Clutter-Free Life with BinBear Junk Removal!**</h3></strong>
-                            <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">    Is clutter piling up in your home? Want to reclaim your space? Searching for a reliable junk removal service you can trust? You're not alone! Many homeowners struggle with these same challenges, and BinBear is here to help.
+                    <h5 style={{marginTop:'20px',marginBottom:'20px',marginLeft:'30px'}}  >Enjoy a Clutter-Free Life with BinBear Junk Removal!**</h5>
+                            <p className="font-md color-grey-900 wow animate__animated animate__fadeIn"style={{marginLeft:"10px"}}>    Is clutter piling up in your home? Want to reclaim your space? Searching for a reliable junk removal service you can trust? You're not alone! Many homeowners struggle with these same challenges, and BinBear is here to help.
                             </p>
-                            <p className="wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/service-detail/img3.png" alt="transp" /></p>
+                            <p className="wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/service-detail/img3.png" alt="transp" style={{marginLeft:'300px',marginTop:'20px',marginBottom:'20px'}}/></p>
                             <p className="wow animate__animated animate__fadeIn"></p>
-                            <h3>We Haul It All</h3>
-                            <h5>Furniture Removal, Disposal, Recycling, or Donation</h5>
-                            <p className="wow animate__animated animate__fadeIn">Examples: Couches, sofas, beds, chairs, tables, desks, and more.
+                            <h3  >We Haul It All</h3>
+                            <h5 style={{marginTop:'20px',marginBottom:'20px'}} >Furniture Removal, Disposal, Recycling, or Donation</h5>
+                            <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">Examples: Couches, sofas, beds, chairs, tables, desks, and more.
   - Need to get rid of old furniture that’s too bulky to handle on your own? BinBear can take care of it, ensuring items are disposed of responsibly, whether through recycling or donation to local charities.
  </p>
- <h5>TV Disposal & Recycling</h5>
- <p>Old televisions and monitors piling up? We’ll handle it all, from CRTs to flat screens, recycling or disposing of them responsibly.</p>
+ <h5 style={{marginTop:'20px',marginBottom:'20px'}}  >TV Disposal & Recycling</h5>
+ <p  className="font-md color-grey-900 wow animate__animated animate__fadeIn">Old televisions and monitors piling up? We’ll handle it all, from CRTs to flat screens, recycling or disposing of them responsibly.</p>
                            
-                           <h5>Yard Waste Removal</h5>
+                           <h5  style={{marginTop:'20px',marginBottom:'20px'}} >Yard Waste Removal</h5>
                         
-                           <p>
+                           <p className="font-md color-grey-900 wow animate__animated animate__fadeIn" > 
                            - Got yard debris like branches, clippings, or stumps? We take care of waste from landscaping projects, including old fencing, firewood, and lumber.
 
                            </p>
-                           <h5>
+                           <h5  style={{marginTop:'20px',marginBottom:'20px'}} >
                            Clean Out Services** (Foreclosure, Estate, Home, Garage Cleanouts)
                            </h5>
                            
-                        <p>
+                        <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                         Moving out, managing an estate, or dealing with property cleanouts? We handle it all efficiently and courteously.
 
                         </p>
-                         <h5>Appliance Removal</h5>
+                         <h5  style={{marginTop:'20px',marginBottom:'20px'}} >Appliance Removal</h5>
 
-<p>
+<p className="font-md color-grey-900 wow animate__animated animate__fadeIn" >
 Examples: Air conditioners, dishwashers, fridges, washing machines, stoves, water heaters, and more. Don’t worry about the heavy lifting—BinBear has it covered.
  
 </p>
-<h5>Hot Tub Disposal</h5>
-<p>
+<h5 style={{marginTop:'20px',marginBottom:'20px'}}  >Hot Tub Disposal</h5>
+<p className="font-md color-grey-900 wow animate__animated animate__fadeIn" >
 Dismantling and removing hot tubs is hard work, but we’ll break it down and haul it away for you.
  
 </p>
-<h5>E-Waste Disposal, Removal, or Recycling</h5>
-<p>
+<h5 style={{marginTop:'20px',marginBottom:'20px'}}  >E-Waste Disposal, Removal, or Recycling</h5>
+<p className="font-md color-grey-900 wow animate__animated animate__fadeIn" >
 Computers, printers, shredders, and more. We ensure electronic waste is handled in an eco-friendly manner.
 </p>
-<h5>
+<h5 style={{marginTop:'20px',marginBottom:'20px'}}  >
 Mattress Disposal, Removal, Donation, or Recycling  
 </h5>
-<p>
+<p className="font-md color-grey-900 wow animate__animated animate__fadeIn" >
 Old mattresses gathering dust? Let BinBear remove and responsibly recycle or donate them
 </p>
-<h5>
+<h5 style={{marginTop:'20px',marginBottom:'20px'}}  >
 Trash Removal
 </h5>
-<p>
+<p  className="font-md color-grey-900 wow animate__animated animate__fadeIn">
 Whether you need a one-time trash removal or ongoing cleanup, BinBear provides fast, friendly service with a focus on recycling wherever possible.
 </p>
                            
@@ -258,9 +266,9 @@ Whether you need a one-time trash removal or ongoing cleanup, BinBear provides f
 
 
 
-</div></div>
+</div>
 
-
+</div>
 
 
 <section className="section mt-70">
