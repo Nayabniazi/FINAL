@@ -24,7 +24,7 @@ const HistoryPage = () => {
   <div
     className="container"
     style={{
-      background: "linear-gradient(to right, black, orange)",
+      background: "linear-gradient(to right, orange, black)",
       padding: "20px",
       borderRadius: "10px",
     }}
@@ -77,78 +77,6 @@ const HistoryPage = () => {
   </div>
 </section>
 
-<section
-  className="section mt-100 mb-50"
-  style={{
-    background: "linear-gradient(to bottom, black, orange)",
-    padding: "40px 0",
-  }}
->
-  <div className="container">
-    <div className="row align-items-center">
-      <div className="col-lg-6 mb-30">
-        <h2 className="color-white mb-25 wow animate__animated animate__fadeIn">
-          Why Is Junk Removal?
-        </h2>
-        <p
-          className="font-md color-white mb-20 wow animate__animated animate__fadeIn"
-        >
-          Junk removal is a specialized service focused on helping people
-          declutter and remove items they can’t dispose of through standard
-          trash pickup. Unlike regular trash services that provide bins for
-          weekly garbage collection, junk removal services cater to larger,
-          bulkier disposal needs.
-        </p>
-
-        <p
-          className="font-md color-white mb-20 wow animate__animated animate__fadeIn"
-          style={{ marginTop: "20px" }}
-        >
-          Imagine you’re cleaning out your basement and end up with far more
-          waste than your typical bin can handle. Or maybe you have large items
-          like old furniture or broken appliances that you want to get rid of.
-          This is where junk removal companies, like BinBear, come in. We handle
-          those oversized items and extensive cleanup projects, providing you
-          with an efficient, hassle-free way to clear out your space.
-        </p>
-        <p
-          className="font-md color-white mb-20 wow animate__animated animate__fadeIn"
-          style={{ marginTop: "20px" }}
-        >
-          Junk removal can also benefit contractors and renovators who often
-          generate substantial debris, such as drywall pieces and old flooring.
-          These professionals often rely on junk removal companies to keep their
-          workspaces clean and organized.
-        </p>
-      </div>
-      <div className="col-lg-6 position-relative mb-30">
-        <div className="row align-items-end">
-          <div className="col-lg-5 col-md-5 col-sm-5">
-            <img
-              className="mb-20 wow animate__animated animate__fadeIn"
-              src="/assets/imgs/page/about/img-about-1-1.png"
-              alt="transp"
-            />
-            <img
-              className="wow animate__animated animate__fadeIn"
-              src="/assets/imgs/page/blog-single/bagi.png"
-              alt="transp"
-            />
-          </div>
-          <div className="col-lg-7 col-md-7 col-sm-7">
-            <img
-              className="wow animate__animated animate__fadeIn"
-              src="/assets/imgs/page/service-detail/img4.png"
-              style={{ height: "400px" }}
-              alt="transp"
-            />
-          </div>
-        </div>
-        <div className="quote-center shape-2" />
-      </div>
-    </div>
-  </div>
-</section>
 
                 <section className="section mt-100 mb-50">
                     <div className="container">
