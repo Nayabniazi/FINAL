@@ -14,53 +14,142 @@ const HistoryPage = () => {
     return (
         <>
              <Layout>
-                <section className="section"style={{backgroundColor:"black",}}>
-                    <div className="container"style={{backgroundColor:"BLACK",}}>
-                        <div className="banner text-center"style={{backgroundColor:"BLACK",}}>
-                            <h2 className="color-white mt-15 mb-10 wow animate__animated animate__fadeIn">Quick Junk Removal History</h2>
-                            <p className="font-md color-white wow animate__animated animate__fadeIn"><br className="d-none d-lg-block" /></p>
-                            <form action="#">
-    <div className="form-group">
-        <div
+             <section
+  className="section"
+  style={{
+    background: "linear-gradient(to bottom, black, orange)",
+    color: "white",
+  }}
+>
+  <div
+    className="container"
+    style={{
+      background: "linear-gradient(to right, black, orange)",
+      padding: "20px",
+      borderRadius: "10px",
+    }}
+  >
+    <div
+      className="banner text-center"
+      style={{
+        background: "none", // Remove the inner background for transparency
+      }}
+    >
+      <h2 className="color-white mt-15 mb-10 wow animate__animated animate__fadeIn">
+        Quick Junk Removal History
+      </h2>
+      <p className="font-md color-white wow animate__animated animate__fadeIn">
+        <br className="d-none d-lg-block" />
+      </p>
+      <form action="#">
+        <div className="form-group">
+          <div
             style={{
-               
-                display: "flex",
-                flexDirection: "column", // Stack buttons vertically
-                justifyContent: "center", // Center horizontally
-                alignItems: "center", // Center vertically
-                gap: "15px", // Add space between buttons
-                marginTop: "20px",
-                width: "100%", // Full-width for responsiveness
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+              gap: "15px",
+              marginTop: "20px",
+              width: "100%",
             }}
-        >
-            {/* Button: Free Estimate */}
+          >
             <a
-                href="Booking"
-                style={{
-                    backgroundColor: "orange",
-                    color: "black",
-                    border: "none",
-                    padding: "15px 20px",
-                   
-                    textDecoration: "none", // Remove underline
-                    textAlign: "center",
-                    width: "90%", // Ensure responsiveness
-                    maxWidth: "250px", // Limit max width for larger screens
-                }}
+              href="Booking"
+              style={{
+                backgroundColor: "orange",
+                color: "black",
+                border: "none",
+                padding: "15px 20px",
+                textDecoration: "none",
+                textAlign: "center",
+                width: "90%",
+                maxWidth: "250px",
+                borderRadius: "5px",
+              }}
             >
-                Book Online
+              Book Online
             </a>
-
-            {/* Button: Learn More */}
-           
+          </div>
         </div>
+      </form>
     </div>
-</form>
+  </div>
+</section>
 
+<section
+  className="section mt-100 mb-50"
+  style={{
+    background: "linear-gradient(to bottom, black, orange)",
+    padding: "40px 0",
+  }}
+>
+  <div className="container">
+    <div className="row align-items-center">
+      <div className="col-lg-6 mb-30">
+        <h2 className="color-white mb-25 wow animate__animated animate__fadeIn">
+          Why Is Junk Removal?
+        </h2>
+        <p
+          className="font-md color-white mb-20 wow animate__animated animate__fadeIn"
+        >
+          Junk removal is a specialized service focused on helping people
+          declutter and remove items they can’t dispose of through standard
+          trash pickup. Unlike regular trash services that provide bins for
+          weekly garbage collection, junk removal services cater to larger,
+          bulkier disposal needs.
+        </p>
 
-                        </div>
-                    </div>
-                </section>
+        <p
+          className="font-md color-white mb-20 wow animate__animated animate__fadeIn"
+          style={{ marginTop: "20px" }}
+        >
+          Imagine you’re cleaning out your basement and end up with far more
+          waste than your typical bin can handle. Or maybe you have large items
+          like old furniture or broken appliances that you want to get rid of.
+          This is where junk removal companies, like BinBear, come in. We handle
+          those oversized items and extensive cleanup projects, providing you
+          with an efficient, hassle-free way to clear out your space.
+        </p>
+        <p
+          className="font-md color-white mb-20 wow animate__animated animate__fadeIn"
+          style={{ marginTop: "20px" }}
+        >
+          Junk removal can also benefit contractors and renovators who often
+          generate substantial debris, such as drywall pieces and old flooring.
+          These professionals often rely on junk removal companies to keep their
+          workspaces clean and organized.
+        </p>
+      </div>
+      <div className="col-lg-6 position-relative mb-30">
+        <div className="row align-items-end">
+          <div className="col-lg-5 col-md-5 col-sm-5">
+            <img
+              className="mb-20 wow animate__animated animate__fadeIn"
+              src="/assets/imgs/page/about/img-about-1-1.png"
+              alt="transp"
+            />
+            <img
+              className="wow animate__animated animate__fadeIn"
+              src="/assets/imgs/page/blog-single/bagi.png"
+              alt="transp"
+            />
+          </div>
+          <div className="col-lg-7 col-md-7 col-sm-7">
+            <img
+              className="wow animate__animated animate__fadeIn"
+              src="/assets/imgs/page/service-detail/img4.png"
+              style={{ height: "400px" }}
+              alt="transp"
+            />
+          </div>
+        </div>
+        <div className="quote-center shape-2" />
+      </div>
+    </div>
+  </div>
+</section>
+
                 <section className="section mt-100 mb-50">
                     <div className="container">
                         <div className="row align-items-center">
@@ -704,7 +793,7 @@ satisfaction by providing fast, professional services is competitive rates. Our 
 
 @media (max-width: 575px) {
     .cardGrid {
-        height: 280px;
+        height: 300px;
     }
 
     .cardImage {
@@ -733,23 +822,29 @@ satisfaction by providing fast, professional services is competitive rates. Our 
 
 
 
+<section className="section pt-70 pb-70 bg-"style={{backgroundColor:'black',marginBottom:'50px'}}>
+           
+           <div className="container">
+               <div className="box-get-quote">
+                   <div className="get-quote-left">
+                       <p className="font-3xl color-white mb-10 wow animate__animated animate__fadeIn">When you think Junk, think BinBear!
+                           </p>
+                       <h3 className="color-brand-1 wow animate__animated animate__fadeIn"> With a few quick clicks, your waste is our commands!
+                       </h3>
+                   </div>
+                   <div className="get-quote-right"><Link className="btn btn-get-quote wow animate__animated animate__fadeIn" href="/register" style={{ backgroundColor: '#FFA500', textAlign: 'center',
+display: 'block', // Ensures the element behaves like a block for text alignment
+padding: '10px', }}>
+                       <svg className="mr-10" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                           <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z">
+                           </path>
+                       </svg>Contact us</Link></div>
+               </div>
+           </div>
+       </section>
+
                
-                <section className="section pt-70 pb-70 bg-get-quote">
-                    <div className="container">
-                        <div className="box-get-quote">
-                            <div className="get-quote-left">
-                                <p className="font-3xl color-white mb-10 wow animate__animated animate__fadeIn">Ready to reclaim your space? </p>
-                                <h4 className="color-brand-1 wow animate__animated animate__fadeIn">BinBear Junk Removal today to get started with your hassle-free junk removal solution.</h4>
-                            </div>
-                            <div className="get-quote-right"><Link className="btn btn-get-quote wow animate__animated animate__fadeIn" href="Booking" style={{ backgroundColor: '#FFA500', textAlign: 'center',
-    display: 'block', // Ensures the element behaves like a block for text alignment
-    padding: '10px', }}>
-                                <svg className="mr-10" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z" />
-                                </svg>ContacT us</Link></div>
-                        </div>
-                    </div>
-                </section>
+               
                 <div className="mt-50" />
                
                 <div className="section bg- d-block">
