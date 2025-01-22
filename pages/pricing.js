@@ -547,7 +547,7 @@ Our pricing estimator even allows you to estimate based on the space your junk w
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-image: linear-gradient(to right, black, orange); /* Black to white gradient */
+  background-image: linear-gradient(to right, orange, orange); /* Black to white gradient */
   color: white;
   text-align: center;
   line-height: 30px; /* Centers the text vertically */
