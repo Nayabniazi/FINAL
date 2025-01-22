@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { useRouter } from "next/router"; // For navigation
 import Layout from "@/components/layout/Layout";
@@ -28,8 +27,6 @@ const CreditCardForm = () => {
   return (
     <Layout>
       <>
-        {/* Back Button */}
-        
         <div className="form-container">
           <h2>Enter your credit card info to reserve your dumpster rental</h2>
           <form onSubmit={handleSubmit}>
@@ -93,9 +90,9 @@ const CreditCardForm = () => {
               </button>
             </div>
           </form>
-          
         </div>
-        <button style={{marginLeft:"120px",marginBottom:'70px'}}
+        <button
+          style={{ marginLeft: "700px", marginBottom: "70px" }}
           className="back-button"
           onClick={() => router.back()}
         >
@@ -113,6 +110,7 @@ const CreditCardForm = () => {
             position: relative;
           }
           .back-button {
+          
             margin-bottom: 10px;
             background: none;
             border: none;
@@ -166,11 +164,6 @@ const CreditCardForm = () => {
           }
           .form-actions button:hover {
             background-color: darkorange;
-          }
-          @media (min-width: 768px) {
-            .back-button {
-              display: none;
-            }
           }
         `}</style>
       </>

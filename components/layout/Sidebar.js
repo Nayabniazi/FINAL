@@ -77,7 +77,7 @@ export default function Sidebar({ openClass, handleMobileMenuClose }) {
                                             className={isActive.key === 1 ? "sub-menu d-block" : "sub-menu d-none"}
                                         >
                                             <li><a href="/Item-we-take">Item we take</a></li>
-                                            <li><a href="/history">BinBear Story</a></li>
+                                            <li><a href="/history">Quick Junk Removal History</a></li>
                                             <li><a href="/Recycle">Recycle</a></li>
                                         </ul>
                                     </li>

@@ -42,26 +42,21 @@ const ItemSelectionForm = () => {
 
     return (
         <Layout>
-                  
-                
             <div
                 style={{
-                    marginTop:'10px',
-                    marginBottom:'50px',
+                    marginTop: "10px",
+                    marginBottom: "50px",
                     textAlign: "center",
                     padding: "20px",
-                   
                     minHeight: "100vh",
                 }}
             >
-          
                 <h4 style={{ marginBottom: "20px" }}>
                     Click and Tap to Select Category Type(s)
                 </h4>
                 <form
                     onSubmit={handleSubmit}
                     style={{
-                      
                         maxWidth: "600px",
                         margin: "0 auto",
                         backgroundColor: "#fff",
@@ -158,39 +153,27 @@ const ItemSelectionForm = () => {
                         Book It
                     </button>
                 </form>
-                <button className="back-button" onClick={() => router.back()}>
-          ← Back
-        </button>
+
+                {/* Back Button Always Visible */}
+                <button
+                    className="back-button"
+                    onClick={() => router.back()}
+                    style={{
+                        display: "block",
+                        margin: "20px auto",
+                       
+                        
+                        color: "black",
+                        border: "none",
+                        borderRadius: "5px",
+                        cursor: "pointer",
+                        fontSize: "16px",
+                    }}
+                >
+                    ← Back
+                </button>
             </div>
-            <style jsx>
-            {`
-            
-           
-          .back-button {
-          margin-top:20px;
-          
-            background: none;
-            border: none;
-            color: #007bff;
-            font-size: 1rem;
-            cursor: pointer;
-          }
-          .back-button:hover {
-            color: #0056b3;
-          } 
-            
-            @media (min-width: 768px) {
-          .back-button {
-            display: none;
-          }
-        } 
-        
-            
-            `}
-        </style>
-
         </Layout>
-
     );
 };
 

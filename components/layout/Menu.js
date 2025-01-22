@@ -33,7 +33,7 @@ export default function Menu() {
                             <Link href="/Item-we-take">Items we take</Link>
                         </li>
                         <li>
-                            <Link href="/history">Binbear Story</Link>
+                            <Link href="/history">Quick Junk Removal History</Link>
                         </li>
                         <li>
                             <Link href="/Recycle">We Recycle</Link>

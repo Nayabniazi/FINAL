@@ -114,7 +114,7 @@ export default function Services1() {
                         className=""
                         style={{ marginBottom: '0px', marginTop: '0px', fontSize: '13px', color: 'red', textAlign: '' }}
                     >
-                        Disclaimer: If your input the first differs greatly from the information you provided, your price of service may
+                        Disclaimer: If your input the first differs greatly from the information you have provided, your price of service may
                         increase by 10%-20%
                     </p>
                 </div>
@@ -194,7 +194,7 @@ style={{marginTop:'10px'}}
   style={{marginTop:'30px'}}
 >
  At BinBear, we take pride in offering top-tier customer service while ensuring consistent, high-quality results. Our missions is not just to remove Junk,
-but to make a positive impact on our environment. we do this by prioritizing recycle and donations,we strive to divert as much waste as possible from
+but to make a positive impact on our environment. we do this by prioritizing recycle and donations, we strive to divert as much waste as possible from
 landfills. With trusted relationship with local landfills, we work hard to recycle a significant portion of every job, aiming for 50% of all recycle eligible
    trash.At BinBear, we belive in making the junk removal process simple efficient and eco-conscious, all while delivering a service that make you feel valued every steps of the way.</p><p
  style={{marginTop:'10px'}} 
@@ -280,7 +280,8 @@ landfills. With trusted relationship with local landfills, we work hard to recyc
                                     <div className="card-image"><img src="/assets/imgs/page/homepage1/forklifty.png" alt="transp" />
                                     </div>
                                     <div className="card-info">
-                                        <h5 className="color- mb-15"style={{color:'black'}}>Click. Schedule. We Pickup <span>It's easy as 1, 2, 3!</span></h5>
+                                                              
+                                        <h5 className="color- mb-15"style={{color:'black'}}>Click Schedule! We Pickup<br /> <span >It's easy as 1, 2, 3!</span></h5>
                                         <p className="font-sm color-grey-900 mb-35"></p>
                                         <div className="box-button-offer mb-40"style={{marginTop:'100px'}}><a className="btn btn-link font-sm color-brand-2">view Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -294,7 +295,7 @@ landfills. With trusted relationship with local landfills, we work hard to recyc
                                     <div className="card-image"><img src="/assets/imgs/page/homepage1/train.png" alt="transp" />
                                     </div>
                                     <div className="card-info">
-                                        <h5 className="color- mb-15"style={{color:'black'}}>Free quotes & you'll never have to speak someone when booking online</h5>
+                                        <h5 className="color- mb-15"style={{color:'black'}}>Free quotes & you'll never have to speak with someone when booking online</h5>
                                         <p className="font-sm color-grey-900 mb-35"></p>
                                         <div className="box-button-offer mb-30"style={{marginTop:'80px'}}><a className="btn btn-link font-sm color-brand-2">View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

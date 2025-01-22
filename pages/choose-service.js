@@ -14,7 +14,6 @@ function ServiceCards() {
 
   return (
     <Layout>
-      
       <div className="cards-container">
         {/* Full-Service Card */}
         <div className="service-card" onClick={handleFullServiceClick}>
@@ -51,29 +50,20 @@ function ServiceCards() {
           </ul>
           <button style={buttonStyle}>I'll Do it Myself</button>
         </div>
+      </div>
 
-        <button className="back-button" onClick={() => router.back()}>
+      {/* Always Visible Back Button */}
+      <button
+        className="back-button"
+        onClick={() => router.back()}
+      >
         ← Back
       </button>
 
-      </div>
       <style jsx>{`
-        .back-button {
-          background: none;
-          border: none;
-          color: #007bff;
-          font-size: 1rem;
-          cursor: pointer;
-          display: block; /* Default to visible */
-        }
-
-        .back-button:hover {
-          color: #0056b3;
-        }
-
         .cards-container {
           display: flex;
-          gap: 20px; /* Default gap for smaller screens */
+          gap: 20px;
           justify-content: center;
           padding: 20px;
           margin-bottom: 60px;
@@ -112,18 +102,20 @@ function ServiceCards() {
           margin-bottom: 20px;
         }
 
-        /* Hide the back button on screens larger than 768px */
-        @media (min-width: 768px) {
-          .back-button {
-            display: none;
-          }
+        .back-button {
+          display: block;
+          margin: 20px auto;
+         
+         
+          color: black;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          font-size: 16px;
         }
 
-        @media (min-width: 1024px) {
-          .cards-container {
-            margin-top: 20px;
-            gap: 20px; /* Reduced gap for laptop screens */
-          }
+        .back-button:hover {
+          
         }
       `}</style>
     </Layout>
