@@ -226,10 +226,7 @@ Our pricing estimator even allows you to estimate based on the space your junk w
                                 
                                
                          <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"style={{marginTop:'20px'}}></p>      
-                                <div className="mt-20 wow animate__animated animate__fadeIn"><div className="btn btn-link font-sm color-black" href="#">View Details<span>
-                                    <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                    </svg></span></div></div>
+                                
                             </div>
                         </div>
                     
@@ -548,7 +545,7 @@ Our pricing estimator even allows you to estimate based on the space your junk w
   height: 30px;
   border-radius: 50%;
   background-image: linear-gradient(to right, orange, orange); /* Black to white gradient */
-  color: white;
+  color: black;
   text-align: center;
   line-height: 30px; /* Centers the text vertically */
   font-weight: bold;
