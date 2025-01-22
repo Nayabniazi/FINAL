@@ -84,24 +84,7 @@ export default function Footer1({ }) {
                                             Our Location
                                         </button>
                                     </a>
-                                    <a href="/register" style={{ textDecoration: 'none', width: '100%' }}>
-                                        <button
-                                            style={{
-                                                backgroundColor: 'orange',
-                                                color: 'black',
-                                                border: 'none',
-                                                padding: '10px 20px',
-                                                cursor: 'pointer',
-                                                display: 'flex',
-                                                justifyContent: 'center',
-                                                alignItems: 'center',
-                                                width: '100%',
-                                                maxWidth: '200px',
-                                            }}
-                                        >
-                                            Franchise
-                                        </button>
-                                    </a>
+                                   
                                 </div>
                             </div>
 
@@ -112,13 +95,13 @@ export default function Footer1({ }) {
                                         <Link href="/Item-we-take">Item we take</Link>
                                     </li>
                                     <li>
-                                        <Link href="/JK-Removal">Junk removal</Link>
+                                        <Link href="/history">Junk removal</Link>
                                     </li>
                                     <li>
                                         <Link href="/Dumpster-Rental">Dumpster Rental</Link>
                                     </li>
                                     <li>
-                                        <Link href="/JK-bags">Jk Dumpster Bag</Link>
+                                        <Link href="/Recycle">We Recycle</Link>
                                     </li>
                                     <li>
                                         <Link href="/Estimate">National Accounts</Link>
@@ -129,19 +112,19 @@ export default function Footer1({ }) {
                                 <h5 className="mb-10 color-brand-1">Company</h5>
                                 <ul className="menu-footer">
                                     <li>
-                                        <Link href="/about"> About us</Link>
+                                        <Link href="#"> About us</Link>
                                     </li>
                                     <li>
-                                        <Link href="Event">Events</Link>
+                                        <Link href="/Commercial">Commercial</Link>
                                     </li>
                                     <li>
-                                        <Link href="#">Apply Locally</Link>
+                                        <Link href="/Booking">Apply Locally</Link>
                                     </li>
                                     <li>
-                                        <Link href="#">Neighbory</Link>
+                                        <Link href="/Residential">Residential</Link>
                                     </li>
                                     <li>
-                                        <Link href="/register">Contact us</Link>
+                                        <Link href="/contact">Contact us</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -158,13 +141,11 @@ export default function Footer1({ }) {
                                         <Link href="#">Privacy Policy</Link>
                                     </li>
                                     <li>
-                                        <Link href="#">California Privacy Policy</Link>
+                                        <Link href="/Booking">Book Online</Link>
                                     </li>
+                                    
                                     <li>
-                                        <Link href="#">Notice</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">Disclaimer</Link>
+                                        <Link href="/pricing">Jk Removal Pricing</Link>
                                     </li>
                                 </ul>
                             </div>
