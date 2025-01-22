@@ -209,7 +209,7 @@ padding-right:205px;
                            <h5  style={{marginTop:'20px',marginBottom:'20px'}} >Yard Waste Removal</h5>
                         
                            <p className="font-md color-grey-900 wow animate__animated animate__fadeIn" > 
-                           - Got yard debris like branches, clippings, or stumps? We take care of waste from landscaping projects, including old fencing, firewood, and lumber.
+                           Got yard debris like branches, clippings, or stumps? We take care of waste from landscaping projects, including old fencing, firewood, and lumber.
 
                            </p>
                            <h5  style={{marginTop:'20px',marginBottom:'20px'}} >
@@ -409,7 +409,7 @@ Whether you need a one-time trash removal or ongoing cleanup, BinBear provides f
                                     
                                     <div className="card-info">
                                         <h5 className="color- mb-15"style={{color:'black'}}>Book Your Appointment</h5>
-                                        <p className="font-sm color-grey-900 mb-30">Get a price,Use our proprietary junk cost calculator to determine your services Charge.
+                                        <p className="font-sm color-grey-900 mb-30">Get a price, Use our proprietary junk cost calculator to determine your services charge.
                                         </p>
                                         <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-"style={{color:'black'}}>View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

@@ -599,7 +599,7 @@ With insured operators and fair pricing, BinBear delivers great value and eco-fr
 
             <section className="section mt-100">
                     <div className="container position-relative">
-                        <h2 className="title-favicon mb-20 wow animate__animated animate__fadeIn">Choosing a Junk Recycling Company</h2>
+                        <h2 className="mb-20 wow animate__animated animate__fadeIn">Choosing a Junk Recycling Company</h2>
                         
                           
                         <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> When selecting a junk recycling company, consider the following factors:</p>

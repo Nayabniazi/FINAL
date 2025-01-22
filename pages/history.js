@@ -456,16 +456,16 @@ As urbanization grew, particularly in the 20th century, waste disposal became mo
                               
                                      <h3 className="color-black mt-15 mb-25 wow animate__animated animate__fadeIn">Option2</h3>
                                     <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">
-                                    You can give us a call ,send  us a text or email us to request a quote to schedule a junk pickup! please use this options if you  are:
+                                    You can give us a call, send  us a text or email us to request a quote to schedule a junk pickup! please use this options if you  are:
                                    
 </p>
-<p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">1.Commercial customer</p>
-<p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn" >2.Post construction</p>
-<p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn" >3.Tenant cleanout(Vacant/Residential)</p>
+<p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">1. Commercial customer</p>
+<p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn" >2. Post construction</p>
+<p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn" >3. Tenant cleanout(Vacant/Residential)</p>
 <h6>*only customer that choose options 2 please  read*</h6>
 <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn"style={{marginTop:"20px"}} >
 
-Once we arrive at  your location.if the items chosen do not correctly describe your input then you may incur a 15% suchanrge.Or a new price will be calculated then sent your for confirmation.
+Once we arrive at  your location, if the items chosen do not correctly describe your input then you may incur a 15% surcharge. Or a new price will be calculated then sent to you for confirmation.
 </p>
                                     <div className="box-button mt-40"><Link className="btn btn-brand-2 mr-20 wow animate__animated animate__fadeIn" href="Booking"style={{backgroundColor:'orange',color:'black',}}>Book Online</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn More
                                         <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -517,13 +517,13 @@ Once we arrive at  your location.if the items chosen do not correctly describe y
     </div>
     <div className="row mt-60          "     >
       <p style={{ color: 'white', marginLeft: '120px', }}>
-Customer should choose BinBear for junk removal Services because we offers reliable efficient and eco-friendly solutions. We prioritize customers
+Customer should choose BinBear for junk removal services because we offers reliable, efficient, and eco-friendly solutions. We prioritize customers
  <p style={{marginTop:'10px'}}>    
-satisfaction by providing fast, professional services is competitive rates. Our team  handles all types of junks,from residential to commercial,
-       with the 
+satisfaction by providing fast, professional services is competitive rates. Our team  handles all types of junks, from residential to commercial,
+       with a
        </p>
        <p style={{marginTop:'10px'}}>
-       focus on recycling  and donation when possible.We're commited to supporting our community and environment,making us the go-to choice for   
+       focus on recycling  and donation when possible. We're committed to supporting our community and environment, making us the go-to choice for   
       
       </p>
       <p style={{marginTop:'10px',marginLeft:'290px'}} >responsible, Hassle-free, junk removal in the DFW  metroplex.
