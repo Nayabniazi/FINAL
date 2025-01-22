@@ -15,18 +15,18 @@ export default function Login() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-
-        // Validate the zip code
-        if (zipCode === "90001") {
-            setMessage("Good news! We've got you covered.");
-            setTimeout(() => {
-                router.push("/choose-service"); // Redirect after 3 seconds
-            }, 3000);
-        } else if (zipCode.length === 5 && !isNaN(zipCode)) {
-            setMessage("Sorry, we don't have coverage for this zip code.");
-        } else {
-            setMessage("Sorry, please enter a valid 5-digit zip code.");
-        }
+// Validate the zip code
+if (zipCode === "") {
+    setMessage("Good news! We've got you covered.");
+    setTimeout(() => {
+        router.push("/choose-service"); // Redirect after 3 seconds
+    }, 3000);
+} else if (zipCode.length === 5 && !isNaN(zipCode)) {
+    setMessage("Sorry, we don't have coverage for this zip code.");
+} else {
+    setMessage("Sorry, please enter a valid 5-digit zip code.");
+}
+        
     };
 
     // Detect screen size and update isMobile state
@@ -99,9 +99,9 @@ export default function Login() {
                                     >
                                         <input
                                             type="text"
-                                            id="zip-code"
-                                            value={zipCode}
-                                            onChange={handleZipCodeChange}
+                                           
+                                           
+
                                             placeholder="ZIP Code"
                                             className="zip-code-input"
                                             style={{
