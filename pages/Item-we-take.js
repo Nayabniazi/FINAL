@@ -196,8 +196,23 @@ padding-right:205px;
                     <h5 style={{marginTop:'20px',marginBottom:'20px',marginLeft:'30px'}}  >Enjoy a Clutter-Free Life with BinBear Junk Removal!**</h5>
                             <p className="font-md color-grey-900 wow animate__animated animate__fadeIn"style={{marginLeft:"10px"}}>    Is clutter piling up in your home? Want to reclaim your space? Searching for a reliable junk removal service you can trust? You're not alone! Many homeowners struggle with these same challenges, and BinBear is here to help.
                             </p>
-                            <p className="wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/service-detail/img3.png" alt="transp" style={{marginLeft:'300px',marginTop:'20px',marginBottom:'20px'}}/></p>
-                            <p className="wow animate__animated animate__fadeIn"></p>
+                            <p className="wow animate__animated animate__fadeIn">
+  <img 
+    src="/assets/imgs/page/service-detail/img3.png" 
+    alt="transp" 
+    style={{
+      display: "block", 
+      margin: "20px auto", 
+      maxWidth: "100%", 
+      width: "auto", 
+      height: "auto"
+    }} 
+  />
+</p>
+
+                          
+                          
+                              <p className="wow animate__animated animate__fadeIn"></p>
                             <h3  >We Haul It All</h3>
                             <h5 style={{marginTop:'20px',marginBottom:'20px'}} >Furniture Removal, Disposal, Recycling, or Donation</h5>
                             <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">Examples: Couches, sofas, beds, chairs, tables, desks, and more.

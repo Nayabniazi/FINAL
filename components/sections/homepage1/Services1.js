@@ -196,7 +196,7 @@ style={{marginTop:'10px'}}
  At BinBear, we take pride in offering top-tier customer service while ensuring consistent, high-quality results. Our missions is not just to remove Junk,
 but to make a positive impact on our environment. we do this by prioritizing recycle and donations, we strive to divert as much waste as possible from
 landfills. With trusted relationship with local landfills, we work hard to recycle a significant portion of every job, aiming for 50% of all recycle eligible
-   trash.At BinBear, we belive in making the junk removal process simple efficient and eco-conscious, all while delivering a service that make you feel valued every steps of the way.</p><p
+   trash. At BinBear, we belive in making the junk removal process simple efficient and eco-conscious, all while delivering a service that make you feel valued every steps of the way.</p><p
  style={{marginTop:'10px'}} 
 >
   

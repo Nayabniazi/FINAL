@@ -305,7 +305,7 @@ As urbanization grew, particularly in the 20th century, waste disposal became mo
         <Link 
             className="btn btn-brand-1 hover-up wow animate__animated animate__fadeIn" 
             href="Booking" 
-            style={{ backgroundColor: 'orange', display: 'flex', alignItems: 'center', gap: '8px' ,marginRight:'370px'}}
+            style={{ backgroundColor: 'orange', display: 'flex', alignItems: 'center', gap: '8px' ,marginRight:'0px'}}
         >
             <svg 
                 fill="none" 
