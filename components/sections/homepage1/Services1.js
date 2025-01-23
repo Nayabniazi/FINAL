@@ -114,8 +114,8 @@ export default function Services1() {
                         className=""
                         style={{ marginBottom: '0px', marginTop: '0px', fontSize: '13px', color: 'red', textAlign: '' }}
                     >
-                        Disclaimer: If your input the first differs greatly from the information you have provided, your price of service may
-                        increase by 10%-20%
+                        Disclaimer: If your a input the first differs greatly from new information you have provided, your price of service may
+                        increase 10%-20%
                     </p>
                 </div>
                 
@@ -263,7 +263,8 @@ landfills. With trusted relationship with local landfills, we work hard to recyc
                                     <div className="card-image"><img src="/assets/imgs/page/homepage1/deliveryy.png" alt="transp"style={{width:'120px'}} />
                                     </div>
                                     <div className="card-info">
-                                        <h5 className="color- mb-15"style={{color:'black',}}>UnBearable junk problems solved at an unbearlievable Value!</h5>
+                                        <h5 className="color- mb-15"style={{color:'black',}}>UnBearable
+                                         junk problems solved at an un<span style={{color:'orange',fontSize:'27px'}}>BEAR</span>lievable Value!</h5>
                                         <p className="font-sm color-grey-900 mb-35"></p>
                                         <div className="box-button-offer mb-30"style={{marginTop:'50px'}}><a className="btn btn-link font-sm color-"style={{color:'black'}}>View Details<span>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

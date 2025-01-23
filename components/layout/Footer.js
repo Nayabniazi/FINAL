@@ -29,14 +29,7 @@ export default function Footer1({ }) {
                                     />
                                 </Link>
                                 <p className="font-xs mb-20 color-white">
-                                    We fuse our global network with our depth of
-                                    expertise in air freight, ocean freight, railway
-                                    transportation, trucking, and multimode
-                                    transportation, also we are providing sourcing,
-                                    warehousing, E-commercial fulfillment, and
-                                    value-added service to our customers including
-                                    kitting, assembly, customized package and business
-                                    inserts, etc.
+                                    
                                 </p>
 
                                 {/* Buttons with 20px gap below the paragraph */}
