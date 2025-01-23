@@ -220,9 +220,10 @@ export default function Footer1({ }) {
                         paddingTop: '0px',
                         backgroundColor: 'black',
                         paddingBottom: '50px',
+                       
                     }}
                 >
-                    <div className="footer-bottom">
+                    <div className="footer-bottom" style={{marginLeft:'50px',marginRight:'50px'}}>
                         <div className="row align-items-center">
                             <div className="col-sm-5 text-center text-sm-start">
                                 <span className="color-grey-300 font-xs">
